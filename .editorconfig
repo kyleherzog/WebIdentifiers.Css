@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1704: Identifiers should be spelled correctly
+dotnet_diagnostic.CA1704.severity = none
