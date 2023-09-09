@@ -701,11 +701,6 @@ public static class CssValues
     public const string Medium = "medium";
 
     /// <summary>
-    /// Gets the predefined <c>medium</c> property value.
-    /// </summary>
-    public const string Medium = "medium";
-
-    /// <summary>
     /// Gets the predefined <c>middle</c> property value.
     /// </summary>
     public const string Middle = "middle";
@@ -759,11 +754,6 @@ public static class CssValues
     /// Gets the predefined <c>no-repeat</c> property value.
     /// </summary>
     public const string NoRepeat = "no-repeat";
-
-    /// <summary>
-    /// Gets the predefined <c>normal</c> property value.
-    /// </summary>
-    public const string Normal = "normal";
 
     /// <summary>
     /// Gets the predefined <c>normal</c> property value.
