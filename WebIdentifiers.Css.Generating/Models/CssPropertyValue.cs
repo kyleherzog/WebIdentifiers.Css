@@ -1,12 +1,19 @@
-﻿namespace WebIdentifiers.Css.Generating.Models;
+﻿using System.Runtime.Serialization;
 
-public class CssPropertyValue
+namespace WebIdentifiers.Css.Generating.Models;
+
+[DataContract]
+public record CssPropertyValue
 {
+    [DataMember(Name = "name")]
     public string Name { get; set; }
 
+    [DataMember(Name = "prose")]
     public string Prose { get; set; }
 
+    [DataMember(Name = "type")]
     public string Type { get; set; }
 
+    [DataMember(Name = "value")]
     public string Value { get; set; }
 }
