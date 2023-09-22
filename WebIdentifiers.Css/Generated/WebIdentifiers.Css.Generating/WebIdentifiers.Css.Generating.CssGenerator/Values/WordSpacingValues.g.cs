@@ -4,7 +4,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class WordSpacingValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. The normal inter-word space, as defined by the current font and/or the UA.
+	/// Gets the name of the <c>normal</c> property. No additional spacing is applied. Computes to zero.
 	/// </summary>
 	public string Normal => CssValues.Normal;
 

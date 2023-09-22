@@ -4,14 +4,14 @@ namespace WebIdentifiers.Css.Values;
 public partial class PageBreakBeforeValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>auto</c> property. Neither force nor forbid a page break before (after, inside) the generated box.
-	/// </summary>
-	public string Auto => CssValues.Auto;
-
-	/// <summary>
 	/// Gets the name of the <c>always</c> property. Always force a page break before (after) the generated box.
 	/// </summary>
 	public string Always => CssValues.Always;
+
+	/// <summary>
+	/// Gets the name of the <c>auto</c> property. Neither force nor forbid a page break before (after, inside) the generated box.
+	/// </summary>
+	public string Auto => CssValues.Auto;
 
 	/// <summary>
 	/// Gets the name of the <c>avoid</c> property. Avoid a page break before (after, inside) the generated box.

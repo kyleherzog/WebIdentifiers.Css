@@ -4,18 +4,33 @@ namespace WebIdentifiers.Css.Values;
 public partial class UnicodeBidiValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. The element does not open an additional level of embedding with respect to the bidirectional algorithm. For inline elements, implicit reordering works across element boundaries.
+	/// Gets the name of the <c>bidi-override</c> property. This value puts the box’s immediate inline content in a directional override. For an inline, this means that the box acts like a directional embedding in the bidirectional algorithm, except that reordering within it is strictly in sequence according to the direction property; the implicit part of the bidirectional algorithm is ignored. For a block container, the override is applied to an anonymous inline box that surrounds all of its content.
 	/// </summary>
-	public string Normal => CssValues.Normal;
+	public string BidiOverride => CssValues.BidiOverride;
 
 	/// <summary>
-	/// Gets the name of the <c>embed</c> property. If the element is inline, this value opens an additional level of embedding with respect to the bidirectional algorithm. The direction of this embedding level is given by the direction property. Inside the element, reordering is done implicitly. This corresponds to adding a LRE (U+202A; for 'direction: ltr') or RLE (U+202B; for 'direction: rtl') at the start of the element and a PDF (U+202C) at the end of the element.
+	/// Gets the name of the <c>embed</c> property. If the box is inline, this value creates a directional embedding by opening an additional level of embedding with respect to the bidirectional algorithm. The direction of this embedding level is given by the direction property. Inside the box, reordering is done implicitly.
 	/// </summary>
 	public string Embed => CssValues.Embed;
 
 	/// <summary>
-	/// Gets the name of the <c>bidi-override</c> property. For inline elements this creates an override. For block container elements this creates an override for inline-level descendants not within another block container element. This means that inside the element, reordering is strictly in sequence according to the direction property; the implicit part of the bidirectional algorithm is ignored. This corresponds to adding a LRO (U+202D; for 'direction: ltr') or RLO (U+202E; for 'direction: rtl') at the start of the element or at the start of each anonymous child block box, if any, and a PDF (U+202C) at the end of the element.
+	/// Gets the name of the <c>isolate</c> property. On an inline box, this bidi-isolates its contents. This is similar to a directional embedding (and increases the embedding level accordingly) except that each sequence of inline-level boxes uninterrupted by any block boundary or forced paragraph break is treated as an isolated sequence: the content within the sequence is ordered as if inside an independent paragraph with the base directionality specified by the box’s direction property. for the purpose of bidi resolution in its containing bidi paragraph, the sequence is treated as if it were a single Object Replacement Character (U+FFFC). In effect, neither is the content inside the box bidi-affected by the content surrounding the box, nor is the content surrounding the box bidi-affected by the content or specified directionality of the box. However, forced paragraph breaks within the box still create a corresponding break in the containing paragraph.
 	/// </summary>
-	public string BidiOverride => CssValues.BidiOverride;
+	public string Isolate => CssValues.Isolate;
+
+	/// <summary>
+	/// Gets the name of the <c>isolate-override</c> property. This combines the isolation behavior of isolate with the directional override behavior of bidi-override: to surrounding content, it is equivalent to isolate, but within the box content is ordered as if bidi-override were specified. It effectively nests a directional override inside an isolated sequence.
+	/// </summary>
+	public string IsolateOverride => CssValues.IsolateOverride;
+
+	/// <summary>
+	/// Gets the name of the <c>normal</c> property. The box does not open an additional level of embedding with respect to the bidirectional algorithm. For inline boxes, implicit reordering works across box boundaries.
+	/// </summary>
+	public string Normal => CssValues.Normal;
+
+	/// <summary>
+	/// Gets the name of the <c>plaintext</c> property. This value behaves as isolate except that for the purposes of the Unicode bidirectional algorithm, the base directionality of each of the box’s bidi paragraphs (if a block container) or isolated sequences (if an inline) is determined by following the heuristic in rules P2 and P3 of the Unicode bidirectional algorithm (rather than by using the direction property of the box).
+	/// </summary>
+	public string Plaintext => CssValues.Plaintext;
 
 }

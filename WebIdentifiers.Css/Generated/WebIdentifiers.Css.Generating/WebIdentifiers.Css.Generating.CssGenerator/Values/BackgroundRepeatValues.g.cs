@@ -3,4 +3,34 @@ namespace WebIdentifiers.Css.Values;
 
 public partial class BackgroundRepeatValues : PropertyValuesBase
 {
+	/// <summary>
+	/// Gets the name of the <c>no-repeat</c> property. The image is placed once and not repeated in this direction.
+	/// </summary>
+	public string NoRepeat => CssValues.NoRepeat;
+
+	/// <summary>
+	/// Gets the name of the <c>repeat</c> property. The image is repeated in this direction as often as needed to cover the background painting area.
+	/// </summary>
+	public string Repeat => CssValues.Repeat;
+
+	/// <summary>
+	/// Gets the name of the <c>repeat-x</c> property. Computes to repeat no-repeat.
+	/// </summary>
+	public string RepeatX => CssValues.RepeatX;
+
+	/// <summary>
+	/// Gets the name of the <c>repeat-y</c> property. Computes to no-repeat repeat.
+	/// </summary>
+	public string RepeatY => CssValues.RepeatY;
+
+	/// <summary>
+	/// Gets the name of the <c>round</c> property. The image is repeated as often as will fit within the background positioning area. If it doesn’t fit a whole number of times, it is rescaled so that it does. See the formula under background-size. If the background painting area is larger than the background positioning area, then the pattern repeats to fill the background painting area.
+	/// </summary>
+	public string Round => CssValues.Round;
+
+	/// <summary>
+	/// Gets the name of the <c>space</c> property. The image is repeated as often as will fit within the background positioning area without being clipped and then the images are spaced out to fill the area. The first and last images touch the edges of the area. If the background painting area is larger than the background positioning area, then the pattern repeats to fill the background painting area. The value of background-position for this direction is ignored, unless there is not enough space for two copies of the image in this direction, in which case only one image is placed and background-position determines its position in this direction.
+	/// </summary>
+	public string Space => CssValues.Space;
+
 }

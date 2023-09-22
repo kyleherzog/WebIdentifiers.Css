@@ -4,13 +4,13 @@ namespace WebIdentifiers.Css.Values;
 public partial class ListStylePositionValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>outside</c> property. The marker box is outside the principal block box. The position of the list-item marker adjacent to floats is undefined in CSS 2. CSS 2 does not specify the precise location of the marker box or its position in the painting order, but does require that for list items whose direction property is ltr the marker box be on the left side of the content and for elements whose direction property is rtl the marker box be on the right side of the content. The marker box is fixed with respect to the principal block box’s border and does not scroll with the principal block box’s content. In CSS 2, a UA may hide the marker if the element’s overflow is other than visible. (This is expected to change in the future.) The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box. Note: This interaction may be more precisely defined in a future level of CSS.
-	/// </summary>
-	public string Outside => CssValues.Outside;
-
-	/// <summary>
-	/// Gets the name of the <c>inside</c> property. The marker box is placed as the first inline box in the principal block box, before the element’s content and before any :before pseudo-elements. CSS 2 does not specify the precise location of the marker box.
+	/// Gets the name of the <c>inside</c> property. No special effect. (The ::marker is an inline element at the start of the list item’s contents.)
 	/// </summary>
 	public string Inside => CssValues.Inside;
+
+	/// <summary>
+	/// Gets the name of the <c>outside</c> property. If the list item is a block container: the marker box is a block container and is placed outside the principal block box; however, the position of the list-item marker adjacent to floats is undefined. CSS does not specify the precise location of the marker box or its position in the painting order, but does require that it be placed on the inline-start side of the box, using the writing mode of the box indicated by marker-side. The marker box is fixed with respect to the principal block box’s border and does not scroll with the principal box’s content. A UA may hide the marker if the element’s overflow is other than visible. (This allowance may change in the future.) The size or contents of the marker box may affect the height of the principal block box and/or the height of its first line box, and in some cases may cause the creation of a new line box; this interaction is also not defined. This is handwavey nonsense from CSS2, and needs a real definition. If the list item is an inline box: this value is equivalent to inside. Alternatively, outside could lay out the marker as a previous sibling of the principal inline box.
+	/// </summary>
+	public string Outside => CssValues.Outside;
 
 }

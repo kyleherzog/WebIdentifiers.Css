@@ -3,4 +3,9 @@ namespace WebIdentifiers.Css.Values;
 
 public partial class ListStyleImageValues : PropertyValuesBase
 {
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. The element has no marker image.
+	/// </summary>
+	public string None => CssValues.None;
+
 }

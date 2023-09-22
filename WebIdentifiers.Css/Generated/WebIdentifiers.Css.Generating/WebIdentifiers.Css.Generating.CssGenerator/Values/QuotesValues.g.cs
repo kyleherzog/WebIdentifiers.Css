@@ -4,7 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class QuotesValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. The open-quote and close-quote values of the content property produce no quotation marks.
+	/// Gets the name of the <c>auto</c> property. A typographically appropriate used value for quotes is automatically chosen by the UA based on the content language of the element and/or its parent.
+	/// </summary>
+	public string Auto => CssValues.Auto;
+
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. The open-quote and close-quote values of the content property produce no quotations marks, as if they were no-open-quote and no-close-quote respectively.
 	/// </summary>
 	public string None => CssValues.None;
 

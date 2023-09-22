@@ -35,9 +35,7 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-	</ItemGroup>
-	<ItemGroup>
-	  <None Include="..\.editorconfig" Link=".editorconfig" />
+		<None Include="C:\Repos\kyleherzog\WebIdentifiers.Css\WebIdentifiers.Css\.editorconfig" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.4">
@@ -66,9 +64,12 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\WebIdentifiers.Css.Generating\WebIdentifiers.Css.Generating.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"  />
+	  <ProjectReference Include="..\WebIdentifiers.Css.Generating\WebIdentifiers.Css.Generating.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Generated\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Repos\kyleherzog\WebIdentifiers.Css\WebIdentifiers.Css\.editorconfig" />
 	</ItemGroup>
 </Project>

@@ -9,17 +9,22 @@ public partial class DisplayValues : PropertyValuesBase
 	public string Block => CssValues.Block;
 
 	/// <summary>
-	/// Gets the name of the <c>inline-block</c> property. This value causes an element to generate an inline-level block container. The inside of an inline-block is formatted as a block box, and the element itself is formatted as an atomic inline-level box.
-	/// </summary>
-	public string InlineBlock => CssValues.InlineBlock;
-
-	/// <summary>
 	/// Gets the name of the <c>inline</c> property. This value causes an element to generate one or more inline boxes.
 	/// </summary>
 	public string Inline => CssValues.Inline;
 
 	/// <summary>
-	/// Gets the name of the <c>list-item</c> property. This value causes an element (e.g., LI in HTML) to generate a principal block box and a marker box. For information about lists and examples of list formatting, please consult the section on lists.
+	/// Gets the name of the <c>inline-block</c> property. This value causes an element to generate an inline-level block container. The inside of an inline-block is formatted as a block box, and the element itself is formatted as an atomic inline-level box.
+	/// </summary>
+	public string InlineBlock => CssValues.InlineBlock;
+
+	/// <summary>
+	/// Gets the name of the <c>inline-table</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
+	/// </summary>
+	public string InlineTable => CssValues.InlineTable;
+
+	/// <summary>
+	/// Gets the name of the <c>list-item</c> property. The list-item keyword causes the element to generate a ::marker pseudo-element [CSS-PSEUDO-4] with the content specified by its list-style properties (CSS 2.1§12.5 Lists) [CSS2] together with a principal box of the specified type for its own contents.
 	/// </summary>
 	public string ListItem => CssValues.ListItem;
 
@@ -34,14 +39,14 @@ public partial class DisplayValues : PropertyValuesBase
 	public string Table => CssValues.Table;
 
 	/// <summary>
-	/// Gets the name of the <c>inline-table</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
+	/// Gets the name of the <c>table-caption</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
 	/// </summary>
-	public string InlineTable => CssValues.InlineTable;
+	public string TableCaption => CssValues.TableCaption;
 
 	/// <summary>
-	/// Gets the name of the <c>table-row-group</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
+	/// Gets the name of the <c>table-cell</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
 	/// </summary>
-	public string TableRowGroup => CssValues.TableRowGroup;
+	public string TableCell => CssValues.TableCell;
 
 	/// <summary>
 	/// Gets the name of the <c>table-column</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
@@ -54,14 +59,14 @@ public partial class DisplayValues : PropertyValuesBase
 	public string TableColumnGroup => CssValues.TableColumnGroup;
 
 	/// <summary>
-	/// Gets the name of the <c>table-header-group</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
-	/// </summary>
-	public string TableHeaderGroup => CssValues.TableHeaderGroup;
-
-	/// <summary>
 	/// Gets the name of the <c>table-footer-group</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
 	/// </summary>
 	public string TableFooterGroup => CssValues.TableFooterGroup;
+
+	/// <summary>
+	/// Gets the name of the <c>table-header-group</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
+	/// </summary>
+	public string TableHeaderGroup => CssValues.TableHeaderGroup;
 
 	/// <summary>
 	/// Gets the name of the <c>table-row</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
@@ -69,13 +74,8 @@ public partial class DisplayValues : PropertyValuesBase
 	public string TableRow => CssValues.TableRow;
 
 	/// <summary>
-	/// Gets the name of the <c>table-cell</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
+	/// Gets the name of the <c>table-row-group</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
 	/// </summary>
-	public string TableCell => CssValues.TableCell;
-
-	/// <summary>
-	/// Gets the name of the <c>table-caption</c> property. These values cause an element to behave like a table element (subject to restrictions described in the chapter on tables).
-	/// </summary>
-	public string TableCaption => CssValues.TableCaption;
+	public string TableRowGroup => CssValues.TableRowGroup;
 
 }

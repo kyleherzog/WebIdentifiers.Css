@@ -4,7 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class FontStyleValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. A value of normal selects a font that is classified as normal in the UA’s font database, while oblique selects a font that is labeled oblique. A value of italic selects a font that is labeled italic, or, if that is not available, one labeled oblique.
+	/// Gets the name of the <c>italic</c> property. Matches against a font that is labeled as an italic face, or an oblique face if one does not exist.
+	/// </summary>
+	public string Italic => CssValues.Italic;
+
+	/// <summary>
+	/// Gets the name of the <c>normal</c> property. Matches against a face that is classified as a normal face, one that is neither italic or obliqued. This represents an oblique value of "0".
 	/// </summary>
 	public string Normal => CssValues.Normal;
 
@@ -12,11 +17,6 @@ public partial class FontStyleValues : PropertyValuesBase
 	/// Gets the name of the <c>oblique</c> property. A value of normal selects a font that is classified as normal in the UA’s font database, while oblique selects a font that is labeled oblique. A value of italic selects a font that is labeled italic, or, if that is not available, one labeled oblique.
 	/// </summary>
 	public string Oblique => CssValues.Oblique;
-
-	/// <summary>
-	/// Gets the name of the <c>italic</c> property. A value of normal selects a font that is classified as normal in the UA’s font database, while oblique selects a font that is labeled oblique. A value of italic selects a font that is labeled italic, or, if that is not available, one labeled oblique.
-	/// </summary>
-	public string Italic => CssValues.Italic;
 
 	/// <summary>
 	/// Gets the name of the <c>small-caps</c> property. A value of normal selects a font that is not a small-caps font, small-caps selects a small-caps font. It is acceptable (but not required) in CSS 2 if the small-caps font is a created by taking a normal font and replacing the lower case letters by scaled uppercase characters. As a last resort, uppercase letters will be used as replacement for a small-caps font.

@@ -4,7 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class CounterResetValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. The keywords none, inherit and initial must not be used as counter names. A value of none on its own means no counters are reset, resp. incremented. inherit on its own has its usual meaning (see 6.2.1). initial is reserved for future use.
+	/// Gets the name of the <c>list-item</c> property. In addition to any explicitly defined counters that authors write in their styles, list items automatically increment a special list-item counter, which is used when generating the default marker string on list items (see list-style-type).
+	/// </summary>
+	public string ListItem => CssValues.ListItem;
+
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. This element does not create any new counters.
 	/// </summary>
 	public string None => CssValues.None;
 

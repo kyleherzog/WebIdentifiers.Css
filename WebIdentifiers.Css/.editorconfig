@@ -1,0 +1,11 @@
+# Code files
+[*.{cs,vb}]
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = warning
+
+# S100: Methods and properties should be named in PascalCase
+dotnet_diagnostic.S100.severity = suggestion
+
+# SA1300: Element should begin with upper-case letter
+dotnet_diagnostic.SA1300.severity = suggestion

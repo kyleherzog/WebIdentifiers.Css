@@ -4,6 +4,141 @@ namespace WebIdentifiers.Css;
 public static partial class CssProperties
 {
 	/// <summary>
+	/// Gets the name of the <c>accent-color</c> property.
+	/// </summary>
+	public const string AccentColor = "accent-color";
+
+	/// <summary>
+	/// Gets the name of the <c>align-content</c> property.
+	/// </summary>
+	public const string AlignContent = "align-content";
+
+	/// <summary>
+	/// Gets the name of the <c>align-items</c> property.
+	/// </summary>
+	public const string AlignItems = "align-items";
+
+	/// <summary>
+	/// Gets the name of the <c>alignment-baseline</c> property.
+	/// </summary>
+	public const string AlignmentBaseline = "alignment-baseline";
+
+	/// <summary>
+	/// Gets the name of the <c>align-self</c> property.
+	/// </summary>
+	public const string AlignSelf = "align-self";
+
+	/// <summary>
+	/// Gets the name of the <c>align-tracks</c> property.
+	/// </summary>
+	public const string AlignTracks = "align-tracks";
+
+	/// <summary>
+	/// Gets the name of the <c>all</c> property.
+	/// </summary>
+	public const string All = "all";
+
+	/// <summary>
+	/// Gets the name of the <c>anchor-default</c> property.
+	/// </summary>
+	public const string AnchorDefault = "anchor-default";
+
+	/// <summary>
+	/// Gets the name of the <c>anchor-name</c> property.
+	/// </summary>
+	public const string AnchorName = "anchor-name";
+
+	/// <summary>
+	/// Gets the name of the <c>animation</c> property.
+	/// </summary>
+	public const string Animation = "animation";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-composition</c> property.
+	/// </summary>
+	public const string AnimationComposition = "animation-composition";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-delay</c> property.
+	/// </summary>
+	public const string AnimationDelay = "animation-delay";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-direction</c> property.
+	/// </summary>
+	public const string AnimationDirection = "animation-direction";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-duration</c> property.
+	/// </summary>
+	public const string AnimationDuration = "animation-duration";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-fill-mode</c> property.
+	/// </summary>
+	public const string AnimationFillMode = "animation-fill-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-iteration-count</c> property.
+	/// </summary>
+	public const string AnimationIterationCount = "animation-iteration-count";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-name</c> property.
+	/// </summary>
+	public const string AnimationName = "animation-name";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-play-state</c> property.
+	/// </summary>
+	public const string AnimationPlayState = "animation-play-state";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-range</c> property.
+	/// </summary>
+	public const string AnimationRange = "animation-range";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-range-end</c> property.
+	/// </summary>
+	public const string AnimationRangeEnd = "animation-range-end";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-range-start</c> property.
+	/// </summary>
+	public const string AnimationRangeStart = "animation-range-start";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-timeline</c> property.
+	/// </summary>
+	public const string AnimationTimeline = "animation-timeline";
+
+	/// <summary>
+	/// Gets the name of the <c>animation-timing-function</c> property.
+	/// </summary>
+	public const string AnimationTimingFunction = "animation-timing-function";
+
+	/// <summary>
+	/// Gets the name of the <c>appearance</c> property.
+	/// </summary>
+	public const string Appearance = "appearance";
+
+	/// <summary>
+	/// Gets the name of the <c>aspect-ratio</c> property.
+	/// </summary>
+	public const string AspectRatio = "aspect-ratio";
+
+	/// <summary>
+	/// Gets the name of the <c>backdrop-filter</c> property.
+	/// </summary>
+	public const string BackdropFilter = "backdrop-filter";
+
+	/// <summary>
+	/// Gets the name of the <c>backface-visibility</c> property.
+	/// </summary>
+	public const string BackfaceVisibility = "backface-visibility";
+
+	/// <summary>
 	/// Gets the name of the <c>background</c> property.
 	/// </summary>
 	public const string Background = "background";
@@ -12,6 +147,16 @@ public static partial class CssProperties
 	/// Gets the name of the <c>background-attachment</c> property.
 	/// </summary>
 	public const string BackgroundAttachment = "background-attachment";
+
+	/// <summary>
+	/// Gets the name of the <c>background-blend-mode</c> property.
+	/// </summary>
+	public const string BackgroundBlendMode = "background-blend-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>background-clip</c> property.
+	/// </summary>
+	public const string BackgroundClip = "background-clip";
 
 	/// <summary>
 	/// Gets the name of the <c>background-color</c> property.
@@ -24,9 +169,34 @@ public static partial class CssProperties
 	public const string BackgroundImage = "background-image";
 
 	/// <summary>
+	/// Gets the name of the <c>background-origin</c> property.
+	/// </summary>
+	public const string BackgroundOrigin = "background-origin";
+
+	/// <summary>
 	/// Gets the name of the <c>background-position</c> property.
 	/// </summary>
 	public const string BackgroundPosition = "background-position";
+
+	/// <summary>
+	/// Gets the name of the <c>background-position-block</c> property.
+	/// </summary>
+	public const string BackgroundPositionBlock = "background-position-block";
+
+	/// <summary>
+	/// Gets the name of the <c>background-position-inline</c> property.
+	/// </summary>
+	public const string BackgroundPositionInline = "background-position-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>background-position-x</c> property.
+	/// </summary>
+	public const string BackgroundPositionX = "background-position-x";
+
+	/// <summary>
+	/// Gets the name of the <c>background-position-y</c> property.
+	/// </summary>
+	public const string BackgroundPositionY = "background-position-y";
 
 	/// <summary>
 	/// Gets the name of the <c>background-repeat</c> property.
@@ -34,9 +204,144 @@ public static partial class CssProperties
 	public const string BackgroundRepeat = "background-repeat";
 
 	/// <summary>
+	/// Gets the name of the <c>background-size</c> property.
+	/// </summary>
+	public const string BackgroundSize = "background-size";
+
+	/// <summary>
+	/// Gets the name of the <c>baseline-shift</c> property.
+	/// </summary>
+	public const string BaselineShift = "baseline-shift";
+
+	/// <summary>
+	/// Gets the name of the <c>baseline-source</c> property.
+	/// </summary>
+	public const string BaselineSource = "baseline-source";
+
+	/// <summary>
+	/// Gets the name of the <c>block-ellipsis</c> property.
+	/// </summary>
+	public const string BlockEllipsis = "block-ellipsis";
+
+	/// <summary>
+	/// Gets the name of the <c>block-size</c> property.
+	/// </summary>
+	public const string BlockSize = "block-size";
+
+	/// <summary>
+	/// Gets the name of the <c>block-step</c> property.
+	/// </summary>
+	public const string BlockStep = "block-step";
+
+	/// <summary>
+	/// Gets the name of the <c>block-step-align</c> property.
+	/// </summary>
+	public const string BlockStepAlign = "block-step-align";
+
+	/// <summary>
+	/// Gets the name of the <c>block-step-insert</c> property.
+	/// </summary>
+	public const string BlockStepInsert = "block-step-insert";
+
+	/// <summary>
+	/// Gets the name of the <c>block-step-round</c> property.
+	/// </summary>
+	public const string BlockStepRound = "block-step-round";
+
+	/// <summary>
+	/// Gets the name of the <c>block-step-size</c> property.
+	/// </summary>
+	public const string BlockStepSize = "block-step-size";
+
+	/// <summary>
+	/// Gets the name of the <c>bookmark-label</c> property.
+	/// </summary>
+	public const string BookmarkLabel = "bookmark-label";
+
+	/// <summary>
+	/// Gets the name of the <c>bookmark-level</c> property.
+	/// </summary>
+	public const string BookmarkLevel = "bookmark-level";
+
+	/// <summary>
+	/// Gets the name of the <c>bookmark-state</c> property.
+	/// </summary>
+	public const string BookmarkState = "bookmark-state";
+
+	/// <summary>
 	/// Gets the name of the <c>border</c> property.
 	/// </summary>
 	public const string Border = "border";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block</c> property.
+	/// </summary>
+	public const string BorderBlock = "border-block";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-color</c> property.
+	/// </summary>
+	public const string BorderBlockColor = "border-block-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-end</c> property.
+	/// </summary>
+	public const string BorderBlockEnd = "border-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-end-color</c> property.
+	/// </summary>
+	public const string BorderBlockEndColor = "border-block-end-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-end-radius</c> property.
+	/// </summary>
+	public const string BorderBlockEndRadius = "border-block-end-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-end-style</c> property.
+	/// </summary>
+	public const string BorderBlockEndStyle = "border-block-end-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-end-width</c> property.
+	/// </summary>
+	public const string BorderBlockEndWidth = "border-block-end-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-start</c> property.
+	/// </summary>
+	public const string BorderBlockStart = "border-block-start";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-start-color</c> property.
+	/// </summary>
+	public const string BorderBlockStartColor = "border-block-start-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-start-radius</c> property.
+	/// </summary>
+	public const string BorderBlockStartRadius = "border-block-start-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-start-style</c> property.
+	/// </summary>
+	public const string BorderBlockStartStyle = "border-block-start-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-start-width</c> property.
+	/// </summary>
+	public const string BorderBlockStartWidth = "border-block-start-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-style</c> property.
+	/// </summary>
+	public const string BorderBlockStyle = "border-block-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-block-width</c> property.
+	/// </summary>
+	public const string BorderBlockWidth = "border-block-width";
 
 	/// <summary>
 	/// Gets the name of the <c>border-bottom</c> property.
@@ -49,6 +354,21 @@ public static partial class CssProperties
 	public const string BorderBottomColor = "border-bottom-color";
 
 	/// <summary>
+	/// Gets the name of the <c>border-bottom-left-radius</c> property.
+	/// </summary>
+	public const string BorderBottomLeftRadius = "border-bottom-left-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-bottom-radius</c> property.
+	/// </summary>
+	public const string BorderBottomRadius = "border-bottom-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-bottom-right-radius</c> property.
+	/// </summary>
+	public const string BorderBottomRightRadius = "border-bottom-right-radius";
+
+	/// <summary>
 	/// Gets the name of the <c>border-bottom-style</c> property.
 	/// </summary>
 	public const string BorderBottomStyle = "border-bottom-style";
@@ -57,6 +377,36 @@ public static partial class CssProperties
 	/// Gets the name of the <c>border-bottom-width</c> property.
 	/// </summary>
 	public const string BorderBottomWidth = "border-bottom-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-boundary</c> property.
+	/// </summary>
+	public const string BorderBoundary = "border-boundary";
+
+	/// <summary>
+	/// Gets the name of the <c>border-clip</c> property.
+	/// </summary>
+	public const string BorderClip = "border-clip";
+
+	/// <summary>
+	/// Gets the name of the <c>border-clip-bottom</c> property.
+	/// </summary>
+	public const string BorderClipBottom = "border-clip-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>border-clip-left</c> property.
+	/// </summary>
+	public const string BorderClipLeft = "border-clip-left";
+
+	/// <summary>
+	/// Gets the name of the <c>border-clip-right</c> property.
+	/// </summary>
+	public const string BorderClipRight = "border-clip-right";
+
+	/// <summary>
+	/// Gets the name of the <c>border-clip-top</c> property.
+	/// </summary>
+	public const string BorderClipTop = "border-clip-top";
 
 	/// <summary>
 	/// Gets the name of the <c>border-collapse</c> property.
@@ -69,6 +419,116 @@ public static partial class CssProperties
 	public const string BorderColor = "border-color";
 
 	/// <summary>
+	/// Gets the name of the <c>border-end-end-radius</c> property.
+	/// </summary>
+	public const string BorderEndEndRadius = "border-end-end-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-end-start-radius</c> property.
+	/// </summary>
+	public const string BorderEndStartRadius = "border-end-start-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image</c> property.
+	/// </summary>
+	public const string BorderImage = "border-image";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image-outset</c> property.
+	/// </summary>
+	public const string BorderImageOutset = "border-image-outset";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image-repeat</c> property.
+	/// </summary>
+	public const string BorderImageRepeat = "border-image-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image-slice</c> property.
+	/// </summary>
+	public const string BorderImageSlice = "border-image-slice";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image-source</c> property.
+	/// </summary>
+	public const string BorderImageSource = "border-image-source";
+
+	/// <summary>
+	/// Gets the name of the <c>border-image-width</c> property.
+	/// </summary>
+	public const string BorderImageWidth = "border-image-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline</c> property.
+	/// </summary>
+	public const string BorderInline = "border-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-color</c> property.
+	/// </summary>
+	public const string BorderInlineColor = "border-inline-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-end</c> property.
+	/// </summary>
+	public const string BorderInlineEnd = "border-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-end-color</c> property.
+	/// </summary>
+	public const string BorderInlineEndColor = "border-inline-end-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-end-radius</c> property.
+	/// </summary>
+	public const string BorderInlineEndRadius = "border-inline-end-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-end-style</c> property.
+	/// </summary>
+	public const string BorderInlineEndStyle = "border-inline-end-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-end-width</c> property.
+	/// </summary>
+	public const string BorderInlineEndWidth = "border-inline-end-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-start</c> property.
+	/// </summary>
+	public const string BorderInlineStart = "border-inline-start";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-start-color</c> property.
+	/// </summary>
+	public const string BorderInlineStartColor = "border-inline-start-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-start-radius</c> property.
+	/// </summary>
+	public const string BorderInlineStartRadius = "border-inline-start-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-start-style</c> property.
+	/// </summary>
+	public const string BorderInlineStartStyle = "border-inline-start-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-start-width</c> property.
+	/// </summary>
+	public const string BorderInlineStartWidth = "border-inline-start-width";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-style</c> property.
+	/// </summary>
+	public const string BorderInlineStyle = "border-inline-style";
+
+	/// <summary>
+	/// Gets the name of the <c>border-inline-width</c> property.
+	/// </summary>
+	public const string BorderInlineWidth = "border-inline-width";
+
+	/// <summary>
 	/// Gets the name of the <c>border-left</c> property.
 	/// </summary>
 	public const string BorderLeft = "border-left";
@@ -77,6 +537,11 @@ public static partial class CssProperties
 	/// Gets the name of the <c>border-left-color</c> property.
 	/// </summary>
 	public const string BorderLeftColor = "border-left-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-left-radius</c> property.
+	/// </summary>
+	public const string BorderLeftRadius = "border-left-radius";
 
 	/// <summary>
 	/// Gets the name of the <c>border-left-style</c> property.
@@ -89,6 +554,16 @@ public static partial class CssProperties
 	public const string BorderLeftWidth = "border-left-width";
 
 	/// <summary>
+	/// Gets the name of the <c>border-limit</c> property.
+	/// </summary>
+	public const string BorderLimit = "border-limit";
+
+	/// <summary>
+	/// Gets the name of the <c>border-radius</c> property.
+	/// </summary>
+	public const string BorderRadius = "border-radius";
+
+	/// <summary>
 	/// Gets the name of the <c>border-right</c> property.
 	/// </summary>
 	public const string BorderRight = "border-right";
@@ -97,6 +572,11 @@ public static partial class CssProperties
 	/// Gets the name of the <c>border-right-color</c> property.
 	/// </summary>
 	public const string BorderRightColor = "border-right-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-right-radius</c> property.
+	/// </summary>
+	public const string BorderRightRadius = "border-right-radius";
 
 	/// <summary>
 	/// Gets the name of the <c>border-right-style</c> property.
@@ -114,6 +594,16 @@ public static partial class CssProperties
 	public const string BorderSpacing = "border-spacing";
 
 	/// <summary>
+	/// Gets the name of the <c>border-start-end-radius</c> property.
+	/// </summary>
+	public const string BorderStartEndRadius = "border-start-end-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-start-start-radius</c> property.
+	/// </summary>
+	public const string BorderStartStartRadius = "border-start-start-radius";
+
+	/// <summary>
 	/// Gets the name of the <c>border-style</c> property.
 	/// </summary>
 	public const string BorderStyle = "border-style";
@@ -127,6 +617,21 @@ public static partial class CssProperties
 	/// Gets the name of the <c>border-top-color</c> property.
 	/// </summary>
 	public const string BorderTopColor = "border-top-color";
+
+	/// <summary>
+	/// Gets the name of the <c>border-top-left-radius</c> property.
+	/// </summary>
+	public const string BorderTopLeftRadius = "border-top-left-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-top-radius</c> property.
+	/// </summary>
+	public const string BorderTopRadius = "border-top-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>border-top-right-radius</c> property.
+	/// </summary>
+	public const string BorderTopRightRadius = "border-top-right-radius";
 
 	/// <summary>
 	/// Gets the name of the <c>border-top-style</c> property.
@@ -149,9 +654,84 @@ public static partial class CssProperties
 	public const string Bottom = "bottom";
 
 	/// <summary>
+	/// Gets the name of the <c>box-decoration-break</c> property.
+	/// </summary>
+	public const string BoxDecorationBreak = "box-decoration-break";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow</c> property.
+	/// </summary>
+	public const string BoxShadow = "box-shadow";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow-blur</c> property.
+	/// </summary>
+	public const string BoxShadowBlur = "box-shadow-blur";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow-color</c> property.
+	/// </summary>
+	public const string BoxShadowColor = "box-shadow-color";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow-offset</c> property.
+	/// </summary>
+	public const string BoxShadowOffset = "box-shadow-offset";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow-position</c> property.
+	/// </summary>
+	public const string BoxShadowPosition = "box-shadow-position";
+
+	/// <summary>
+	/// Gets the name of the <c>box-shadow-spread</c> property.
+	/// </summary>
+	public const string BoxShadowSpread = "box-shadow-spread";
+
+	/// <summary>
+	/// Gets the name of the <c>box-sizing</c> property.
+	/// </summary>
+	public const string BoxSizing = "box-sizing";
+
+	/// <summary>
+	/// Gets the name of the <c>box-snap</c> property.
+	/// </summary>
+	public const string BoxSnap = "box-snap";
+
+	/// <summary>
+	/// Gets the name of the <c>break-after</c> property.
+	/// </summary>
+	public const string BreakAfter = "break-after";
+
+	/// <summary>
+	/// Gets the name of the <c>break-before</c> property.
+	/// </summary>
+	public const string BreakBefore = "break-before";
+
+	/// <summary>
+	/// Gets the name of the <c>break-inside</c> property.
+	/// </summary>
+	public const string BreakInside = "break-inside";
+
+	/// <summary>
 	/// Gets the name of the <c>caption-side</c> property.
 	/// </summary>
 	public const string CaptionSide = "caption-side";
+
+	/// <summary>
+	/// Gets the name of the <c>caret</c> property.
+	/// </summary>
+	public const string Caret = "caret";
+
+	/// <summary>
+	/// Gets the name of the <c>caret-color</c> property.
+	/// </summary>
+	public const string CaretColor = "caret-color";
+
+	/// <summary>
+	/// Gets the name of the <c>caret-shape</c> property.
+	/// </summary>
+	public const string CaretShape = "caret-shape";
 
 	/// <summary>
 	/// Gets the name of the <c>clear</c> property.
@@ -164,14 +744,164 @@ public static partial class CssProperties
 	public const string Clip = "clip";
 
 	/// <summary>
+	/// Gets the name of the <c>clip-path</c> property.
+	/// </summary>
+	public const string ClipPath = "clip-path";
+
+	/// <summary>
+	/// Gets the name of the <c>clip-rule</c> property.
+	/// </summary>
+	public const string ClipRule = "clip-rule";
+
+	/// <summary>
 	/// Gets the name of the <c>color</c> property.
 	/// </summary>
 	public const string Color = "color";
 
 	/// <summary>
+	/// Gets the name of the <c>color-adjust</c> property.
+	/// </summary>
+	public const string ColorAdjust = "color-adjust";
+
+	/// <summary>
+	/// Gets the name of the <c>color-interpolation</c> property.
+	/// </summary>
+	public const string ColorInterpolation = "color-interpolation";
+
+	/// <summary>
+	/// Gets the name of the <c>color-interpolation-filters</c> property.
+	/// </summary>
+	public const string ColorInterpolationFilters = "color-interpolation-filters";
+
+	/// <summary>
+	/// Gets the name of the <c>color-scheme</c> property.
+	/// </summary>
+	public const string ColorScheme = "color-scheme";
+
+	/// <summary>
+	/// Gets the name of the <c>column-count</c> property.
+	/// </summary>
+	public const string ColumnCount = "column-count";
+
+	/// <summary>
+	/// Gets the name of the <c>column-fill</c> property.
+	/// </summary>
+	public const string ColumnFill = "column-fill";
+
+	/// <summary>
+	/// Gets the name of the <c>column-gap</c> property.
+	/// </summary>
+	public const string ColumnGap = "column-gap";
+
+	/// <summary>
+	/// Gets the name of the <c>column-rule</c> property.
+	/// </summary>
+	public const string ColumnRule = "column-rule";
+
+	/// <summary>
+	/// Gets the name of the <c>column-rule-color</c> property.
+	/// </summary>
+	public const string ColumnRuleColor = "column-rule-color";
+
+	/// <summary>
+	/// Gets the name of the <c>column-rule-style</c> property.
+	/// </summary>
+	public const string ColumnRuleStyle = "column-rule-style";
+
+	/// <summary>
+	/// Gets the name of the <c>column-rule-width</c> property.
+	/// </summary>
+	public const string ColumnRuleWidth = "column-rule-width";
+
+	/// <summary>
+	/// Gets the name of the <c>columns</c> property.
+	/// </summary>
+	public const string Columns = "columns";
+
+	/// <summary>
+	/// Gets the name of the <c>column-span</c> property.
+	/// </summary>
+	public const string ColumnSpan = "column-span";
+
+	/// <summary>
+	/// Gets the name of the <c>column-width</c> property.
+	/// </summary>
+	public const string ColumnWidth = "column-width";
+
+	/// <summary>
+	/// Gets the name of the <c>contain</c> property.
+	/// </summary>
+	public const string Contain = "contain";
+
+	/// <summary>
+	/// Gets the name of the <c>container</c> property.
+	/// </summary>
+	public const string Container = "container";
+
+	/// <summary>
+	/// Gets the name of the <c>container-name</c> property.
+	/// </summary>
+	public const string ContainerName = "container-name";
+
+	/// <summary>
+	/// Gets the name of the <c>container-type</c> property.
+	/// </summary>
+	public const string ContainerType = "container-type";
+
+	/// <summary>
+	/// Gets the name of the <c>contain-intrinsic-block-size</c> property.
+	/// </summary>
+	public const string ContainIntrinsicBlockSize = "contain-intrinsic-block-size";
+
+	/// <summary>
+	/// Gets the name of the <c>contain-intrinsic-height</c> property.
+	/// </summary>
+	public const string ContainIntrinsicHeight = "contain-intrinsic-height";
+
+	/// <summary>
+	/// Gets the name of the <c>contain-intrinsic-inline-size</c> property.
+	/// </summary>
+	public const string ContainIntrinsicInlineSize = "contain-intrinsic-inline-size";
+
+	/// <summary>
+	/// Gets the name of the <c>contain-intrinsic-size</c> property.
+	/// </summary>
+	public const string ContainIntrinsicSize = "contain-intrinsic-size";
+
+	/// <summary>
+	/// Gets the name of the <c>contain-intrinsic-width</c> property.
+	/// </summary>
+	public const string ContainIntrinsicWidth = "contain-intrinsic-width";
+
+	/// <summary>
 	/// Gets the name of the <c>content</c> property.
 	/// </summary>
 	public const string Content = "content";
+
+	/// <summary>
+	/// Gets the name of the <c>content-visibility</c> property.
+	/// </summary>
+	public const string ContentVisibility = "content-visibility";
+
+	/// <summary>
+	/// Gets the name of the <c>continue</c> property.
+	/// </summary>
+	public const string Continue = "continue";
+
+	/// <summary>
+	/// Gets the name of the <c>copy-into</c> property.
+	/// </summary>
+	public const string CopyInto = "copy-into";
+
+	/// <summary>
+	/// Gets the name of the <c>corners</c> property.
+	/// </summary>
+	public const string Corners = "corners";
+
+	/// <summary>
+	/// Gets the name of the <c>corner-shape</c> property.
+	/// </summary>
+	public const string CornerShape = "corner-shape";
 
 	/// <summary>
 	/// Gets the name of the <c>counter-increment</c> property.
@@ -184,9 +914,44 @@ public static partial class CssProperties
 	public const string CounterReset = "counter-reset";
 
 	/// <summary>
+	/// Gets the name of the <c>counter-set</c> property.
+	/// </summary>
+	public const string CounterSet = "counter-set";
+
+	/// <summary>
+	/// Gets the name of the <c>cue</c> property.
+	/// </summary>
+	public const string Cue = "cue";
+
+	/// <summary>
+	/// Gets the name of the <c>cue-after</c> property.
+	/// </summary>
+	public const string CueAfter = "cue-after";
+
+	/// <summary>
+	/// Gets the name of the <c>cue-before</c> property.
+	/// </summary>
+	public const string CueBefore = "cue-before";
+
+	/// <summary>
 	/// Gets the name of the <c>cursor</c> property.
 	/// </summary>
 	public const string Cursor = "cursor";
+
+	/// <summary>
+	/// Gets the name of the <c>cx</c> property.
+	/// </summary>
+	public const string Cx = "cx";
+
+	/// <summary>
+	/// Gets the name of the <c>cy</c> property.
+	/// </summary>
+	public const string Cy = "cy";
+
+	/// <summary>
+	/// Gets the name of the <c>d</c> property.
+	/// </summary>
+	public const string D = "d";
 
 	/// <summary>
 	/// Gets the name of the <c>direction</c> property.
@@ -199,14 +964,144 @@ public static partial class CssProperties
 	public const string Display = "display";
 
 	/// <summary>
+	/// Gets the name of the <c>dominant-baseline</c> property.
+	/// </summary>
+	public const string DominantBaseline = "dominant-baseline";
+
+	/// <summary>
 	/// Gets the name of the <c>empty-cells</c> property.
 	/// </summary>
 	public const string EmptyCells = "empty-cells";
 
 	/// <summary>
+	/// Gets the name of the <c>fill</c> property.
+	/// </summary>
+	public const string Fill = "fill";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-break</c> property.
+	/// </summary>
+	public const string FillBreak = "fill-break";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-color</c> property.
+	/// </summary>
+	public const string FillColor = "fill-color";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-image</c> property.
+	/// </summary>
+	public const string FillImage = "fill-image";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-opacity</c> property.
+	/// </summary>
+	public const string FillOpacity = "fill-opacity";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-origin</c> property.
+	/// </summary>
+	public const string FillOrigin = "fill-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-position</c> property.
+	/// </summary>
+	public const string FillPosition = "fill-position";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-repeat</c> property.
+	/// </summary>
+	public const string FillRepeat = "fill-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-rule</c> property.
+	/// </summary>
+	public const string FillRule = "fill-rule";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-size</c> property.
+	/// </summary>
+	public const string FillSize = "fill-size";
+
+	/// <summary>
+	/// Gets the name of the <c>filter</c> property.
+	/// </summary>
+	public const string Filter = "filter";
+
+	/// <summary>
+	/// Gets the name of the <c>flex</c> property.
+	/// </summary>
+	public const string Flex = "flex";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-basis</c> property.
+	/// </summary>
+	public const string FlexBasis = "flex-basis";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-direction</c> property.
+	/// </summary>
+	public const string FlexDirection = "flex-direction";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-flow</c> property.
+	/// </summary>
+	public const string FlexFlow = "flex-flow";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-grow</c> property.
+	/// </summary>
+	public const string FlexGrow = "flex-grow";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-shrink</c> property.
+	/// </summary>
+	public const string FlexShrink = "flex-shrink";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-wrap</c> property.
+	/// </summary>
+	public const string FlexWrap = "flex-wrap";
+
+	/// <summary>
 	/// Gets the name of the <c>float</c> property.
 	/// </summary>
 	public const string Float = "float";
+
+	/// <summary>
+	/// Gets the name of the <c>float-defer</c> property.
+	/// </summary>
+	public const string FloatDefer = "float-defer";
+
+	/// <summary>
+	/// Gets the name of the <c>float-offset</c> property.
+	/// </summary>
+	public const string FloatOffset = "float-offset";
+
+	/// <summary>
+	/// Gets the name of the <c>float-reference</c> property.
+	/// </summary>
+	public const string FloatReference = "float-reference";
+
+	/// <summary>
+	/// Gets the name of the <c>flood-color</c> property.
+	/// </summary>
+	public const string FloodColor = "flood-color";
+
+	/// <summary>
+	/// Gets the name of the <c>flood-opacity</c> property.
+	/// </summary>
+	public const string FloodOpacity = "flood-opacity";
+
+	/// <summary>
+	/// Gets the name of the <c>flow-from</c> property.
+	/// </summary>
+	public const string FlowFrom = "flow-from";
+
+	/// <summary>
+	/// Gets the name of the <c>flow-into</c> property.
+	/// </summary>
+	public const string FlowInto = "flow-into";
 
 	/// <summary>
 	/// Gets the name of the <c>font</c> property.
@@ -219,9 +1114,44 @@ public static partial class CssProperties
 	public const string FontFamily = "font-family";
 
 	/// <summary>
+	/// Gets the name of the <c>font-feature-settings</c> property.
+	/// </summary>
+	public const string FontFeatureSettings = "font-feature-settings";
+
+	/// <summary>
+	/// Gets the name of the <c>font-kerning</c> property.
+	/// </summary>
+	public const string FontKerning = "font-kerning";
+
+	/// <summary>
+	/// Gets the name of the <c>font-language-override</c> property.
+	/// </summary>
+	public const string FontLanguageOverride = "font-language-override";
+
+	/// <summary>
+	/// Gets the name of the <c>font-optical-sizing</c> property.
+	/// </summary>
+	public const string FontOpticalSizing = "font-optical-sizing";
+
+	/// <summary>
+	/// Gets the name of the <c>font-palette</c> property.
+	/// </summary>
+	public const string FontPalette = "font-palette";
+
+	/// <summary>
 	/// Gets the name of the <c>font-size</c> property.
 	/// </summary>
 	public const string FontSize = "font-size";
+
+	/// <summary>
+	/// Gets the name of the <c>font-size-adjust</c> property.
+	/// </summary>
+	public const string FontSizeAdjust = "font-size-adjust";
+
+	/// <summary>
+	/// Gets the name of the <c>font-stretch</c> property.
+	/// </summary>
+	public const string FontStretch = "font-stretch";
 
 	/// <summary>
 	/// Gets the name of the <c>font-style</c> property.
@@ -229,9 +1159,74 @@ public static partial class CssProperties
 	public const string FontStyle = "font-style";
 
 	/// <summary>
+	/// Gets the name of the <c>font-synthesis</c> property.
+	/// </summary>
+	public const string FontSynthesis = "font-synthesis";
+
+	/// <summary>
+	/// Gets the name of the <c>font-synthesis-position</c> property.
+	/// </summary>
+	public const string FontSynthesisPosition = "font-synthesis-position";
+
+	/// <summary>
+	/// Gets the name of the <c>font-synthesis-small-caps</c> property.
+	/// </summary>
+	public const string FontSynthesisSmallCaps = "font-synthesis-small-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>font-synthesis-style</c> property.
+	/// </summary>
+	public const string FontSynthesisStyle = "font-synthesis-style";
+
+	/// <summary>
+	/// Gets the name of the <c>font-synthesis-weight</c> property.
+	/// </summary>
+	public const string FontSynthesisWeight = "font-synthesis-weight";
+
+	/// <summary>
 	/// Gets the name of the <c>font-variant</c> property.
 	/// </summary>
 	public const string FontVariant = "font-variant";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-alternates</c> property.
+	/// </summary>
+	public const string FontVariantAlternates = "font-variant-alternates";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-caps</c> property.
+	/// </summary>
+	public const string FontVariantCaps = "font-variant-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-east-asian</c> property.
+	/// </summary>
+	public const string FontVariantEastAsian = "font-variant-east-asian";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-emoji</c> property.
+	/// </summary>
+	public const string FontVariantEmoji = "font-variant-emoji";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-ligatures</c> property.
+	/// </summary>
+	public const string FontVariantLigatures = "font-variant-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-numeric</c> property.
+	/// </summary>
+	public const string FontVariantNumeric = "font-variant-numeric";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variant-position</c> property.
+	/// </summary>
+	public const string FontVariantPosition = "font-variant-position";
+
+	/// <summary>
+	/// Gets the name of the <c>font-variation-settings</c> property.
+	/// </summary>
+	public const string FontVariationSettings = "font-variation-settings";
 
 	/// <summary>
 	/// Gets the name of the <c>font-weight</c> property.
@@ -239,9 +1234,269 @@ public static partial class CssProperties
 	public const string FontWeight = "font-weight";
 
 	/// <summary>
+	/// Gets the name of the <c>footnote-display</c> property.
+	/// </summary>
+	public const string FootnoteDisplay = "footnote-display";
+
+	/// <summary>
+	/// Gets the name of the <c>footnote-policy</c> property.
+	/// </summary>
+	public const string FootnotePolicy = "footnote-policy";
+
+	/// <summary>
+	/// Gets the name of the <c>forced-color-adjust</c> property.
+	/// </summary>
+	public const string ForcedColorAdjust = "forced-color-adjust";
+
+	/// <summary>
+	/// Gets the name of the <c>gap</c> property.
+	/// </summary>
+	public const string Gap = "gap";
+
+	/// <summary>
+	/// Gets the name of the <c>glyph-orientation-vertical</c> property.
+	/// </summary>
+	public const string GlyphOrientationVertical = "glyph-orientation-vertical";
+
+	/// <summary>
+	/// Gets the name of the <c>grid</c> property.
+	/// </summary>
+	public const string Grid = "grid";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-area</c> property.
+	/// </summary>
+	public const string GridArea = "grid-area";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-auto-columns</c> property.
+	/// </summary>
+	public const string GridAutoColumns = "grid-auto-columns";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-auto-flow</c> property.
+	/// </summary>
+	public const string GridAutoFlow = "grid-auto-flow";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-auto-rows</c> property.
+	/// </summary>
+	public const string GridAutoRows = "grid-auto-rows";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-column</c> property.
+	/// </summary>
+	public const string GridColumn = "grid-column";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-column-end</c> property.
+	/// </summary>
+	public const string GridColumnEnd = "grid-column-end";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-column-gap</c> property.
+	/// </summary>
+	public const string GridColumnGap = "grid-column-gap";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-column-start</c> property.
+	/// </summary>
+	public const string GridColumnStart = "grid-column-start";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-gap</c> property.
+	/// </summary>
+	public const string GridGap = "grid-gap";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-row</c> property.
+	/// </summary>
+	public const string GridRow = "grid-row";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-row-end</c> property.
+	/// </summary>
+	public const string GridRowEnd = "grid-row-end";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-row-gap</c> property.
+	/// </summary>
+	public const string GridRowGap = "grid-row-gap";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-row-start</c> property.
+	/// </summary>
+	public const string GridRowStart = "grid-row-start";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-template</c> property.
+	/// </summary>
+	public const string GridTemplate = "grid-template";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-template-areas</c> property.
+	/// </summary>
+	public const string GridTemplateAreas = "grid-template-areas";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-template-columns</c> property.
+	/// </summary>
+	public const string GridTemplateColumns = "grid-template-columns";
+
+	/// <summary>
+	/// Gets the name of the <c>grid-template-rows</c> property.
+	/// </summary>
+	public const string GridTemplateRows = "grid-template-rows";
+
+	/// <summary>
+	/// Gets the name of the <c>hanging-punctuation</c> property.
+	/// </summary>
+	public const string HangingPunctuation = "hanging-punctuation";
+
+	/// <summary>
 	/// Gets the name of the <c>height</c> property.
 	/// </summary>
 	public const string Height = "height";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphenate-character</c> property.
+	/// </summary>
+	public const string HyphenateCharacter = "hyphenate-character";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphenate-limit-chars</c> property.
+	/// </summary>
+	public const string HyphenateLimitChars = "hyphenate-limit-chars";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphenate-limit-last</c> property.
+	/// </summary>
+	public const string HyphenateLimitLast = "hyphenate-limit-last";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphenate-limit-lines</c> property.
+	/// </summary>
+	public const string HyphenateLimitLines = "hyphenate-limit-lines";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphenate-limit-zone</c> property.
+	/// </summary>
+	public const string HyphenateLimitZone = "hyphenate-limit-zone";
+
+	/// <summary>
+	/// Gets the name of the <c>hyphens</c> property.
+	/// </summary>
+	public const string Hyphens = "hyphens";
+
+	/// <summary>
+	/// Gets the name of the <c>image-orientation</c> property.
+	/// </summary>
+	public const string ImageOrientation = "image-orientation";
+
+	/// <summary>
+	/// Gets the name of the <c>image-rendering</c> property.
+	/// </summary>
+	public const string ImageRendering = "image-rendering";
+
+	/// <summary>
+	/// Gets the name of the <c>image-resolution</c> property.
+	/// </summary>
+	public const string ImageResolution = "image-resolution";
+
+	/// <summary>
+	/// Gets the name of the <c>initial-letter</c> property.
+	/// </summary>
+	public const string InitialLetter = "initial-letter";
+
+	/// <summary>
+	/// Gets the name of the <c>initial-letter-align</c> property.
+	/// </summary>
+	public const string InitialLetterAlign = "initial-letter-align";
+
+	/// <summary>
+	/// Gets the name of the <c>initial-letter-wrap</c> property.
+	/// </summary>
+	public const string InitialLetterWrap = "initial-letter-wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-size</c> property.
+	/// </summary>
+	public const string InlineSize = "inline-size";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-sizing</c> property.
+	/// </summary>
+	public const string InlineSizing = "inline-sizing";
+
+	/// <summary>
+	/// Gets the name of the <c>input-security</c> property.
+	/// </summary>
+	public const string InputSecurity = "input-security";
+
+	/// <summary>
+	/// Gets the name of the <c>inset</c> property.
+	/// </summary>
+	public const string Inset = "inset";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-block</c> property.
+	/// </summary>
+	public const string InsetBlock = "inset-block";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-block-end</c> property.
+	/// </summary>
+	public const string InsetBlockEnd = "inset-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-block-start</c> property.
+	/// </summary>
+	public const string InsetBlockStart = "inset-block-start";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-inline</c> property.
+	/// </summary>
+	public const string InsetInline = "inset-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-inline-end</c> property.
+	/// </summary>
+	public const string InsetInlineEnd = "inset-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>inset-inline-start</c> property.
+	/// </summary>
+	public const string InsetInlineStart = "inset-inline-start";
+
+	/// <summary>
+	/// Gets the name of the <c>isolation</c> property.
+	/// </summary>
+	public const string Isolation = "isolation";
+
+	/// <summary>
+	/// Gets the name of the <c>justify-content</c> property.
+	/// </summary>
+	public const string JustifyContent = "justify-content";
+
+	/// <summary>
+	/// Gets the name of the <c>justify-items</c> property.
+	/// </summary>
+	public const string JustifyItems = "justify-items";
+
+	/// <summary>
+	/// Gets the name of the <c>justify-self</c> property.
+	/// </summary>
+	public const string JustifySelf = "justify-self";
+
+	/// <summary>
+	/// Gets the name of the <c>justify-tracks</c> property.
+	/// </summary>
+	public const string JustifyTracks = "justify-tracks";
+
+	/// <summary>
+	/// Gets the name of the <c>layout-order</c> property.
+	/// </summary>
+	public const string LayoutOrder = "layout-order";
 
 	/// <summary>
 	/// Gets the name of the <c>left</c> property.
@@ -254,9 +1509,49 @@ public static partial class CssProperties
 	public const string LetterSpacing = "letter-spacing";
 
 	/// <summary>
+	/// Gets the name of the <c>lighting-color</c> property.
+	/// </summary>
+	public const string LightingColor = "lighting-color";
+
+	/// <summary>
+	/// Gets the name of the <c>line-break</c> property.
+	/// </summary>
+	public const string LineBreak = "line-break";
+
+	/// <summary>
+	/// Gets the name of the <c>line-clamp</c> property.
+	/// </summary>
+	public const string LineClamp = "line-clamp";
+
+	/// <summary>
+	/// Gets the name of the <c>line-grid</c> property.
+	/// </summary>
+	public const string LineGrid = "line-grid";
+
+	/// <summary>
 	/// Gets the name of the <c>line-height</c> property.
 	/// </summary>
 	public const string LineHeight = "line-height";
+
+	/// <summary>
+	/// Gets the name of the <c>line-height-step</c> property.
+	/// </summary>
+	public const string LineHeightStep = "line-height-step";
+
+	/// <summary>
+	/// Gets the name of the <c>line-padding</c> property.
+	/// </summary>
+	public const string LinePadding = "line-padding";
+
+	/// <summary>
+	/// Gets the name of the <c>line-snap</c> property.
+	/// </summary>
+	public const string LineSnap = "line-snap";
+
+	/// <summary>
+	/// Gets the name of the <c>link-parameters</c> property.
+	/// </summary>
+	public const string LinkParameters = "link-parameters";
 
 	/// <summary>
 	/// Gets the name of the <c>list-style</c> property.
@@ -284,9 +1579,44 @@ public static partial class CssProperties
 	public const string Margin = "margin";
 
 	/// <summary>
+	/// Gets the name of the <c>margin-block</c> property.
+	/// </summary>
+	public const string MarginBlock = "margin-block";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-block-end</c> property.
+	/// </summary>
+	public const string MarginBlockEnd = "margin-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-block-start</c> property.
+	/// </summary>
+	public const string MarginBlockStart = "margin-block-start";
+
+	/// <summary>
 	/// Gets the name of the <c>margin-bottom</c> property.
 	/// </summary>
 	public const string MarginBottom = "margin-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-break</c> property.
+	/// </summary>
+	public const string MarginBreak = "margin-break";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-inline</c> property.
+	/// </summary>
+	public const string MarginInline = "margin-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-inline-end</c> property.
+	/// </summary>
+	public const string MarginInlineEnd = "margin-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-inline-start</c> property.
+	/// </summary>
+	public const string MarginInlineStart = "margin-inline-start";
 
 	/// <summary>
 	/// Gets the name of the <c>margin-left</c> property.
@@ -304,9 +1634,159 @@ public static partial class CssProperties
 	public const string MarginTop = "margin-top";
 
 	/// <summary>
+	/// Gets the name of the <c>margin-trim</c> property.
+	/// </summary>
+	public const string MarginTrim = "margin-trim";
+
+	/// <summary>
+	/// Gets the name of the <c>marker</c> property.
+	/// </summary>
+	public const string Marker = "marker";
+
+	/// <summary>
+	/// Gets the name of the <c>marker-end</c> property.
+	/// </summary>
+	public const string MarkerEnd = "marker-end";
+
+	/// <summary>
+	/// Gets the name of the <c>marker-mid</c> property.
+	/// </summary>
+	public const string MarkerMid = "marker-mid";
+
+	/// <summary>
+	/// Gets the name of the <c>marker-side</c> property.
+	/// </summary>
+	public const string MarkerSide = "marker-side";
+
+	/// <summary>
+	/// Gets the name of the <c>marker-start</c> property.
+	/// </summary>
+	public const string MarkerStart = "marker-start";
+
+	/// <summary>
+	/// Gets the name of the <c>mask</c> property.
+	/// </summary>
+	public const string Mask = "mask";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border</c> property.
+	/// </summary>
+	public const string MaskBorder = "mask-border";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-mode</c> property.
+	/// </summary>
+	public const string MaskBorderMode = "mask-border-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-outset</c> property.
+	/// </summary>
+	public const string MaskBorderOutset = "mask-border-outset";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-repeat</c> property.
+	/// </summary>
+	public const string MaskBorderRepeat = "mask-border-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-slice</c> property.
+	/// </summary>
+	public const string MaskBorderSlice = "mask-border-slice";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-source</c> property.
+	/// </summary>
+	public const string MaskBorderSource = "mask-border-source";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-border-width</c> property.
+	/// </summary>
+	public const string MaskBorderWidth = "mask-border-width";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-clip</c> property.
+	/// </summary>
+	public const string MaskClip = "mask-clip";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-composite</c> property.
+	/// </summary>
+	public const string MaskComposite = "mask-composite";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-image</c> property.
+	/// </summary>
+	public const string MaskImage = "mask-image";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-mode</c> property.
+	/// </summary>
+	public const string MaskMode = "mask-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-origin</c> property.
+	/// </summary>
+	public const string MaskOrigin = "mask-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-position</c> property.
+	/// </summary>
+	public const string MaskPosition = "mask-position";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-repeat</c> property.
+	/// </summary>
+	public const string MaskRepeat = "mask-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-size</c> property.
+	/// </summary>
+	public const string MaskSize = "mask-size";
+
+	/// <summary>
+	/// Gets the name of the <c>mask-type</c> property.
+	/// </summary>
+	public const string MaskType = "mask-type";
+
+	/// <summary>
+	/// Gets the name of the <c>masonry-auto-flow</c> property.
+	/// </summary>
+	public const string MasonryAutoFlow = "masonry-auto-flow";
+
+	/// <summary>
+	/// Gets the name of the <c>math-depth</c> property.
+	/// </summary>
+	public const string MathDepth = "math-depth";
+
+	/// <summary>
+	/// Gets the name of the <c>math-shift</c> property.
+	/// </summary>
+	public const string MathShift = "math-shift";
+
+	/// <summary>
+	/// Gets the name of the <c>math-style</c> property.
+	/// </summary>
+	public const string MathStyle = "math-style";
+
+	/// <summary>
+	/// Gets the name of the <c>max-block-size</c> property.
+	/// </summary>
+	public const string MaxBlockSize = "max-block-size";
+
+	/// <summary>
 	/// Gets the name of the <c>max-height</c> property.
 	/// </summary>
 	public const string MaxHeight = "max-height";
+
+	/// <summary>
+	/// Gets the name of the <c>max-inline-size</c> property.
+	/// </summary>
+	public const string MaxInlineSize = "max-inline-size";
+
+	/// <summary>
+	/// Gets the name of the <c>max-lines</c> property.
+	/// </summary>
+	public const string MaxLines = "max-lines";
 
 	/// <summary>
 	/// Gets the name of the <c>max-width</c> property.
@@ -314,14 +1794,109 @@ public static partial class CssProperties
 	public const string MaxWidth = "max-width";
 
 	/// <summary>
+	/// Gets the name of the <c>min-block-size</c> property.
+	/// </summary>
+	public const string MinBlockSize = "min-block-size";
+
+	/// <summary>
 	/// Gets the name of the <c>min-height</c> property.
 	/// </summary>
 	public const string MinHeight = "min-height";
 
 	/// <summary>
+	/// Gets the name of the <c>min-inline-size</c> property.
+	/// </summary>
+	public const string MinInlineSize = "min-inline-size";
+
+	/// <summary>
+	/// Gets the name of the <c>min-intrinsic-sizing</c> property.
+	/// </summary>
+	public const string MinIntrinsicSizing = "min-intrinsic-sizing";
+
+	/// <summary>
 	/// Gets the name of the <c>min-width</c> property.
 	/// </summary>
 	public const string MinWidth = "min-width";
+
+	/// <summary>
+	/// Gets the name of the <c>mix-blend-mode</c> property.
+	/// </summary>
+	public const string MixBlendMode = "mix-blend-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>nav-down</c> property.
+	/// </summary>
+	public const string NavDown = "nav-down";
+
+	/// <summary>
+	/// Gets the name of the <c>nav-left</c> property.
+	/// </summary>
+	public const string NavLeft = "nav-left";
+
+	/// <summary>
+	/// Gets the name of the <c>nav-right</c> property.
+	/// </summary>
+	public const string NavRight = "nav-right";
+
+	/// <summary>
+	/// Gets the name of the <c>nav-up</c> property.
+	/// </summary>
+	public const string NavUp = "nav-up";
+
+	/// <summary>
+	/// Gets the name of the <c>object-fit</c> property.
+	/// </summary>
+	public const string ObjectFit = "object-fit";
+
+	/// <summary>
+	/// Gets the name of the <c>object-position</c> property.
+	/// </summary>
+	public const string ObjectPosition = "object-position";
+
+	/// <summary>
+	/// Gets the name of the <c>object-view-box</c> property.
+	/// </summary>
+	public const string ObjectViewBox = "object-view-box";
+
+	/// <summary>
+	/// Gets the name of the <c>offset</c> property.
+	/// </summary>
+	public const string Offset = "offset";
+
+	/// <summary>
+	/// Gets the name of the <c>offset-anchor</c> property.
+	/// </summary>
+	public const string OffsetAnchor = "offset-anchor";
+
+	/// <summary>
+	/// Gets the name of the <c>offset-distance</c> property.
+	/// </summary>
+	public const string OffsetDistance = "offset-distance";
+
+	/// <summary>
+	/// Gets the name of the <c>offset-path</c> property.
+	/// </summary>
+	public const string OffsetPath = "offset-path";
+
+	/// <summary>
+	/// Gets the name of the <c>offset-position</c> property.
+	/// </summary>
+	public const string OffsetPosition = "offset-position";
+
+	/// <summary>
+	/// Gets the name of the <c>offset-rotate</c> property.
+	/// </summary>
+	public const string OffsetRotate = "offset-rotate";
+
+	/// <summary>
+	/// Gets the name of the <c>opacity</c> property.
+	/// </summary>
+	public const string Opacity = "opacity";
+
+	/// <summary>
+	/// Gets the name of the <c>order</c> property.
+	/// </summary>
+	public const string Order = "order";
 
 	/// <summary>
 	/// Gets the name of the <c>orphans</c> property.
@@ -339,6 +1914,11 @@ public static partial class CssProperties
 	public const string OutlineColor = "outline-color";
 
 	/// <summary>
+	/// Gets the name of the <c>outline-offset</c> property.
+	/// </summary>
+	public const string OutlineOffset = "outline-offset";
+
+	/// <summary>
 	/// Gets the name of the <c>outline-style</c> property.
 	/// </summary>
 	public const string OutlineStyle = "outline-style";
@@ -354,14 +1934,159 @@ public static partial class CssProperties
 	public const string Overflow = "overflow";
 
 	/// <summary>
+	/// Gets the name of the <c>overflow-anchor</c> property.
+	/// </summary>
+	public const string OverflowAnchor = "overflow-anchor";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-block</c> property.
+	/// </summary>
+	public const string OverflowBlock = "overflow-block";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin</c> property.
+	/// </summary>
+	public const string OverflowClipMargin = "overflow-clip-margin";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-block</c> property.
+	/// </summary>
+	public const string OverflowClipMarginBlock = "overflow-clip-margin-block";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-block-end</c> property.
+	/// </summary>
+	public const string OverflowClipMarginBlockEnd = "overflow-clip-margin-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-block-start</c> property.
+	/// </summary>
+	public const string OverflowClipMarginBlockStart = "overflow-clip-margin-block-start";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-bottom</c> property.
+	/// </summary>
+	public const string OverflowClipMarginBottom = "overflow-clip-margin-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-inline</c> property.
+	/// </summary>
+	public const string OverflowClipMarginInline = "overflow-clip-margin-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-inline-end</c> property.
+	/// </summary>
+	public const string OverflowClipMarginInlineEnd = "overflow-clip-margin-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-inline-start</c> property.
+	/// </summary>
+	public const string OverflowClipMarginInlineStart = "overflow-clip-margin-inline-start";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-left</c> property.
+	/// </summary>
+	public const string OverflowClipMarginLeft = "overflow-clip-margin-left";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-right</c> property.
+	/// </summary>
+	public const string OverflowClipMarginRight = "overflow-clip-margin-right";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-clip-margin-top</c> property.
+	/// </summary>
+	public const string OverflowClipMarginTop = "overflow-clip-margin-top";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-inline</c> property.
+	/// </summary>
+	public const string OverflowInline = "overflow-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-wrap</c> property.
+	/// </summary>
+	public const string OverflowWrap = "overflow-wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-x</c> property.
+	/// </summary>
+	public const string OverflowX = "overflow-x";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow-y</c> property.
+	/// </summary>
+	public const string OverflowY = "overflow-y";
+
+	/// <summary>
+	/// Gets the name of the <c>overlay</c> property.
+	/// </summary>
+	public const string Overlay = "overlay";
+
+	/// <summary>
+	/// Gets the name of the <c>overscroll-behavior</c> property.
+	/// </summary>
+	public const string OverscrollBehavior = "overscroll-behavior";
+
+	/// <summary>
+	/// Gets the name of the <c>overscroll-behavior-block</c> property.
+	/// </summary>
+	public const string OverscrollBehaviorBlock = "overscroll-behavior-block";
+
+	/// <summary>
+	/// Gets the name of the <c>overscroll-behavior-inline</c> property.
+	/// </summary>
+	public const string OverscrollBehaviorInline = "overscroll-behavior-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>overscroll-behavior-x</c> property.
+	/// </summary>
+	public const string OverscrollBehaviorX = "overscroll-behavior-x";
+
+	/// <summary>
+	/// Gets the name of the <c>overscroll-behavior-y</c> property.
+	/// </summary>
+	public const string OverscrollBehaviorY = "overscroll-behavior-y";
+
+	/// <summary>
 	/// Gets the name of the <c>padding</c> property.
 	/// </summary>
 	public const string Padding = "padding";
 
 	/// <summary>
+	/// Gets the name of the <c>padding-block</c> property.
+	/// </summary>
+	public const string PaddingBlock = "padding-block";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-block-end</c> property.
+	/// </summary>
+	public const string PaddingBlockEnd = "padding-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-block-start</c> property.
+	/// </summary>
+	public const string PaddingBlockStart = "padding-block-start";
+
+	/// <summary>
 	/// Gets the name of the <c>padding-bottom</c> property.
 	/// </summary>
 	public const string PaddingBottom = "padding-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-inline</c> property.
+	/// </summary>
+	public const string PaddingInline = "padding-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-inline-end</c> property.
+	/// </summary>
+	public const string PaddingInlineEnd = "padding-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-inline-start</c> property.
+	/// </summary>
+	public const string PaddingInlineStart = "padding-inline-start";
 
 	/// <summary>
 	/// Gets the name of the <c>padding-left</c> property.
@@ -379,6 +2104,11 @@ public static partial class CssProperties
 	public const string PaddingTop = "padding-top";
 
 	/// <summary>
+	/// Gets the name of the <c>page</c> property.
+	/// </summary>
+	public const string Page = "page";
+
+	/// <summary>
 	/// Gets the name of the <c>page-break-after</c> property.
 	/// </summary>
 	public const string PageBreakAfter = "page-break-after";
@@ -394,9 +2124,74 @@ public static partial class CssProperties
 	public const string PageBreakInside = "page-break-inside";
 
 	/// <summary>
+	/// Gets the name of the <c>paint-order</c> property.
+	/// </summary>
+	public const string PaintOrder = "paint-order";
+
+	/// <summary>
+	/// Gets the name of the <c>pause</c> property.
+	/// </summary>
+	public const string Pause = "pause";
+
+	/// <summary>
+	/// Gets the name of the <c>pause-after</c> property.
+	/// </summary>
+	public const string PauseAfter = "pause-after";
+
+	/// <summary>
+	/// Gets the name of the <c>pause-before</c> property.
+	/// </summary>
+	public const string PauseBefore = "pause-before";
+
+	/// <summary>
+	/// Gets the name of the <c>perspective</c> property.
+	/// </summary>
+	public const string Perspective = "perspective";
+
+	/// <summary>
+	/// Gets the name of the <c>perspective-origin</c> property.
+	/// </summary>
+	public const string PerspectiveOrigin = "perspective-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>place-content</c> property.
+	/// </summary>
+	public const string PlaceContent = "place-content";
+
+	/// <summary>
+	/// Gets the name of the <c>place-items</c> property.
+	/// </summary>
+	public const string PlaceItems = "place-items";
+
+	/// <summary>
+	/// Gets the name of the <c>place-self</c> property.
+	/// </summary>
+	public const string PlaceSelf = "place-self";
+
+	/// <summary>
+	/// Gets the name of the <c>pointer-events</c> property.
+	/// </summary>
+	public const string PointerEvents = "pointer-events";
+
+	/// <summary>
 	/// Gets the name of the <c>position</c> property.
 	/// </summary>
 	public const string Position = "position";
+
+	/// <summary>
+	/// Gets the name of the <c>position-fallback</c> property.
+	/// </summary>
+	public const string PositionFallback = "position-fallback";
+
+	/// <summary>
+	/// Gets the name of the <c>position-fallback-bounds</c> property.
+	/// </summary>
+	public const string PositionFallbackBounds = "position-fallback-bounds";
+
+	/// <summary>
+	/// Gets the name of the <c>print-color-adjust</c> property.
+	/// </summary>
+	public const string PrintColorAdjust = "print-color-adjust";
 
 	/// <summary>
 	/// Gets the name of the <c>quotes</c> property.
@@ -404,9 +2199,479 @@ public static partial class CssProperties
 	public const string Quotes = "quotes";
 
 	/// <summary>
+	/// Gets the name of the <c>r</c> property.
+	/// </summary>
+	public const string R = "r";
+
+	/// <summary>
+	/// Gets the name of the <c>reading-order</c> property.
+	/// </summary>
+	public const string ReadingOrder = "reading-order";
+
+	/// <summary>
+	/// Gets the name of the <c>region-fragment</c> property.
+	/// </summary>
+	public const string RegionFragment = "region-fragment";
+
+	/// <summary>
+	/// Gets the name of the <c>resize</c> property.
+	/// </summary>
+	public const string Resize = "resize";
+
+	/// <summary>
+	/// Gets the name of the <c>rest</c> property.
+	/// </summary>
+	public const string Rest = "rest";
+
+	/// <summary>
+	/// Gets the name of the <c>rest-after</c> property.
+	/// </summary>
+	public const string RestAfter = "rest-after";
+
+	/// <summary>
+	/// Gets the name of the <c>rest-before</c> property.
+	/// </summary>
+	public const string RestBefore = "rest-before";
+
+	/// <summary>
 	/// Gets the name of the <c>right</c> property.
 	/// </summary>
 	public const string Right = "right";
+
+	/// <summary>
+	/// Gets the name of the <c>rotate</c> property.
+	/// </summary>
+	public const string Rotate = "rotate";
+
+	/// <summary>
+	/// Gets the name of the <c>row-gap</c> property.
+	/// </summary>
+	public const string RowGap = "row-gap";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-align</c> property.
+	/// </summary>
+	public const string RubyAlign = "ruby-align";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-merge</c> property.
+	/// </summary>
+	public const string RubyMerge = "ruby-merge";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-overhang</c> property.
+	/// </summary>
+	public const string RubyOverhang = "ruby-overhang";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-position</c> property.
+	/// </summary>
+	public const string RubyPosition = "ruby-position";
+
+	/// <summary>
+	/// Gets the name of the <c>rx</c> property.
+	/// </summary>
+	public const string Rx = "rx";
+
+	/// <summary>
+	/// Gets the name of the <c>ry</c> property.
+	/// </summary>
+	public const string Ry = "ry";
+
+	/// <summary>
+	/// Gets the name of the <c>scale</c> property.
+	/// </summary>
+	public const string Scale = "scale";
+
+	/// <summary>
+	/// Gets the name of the <c>scrollbar-color</c> property.
+	/// </summary>
+	public const string ScrollbarColor = "scrollbar-color";
+
+	/// <summary>
+	/// Gets the name of the <c>scrollbar-gutter</c> property.
+	/// </summary>
+	public const string ScrollbarGutter = "scrollbar-gutter";
+
+	/// <summary>
+	/// Gets the name of the <c>scrollbar-width</c> property.
+	/// </summary>
+	public const string ScrollbarWidth = "scrollbar-width";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-behavior</c> property.
+	/// </summary>
+	public const string ScrollBehavior = "scroll-behavior";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin</c> property.
+	/// </summary>
+	public const string ScrollMargin = "scroll-margin";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-block</c> property.
+	/// </summary>
+	public const string ScrollMarginBlock = "scroll-margin-block";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-block-end</c> property.
+	/// </summary>
+	public const string ScrollMarginBlockEnd = "scroll-margin-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-block-start</c> property.
+	/// </summary>
+	public const string ScrollMarginBlockStart = "scroll-margin-block-start";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-bottom</c> property.
+	/// </summary>
+	public const string ScrollMarginBottom = "scroll-margin-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-inline</c> property.
+	/// </summary>
+	public const string ScrollMarginInline = "scroll-margin-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-inline-end</c> property.
+	/// </summary>
+	public const string ScrollMarginInlineEnd = "scroll-margin-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-inline-start</c> property.
+	/// </summary>
+	public const string ScrollMarginInlineStart = "scroll-margin-inline-start";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-left</c> property.
+	/// </summary>
+	public const string ScrollMarginLeft = "scroll-margin-left";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-right</c> property.
+	/// </summary>
+	public const string ScrollMarginRight = "scroll-margin-right";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-margin-top</c> property.
+	/// </summary>
+	public const string ScrollMarginTop = "scroll-margin-top";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding</c> property.
+	/// </summary>
+	public const string ScrollPadding = "scroll-padding";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-block</c> property.
+	/// </summary>
+	public const string ScrollPaddingBlock = "scroll-padding-block";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-block-end</c> property.
+	/// </summary>
+	public const string ScrollPaddingBlockEnd = "scroll-padding-block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-block-start</c> property.
+	/// </summary>
+	public const string ScrollPaddingBlockStart = "scroll-padding-block-start";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-bottom</c> property.
+	/// </summary>
+	public const string ScrollPaddingBottom = "scroll-padding-bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-inline</c> property.
+	/// </summary>
+	public const string ScrollPaddingInline = "scroll-padding-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-inline-end</c> property.
+	/// </summary>
+	public const string ScrollPaddingInlineEnd = "scroll-padding-inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-inline-start</c> property.
+	/// </summary>
+	public const string ScrollPaddingInlineStart = "scroll-padding-inline-start";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-left</c> property.
+	/// </summary>
+	public const string ScrollPaddingLeft = "scroll-padding-left";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-right</c> property.
+	/// </summary>
+	public const string ScrollPaddingRight = "scroll-padding-right";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-padding-top</c> property.
+	/// </summary>
+	public const string ScrollPaddingTop = "scroll-padding-top";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-snap-align</c> property.
+	/// </summary>
+	public const string ScrollSnapAlign = "scroll-snap-align";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-snap-stop</c> property.
+	/// </summary>
+	public const string ScrollSnapStop = "scroll-snap-stop";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-snap-type</c> property.
+	/// </summary>
+	public const string ScrollSnapType = "scroll-snap-type";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start</c> property.
+	/// </summary>
+	public const string ScrollStart = "scroll-start";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-block</c> property.
+	/// </summary>
+	public const string ScrollStartBlock = "scroll-start-block";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-inline</c> property.
+	/// </summary>
+	public const string ScrollStartInline = "scroll-start-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-target</c> property.
+	/// </summary>
+	public const string ScrollStartTarget = "scroll-start-target";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-target-block</c> property.
+	/// </summary>
+	public const string ScrollStartTargetBlock = "scroll-start-target-block";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-target-inline</c> property.
+	/// </summary>
+	public const string ScrollStartTargetInline = "scroll-start-target-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-target-x</c> property.
+	/// </summary>
+	public const string ScrollStartTargetX = "scroll-start-target-x";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-target-y</c> property.
+	/// </summary>
+	public const string ScrollStartTargetY = "scroll-start-target-y";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-x</c> property.
+	/// </summary>
+	public const string ScrollStartX = "scroll-start-x";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-start-y</c> property.
+	/// </summary>
+	public const string ScrollStartY = "scroll-start-y";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-timeline</c> property.
+	/// </summary>
+	public const string ScrollTimeline = "scroll-timeline";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-timeline-axis</c> property.
+	/// </summary>
+	public const string ScrollTimelineAxis = "scroll-timeline-axis";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-timeline-name</c> property.
+	/// </summary>
+	public const string ScrollTimelineName = "scroll-timeline-name";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-image-threshold</c> property.
+	/// </summary>
+	public const string ShapeImageThreshold = "shape-image-threshold";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-inside</c> property.
+	/// </summary>
+	public const string ShapeInside = "shape-inside";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-margin</c> property.
+	/// </summary>
+	public const string ShapeMargin = "shape-margin";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-outside</c> property.
+	/// </summary>
+	public const string ShapeOutside = "shape-outside";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-padding</c> property.
+	/// </summary>
+	public const string ShapePadding = "shape-padding";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-rendering</c> property.
+	/// </summary>
+	public const string ShapeRendering = "shape-rendering";
+
+	/// <summary>
+	/// Gets the name of the <c>shape-subtract</c> property.
+	/// </summary>
+	public const string ShapeSubtract = "shape-subtract";
+
+	/// <summary>
+	/// Gets the name of the <c>spatial-navigation-action</c> property.
+	/// </summary>
+	public const string SpatialNavigationAction = "spatial-navigation-action";
+
+	/// <summary>
+	/// Gets the name of the <c>spatial-navigation-contain</c> property.
+	/// </summary>
+	public const string SpatialNavigationContain = "spatial-navigation-contain";
+
+	/// <summary>
+	/// Gets the name of the <c>spatial-navigation-function</c> property.
+	/// </summary>
+	public const string SpatialNavigationFunction = "spatial-navigation-function";
+
+	/// <summary>
+	/// Gets the name of the <c>speak</c> property.
+	/// </summary>
+	public const string Speak = "speak";
+
+	/// <summary>
+	/// Gets the name of the <c>speak-as</c> property.
+	/// </summary>
+	public const string SpeakAs = "speak-as";
+
+	/// <summary>
+	/// Gets the name of the <c>stop-color</c> property.
+	/// </summary>
+	public const string StopColor = "stop-color";
+
+	/// <summary>
+	/// Gets the name of the <c>stop-opacity</c> property.
+	/// </summary>
+	public const string StopOpacity = "stop-opacity";
+
+	/// <summary>
+	/// Gets the name of the <c>string-set</c> property.
+	/// </summary>
+	public const string StringSet = "string-set";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke</c> property.
+	/// </summary>
+	public const string Stroke = "stroke";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-align</c> property.
+	/// </summary>
+	public const string StrokeAlign = "stroke-align";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-alignment</c> property.
+	/// </summary>
+	public const string StrokeAlignment = "stroke-alignment";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-break</c> property.
+	/// </summary>
+	public const string StrokeBreak = "stroke-break";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-color</c> property.
+	/// </summary>
+	public const string StrokeColor = "stroke-color";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dashadjust</c> property.
+	/// </summary>
+	public const string StrokeDashadjust = "stroke-dashadjust";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dasharray</c> property.
+	/// </summary>
+	public const string StrokeDasharray = "stroke-dasharray";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dashcorner</c> property.
+	/// </summary>
+	public const string StrokeDashcorner = "stroke-dashcorner";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dash-corner</c> property.
+	/// </summary>
+	public const string StrokeDashCorner = "stroke-dash-corner";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dash-justify</c> property.
+	/// </summary>
+	public const string StrokeDashJustify = "stroke-dash-justify";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-dashoffset</c> property.
+	/// </summary>
+	public const string StrokeDashoffset = "stroke-dashoffset";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-image</c> property.
+	/// </summary>
+	public const string StrokeImage = "stroke-image";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-linecap</c> property.
+	/// </summary>
+	public const string StrokeLinecap = "stroke-linecap";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-linejoin</c> property.
+	/// </summary>
+	public const string StrokeLinejoin = "stroke-linejoin";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-miterlimit</c> property.
+	/// </summary>
+	public const string StrokeMiterlimit = "stroke-miterlimit";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-opacity</c> property.
+	/// </summary>
+	public const string StrokeOpacity = "stroke-opacity";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-origin</c> property.
+	/// </summary>
+	public const string StrokeOrigin = "stroke-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-position</c> property.
+	/// </summary>
+	public const string StrokePosition = "stroke-position";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-repeat</c> property.
+	/// </summary>
+	public const string StrokeRepeat = "stroke-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-size</c> property.
+	/// </summary>
+	public const string StrokeSize = "stroke-size";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-width</c> property.
+	/// </summary>
+	public const string StrokeWidth = "stroke-width";
 
 	/// <summary>
 	/// Gets the name of the <c>table-layout</c> property.
@@ -414,9 +2679,49 @@ public static partial class CssProperties
 	public const string TableLayout = "table-layout";
 
 	/// <summary>
+	/// Gets the name of the <c>tab-size</c> property.
+	/// </summary>
+	public const string TabSize = "tab-size";
+
+	/// <summary>
 	/// Gets the name of the <c>text-align</c> property.
 	/// </summary>
 	public const string TextAlign = "text-align";
+
+	/// <summary>
+	/// Gets the name of the <c>text-align-all</c> property.
+	/// </summary>
+	public const string TextAlignAll = "text-align-all";
+
+	/// <summary>
+	/// Gets the name of the <c>text-align-last</c> property.
+	/// </summary>
+	public const string TextAlignLast = "text-align-last";
+
+	/// <summary>
+	/// Gets the name of the <c>text-anchor</c> property.
+	/// </summary>
+	public const string TextAnchor = "text-anchor";
+
+	/// <summary>
+	/// Gets the name of the <c>text-autospace</c> property.
+	/// </summary>
+	public const string TextAutospace = "text-autospace";
+
+	/// <summary>
+	/// Gets the name of the <c>text-box-edge</c> property.
+	/// </summary>
+	public const string TextBoxEdge = "text-box-edge";
+
+	/// <summary>
+	/// Gets the name of the <c>text-box-trim</c> property.
+	/// </summary>
+	public const string TextBoxTrim = "text-box-trim";
+
+	/// <summary>
+	/// Gets the name of the <c>text-combine-upright</c> property.
+	/// </summary>
+	public const string TextCombineUpright = "text-combine-upright";
 
 	/// <summary>
 	/// Gets the name of the <c>text-decoration</c> property.
@@ -424,9 +2729,129 @@ public static partial class CssProperties
 	public const string TextDecoration = "text-decoration";
 
 	/// <summary>
+	/// Gets the name of the <c>text-decoration-color</c> property.
+	/// </summary>
+	public const string TextDecorationColor = "text-decoration-color";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-line</c> property.
+	/// </summary>
+	public const string TextDecorationLine = "text-decoration-line";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-skip</c> property.
+	/// </summary>
+	public const string TextDecorationSkip = "text-decoration-skip";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-skip-box</c> property.
+	/// </summary>
+	public const string TextDecorationSkipBox = "text-decoration-skip-box";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-skip-ink</c> property.
+	/// </summary>
+	public const string TextDecorationSkipInk = "text-decoration-skip-ink";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-skip-self</c> property.
+	/// </summary>
+	public const string TextDecorationSkipSelf = "text-decoration-skip-self";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-skip-spaces</c> property.
+	/// </summary>
+	public const string TextDecorationSkipSpaces = "text-decoration-skip-spaces";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-style</c> property.
+	/// </summary>
+	public const string TextDecorationStyle = "text-decoration-style";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-thickness</c> property.
+	/// </summary>
+	public const string TextDecorationThickness = "text-decoration-thickness";
+
+	/// <summary>
+	/// Gets the name of the <c>text-decoration-trim</c> property.
+	/// </summary>
+	public const string TextDecorationTrim = "text-decoration-trim";
+
+	/// <summary>
+	/// Gets the name of the <c>text-emphasis</c> property.
+	/// </summary>
+	public const string TextEmphasis = "text-emphasis";
+
+	/// <summary>
+	/// Gets the name of the <c>text-emphasis-color</c> property.
+	/// </summary>
+	public const string TextEmphasisColor = "text-emphasis-color";
+
+	/// <summary>
+	/// Gets the name of the <c>text-emphasis-position</c> property.
+	/// </summary>
+	public const string TextEmphasisPosition = "text-emphasis-position";
+
+	/// <summary>
+	/// Gets the name of the <c>text-emphasis-skip</c> property.
+	/// </summary>
+	public const string TextEmphasisSkip = "text-emphasis-skip";
+
+	/// <summary>
+	/// Gets the name of the <c>text-emphasis-style</c> property.
+	/// </summary>
+	public const string TextEmphasisStyle = "text-emphasis-style";
+
+	/// <summary>
+	/// Gets the name of the <c>text-group-align</c> property.
+	/// </summary>
+	public const string TextGroupAlign = "text-group-align";
+
+	/// <summary>
 	/// Gets the name of the <c>text-indent</c> property.
 	/// </summary>
 	public const string TextIndent = "text-indent";
+
+	/// <summary>
+	/// Gets the name of the <c>text-justify</c> property.
+	/// </summary>
+	public const string TextJustify = "text-justify";
+
+	/// <summary>
+	/// Gets the name of the <c>text-orientation</c> property.
+	/// </summary>
+	public const string TextOrientation = "text-orientation";
+
+	/// <summary>
+	/// Gets the name of the <c>text-overflow</c> property.
+	/// </summary>
+	public const string TextOverflow = "text-overflow";
+
+	/// <summary>
+	/// Gets the name of the <c>text-rendering</c> property.
+	/// </summary>
+	public const string TextRendering = "text-rendering";
+
+	/// <summary>
+	/// Gets the name of the <c>text-shadow</c> property.
+	/// </summary>
+	public const string TextShadow = "text-shadow";
+
+	/// <summary>
+	/// Gets the name of the <c>text-size-adjust</c> property.
+	/// </summary>
+	public const string TextSizeAdjust = "text-size-adjust";
+
+	/// <summary>
+	/// Gets the name of the <c>text-spacing</c> property.
+	/// </summary>
+	public const string TextSpacing = "text-spacing";
+
+	/// <summary>
+	/// Gets the name of the <c>text-spacing-trim</c> property.
+	/// </summary>
+	public const string TextSpacingTrim = "text-spacing-trim";
 
 	/// <summary>
 	/// Gets the name of the <c>text-transform</c> property.
@@ -434,9 +2859,99 @@ public static partial class CssProperties
 	public const string TextTransform = "text-transform";
 
 	/// <summary>
+	/// Gets the name of the <c>text-underline-offset</c> property.
+	/// </summary>
+	public const string TextUnderlineOffset = "text-underline-offset";
+
+	/// <summary>
+	/// Gets the name of the <c>text-underline-position</c> property.
+	/// </summary>
+	public const string TextUnderlinePosition = "text-underline-position";
+
+	/// <summary>
+	/// Gets the name of the <c>text-wrap</c> property.
+	/// </summary>
+	public const string TextWrap = "text-wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>text-wrap-mode</c> property.
+	/// </summary>
+	public const string TextWrapMode = "text-wrap-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>text-wrap-style</c> property.
+	/// </summary>
+	public const string TextWrapStyle = "text-wrap-style";
+
+	/// <summary>
+	/// Gets the name of the <c>timeline-scope</c> property.
+	/// </summary>
+	public const string TimelineScope = "timeline-scope";
+
+	/// <summary>
 	/// Gets the name of the <c>top</c> property.
 	/// </summary>
 	public const string Top = "top";
+
+	/// <summary>
+	/// Gets the name of the <c>touch-action</c> property.
+	/// </summary>
+	public const string TouchAction = "touch-action";
+
+	/// <summary>
+	/// Gets the name of the <c>transform</c> property.
+	/// </summary>
+	public const string Transform = "transform";
+
+	/// <summary>
+	/// Gets the name of the <c>transform-box</c> property.
+	/// </summary>
+	public const string TransformBox = "transform-box";
+
+	/// <summary>
+	/// Gets the name of the <c>transform-origin</c> property.
+	/// </summary>
+	public const string TransformOrigin = "transform-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>transform-style</c> property.
+	/// </summary>
+	public const string TransformStyle = "transform-style";
+
+	/// <summary>
+	/// Gets the name of the <c>transition</c> property.
+	/// </summary>
+	public const string Transition = "transition";
+
+	/// <summary>
+	/// Gets the name of the <c>transition-behavior</c> property.
+	/// </summary>
+	public const string TransitionBehavior = "transition-behavior";
+
+	/// <summary>
+	/// Gets the name of the <c>transition-delay</c> property.
+	/// </summary>
+	public const string TransitionDelay = "transition-delay";
+
+	/// <summary>
+	/// Gets the name of the <c>transition-duration</c> property.
+	/// </summary>
+	public const string TransitionDuration = "transition-duration";
+
+	/// <summary>
+	/// Gets the name of the <c>transition-property</c> property.
+	/// </summary>
+	public const string TransitionProperty = "transition-property";
+
+	/// <summary>
+	/// Gets the name of the <c>transition-timing-function</c> property.
+	/// </summary>
+	public const string TransitionTimingFunction = "transition-timing-function";
+
+	/// <summary>
+	/// Gets the name of the <c>translate</c> property.
+	/// </summary>
+	public const string Translate = "translate";
 
 	/// <summary>
 	/// Gets the name of the <c>unicode-bidi</c> property.
@@ -444,9 +2959,44 @@ public static partial class CssProperties
 	public const string UnicodeBidi = "unicode-bidi";
 
 	/// <summary>
+	/// Gets the name of the <c>user-select</c> property.
+	/// </summary>
+	public const string UserSelect = "user-select";
+
+	/// <summary>
+	/// Gets the name of the <c>vector-effect</c> property.
+	/// </summary>
+	public const string VectorEffect = "vector-effect";
+
+	/// <summary>
 	/// Gets the name of the <c>vertical-align</c> property.
 	/// </summary>
 	public const string VerticalAlign = "vertical-align";
+
+	/// <summary>
+	/// Gets the name of the <c>view-timeline</c> property.
+	/// </summary>
+	public const string ViewTimeline = "view-timeline";
+
+	/// <summary>
+	/// Gets the name of the <c>view-timeline-axis</c> property.
+	/// </summary>
+	public const string ViewTimelineAxis = "view-timeline-axis";
+
+	/// <summary>
+	/// Gets the name of the <c>view-timeline-inset</c> property.
+	/// </summary>
+	public const string ViewTimelineInset = "view-timeline-inset";
+
+	/// <summary>
+	/// Gets the name of the <c>view-timeline-name</c> property.
+	/// </summary>
+	public const string ViewTimelineName = "view-timeline-name";
+
+	/// <summary>
+	/// Gets the name of the <c>view-transition-name</c> property.
+	/// </summary>
+	public const string ViewTransitionName = "view-transition-name";
 
 	/// <summary>
 	/// Gets the name of the <c>visibility</c> property.
@@ -454,9 +3004,409 @@ public static partial class CssProperties
 	public const string Visibility = "visibility";
 
 	/// <summary>
+	/// Gets the name of the <c>voice-balance</c> property.
+	/// </summary>
+	public const string VoiceBalance = "voice-balance";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-duration</c> property.
+	/// </summary>
+	public const string VoiceDuration = "voice-duration";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-family</c> property.
+	/// </summary>
+	public const string VoiceFamily = "voice-family";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-pitch</c> property.
+	/// </summary>
+	public const string VoicePitch = "voice-pitch";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-range</c> property.
+	/// </summary>
+	public const string VoiceRange = "voice-range";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-rate</c> property.
+	/// </summary>
+	public const string VoiceRate = "voice-rate";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-stress</c> property.
+	/// </summary>
+	public const string VoiceStress = "voice-stress";
+
+	/// <summary>
+	/// Gets the name of the <c>voice-volume</c> property.
+	/// </summary>
+	public const string VoiceVolume = "voice-volume";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-align-content</c> property.
+	/// </summary>
+	public const string WebkitAlignContent = "-webkit-align-content";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-align-items</c> property.
+	/// </summary>
+	public const string WebkitAlignItems = "-webkit-align-items";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-align-self</c> property.
+	/// </summary>
+	public const string WebkitAlignSelf = "-webkit-align-self";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation</c> property.
+	/// </summary>
+	public const string WebkitAnimation = "-webkit-animation";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-delay</c> property.
+	/// </summary>
+	public const string WebkitAnimationDelay = "-webkit-animation-delay";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-direction</c> property.
+	/// </summary>
+	public const string WebkitAnimationDirection = "-webkit-animation-direction";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-duration</c> property.
+	/// </summary>
+	public const string WebkitAnimationDuration = "-webkit-animation-duration";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-fill-mode</c> property.
+	/// </summary>
+	public const string WebkitAnimationFillMode = "-webkit-animation-fill-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-iteration-count</c> property.
+	/// </summary>
+	public const string WebkitAnimationIterationCount = "-webkit-animation-iteration-count";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-name</c> property.
+	/// </summary>
+	public const string WebkitAnimationName = "-webkit-animation-name";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-play-state</c> property.
+	/// </summary>
+	public const string WebkitAnimationPlayState = "-webkit-animation-play-state";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-animation-timing-function</c> property.
+	/// </summary>
+	public const string WebkitAnimationTimingFunction = "-webkit-animation-timing-function";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-appearance</c> property.
+	/// </summary>
+	public const string WebkitAppearance = "-webkit-appearance";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-backface-visibility</c> property.
+	/// </summary>
+	public const string WebkitBackfaceVisibility = "-webkit-backface-visibility";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-background-clip</c> property.
+	/// </summary>
+	public const string WebkitBackgroundClip = "-webkit-background-clip";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-background-origin</c> property.
+	/// </summary>
+	public const string WebkitBackgroundOrigin = "-webkit-background-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-background-size</c> property.
+	/// </summary>
+	public const string WebkitBackgroundSize = "-webkit-background-size";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-border-bottom-left-radius</c> property.
+	/// </summary>
+	public const string WebkitBorderBottomLeftRadius = "-webkit-border-bottom-left-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-border-bottom-right-radius</c> property.
+	/// </summary>
+	public const string WebkitBorderBottomRightRadius = "-webkit-border-bottom-right-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-border-radius</c> property.
+	/// </summary>
+	public const string WebkitBorderRadius = "-webkit-border-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-border-top-left-radius</c> property.
+	/// </summary>
+	public const string WebkitBorderTopLeftRadius = "-webkit-border-top-left-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-border-top-right-radius</c> property.
+	/// </summary>
+	public const string WebkitBorderTopRightRadius = "-webkit-border-top-right-radius";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-align</c> property.
+	/// </summary>
+	public const string WebkitBoxAlign = "-webkit-box-align";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-flex</c> property.
+	/// </summary>
+	public const string WebkitBoxFlex = "-webkit-box-flex";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-ordinal-group</c> property.
+	/// </summary>
+	public const string WebkitBoxOrdinalGroup = "-webkit-box-ordinal-group";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-orient</c> property.
+	/// </summary>
+	public const string WebkitBoxOrient = "-webkit-box-orient";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-pack</c> property.
+	/// </summary>
+	public const string WebkitBoxPack = "-webkit-box-pack";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-shadow</c> property.
+	/// </summary>
+	public const string WebkitBoxShadow = "-webkit-box-shadow";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-box-sizing</c> property.
+	/// </summary>
+	public const string WebkitBoxSizing = "-webkit-box-sizing";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-filter</c> property.
+	/// </summary>
+	public const string WebkitFilter = "-webkit-filter";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex</c> property.
+	/// </summary>
+	public const string WebkitFlex = "-webkit-flex";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-basis</c> property.
+	/// </summary>
+	public const string WebkitFlexBasis = "-webkit-flex-basis";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-direction</c> property.
+	/// </summary>
+	public const string WebkitFlexDirection = "-webkit-flex-direction";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-flow</c> property.
+	/// </summary>
+	public const string WebkitFlexFlow = "-webkit-flex-flow";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-grow</c> property.
+	/// </summary>
+	public const string WebkitFlexGrow = "-webkit-flex-grow";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-shrink</c> property.
+	/// </summary>
+	public const string WebkitFlexShrink = "-webkit-flex-shrink";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-flex-wrap</c> property.
+	/// </summary>
+	public const string WebkitFlexWrap = "-webkit-flex-wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-justify-content</c> property.
+	/// </summary>
+	public const string WebkitJustifyContent = "-webkit-justify-content";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-line-clamp</c> property.
+	/// </summary>
+	public const string WebkitLineClamp = "-webkit-line-clamp";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask</c> property.
+	/// </summary>
+	public const string WebkitMask = "-webkit-mask";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImage = "-webkit-mask-box-image";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image-outset</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImageOutset = "-webkit-mask-box-image-outset";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image-repeat</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImageRepeat = "-webkit-mask-box-image-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image-slice</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImageSlice = "-webkit-mask-box-image-slice";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image-source</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImageSource = "-webkit-mask-box-image-source";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-box-image-width</c> property.
+	/// </summary>
+	public const string WebkitMaskBoxImageWidth = "-webkit-mask-box-image-width";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-clip</c> property.
+	/// </summary>
+	public const string WebkitMaskClip = "-webkit-mask-clip";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-composite</c> property.
+	/// </summary>
+	public const string WebkitMaskComposite = "-webkit-mask-composite";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-image</c> property.
+	/// </summary>
+	public const string WebkitMaskImage = "-webkit-mask-image";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-origin</c> property.
+	/// </summary>
+	public const string WebkitMaskOrigin = "-webkit-mask-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-position</c> property.
+	/// </summary>
+	public const string WebkitMaskPosition = "-webkit-mask-position";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-repeat</c> property.
+	/// </summary>
+	public const string WebkitMaskRepeat = "-webkit-mask-repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-mask-size</c> property.
+	/// </summary>
+	public const string WebkitMaskSize = "-webkit-mask-size";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-order</c> property.
+	/// </summary>
+	public const string WebkitOrder = "-webkit-order";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-perspective</c> property.
+	/// </summary>
+	public const string WebkitPerspective = "-webkit-perspective";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-perspective-origin</c> property.
+	/// </summary>
+	public const string WebkitPerspectiveOrigin = "-webkit-perspective-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-text-fill-color</c> property.
+	/// </summary>
+	public const string WebkitTextFillColor = "-webkit-text-fill-color";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-text-size-adjust</c> property.
+	/// </summary>
+	public const string WebkitTextSizeAdjust = "-webkit-text-size-adjust";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-text-stroke</c> property.
+	/// </summary>
+	public const string WebkitTextStroke = "-webkit-text-stroke";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-text-stroke-color</c> property.
+	/// </summary>
+	public const string WebkitTextStrokeColor = "-webkit-text-stroke-color";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-text-stroke-width</c> property.
+	/// </summary>
+	public const string WebkitTextStrokeWidth = "-webkit-text-stroke-width";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transform</c> property.
+	/// </summary>
+	public const string WebkitTransform = "-webkit-transform";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transform-origin</c> property.
+	/// </summary>
+	public const string WebkitTransformOrigin = "-webkit-transform-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transform-style</c> property.
+	/// </summary>
+	public const string WebkitTransformStyle = "-webkit-transform-style";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transition</c> property.
+	/// </summary>
+	public const string WebkitTransition = "-webkit-transition";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transition-delay</c> property.
+	/// </summary>
+	public const string WebkitTransitionDelay = "-webkit-transition-delay";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transition-duration</c> property.
+	/// </summary>
+	public const string WebkitTransitionDuration = "-webkit-transition-duration";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transition-property</c> property.
+	/// </summary>
+	public const string WebkitTransitionProperty = "-webkit-transition-property";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-transition-timing-function</c> property.
+	/// </summary>
+	public const string WebkitTransitionTimingFunction = "-webkit-transition-timing-function";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-user-select</c> property.
+	/// </summary>
+	public const string WebkitUserSelect = "-webkit-user-select";
+
+	/// <summary>
 	/// Gets the name of the <c>white-space</c> property.
 	/// </summary>
 	public const string WhiteSpace = "white-space";
+
+	/// <summary>
+	/// Gets the name of the <c>white-space-collapse</c> property.
+	/// </summary>
+	public const string WhiteSpaceCollapse = "white-space-collapse";
+
+	/// <summary>
+	/// Gets the name of the <c>white-space-trim</c> property.
+	/// </summary>
+	public const string WhiteSpaceTrim = "white-space-trim";
 
 	/// <summary>
 	/// Gets the name of the <c>widows</c> property.
@@ -469,9 +3419,69 @@ public static partial class CssProperties
 	public const string Width = "width";
 
 	/// <summary>
+	/// Gets the name of the <c>will-change</c> property.
+	/// </summary>
+	public const string WillChange = "will-change";
+
+	/// <summary>
+	/// Gets the name of the <c>word-break</c> property.
+	/// </summary>
+	public const string WordBreak = "word-break";
+
+	/// <summary>
+	/// Gets the name of the <c>word-space-transform</c> property.
+	/// </summary>
+	public const string WordSpaceTransform = "word-space-transform";
+
+	/// <summary>
 	/// Gets the name of the <c>word-spacing</c> property.
 	/// </summary>
 	public const string WordSpacing = "word-spacing";
+
+	/// <summary>
+	/// Gets the name of the <c>word-wrap</c> property.
+	/// </summary>
+	public const string WordWrap = "word-wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-after</c> property.
+	/// </summary>
+	public const string WrapAfter = "wrap-after";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-before</c> property.
+	/// </summary>
+	public const string WrapBefore = "wrap-before";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-flow</c> property.
+	/// </summary>
+	public const string WrapFlow = "wrap-flow";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-inside</c> property.
+	/// </summary>
+	public const string WrapInside = "wrap-inside";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-through</c> property.
+	/// </summary>
+	public const string WrapThrough = "wrap-through";
+
+	/// <summary>
+	/// Gets the name of the <c>writing-mode</c> property.
+	/// </summary>
+	public const string WritingMode = "writing-mode";
+
+	/// <summary>
+	/// Gets the name of the <c>x</c> property.
+	/// </summary>
+	public const string X = "x";
+
+	/// <summary>
+	/// Gets the name of the <c>y</c> property.
+	/// </summary>
+	public const string Y = "y";
 
 	/// <summary>
 	/// Gets the name of the <c>z-index</c> property.

@@ -4,12 +4,17 @@ namespace WebIdentifiers.Css.Values;
 public partial class BackgroundAttachmentValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>fixed</c> property. If a background image is specified, this property specifies whether it is fixed with regard to the viewport (fixed) or scrolls along with the containing block (scroll).
+	/// Gets the name of the <c>fixed</c> property. The background is fixed with regard to the viewport. In paged media where there is no viewport, a fixed background is fixed with respect to the page box and therefore replicated on every page.
 	/// </summary>
 	public string Fixed => CssValues.Fixed;
 
 	/// <summary>
-	/// Gets the name of the <c>scroll</c> property. If a background image is specified, this property specifies whether it is fixed with regard to the viewport (fixed) or scrolls along with the containing block (scroll).
+	/// Gets the name of the <c>local</c> property. The background is fixed with regard to the element’s contents: if the element has a scrolling mechanism, the background scrolls with the element’s contents, and the background painting area and background positioning area are relative to the scrollable area of the element rather than to the border framing them. Because the scrollable area does not include the border area, for scrollable elements the border-box value of background-clip may be treated the same as padding-box.
+	/// </summary>
+	public string Local => CssValues.Local;
+
+	/// <summary>
+	/// Gets the name of the <c>scroll</c> property. The background is fixed with regard to the element itself and does not scroll with its contents. (It is effectively attached to the element’s border.)
 	/// </summary>
 	public string Scroll => CssValues.Scroll;
 

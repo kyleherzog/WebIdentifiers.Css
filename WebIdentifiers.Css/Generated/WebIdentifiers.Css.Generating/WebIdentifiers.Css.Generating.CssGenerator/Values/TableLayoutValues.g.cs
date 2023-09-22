@@ -4,13 +4,13 @@ namespace WebIdentifiers.Css.Values;
 public partial class TableLayoutValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>fixed</c> property. Use the fixed table layout algorithm
-	/// </summary>
-	public string Fixed => CssValues.Fixed;
-
-	/// <summary>
 	/// Gets the name of the <c>auto</c> property. Use any automatic table layout algorithm
 	/// </summary>
 	public string Auto => CssValues.Auto;
+
+	/// <summary>
+	/// Gets the name of the <c>fixed</c> property. Use the fixed table layout algorithm
+	/// </summary>
+	public string Fixed => CssValues.Fixed;
 
 }

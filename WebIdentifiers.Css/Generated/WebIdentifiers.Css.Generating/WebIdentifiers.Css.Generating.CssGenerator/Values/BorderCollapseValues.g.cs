@@ -4,13 +4,13 @@ namespace WebIdentifiers.Css.Values;
 public partial class BorderCollapseValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>separate</c> property. This property selects a table’s border model. The value separate selects the separated borders border model. The value collapse selects the collapsing borders model. The models are described below.
-	/// </summary>
-	public string Separate => CssValues.Separate;
-
-	/// <summary>
 	/// Gets the name of the <c>collapse</c> property. This property selects a table’s border model. The value separate selects the separated borders border model. The value collapse selects the collapsing borders model. The models are described below.
 	/// </summary>
 	public string Collapse => CssValues.Collapse;
+
+	/// <summary>
+	/// Gets the name of the <c>separate</c> property. This property selects a table’s border model. The value separate selects the separated borders border model. The value collapse selects the collapsing borders model. The models are described below.
+	/// </summary>
+	public string Separate => CssValues.Separate;
 
 }

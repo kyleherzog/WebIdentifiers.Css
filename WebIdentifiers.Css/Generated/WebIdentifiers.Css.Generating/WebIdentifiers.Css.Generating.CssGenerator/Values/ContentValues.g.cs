@@ -4,24 +4,19 @@ namespace WebIdentifiers.Css.Values;
 public partial class ContentValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. The pseudo-element is not generated.
-	/// </summary>
-	public string None => CssValues.None;
-
-	/// <summary>
-	/// Gets the name of the <c>normal</c> property. Computes to none for the :before and :after pseudo-elements.
-	/// </summary>
-	public string Normal => CssValues.Normal;
-
-	/// <summary>
-	/// Gets the name of the <c>open-quote</c> property. These values are replaced by the appropriate string from the quotes property.
-	/// </summary>
-	public string OpenQuote => CssValues.OpenQuote;
-
-	/// <summary>
 	/// Gets the name of the <c>close-quote</c> property. These values are replaced by the appropriate string from the quotes property.
 	/// </summary>
 	public string CloseQuote => CssValues.CloseQuote;
+
+	/// <summary>
+	/// Gets the name of the <c>no-close-quote</c> property. Introduces no content, but increments (decrements) the level of nesting for quotes.
+	/// </summary>
+	public string NoCloseQuote => CssValues.NoCloseQuote;
+
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. On elements, this inhibits the children of the element from being rendered as children of this element, as if the element was empty. On pseudo-elements it inhibits the creation of the pseudo-element as if it had display: none. In neither case does it prevent any pseudo-elements which have this element or pseudo-element as an originating element from being generated.
+	/// </summary>
+	public string None => CssValues.None;
 
 	/// <summary>
 	/// Gets the name of the <c>no-open-quote</c> property. Introduces no content, but increments (decrements) the level of nesting for quotes.
@@ -29,8 +24,13 @@ public partial class ContentValues : PropertyValuesBase
 	public string NoOpenQuote => CssValues.NoOpenQuote;
 
 	/// <summary>
-	/// Gets the name of the <c>no-close-quote</c> property. Introduces no content, but increments (decrements) the level of nesting for quotes.
+	/// Gets the name of the <c>normal</c> property. For an element or page margin box, this computes to contents. For ::before and ::after, this computes to none. For ::marker, ::placeholder, and ::file-selector-button, this computes to itself (normal).
 	/// </summary>
-	public string NoCloseQuote => CssValues.NoCloseQuote;
+	public string Normal => CssValues.Normal;
+
+	/// <summary>
+	/// Gets the name of the <c>open-quote</c> property. These values are replaced by the appropriate string from the quotes property.
+	/// </summary>
+	public string OpenQuote => CssValues.OpenQuote;
 
 }

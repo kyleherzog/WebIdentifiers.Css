@@ -4,43 +4,83 @@ namespace WebIdentifiers.Css.Values;
 public partial class VerticalAlignValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>baseline</c> property. Align the baseline of the box with the baseline of the parent box. If the box does not have a baseline, align the bottom margin edge with the parent’s baseline.
+	/// Gets the name of the <c>alphabetic</c> property. Use the alphabetic baseline.
+	/// </summary>
+	public string Alphabetic => CssValues.Alphabetic;
+
+	/// <summary>
+	/// Gets the name of the <c>auto</c> property. Specifies last-baseline alignment for inline-block, first-baseline alignment for everything else.
+	/// </summary>
+	public string Auto => CssValues.Auto;
+
+	/// <summary>
+	/// Gets the name of the <c>baseline</c> property. Use the dominant baseline choice of the parent.
 	/// </summary>
 	public string Baseline => CssValues.Baseline;
 
 	/// <summary>
-	/// Gets the name of the <c>middle</c> property. Align the vertical midpoint of the box with the baseline of the parent box plus half the x-height of the parent.
+	/// Gets the name of the <c>bottom</c> property. Align the line-under edge of the aligned subtree with the line-under edge of the line box.
+	/// </summary>
+	public string Bottom => CssValues.Bottom;
+
+	/// <summary>
+	/// Gets the name of the <c>center</c> property. Align the center of the aligned subtree with the center of the line box.
+	/// </summary>
+	public string Center => CssValues.Center;
+
+	/// <summary>
+	/// Gets the name of the <c>central</c> property. Use the central baseline.
+	/// </summary>
+	public string Central => CssValues.Central;
+
+	/// <summary>
+	/// Gets the name of the <c>first</c> property. Specifies first-baseline alignment.
+	/// </summary>
+	public string First => CssValues.First;
+
+	/// <summary>
+	/// Gets the name of the <c>ideographic</c> property. Use the ideographic-under baseline.
+	/// </summary>
+	public string Ideographic => CssValues.Ideographic;
+
+	/// <summary>
+	/// Gets the name of the <c>last</c> property. Specifies last-baseline alignment.
+	/// </summary>
+	public string Last => CssValues.Last;
+
+	/// <summary>
+	/// Gets the name of the <c>mathematical</c> property. Use the math baseline.
+	/// </summary>
+	public string Mathematical => CssValues.Mathematical;
+
+	/// <summary>
+	/// Gets the name of the <c>middle</c> property. In general, use the x-middle baselines; except under text-orientation: upright (where the alphabetic and x-height baselines are essentially meaningless) use the central baseline instead.
 	/// </summary>
 	public string Middle => CssValues.Middle;
 
 	/// <summary>
-	/// Gets the name of the <c>sub</c> property. Lower the baseline of the box to the proper position for subscripts of the parent’s box. (This value has no effect on the font size of the element’s text.)
+	/// Gets the name of the <c>sub</c> property. Lower by the offset appropriate for subscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to dropping by one fifth of the parent’s used font-size.
 	/// </summary>
 	public string Sub => CssValues.Sub;
 
 	/// <summary>
-	/// Gets the name of the <c>super</c> property. Raise the baseline of the box to the proper position for superscripts of the parent’s box. (This value has no effect on the font size of the element’s text.)
+	/// Gets the name of the <c>super</c> property. Raise by the offset appropriate for superscripts of the parent’s box. The UA may use the parent’s font metrics to find this offset; otherwise it defaults to raising by one third of the parent’s used font-size.
 	/// </summary>
 	public string Super => CssValues.Super;
 
 	/// <summary>
-	/// Gets the name of the <c>text-top</c> property. Align the top of the box with the top of the parent’s content area (see 10.6.1).
-	/// </summary>
-	public string TextTop => CssValues.TextTop;
-
-	/// <summary>
-	/// Gets the name of the <c>text-bottom</c> property. Align the bottom of the box with the bottom of the parent’s content area (see 10.6.1).
+	/// Gets the name of the <c>text-bottom</c> property. Use the text-under baseline.
 	/// </summary>
 	public string TextBottom => CssValues.TextBottom;
 
 	/// <summary>
-	/// Gets the name of the <c>top</c> property. Align the top of the aligned subtree with the top of the line box.
+	/// Gets the name of the <c>text-top</c> property. Use the text-over baseline.
 	/// </summary>
-	public string Top => CssValues.Top;
+	public string TextTop => CssValues.TextTop;
 
 	/// <summary>
-	/// Gets the name of the <c>bottom</c> property. Align the bottom of the aligned subtree with the bottom of the line box.
+	/// Gets the name of the <c>top</c> property. Align the line-over edge of the aligned subtree with the line-over edge of the line box.
 	/// </summary>
-	public string Bottom => CssValues.Bottom;
+	public string Top => CssValues.Top;
 
 }

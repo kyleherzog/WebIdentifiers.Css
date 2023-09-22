@@ -4,24 +4,14 @@ namespace WebIdentifiers.Css.Values;
 public partial class ListStyleTypeValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. This property specifies appearance of the list item marker if list-style-image has the value none or if the image pointed to by the URI cannot be displayed. The value none specifies no marker, otherwise there are three types of marker: glyphs, numbering systems, and alphabetic systems.
+	/// Gets the name of the <c>armenian</c> property. Traditional uppercase Armenian numbering.
 	/// </summary>
-	public string None => CssValues.None;
-
-	/// <summary>
-	/// Gets the name of the <c>disc</c> property. Glyphs are specified with disc, circle, and square. Their exact rendering depends on the user agent.
-	/// </summary>
-	public string Disc => CssValues.Disc;
+	public string Armenian => CssValues.Armenian;
 
 	/// <summary>
 	/// Gets the name of the <c>circle</c> property. Glyphs are specified with disc, circle, and square. Their exact rendering depends on the user agent.
 	/// </summary>
 	public string Circle => CssValues.Circle;
-
-	/// <summary>
-	/// Gets the name of the <c>square</c> property. Glyphs are specified with disc, circle, and square. Their exact rendering depends on the user agent.
-	/// </summary>
-	public string Square => CssValues.Square;
 
 	/// <summary>
 	/// Gets the name of the <c>decimal</c> property. Decimal numbers, beginning with 1.
@@ -34,14 +24,9 @@ public partial class ListStyleTypeValues : PropertyValuesBase
 	public string DecimalLeadingZero => CssValues.DecimalLeadingZero;
 
 	/// <summary>
-	/// Gets the name of the <c>lower-roman</c> property. Lowercase roman numerals (i, ii, iii, iv, v, etc.).
+	/// Gets the name of the <c>disc</c> property. Glyphs are specified with disc, circle, and square. Their exact rendering depends on the user agent.
 	/// </summary>
-	public string LowerRoman => CssValues.LowerRoman;
-
-	/// <summary>
-	/// Gets the name of the <c>upper-roman</c> property. Uppercase roman numerals (I, II, III, IV, V, etc.).
-	/// </summary>
-	public string UpperRoman => CssValues.UpperRoman;
+	public string Disc => CssValues.Disc;
 
 	/// <summary>
 	/// Gets the name of the <c>georgian</c> property. Traditional Georgian numbering (an, ban, gan, ..., he, tan, in, in-an, ...).
@@ -49,9 +34,14 @@ public partial class ListStyleTypeValues : PropertyValuesBase
 	public string Georgian => CssValues.Georgian;
 
 	/// <summary>
-	/// Gets the name of the <c>armenian</c> property. Traditional uppercase Armenian numbering.
+	/// Gets the name of the <c>lower-alpha</c> property. Lowercase ascii letters (a, b, c, ... z).
 	/// </summary>
-	public string Armenian => CssValues.Armenian;
+	public string LowerAlpha => CssValues.LowerAlpha;
+
+	/// <summary>
+	/// Gets the name of the <c>lower-greek</c> property. Lowercase classical Greek alpha, beta, gamma, ... (α, β, γ, ...)
+	/// </summary>
+	public string LowerGreek => CssValues.LowerGreek;
 
 	/// <summary>
 	/// Gets the name of the <c>lower-latin</c> property. Lowercase ascii letters (a, b, c, ... z).
@@ -59,14 +49,19 @@ public partial class ListStyleTypeValues : PropertyValuesBase
 	public string LowerLatin => CssValues.LowerLatin;
 
 	/// <summary>
-	/// Gets the name of the <c>lower-alpha</c> property. Lowercase ascii letters (a, b, c, ... z).
+	/// Gets the name of the <c>lower-roman</c> property. Lowercase roman numerals (i, ii, iii, iv, v, etc.).
 	/// </summary>
-	public string LowerAlpha => CssValues.LowerAlpha;
+	public string LowerRoman => CssValues.LowerRoman;
 
 	/// <summary>
-	/// Gets the name of the <c>upper-latin</c> property. Uppercase ascii letters (A, B, C, ... Z).
+	/// Gets the name of the <c>none</c> property. The element has no marker string.
 	/// </summary>
-	public string UpperLatin => CssValues.UpperLatin;
+	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>square</c> property. Glyphs are specified with disc, circle, and square. Their exact rendering depends on the user agent.
+	/// </summary>
+	public string Square => CssValues.Square;
 
 	/// <summary>
 	/// Gets the name of the <c>upper-alpha</c> property. Uppercase ascii letters (A, B, C, ... Z).
@@ -74,8 +69,13 @@ public partial class ListStyleTypeValues : PropertyValuesBase
 	public string UpperAlpha => CssValues.UpperAlpha;
 
 	/// <summary>
-	/// Gets the name of the <c>lower-greek</c> property. Lowercase classical Greek alpha, beta, gamma, ... (α, β, γ, ...)
+	/// Gets the name of the <c>upper-latin</c> property. Uppercase ascii letters (A, B, C, ... Z).
 	/// </summary>
-	public string LowerGreek => CssValues.LowerGreek;
+	public string UpperLatin => CssValues.UpperLatin;
+
+	/// <summary>
+	/// Gets the name of the <c>upper-roman</c> property. Uppercase roman numerals (I, II, III, IV, V, etc.).
+	/// </summary>
+	public string UpperRoman => CssValues.UpperRoman;
 
 }

@@ -4,7 +4,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class BackgroundImageValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. Values for this property are either <uri>, to specify the image, or none, when no image is used.
+	/// Gets the name of the <c>none</c> property. A value of none counts as an image layer but draws nothing. An image that is empty (zero width or zero height), that fails to download, or that cannot be displayed (e.g., because it is not in a supported image format) likewise counts as a layer but draws nothing.
 	/// </summary>
 	public string None => CssValues.None;
 

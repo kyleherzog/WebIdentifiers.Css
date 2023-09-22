@@ -4,28 +4,33 @@ namespace WebIdentifiers.Css.Values;
 public partial class WhiteSpaceValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. This value directs user agents to collapse sequences of white space, and break lines as necessary to fill line boxes.
+	/// Gets the name of the <c>break-spaces</c> property. The behavior is identical to that of pre-wrap, except that: Any sequence of preserved white space or other space separators always takes up space, including at the end of the line. A soft wrap opportunity exists after every preserved white space character and after every other space separator (including between adjacent spaces).
+	/// </summary>
+	public string BreakSpaces => CssValues.BreakSpaces;
+
+	/// <summary>
+	/// Gets the name of the <c>normal</c> property. 
 	/// </summary>
 	public string Normal => CssValues.Normal;
 
 	/// <summary>
-	/// Gets the name of the <c>pre</c> property. This value prevents user agents from collapsing sequences of white space. Lines are only broken at preserved newline characters.
-	/// </summary>
-	public string Pre => CssValues.Pre;
-
-	/// <summary>
-	/// Gets the name of the <c>nowrap</c> property. This value collapses white space as for normal, but suppresses line breaks within text.
+	/// Gets the name of the <c>nowrap</c> property. Like normal, this value collapses white space; but like pre, it does not allow wrapping.
 	/// </summary>
 	public string Nowrap => CssValues.Nowrap;
 
 	/// <summary>
-	/// Gets the name of the <c>pre-wrap</c> property. This value prevents user agents from collapsing sequences of white space. Lines are broken at preserved newline characters, and as necessary to fill line boxes.
+	/// Gets the name of the <c>pre</c> property. 
 	/// </summary>
-	public string PreWrap => CssValues.PreWrap;
+	public string Pre => CssValues.Pre;
 
 	/// <summary>
-	/// Gets the name of the <c>pre-line</c> property. This value directs user agents to collapse sequences of white space. Lines are broken at preserved newline characters, and as necessary to fill line boxes.
+	/// Gets the name of the <c>pre-line</c> property. 
 	/// </summary>
 	public string PreLine => CssValues.PreLine;
+
+	/// <summary>
+	/// Gets the name of the <c>pre-wrap</c> property. 
+	/// </summary>
+	public string PreWrap => CssValues.PreWrap;
 
 }

@@ -4,12 +4,42 @@ namespace WebIdentifiers.Css.Values;
 public partial class CursorValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>auto</c> property. The UA determines the cursor to display based on the current context.
+	/// Gets the name of the <c>alias</c> property. Indicates an alias of/shortcut to something is to be created. Often rendered as an arrow with a small curved arrow next to it.
+	/// </summary>
+	public string Alias => CssValues.Alias;
+
+	/// <summary>
+	/// Gets the name of the <c>all-scroll</c> property. Indicates that the something can be scrolled in any direction. Often rendered as arrows pointing up, down, left, and right with a dot in the middle.
+	/// </summary>
+	public string AllScroll => CssValues.AllScroll;
+
+	/// <summary>
+	/// Gets the name of the <c>auto</c> property. The UA determines the cursor to display based on the current context. Specifically, auto behaves as text over selectable text or editable elements, and default otherwise.
 	/// </summary>
 	public string Auto => CssValues.Auto;
 
 	/// <summary>
-	/// Gets the name of the <c>crosshair</c> property. A simple crosshair (e.g., short line segments resembling a "+" sign).
+	/// Gets the name of the <c>cell</c> property. Indicates that a cell or set of cells may be selected. Often rendered as a thick plus-sign with a dot in the middle.
+	/// </summary>
+	public string Cell => CssValues.Cell;
+
+	/// <summary>
+	/// Gets the name of the <c>col-resize</c> property. Indicates that the item/column can be resized horizontally. Often rendered as arrows pointing left and right with a vertical bar separating them.
+	/// </summary>
+	public string ColResize => CssValues.ColResize;
+
+	/// <summary>
+	/// Gets the name of the <c>context-menu</c> property. A context menu is available for the object under the cursor. Often rendered as an arrow with a small menu-like graphic next to it.
+	/// </summary>
+	public string ContextMenu => CssValues.ContextMenu;
+
+	/// <summary>
+	/// Gets the name of the <c>copy</c> property. Indicates something is to be copied. Often rendered as an arrow with a small plus sign next to it.
+	/// </summary>
+	public string Copy => CssValues.Copy;
+
+	/// <summary>
+	/// Gets the name of the <c>crosshair</c> property. A simple crosshair (e.g., short line segments resembling a "+" sign). Often used to indicate a two dimensional bitmap selection mode.
 	/// </summary>
 	public string Crosshair => CssValues.Crosshair;
 
@@ -19,9 +49,29 @@ public partial class CursorValues : PropertyValuesBase
 	public string Default => CssValues.Default;
 
 	/// <summary>
-	/// Gets the name of the <c>pointer</c> property. The cursor is a pointer that indicates a link.
+	/// Gets the name of the <c>e-resize</c> property. 
 	/// </summary>
-	public string Pointer => CssValues.Pointer;
+	public string EResize => CssValues.EResize;
+
+	/// <summary>
+	/// Gets the name of the <c>ew-resize</c> property. 
+	/// </summary>
+	public string EwResize => CssValues.EwResize;
+
+	/// <summary>
+	/// Gets the name of the <c>grab</c> property. Indicates that something can be grabbed (dragged to be moved). Often rendered as the backside of an open hand.
+	/// </summary>
+	public string Grab => CssValues.Grab;
+
+	/// <summary>
+	/// Gets the name of the <c>grabbing</c> property. Indicates that something is being grabbed (dragged to be moved). Often rendered as the backside of a hand with fingers closed mostly out of view.
+	/// </summary>
+	public string Grabbing => CssValues.Grabbing;
+
+	/// <summary>
+	/// Gets the name of the <c>help</c> property. Help is available for the object under the cursor. Often rendered as a question mark or a balloon.
+	/// </summary>
+	public string Help => CssValues.Help;
 
 	/// <summary>
 	/// Gets the name of the <c>move</c> property. Indicates something is to be moved.
@@ -29,54 +79,54 @@ public partial class CursorValues : PropertyValuesBase
 	public string Move => CssValues.Move;
 
 	/// <summary>
-	/// Gets the name of the <c>e-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
-	/// </summary>
-	public string EResize => CssValues.EResize;
-
-	/// <summary>
-	/// Gets the name of the <c>ne-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>ne-resize</c> property. 
 	/// </summary>
 	public string NeResize => CssValues.NeResize;
 
 	/// <summary>
-	/// Gets the name of the <c>nw-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>nesw-resize</c> property. 
 	/// </summary>
-	public string NwResize => CssValues.NwResize;
+	public string NeswResize => CssValues.NeswResize;
 
 	/// <summary>
-	/// Gets the name of the <c>n-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>no-drop</c> property. Indicates that the dragged item cannot be dropped at the current cursor location. Often rendered as a hand or pointer with a small circle with a line through it.
+	/// </summary>
+	public string NoDrop => CssValues.NoDrop;
+
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. No cursor is rendered for the element.
+	/// </summary>
+	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>not-allowed</c> property. Indicates that the requested action will not be carried out. Often rendered as a circle with a line through it.
+	/// </summary>
+	public string NotAllowed => CssValues.NotAllowed;
+
+	/// <summary>
+	/// Gets the name of the <c>n-resize</c> property. 
 	/// </summary>
 	public string NResize => CssValues.NResize;
 
 	/// <summary>
-	/// Gets the name of the <c>se-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>ns-resize</c> property. 
 	/// </summary>
-	public string SeResize => CssValues.SeResize;
+	public string NsResize => CssValues.NsResize;
 
 	/// <summary>
-	/// Gets the name of the <c>sw-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>nw-resize</c> property. 
 	/// </summary>
-	public string SwResize => CssValues.SwResize;
+	public string NwResize => CssValues.NwResize;
 
 	/// <summary>
-	/// Gets the name of the <c>s-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>nwse-resize</c> property. 
 	/// </summary>
-	public string SResize => CssValues.SResize;
+	public string NwseResize => CssValues.NwseResize;
 
 	/// <summary>
-	/// Gets the name of the <c>w-resize</c> property. Indicate that some edge is to be moved. For example, the se-resize cursor is used when the movement starts from the south-east corner of the box.
+	/// Gets the name of the <c>pointer</c> property. The cursor is a pointer that indicates a link. Often rendered as the backside of a hand with the index finger extended. Unless otherwise specified, UAs must apply cursor: pointer to hyperlinks for all supported document formats via the UA stylesheet, using a normal (i.e. not !important) declaration. Authors should use pointer on links and may use on other interactive elements.
 	/// </summary>
-	public string WResize => CssValues.WResize;
-
-	/// <summary>
-	/// Gets the name of the <c>text</c> property. Indicates text that may be selected. Often rendered as an I-beam.
-	/// </summary>
-	public string Text => CssValues.Text;
-
-	/// <summary>
-	/// Gets the name of the <c>wait</c> property. Indicates that the program is busy and the user should wait. Often rendered as a watch or hourglass.
-	/// </summary>
-	public string Wait => CssValues.Wait;
+	public string Pointer => CssValues.Pointer;
 
 	/// <summary>
 	/// Gets the name of the <c>progress</c> property. A progress indicator. The program is performing some processing, but is different from wait in that the user may still interact with the program. Often rendered as a spinning beach ball, or an arrow with a watch or hourglass.
@@ -84,8 +134,53 @@ public partial class CursorValues : PropertyValuesBase
 	public string Progress => CssValues.Progress;
 
 	/// <summary>
-	/// Gets the name of the <c>help</c> property. Help is available for the object under the cursor. Often rendered as a question mark or a balloon.
+	/// Gets the name of the <c>row-resize</c> property. Indicates that the item/row can be resized vertically. Often rendered as arrows pointing up and down with a horizontal bar separating them.
 	/// </summary>
-	public string Help => CssValues.Help;
+	public string RowResize => CssValues.RowResize;
+
+	/// <summary>
+	/// Gets the name of the <c>se-resize</c> property. 
+	/// </summary>
+	public string SeResize => CssValues.SeResize;
+
+	/// <summary>
+	/// Gets the name of the <c>s-resize</c> property. 
+	/// </summary>
+	public string SResize => CssValues.SResize;
+
+	/// <summary>
+	/// Gets the name of the <c>sw-resize</c> property. 
+	/// </summary>
+	public string SwResize => CssValues.SwResize;
+
+	/// <summary>
+	/// Gets the name of the <c>text</c> property. Indicates text that may be selected. Often rendered as an I-beam. User agents must automatically display a vertical I-beam/cursor over elements with a horizontal writing mode, and a horizontal I-beam/cursor (e.g. same as the vertical-text keyword) over elements in a vertical writing mode. Additionally, user agents may take transforms (see [CSS-TRANSFORMS-1]) or other visual effects such as text on a path (See SVG 2 § 11.8 Text on a path), when choosing between the horizontal or vertical text cursor, and may display any angle of I-beam/cursor for text that is rendered at any particular angle.
+	/// </summary>
+	public string Text => CssValues.Text;
+
+	/// <summary>
+	/// Gets the name of the <c>vertical-text</c> property. Indicates vertical-text that may be selected. Often rendered as a horizontal I-beam.
+	/// </summary>
+	public string VerticalText => CssValues.VerticalText;
+
+	/// <summary>
+	/// Gets the name of the <c>wait</c> property. Indicates that the program is busy and the user should wait. Often rendered as a watch or hourglass.
+	/// </summary>
+	public string Wait => CssValues.Wait;
+
+	/// <summary>
+	/// Gets the name of the <c>w-resize</c> property. 
+	/// </summary>
+	public string WResize => CssValues.WResize;
+
+	/// <summary>
+	/// Gets the name of the <c>zoom-in</c> property. 
+	/// </summary>
+	public string ZoomIn => CssValues.ZoomIn;
+
+	/// <summary>
+	/// Gets the name of the <c>zoom-out</c> property. 
+	/// </summary>
+	public string ZoomOut => CssValues.ZoomOut;
 
 }

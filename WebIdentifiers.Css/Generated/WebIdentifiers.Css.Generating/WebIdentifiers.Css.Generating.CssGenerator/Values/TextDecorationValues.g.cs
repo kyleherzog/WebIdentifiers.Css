@@ -4,19 +4,9 @@ namespace WebIdentifiers.Css.Values;
 public partial class TextDecorationValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>none</c> property. Produces no text decoration.
+	/// Gets the name of the <c>blink</c> property. Text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG.
 	/// </summary>
-	public string None => CssValues.None;
-
-	/// <summary>
-	/// Gets the name of the <c>underline</c> property. Each line of text is underlined.
-	/// </summary>
-	public string Underline => CssValues.Underline;
-
-	/// <summary>
-	/// Gets the name of the <c>overline</c> property. Each line of text has a line above it.
-	/// </summary>
-	public string Overline => CssValues.Overline;
+	public string Blink => CssValues.Blink;
 
 	/// <summary>
 	/// Gets the name of the <c>line-through</c> property. Each line of text has a line through the middle.
@@ -24,8 +14,18 @@ public partial class TextDecorationValues : PropertyValuesBase
 	public string LineThrough => CssValues.LineThrough;
 
 	/// <summary>
-	/// Gets the name of the <c>blink</c> property. Text blinks (alternates between visible and invisible). Conforming user agents may simply not blink the text. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG.
+	/// Gets the name of the <c>none</c> property. Produces no text decoration.
 	/// </summary>
-	public string Blink => CssValues.Blink;
+	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>overline</c> property. Each line of text has a line above it.
+	/// </summary>
+	public string Overline => CssValues.Overline;
+
+	/// <summary>
+	/// Gets the name of the <c>underline</c> property. Each line of text is underlined.
+	/// </summary>
+	public string Underline => CssValues.Underline;
 
 }

@@ -4,7 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class FontVariantValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. A value of normal selects a font that is not a small-caps font, small-caps selects a small-caps font. It is acceptable (but not required) in CSS 2 if the small-caps font is a created by taking a normal font and replacing the lower case letters by scaled uppercase characters. As a last resort, uppercase letters will be used as replacement for a small-caps font.
+	/// Gets the name of the <c>none</c> property. The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.
+	/// </summary>
+	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>normal</c> property. The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.
 	/// </summary>
 	public string Normal => CssValues.Normal;
 

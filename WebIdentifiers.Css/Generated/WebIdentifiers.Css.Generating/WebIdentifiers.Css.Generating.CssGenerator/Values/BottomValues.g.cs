@@ -4,7 +4,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class BottomValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>auto</c> property. For non-replaced elements, the effect of this value depends on which of related properties have the value auto as well. See the sections on the width and height of absolutely positioned, non-replaced elements for details. For replaced elements, the effect of this value depends only on the intrinsic dimensions of the replaced content. See the sections on the width and height of absolutely positioned, replaced elements for details.
+	/// Gets the name of the <c>auto</c> property. Represents an unconstrained inset; the exact meaning depends on the positioning scheme.
 	/// </summary>
 	public string Auto => CssValues.Auto;
 

@@ -4,13 +4,13 @@ namespace WebIdentifiers.Css.Values;
 public partial class CaptionSideValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>top</c> property. Positions the caption box above the table grid box.
-	/// </summary>
-	public string Top => CssValues.Top;
-
-	/// <summary>
 	/// Gets the name of the <c>bottom</c> property. Positions the caption box below the table grid box.
 	/// </summary>
 	public string Bottom => CssValues.Bottom;
+
+	/// <summary>
+	/// Gets the name of the <c>top</c> property. Positions the caption box above the table grid box.
+	/// </summary>
+	public string Top => CssValues.Top;
 
 }

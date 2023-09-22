@@ -4,28 +4,28 @@ namespace WebIdentifiers.Css.Values;
 public partial class BackgroundPositionValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>top</c> property. Equivalent to 0% for the vertical position.
-	/// </summary>
-	public string Top => CssValues.Top;
-
-	/// <summary>
-	/// Gets the name of the <c>right</c> property. Equivalent to 100% for the horizontal position.
-	/// </summary>
-	public string Right => CssValues.Right;
-
-	/// <summary>
-	/// Gets the name of the <c>bottom</c> property. Equivalent to 100% for the vertical position.
+	/// Gets the name of the <c>bottom</c> property. Computes to 100% for the vertical position if one or two values are given, otherwise specifies the bottom edge as the origin for the next offset.
 	/// </summary>
 	public string Bottom => CssValues.Bottom;
 
 	/// <summary>
-	/// Gets the name of the <c>left</c> property. Equivalent to 0% for the horizontal position.
+	/// Gets the name of the <c>center</c> property. Computes to 50% (left 50%) for the horizontal position if the horizontal position is not otherwise specified, or 50% (top 50%) for the vertical position if it is.
+	/// </summary>
+	public string Center => CssValues.Center;
+
+	/// <summary>
+	/// Gets the name of the <c>left</c> property. Computes to 0% for the horizontal position if one or two values are given, otherwise specifies the left edge as the origin for the next offset.
 	/// </summary>
 	public string Left => CssValues.Left;
 
 	/// <summary>
-	/// Gets the name of the <c>center</c> property. Equivalent to 50% for the horizontal position if it is not otherwise given, or 50% for the vertical position if it is.
+	/// Gets the name of the <c>right</c> property. Computes to 100% for the horizontal position if one or two values are given, otherwise specifies the right edge as the origin for the next offset.
 	/// </summary>
-	public string Center => CssValues.Center;
+	public string Right => CssValues.Right;
+
+	/// <summary>
+	/// Gets the name of the <c>top</c> property. Computes to 0% for the vertical position if one or two values are given, otherwise specifies the top edge as the origin for the next offset.
+	/// </summary>
+	public string Top => CssValues.Top;
 
 }

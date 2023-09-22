@@ -4,18 +4,63 @@ namespace WebIdentifiers.Css.Values;
 public partial class FloatValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>left</c> property. The element generates a block box that is floated to the left. Content flows on the right side of the box, starting at the top (subject to the clear property).
+	/// Gets the name of the <c>block-end</c> property. If the float reference is a line box, block-end behaves like inline-end. If the float reference is not a line box, the element generates a box that is floated to the block-end and line-end outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-start side of the box.
 	/// </summary>
-	public string Left => CssValues.Left;
+	public string BlockEnd => CssValues.BlockEnd;
 
 	/// <summary>
-	/// Gets the name of the <c>right</c> property. Similar to left, except the box is floated to the right, and content flows on the left side of the box, starting at the top.
+	/// Gets the name of the <c>block-start</c> property. If the float reference is a line box, block-start behaves like inline-start. If the float reference is not a line box, the element generates a box that is floated to the block-start and line-start outer edges of the float reference. The initial value of the max-width or max-height property that refers to the inline size of the float is '100%'. Content flows on the block-end side of the box.
 	/// </summary>
-	public string Right => CssValues.Right;
+	public string BlockStart => CssValues.BlockStart;
+
+	/// <summary>
+	/// Gets the name of the <c>bottom</c> property. Behave like block-end or inline-end depending on the float containing block’s direction and writing-mode.
+	/// </summary>
+	public string Bottom => CssValues.Bottom;
+
+	/// <summary>
+	/// Gets the name of the <c>footnote</c> property. each footnote element is placed in the footnote area of the page
+	/// </summary>
+	public string Footnote => CssValues.Footnote;
+
+	/// <summary>
+	/// Gets the name of the <c>inline-end</c> property. If the float reference is a line box, the element generates a box that is floated to the line-ebd outer edge of the float reference and content flows on the line-start side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-end and block-end outer edges of the float reference.
+	/// </summary>
+	public string InlineEnd => CssValues.InlineEnd;
+
+	/// <summary>
+	/// Gets the name of the <c>inline-start</c> property. If the float reference is a line box, the element generates a box that is floated to the line-start outer edge of the float reference and content flows on the line-end side of the box. If the float reference is not a line box, the element generates a box that is floated to the line-start and block-start outer edges of the float reference.
+	/// </summary>
+	public string InlineStart => CssValues.InlineStart;
+
+	/// <summary>
+	/// Gets the name of the <c>left</c> property. If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-left for the float reference. Otherwise, behaves like block-end, inline-start or inline-end depending on the float containing block’s direction and writing-mode.
+	/// </summary>
+	public string Left => CssValues.Left;
 
 	/// <summary>
 	/// Gets the name of the <c>none</c> property. The box is not floated.
 	/// </summary>
 	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>right</c> property. If the float reference is a line box, behaves like inline-start or inline-end, whichever corresponds to line-right for the float reference. Otherwise, behaves like block-start, inline-start or inline-end depending on the float containing block’s direction and writing-mode.
+	/// </summary>
+	public string Right => CssValues.Right;
+
+	/// <summary>
+	/// Gets the name of the <c>snap-block</c> property. Behaves as snap-block(2em, near)
+	/// </summary>
+	public string SnapBlock => CssValues.SnapBlock;
+
+	/// <summary>
+	/// Gets the name of the <c>snap-inline</c> property. same as snap-inline(2em, near)
+	/// </summary>
+	public string SnapInline => CssValues.SnapInline;
+
+	/// <summary>
+	/// Gets the name of the <c>top</c> property. Behave like block-start or inline-start depending on the float containing block’s direction and writing-mode.
+	/// </summary>
+	public string Top => CssValues.Top;
 
 }

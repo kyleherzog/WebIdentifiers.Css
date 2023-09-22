@@ -4,7 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class OutlineColorValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>invert</c> property. The outline-color accepts all colors, as well as the keyword invert. invert is expected to perform a color inversion on the pixels on the screen. This is a common trick to ensure the focus border is visible, regardless of color background.
+	/// Gets the name of the <c>auto</c> property. When outline-style is auto, outline-color: auto represents the accent color. When outline-style is not auto, outline-color: auto computes to another value (see below).
+	/// </summary>
+	public string Auto => CssValues.Auto;
+
+	/// <summary>
+	/// Gets the name of the <c>invert</c> property. the user agent is expected to perform a color inversion on the pixels on the screen. This is a common trick to ensure the focus border is visible, regardless of color background. Conformant UAs may ignore the invert value on platforms that do not support color inversion of the pixels on the screen. If the UA does not support the invert value, then it must reject that value at parse-time, and the initial value of the outline-color property is the currentColor keyword.
 	/// </summary>
 	public string Invert => CssValues.Invert;
 

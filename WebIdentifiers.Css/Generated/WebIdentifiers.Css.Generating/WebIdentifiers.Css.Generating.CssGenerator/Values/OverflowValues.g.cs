@@ -4,23 +4,33 @@ namespace WebIdentifiers.Css.Values;
 public partial class OverflowValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>visible</c> property. This value indicates that content is not clipped, i.e., it may be rendered outside the block box.
+	/// Gets the name of the <c>auto</c> property. Like scroll when the box has scrollable overflow; like hidden otherwise. Thus, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism will only be displayed if there is overflow.
 	/// </summary>
-	public string Visible => CssValues.Visible;
+	public string Auto => CssValues.Auto;
 
 	/// <summary>
-	/// Gets the name of the <c>hidden</c> property. This value indicates that the content is clipped and that no scrolling user interface should be provided to view the content outside the clipping region.
+	/// Gets the name of the <c>clip</c> property. This value indicates that the box’s content is clipped to its overflow clip edge and that no scrolling user interface should be provided by the UA to view the content outside the clipping region. In addition, unlike overflow: hidden which still allows programmatic scrolling, overflow: clip forbids scrolling entirely, through any mechanism, and therefore the box is not a scroll container. Unlike hidden, this value does not cause the element to establish a new formatting context.
+	/// </summary>
+	public string Clip => CssValues.Clip;
+
+	/// <summary>
+	/// Gets the name of the <c>hidden</c> property. This value indicates that the box’s content is clipped to its padding box and that the UA must not provide any scrolling user interface to view the content outside the clipping region, nor allow scrolling by direct intervention of the user, such as dragging on a touch screen or using the scrolling wheel on a mouse. However, the content must still be scrollable programmatically, for example using the mechanisms defined in [CSSOM-VIEW], and the box is therefore still a scroll container.
 	/// </summary>
 	public string Hidden => CssValues.Hidden;
 
 	/// <summary>
-	/// Gets the name of the <c>scroll</c> property. This value indicates that the content is clipped and that if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed for a box whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When this value is specified and the target medium is print, overflowing content may be printed.
+	/// Gets the name of the <c>overlay</c> property. User agents must also support the overlay keyword as a legacy value alias of auto.
+	/// </summary>
+	public string Overlay => CssValues.Overlay;
+
+	/// <summary>
+	/// Gets the name of the <c>scroll</c> property. This value indicates that the content is clipped to the padding box, but can be scrolled into view (and therefore the box is a scroll container). Furthermore, if the user agent uses a scrolling mechanism that is visible on the screen (such as a scroll bar or a panner), that mechanism should be displayed whether or not any of its content is clipped. This avoids any problem with scrollbars appearing and disappearing in a dynamic environment. When the target medium is print, overflowing content may be printed; it is not defined where it may be printed.
 	/// </summary>
 	public string Scroll => CssValues.Scroll;
 
 	/// <summary>
-	/// Gets the name of the <c>auto</c> property. The behavior of the auto value is user agent-dependent, but should cause a scrolling mechanism to be provided for overflowing boxes.
+	/// Gets the name of the <c>visible</c> property. There is no special handling of overflow, that is, the box’s content is rendered outside the box if positioned there. The box is not a scroll container.
 	/// </summary>
-	public string Auto => CssValues.Auto;
+	public string Visible => CssValues.Visible;
 
 }

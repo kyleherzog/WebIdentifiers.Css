@@ -11,9 +11,89 @@ public static partial class CssValues
 	public const string Absolute = "absolute";
 
 	/// <summary>
+	/// Gets the name of the <c>add</c> property.
+	/// </summary>
+	public const string Add = "add";
+
+	/// <summary>
+	/// Gets the name of the <c>alias</c> property.
+	/// </summary>
+	public const string Alias = "alias";
+
+	/// <summary>
+	/// Gets the name of the <c>alignment character</c> property.
+	/// </summary>
+	public const string AlignmentCharacter = "alignment character";
+
+	/// <summary>
+	/// Gets the name of the <c>all</c> property.
+	/// </summary>
+	public const string All = "all";
+
+	/// <summary>
+	/// Gets the name of the <c>allow-end</c> property.
+	/// </summary>
+	public const string AllowEnd = "allow-end";
+
+	/// <summary>
+	/// Gets the name of the <c>all-petite-caps</c> property.
+	/// </summary>
+	public const string AllPetiteCaps = "all-petite-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>all-scroll</c> property.
+	/// </summary>
+	public const string AllScroll = "all-scroll";
+
+	/// <summary>
+	/// Gets the name of the <c>all-small-caps</c> property.
+	/// </summary>
+	public const string AllSmallCaps = "all-small-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>alpha</c> property.
+	/// </summary>
+	public const string Alpha = "alpha";
+
+	/// <summary>
+	/// Gets the name of the <c>alphabetic</c> property.
+	/// </summary>
+	public const string Alphabetic = "alphabetic";
+
+	/// <summary>
+	/// Gets the name of the <c>alternate</c> property.
+	/// </summary>
+	public const string Alternate = "alternate";
+
+	/// <summary>
+	/// Gets the name of the <c>alternate-reverse</c> property.
+	/// </summary>
+	public const string AlternateReverse = "alternate-reverse";
+
+	/// <summary>
 	/// Gets the name of the <c>always</c> property.
 	/// </summary>
 	public const string Always = "always";
+
+	/// <summary>
+	/// Gets the name of the <c>anchor-center</c> property.
+	/// </summary>
+	public const string AnchorCenter = "anchor-center";
+
+	/// <summary>
+	/// Gets the name of the <c>angle</c> property.
+	/// </summary>
+	public const string Angle = "angle";
+
+	/// <summary>
+	/// Gets the name of the <c>anywhere</c> property.
+	/// </summary>
+	public const string Anywhere = "anywhere";
+
+	/// <summary>
+	/// Gets the name of the <c>arcs</c> property.
+	/// </summary>
+	public const string Arcs = "arcs";
 
 	/// <summary>
 	/// Gets the name of the <c>armenian</c> property.
@@ -26,14 +106,69 @@ public static partial class CssValues
 	public const string Auto = "auto";
 
 	/// <summary>
+	/// Gets the name of the <c>auto-phrase</c> property.
+	/// </summary>
+	public const string AutoPhrase = "auto-phrase";
+
+	/// <summary>
 	/// Gets the name of the <c>avoid</c> property.
 	/// </summary>
 	public const string Avoid = "avoid";
 
 	/// <summary>
+	/// Gets the name of the <c>avoid-column</c> property.
+	/// </summary>
+	public const string AvoidColumn = "avoid-column";
+
+	/// <summary>
+	/// Gets the name of the <c>avoid-flex</c> property.
+	/// </summary>
+	public const string AvoidFlex = "avoid-flex";
+
+	/// <summary>
+	/// Gets the name of the <c>avoid-line</c> property.
+	/// </summary>
+	public const string AvoidLine = "avoid-line";
+
+	/// <summary>
+	/// Gets the name of the <c>avoid-page</c> property.
+	/// </summary>
+	public const string AvoidPage = "avoid-page";
+
+	/// <summary>
+	/// Gets the name of the <c>avoid-region</c> property.
+	/// </summary>
+	public const string AvoidRegion = "avoid-region";
+
+	/// <summary>
+	/// Gets the name of the <c>backwards</c> property.
+	/// </summary>
+	public const string Backwards = "backwards";
+
+	/// <summary>
+	/// Gets the name of the <c>balance</c> property.
+	/// </summary>
+	public const string Balance = "balance";
+
+	/// <summary>
+	/// Gets the name of the <c>balance-all</c> property.
+	/// </summary>
+	public const string BalanceAll = "balance-all";
+
+	/// <summary>
+	/// Gets the name of the <c>bar</c> property.
+	/// </summary>
+	public const string Bar = "bar";
+
+	/// <summary>
 	/// Gets the name of the <c>baseline</c> property.
 	/// </summary>
 	public const string Baseline = "baseline";
+
+	/// <summary>
+	/// Gets the name of the <c>bevel</c> property.
+	/// </summary>
+	public const string Bevel = "bevel";
 
 	/// <summary>
 	/// Gets the name of the <c>bidi-override</c> property.
@@ -51,6 +186,16 @@ public static partial class CssValues
 	public const string Block = "block";
 
 	/// <summary>
+	/// Gets the name of the <c>block-end</c> property.
+	/// </summary>
+	public const string BlockEnd = "block-end";
+
+	/// <summary>
+	/// Gets the name of the <c>block-start</c> property.
+	/// </summary>
+	public const string BlockStart = "block-start";
+
+	/// <summary>
 	/// Gets the name of the <c>bold</c> property.
 	/// </summary>
 	public const string Bold = "bold";
@@ -61,14 +206,69 @@ public static partial class CssValues
 	public const string Bolder = "bolder";
 
 	/// <summary>
+	/// Gets the name of the <c>border-box</c> property.
+	/// </summary>
+	public const string BorderBox = "border-box";
+
+	/// <summary>
 	/// Gets the name of the <c>both</c> property.
 	/// </summary>
 	public const string Both = "both";
 
 	/// <summary>
+	/// Gets the name of the <c>both-block</c> property.
+	/// </summary>
+	public const string BothBlock = "both-block";
+
+	/// <summary>
+	/// Gets the name of the <c>both-edges</c> property.
+	/// </summary>
+	public const string BothEdges = "both-edges";
+
+	/// <summary>
+	/// Gets the name of the <c>both-inline</c> property.
+	/// </summary>
+	public const string BothInline = "both-inline";
+
+	/// <summary>
 	/// Gets the name of the <c>bottom</c> property.
 	/// </summary>
 	public const string Bottom = "bottom";
+
+	/// <summary>
+	/// Gets the name of the <c>break-all</c> property.
+	/// </summary>
+	public const string BreakAll = "break-all";
+
+	/// <summary>
+	/// Gets the name of the <c>break-spaces</c> property.
+	/// </summary>
+	public const string BreakSpaces = "break-spaces";
+
+	/// <summary>
+	/// Gets the name of the <c>break-word</c> property.
+	/// </summary>
+	public const string BreakWord = "break-word";
+
+	/// <summary>
+	/// Gets the name of the <c>butt</c> property.
+	/// </summary>
+	public const string Butt = "butt";
+
+	/// <summary>
+	/// Gets the name of the <c>button</c> property.
+	/// </summary>
+	public const string Button = "button";
+
+	/// <summary>
+	/// Gets the name of the <c>cap</c> property.
+	/// </summary>
+	public const string Cap = "cap";
+
+	/// <summary>
+	/// Gets the name of the <c>cap-height</c> property.
+	/// </summary>
+	public const string CapHeight = "cap-height";
 
 	/// <summary>
 	/// Gets the name of the <c>capitalize</c> property.
@@ -81,14 +281,59 @@ public static partial class CssValues
 	public const string Caption = "caption";
 
 	/// <summary>
+	/// Gets the name of the <c>cell</c> property.
+	/// </summary>
+	public const string Cell = "cell";
+
+	/// <summary>
 	/// Gets the name of the <c>center</c> property.
 	/// </summary>
 	public const string Center = "center";
 
 	/// <summary>
+	/// Gets the name of the <c>central</c> property.
+	/// </summary>
+	public const string Central = "central";
+
+	/// <summary>
+	/// Gets the name of the <c>checkbox</c> property.
+	/// </summary>
+	public const string Checkbox = "checkbox";
+
+	/// <summary>
+	/// Gets the name of the <c>child</c> property.
+	/// </summary>
+	public const string Child = "child";
+
+	/// <summary>
+	/// Gets the name of the <c>ch-width</c> property.
+	/// </summary>
+	public const string ChWidth = "ch-width";
+
+	/// <summary>
 	/// Gets the name of the <c>circle</c> property.
 	/// </summary>
 	public const string Circle = "circle";
+
+	/// <summary>
+	/// Gets the name of the <c>clear</c> property.
+	/// </summary>
+	public const string Clear = "clear";
+
+	/// <summary>
+	/// Gets the name of the <c>clip</c> property.
+	/// </summary>
+	public const string Clip = "clip";
+
+	/// <summary>
+	/// Gets the name of the <c>clone</c> property.
+	/// </summary>
+	public const string Clone = "clone";
+
+	/// <summary>
+	/// Gets the name of the <c>closed</c> property.
+	/// </summary>
+	public const string Closed = "closed";
 
 	/// <summary>
 	/// Gets the name of the <c>close-quote</c> property.
@@ -101,9 +346,114 @@ public static partial class CssValues
 	public const string Collapse = "collapse";
 
 	/// <summary>
+	/// Gets the name of the <c>col-resize</c> property.
+	/// </summary>
+	public const string ColResize = "col-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>column</c> property.
+	/// </summary>
+	public const string Column = "column";
+
+	/// <summary>
+	/// Gets the name of the <c>column-reverse</c> property.
+	/// </summary>
+	public const string ColumnReverse = "column-reverse";
+
+	/// <summary>
+	/// Gets the name of the <c>common-ligatures</c> property.
+	/// </summary>
+	public const string CommonLigatures = "common-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>compact</c> property.
+	/// </summary>
+	public const string Compact = "compact";
+
+	/// <summary>
+	/// Gets the name of the <c>compress</c> property.
+	/// </summary>
+	public const string Compress = "compress";
+
+	/// <summary>
+	/// Gets the name of the <c>condensed</c> property.
+	/// </summary>
+	public const string Condensed = "condensed";
+
+	/// <summary>
+	/// Gets the name of the <c>contain</c> property.
+	/// </summary>
+	public const string Contain = "contain";
+
+	/// <summary>
+	/// Gets the name of the <c>content</c> property.
+	/// </summary>
+	public const string Content = "content";
+
+	/// <summary>
+	/// Gets the name of the <c>content-box</c> property.
+	/// </summary>
+	public const string ContentBox = "content-box";
+
+	/// <summary>
+	/// Gets the name of the <c>contents</c> property.
+	/// </summary>
+	public const string Contents = "contents";
+
+	/// <summary>
+	/// Gets the name of the <c>context-menu</c> property.
+	/// </summary>
+	public const string ContextMenu = "context-menu";
+
+	/// <summary>
+	/// Gets the name of the <c>contextual</c> property.
+	/// </summary>
+	public const string Contextual = "contextual";
+
+	/// <summary>
+	/// Gets the name of the <c>copy</c> property.
+	/// </summary>
+	public const string Copy = "copy";
+
+	/// <summary>
+	/// Gets the name of the <c>corners</c> property.
+	/// </summary>
+	public const string Corners = "corners";
+
+	/// <summary>
+	/// Gets the name of the <c>cover</c> property.
+	/// </summary>
+	public const string Cover = "cover";
+
+	/// <summary>
+	/// Gets the name of the <c>create</c> property.
+	/// </summary>
+	public const string Create = "create";
+
+	/// <summary>
+	/// Gets the name of the <c>crisp-edges</c> property.
+	/// </summary>
+	public const string CrispEdges = "crisp-edges";
+
+	/// <summary>
+	/// Gets the name of the <c>crop</c> property.
+	/// </summary>
+	public const string Crop = "crop";
+
+	/// <summary>
 	/// Gets the name of the <c>crosshair</c> property.
 	/// </summary>
 	public const string Crosshair = "crosshair";
+
+	/// <summary>
+	/// Gets the name of the <c>dark</c> property.
+	/// </summary>
+	public const string Dark = "dark";
+
+	/// <summary>
+	/// Gets the name of the <c>dashes</c> property.
+	/// </summary>
+	public const string Dashes = "dashes";
 
 	/// <summary>
 	/// Gets the name of the <c>decimal</c> property.
@@ -121,9 +471,94 @@ public static partial class CssValues
 	public const string Default = "default";
 
 	/// <summary>
+	/// Gets the name of the <c>dense</c> property.
+	/// </summary>
+	public const string Dense = "dense";
+
+	/// <summary>
+	/// Gets the name of the <c>diagonal-fractions</c> property.
+	/// </summary>
+	public const string DiagonalFractions = "diagonal-fractions";
+
+	/// <summary>
+	/// Gets the name of the <c>digits</c> property.
+	/// </summary>
+	public const string Digits = "digits";
+
+	/// <summary>
 	/// Gets the name of the <c>disc</c> property.
 	/// </summary>
 	public const string Disc = "disc";
+
+	/// <summary>
+	/// Gets the name of the <c>discard</c> property.
+	/// </summary>
+	public const string Discard = "discard";
+
+	/// <summary>
+	/// Gets the name of the <c>discard-after</c> property.
+	/// </summary>
+	public const string DiscardAfter = "discard-after";
+
+	/// <summary>
+	/// Gets the name of the <c>discard-before</c> property.
+	/// </summary>
+	public const string DiscardBefore = "discard-before";
+
+	/// <summary>
+	/// Gets the name of the <c>discard-inner</c> property.
+	/// </summary>
+	public const string DiscardInner = "discard-inner";
+
+	/// <summary>
+	/// Gets the name of the <c>discretionary-ligatures</c> property.
+	/// </summary>
+	public const string DiscretionaryLigatures = "discretionary-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>display</c> property.
+	/// </summary>
+	public const string Display = "display";
+
+	/// <summary>
+	/// Gets the name of the <c>distribute</c> property.
+	/// </summary>
+	public const string Distribute = "distribute";
+
+	/// <summary>
+	/// Gets the name of the <c>dot</c> property.
+	/// </summary>
+	public const string Dot = "dot";
+
+	/// <summary>
+	/// Gets the name of the <c>double-circle</c> property.
+	/// </summary>
+	public const string DoubleCircle = "double-circle";
+
+	/// <summary>
+	/// Gets the name of the <c>down</c> property.
+	/// </summary>
+	public const string Down = "down";
+
+	/// <summary>
+	/// Gets the name of the <c>drop</c> property.
+	/// </summary>
+	public const string Drop = "drop";
+
+	/// <summary>
+	/// Gets the name of the <c>each-line</c> property.
+	/// </summary>
+	public const string EachLine = "each-line";
+
+	/// <summary>
+	/// Gets the name of the <c>economy</c> property.
+	/// </summary>
+	public const string Economy = "economy";
+
+	/// <summary>
+	/// Gets the name of the <c>ellipsis</c> property.
+	/// </summary>
+	public const string Ellipsis = "ellipsis";
 
 	/// <summary>
 	/// Gets the name of the <c>embed</c> property.
@@ -131,9 +566,109 @@ public static partial class CssValues
 	public const string Embed = "embed";
 
 	/// <summary>
+	/// Gets the name of the <c>emoji</c> property.
+	/// </summary>
+	public const string Emoji = "emoji";
+
+	/// <summary>
+	/// Gets the name of the <c>end</c> property.
+	/// </summary>
+	public const string End = "end";
+
+	/// <summary>
 	/// Gets the name of the <c>e-resize</c> property.
 	/// </summary>
 	public const string EResize = "e-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>evenodd</c> property.
+	/// </summary>
+	public const string Evenodd = "evenodd";
+
+	/// <summary>
+	/// Gets the name of the <c>ew-resize</c> property.
+	/// </summary>
+	public const string EwResize = "ew-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>ex</c> property.
+	/// </summary>
+	public const string Ex = "ex";
+
+	/// <summary>
+	/// Gets the name of the <c>exact</c> property.
+	/// </summary>
+	public const string Exact = "exact";
+
+	/// <summary>
+	/// Gets the name of the <c>exclude</c> property.
+	/// </summary>
+	public const string Exclude = "exclude";
+
+	/// <summary>
+	/// Gets the name of the <c>ex-height</c> property.
+	/// </summary>
+	public const string ExHeight = "ex-height";
+
+	/// <summary>
+	/// Gets the name of the <c>expanded</c> property.
+	/// </summary>
+	public const string Expanded = "expanded";
+
+	/// <summary>
+	/// Gets the name of the <c>extra-condensed</c> property.
+	/// </summary>
+	public const string ExtraCondensed = "extra-condensed";
+
+	/// <summary>
+	/// Gets the name of the <c>extra-expanded</c> property.
+	/// </summary>
+	public const string ExtraExpanded = "extra-expanded";
+
+	/// <summary>
+	/// Gets the name of the <c>fade</c> property.
+	/// </summary>
+	public const string Fade = "fade";
+
+	/// <summary>
+	/// Gets the name of the <c>fallback</c> property.
+	/// </summary>
+	public const string Fallback = "fallback";
+
+	/// <summary>
+	/// Gets the name of the <c>fast</c> property.
+	/// </summary>
+	public const string Fast = "fast";
+
+	/// <summary>
+	/// Gets the name of the <c>female</c> property.
+	/// </summary>
+	public const string Female = "female";
+
+	/// <summary>
+	/// Gets the name of the <c>fill</c> property.
+	/// </summary>
+	public const string Fill = "fill";
+
+	/// <summary>
+	/// Gets the name of the <c>fill-box</c> property.
+	/// </summary>
+	public const string FillBox = "fill-box";
+
+	/// <summary>
+	/// Gets the name of the <c>filled</c> property.
+	/// </summary>
+	public const string Filled = "filled";
+
+	/// <summary>
+	/// Gets the name of the <c>first</c> property.
+	/// </summary>
+	public const string First = "first";
+
+	/// <summary>
+	/// Gets the name of the <c>fit-content</c> property.
+	/// </summary>
+	public const string FitContent = "fit-content";
 
 	/// <summary>
 	/// Gets the name of the <c>fixed</c> property.
@@ -141,9 +676,99 @@ public static partial class CssValues
 	public const string Fixed = "fixed";
 
 	/// <summary>
+	/// Gets the name of the <c>flex</c> property.
+	/// </summary>
+	public const string Flex = "flex";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-end</c> property.
+	/// </summary>
+	public const string FlexEnd = "flex-end";
+
+	/// <summary>
+	/// Gets the name of the <c>flex-start</c> property.
+	/// </summary>
+	public const string FlexStart = "flex-start";
+
+	/// <summary>
+	/// Gets the name of the <c>focus</c> property.
+	/// </summary>
+	public const string Focus = "focus";
+
+	/// <summary>
+	/// Gets the name of the <c>footnote</c> property.
+	/// </summary>
+	public const string Footnote = "footnote";
+
+	/// <summary>
+	/// Gets the name of the <c>force-end</c> property.
+	/// </summary>
+	public const string ForceEnd = "force-end";
+
+	/// <summary>
+	/// Gets the name of the <c>forwards</c> property.
+	/// </summary>
+	public const string Forwards = "forwards";
+
+	/// <summary>
+	/// Gets the name of the <c>fragments</c> property.
+	/// </summary>
+	public const string Fragments = "fragments";
+
+	/// <summary>
+	/// Gets the name of the <c>from-font</c> property.
+	/// </summary>
+	public const string FromFont = "from-font";
+
+	/// <summary>
+	/// Gets the name of the <c>from-image</c> property.
+	/// </summary>
+	public const string FromImage = "from-image";
+
+	/// <summary>
+	/// Gets the name of the <c>full-size-kana</c> property.
+	/// </summary>
+	public const string FullSizeKana = "full-size-kana";
+
+	/// <summary>
+	/// Gets the name of the <c>full-width</c> property.
+	/// </summary>
+	public const string FullWidth = "full-width";
+
+	/// <summary>
+	/// Gets the name of the <c>gaps</c> property.
+	/// </summary>
+	public const string Gaps = "gaps";
+
+	/// <summary>
 	/// Gets the name of the <c>georgian</c> property.
 	/// </summary>
 	public const string Georgian = "georgian";
+
+	/// <summary>
+	/// Gets the name of the <c>grab</c> property.
+	/// </summary>
+	public const string Grab = "grab";
+
+	/// <summary>
+	/// Gets the name of the <c>grabbing</c> property.
+	/// </summary>
+	public const string Grabbing = "grabbing";
+
+	/// <summary>
+	/// Gets the name of the <c>grammar-error</c> property.
+	/// </summary>
+	public const string GrammarError = "grammar-error";
+
+	/// <summary>
+	/// Gets the name of the <c>grid</c> property.
+	/// </summary>
+	public const string Grid = "grid";
+
+	/// <summary>
+	/// Gets the name of the <c>hanging</c> property.
+	/// </summary>
+	public const string Hanging = "hanging";
 
 	/// <summary>
 	/// Gets the name of the <c>help</c> property.
@@ -161,9 +786,84 @@ public static partial class CssValues
 	public const string Hide = "hide";
 
 	/// <summary>
+	/// Gets the name of the <c>high</c> property.
+	/// </summary>
+	public const string High = "high";
+
+	/// <summary>
+	/// Gets the name of the <c>high-quality</c> property.
+	/// </summary>
+	public const string HighQuality = "high-quality";
+
+	/// <summary>
+	/// Gets the name of the <c>historical-forms</c> property.
+	/// </summary>
+	public const string HistoricalForms = "historical-forms";
+
+	/// <summary>
+	/// Gets the name of the <c>historical-ligatures</c> property.
+	/// </summary>
+	public const string HistoricalLigatures = "historical-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>horizontal-tb</c> property.
+	/// </summary>
+	public const string HorizontalTb = "horizontal-tb";
+
+	/// <summary>
+	/// Gets the name of the <c>ic-height</c> property.
+	/// </summary>
+	public const string IcHeight = "ic-height";
+
+	/// <summary>
 	/// Gets the name of the <c>icon</c> property.
 	/// </summary>
 	public const string Icon = "icon";
+
+	/// <summary>
+	/// Gets the name of the <c>ic-width</c> property.
+	/// </summary>
+	public const string IcWidth = "ic-width";
+
+	/// <summary>
+	/// Gets the name of the <c>ideograph-alpha</c> property.
+	/// </summary>
+	public const string IdeographAlpha = "ideograph-alpha";
+
+	/// <summary>
+	/// Gets the name of the <c>ideographic</c> property.
+	/// </summary>
+	public const string Ideographic = "ideographic";
+
+	/// <summary>
+	/// Gets the name of the <c>ideographic-ink</c> property.
+	/// </summary>
+	public const string IdeographicInk = "ideographic-ink";
+
+	/// <summary>
+	/// Gets the name of the <c>ideographic-space</c> property.
+	/// </summary>
+	public const string IdeographicSpace = "ideographic-space";
+
+	/// <summary>
+	/// Gets the name of the <c>ideograph-numeric</c> property.
+	/// </summary>
+	public const string IdeographNumeric = "ideograph-numeric";
+
+	/// <summary>
+	/// Gets the name of the <c>infinite</c> property.
+	/// </summary>
+	public const string Infinite = "infinite";
+
+	/// <summary>
+	/// Gets the name of the <c>inherit</c> property.
+	/// </summary>
+	public const string Inherit = "inherit";
+
+	/// <summary>
+	/// Gets the name of the <c>initial</c> property.
+	/// </summary>
+	public const string Initial = "initial";
 
 	/// <summary>
 	/// Gets the name of the <c>inline</c> property.
@@ -176,9 +876,39 @@ public static partial class CssValues
 	public const string InlineBlock = "inline-block";
 
 	/// <summary>
+	/// Gets the name of the <c>inline-end</c> property.
+	/// </summary>
+	public const string InlineEnd = "inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-size</c> property.
+	/// </summary>
+	public const string InlineSize = "inline-size";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-start</c> property.
+	/// </summary>
+	public const string InlineStart = "inline-start";
+
+	/// <summary>
 	/// Gets the name of the <c>inline-table</c> property.
 	/// </summary>
 	public const string InlineTable = "inline-table";
+
+	/// <summary>
+	/// Gets the name of the <c>inner box-shadow</c> property.
+	/// </summary>
+	public const string InnerBoxShadow = "inner box-shadow";
+
+	/// <summary>
+	/// Gets the name of the <c>insert</c> property.
+	/// </summary>
+	public const string Insert = "insert";
+
+	/// <summary>
+	/// Gets the name of the <c>inset</c> property.
+	/// </summary>
+	public const string Inset = "inset";
 
 	/// <summary>
 	/// Gets the name of the <c>inside</c> property.
@@ -186,9 +916,34 @@ public static partial class CssValues
 	public const string Inside = "inside";
 
 	/// <summary>
+	/// Gets the name of the <c>inter-character</c> property.
+	/// </summary>
+	public const string InterCharacter = "inter-character";
+
+	/// <summary>
+	/// Gets the name of the <c>intersect</c> property.
+	/// </summary>
+	public const string Intersect = "intersect";
+
+	/// <summary>
+	/// Gets the name of the <c>inter-word</c> property.
+	/// </summary>
+	public const string InterWord = "inter-word";
+
+	/// <summary>
 	/// Gets the name of the <c>invert</c> property.
 	/// </summary>
 	public const string Invert = "invert";
+
+	/// <summary>
+	/// Gets the name of the <c>isolate</c> property.
+	/// </summary>
+	public const string Isolate = "isolate";
+
+	/// <summary>
+	/// Gets the name of the <c>isolate-override</c> property.
+	/// </summary>
+	public const string IsolateOverride = "isolate-override";
 
 	/// <summary>
 	/// Gets the name of the <c>italic</c> property.
@@ -196,9 +951,44 @@ public static partial class CssValues
 	public const string Italic = "italic";
 
 	/// <summary>
+	/// Gets the name of the <c>jis04</c> property.
+	/// </summary>
+	public const string Jis04 = "jis04";
+
+	/// <summary>
+	/// Gets the name of the <c>jis78</c> property.
+	/// </summary>
+	public const string Jis78 = "jis78";
+
+	/// <summary>
+	/// Gets the name of the <c>jis83</c> property.
+	/// </summary>
+	public const string Jis83 = "jis83";
+
+	/// <summary>
+	/// Gets the name of the <c>jis90</c> property.
+	/// </summary>
+	public const string Jis90 = "jis90";
+
+	/// <summary>
 	/// Gets the name of the <c>justify</c> property.
 	/// </summary>
 	public const string Justify = "justify";
+
+	/// <summary>
+	/// Gets the name of the <c>justify-all</c> property.
+	/// </summary>
+	public const string JustifyAll = "justify-all";
+
+	/// <summary>
+	/// Gets the name of the <c>keep</c> property.
+	/// </summary>
+	public const string Keep = "keep";
+
+	/// <summary>
+	/// Gets the name of the <c>keep-all</c> property.
+	/// </summary>
+	public const string KeepAll = "keep-all";
 
 	/// <summary>
 	/// Gets the name of the <c>large</c> property.
@@ -206,9 +996,44 @@ public static partial class CssValues
 	public const string Large = "large";
 
 	/// <summary>
+	/// Gets the name of the <c>last</c> property.
+	/// </summary>
+	public const string Last = "last";
+
+	/// <summary>
+	/// Gets the name of the <c>last-baseline</c> property.
+	/// </summary>
+	public const string LastBaseline = "last-baseline";
+
+	/// <summary>
+	/// Gets the name of the <c>layout</c> property.
+	/// </summary>
+	public const string Layout = "layout";
+
+	/// <summary>
+	/// Gets the name of the <c>leading</c> property.
+	/// </summary>
+	public const string Leading = "leading";
+
+	/// <summary>
 	/// Gets the name of the <c>left</c> property.
 	/// </summary>
 	public const string Left = "left";
+
+	/// <summary>
+	/// Gets the name of the <c>leftwards</c> property.
+	/// </summary>
+	public const string Leftwards = "leftwards";
+
+	/// <summary>
+	/// Gets the name of the <c>legacy</c> property.
+	/// </summary>
+	public const string Legacy = "legacy";
+
+	/// <summary>
+	/// Gets the name of the <c>light</c> property.
+	/// </summary>
+	public const string Light = "light";
 
 	/// <summary>
 	/// Gets the name of the <c>lighter</c> property.
@@ -216,14 +1041,59 @@ public static partial class CssValues
 	public const string Lighter = "lighter";
 
 	/// <summary>
+	/// Gets the name of the <c>line</c> property.
+	/// </summary>
+	public const string Line = "line";
+
+	/// <summary>
+	/// Gets the name of the <c>linearRGB</c> property.
+	/// </summary>
+	public const string Linearrgb = "linearRGB";
+
+	/// <summary>
 	/// Gets the name of the <c>line-through</c> property.
 	/// </summary>
 	public const string LineThrough = "line-through";
 
 	/// <summary>
+	/// Gets the name of the <c>lining-nums</c> property.
+	/// </summary>
+	public const string LiningNums = "lining-nums";
+
+	/// <summary>
+	/// Gets the name of the <c>listbox</c> property.
+	/// </summary>
+	public const string Listbox = "listbox";
+
+	/// <summary>
 	/// Gets the name of the <c>list-item</c> property.
 	/// </summary>
 	public const string ListItem = "list-item";
+
+	/// <summary>
+	/// Gets the name of the <c>literal-punctuation</c> property.
+	/// </summary>
+	public const string LiteralPunctuation = "literal-punctuation";
+
+	/// <summary>
+	/// Gets the name of the <c>local</c> property.
+	/// </summary>
+	public const string Local = "local";
+
+	/// <summary>
+	/// Gets the name of the <c>loose</c> property.
+	/// </summary>
+	public const string Loose = "loose";
+
+	/// <summary>
+	/// Gets the name of the <c>loud</c> property.
+	/// </summary>
+	public const string Loud = "loud";
+
+	/// <summary>
+	/// Gets the name of the <c>low</c> property.
+	/// </summary>
+	public const string Low = "low";
 
 	/// <summary>
 	/// Gets the name of the <c>lower-alpha</c> property.
@@ -256,6 +1126,66 @@ public static partial class CssValues
 	public const string Ltr = "ltr";
 
 	/// <summary>
+	/// Gets the name of the <c>luminance</c> property.
+	/// </summary>
+	public const string Luminance = "luminance";
+
+	/// <summary>
+	/// Gets the name of the <c>male</c> property.
+	/// </summary>
+	public const string Male = "male";
+
+	/// <summary>
+	/// Gets the name of the <c>mandatory</c> property.
+	/// </summary>
+	public const string Mandatory = "mandatory";
+
+	/// <summary>
+	/// Gets the name of the <c>manual</c> property.
+	/// </summary>
+	public const string Manual = "manual";
+
+	/// <summary>
+	/// Gets the name of the <c>margin</c> property.
+	/// </summary>
+	public const string Margin = "margin";
+
+	/// <summary>
+	/// Gets the name of the <c>match-parent</c> property.
+	/// </summary>
+	public const string MatchParent = "match-parent";
+
+	/// <summary>
+	/// Gets the name of the <c>match-self</c> property.
+	/// </summary>
+	public const string MatchSelf = "match-self";
+
+	/// <summary>
+	/// Gets the name of the <c>match-source</c> property.
+	/// </summary>
+	public const string MatchSource = "match-source";
+
+	/// <summary>
+	/// Gets the name of the <c>math</c> property.
+	/// </summary>
+	public const string Math = "math";
+
+	/// <summary>
+	/// Gets the name of the <c>mathematical</c> property.
+	/// </summary>
+	public const string Mathematical = "mathematical";
+
+	/// <summary>
+	/// Gets the name of the <c>max-content</c> property.
+	/// </summary>
+	public const string MaxContent = "max-content";
+
+	/// <summary>
+	/// Gets the name of the <c>maximum</c> property.
+	/// </summary>
+	public const string Maximum = "maximum";
+
+	/// <summary>
 	/// Gets the name of the <c>medium</c> property.
 	/// </summary>
 	public const string Medium = "medium";
@@ -266,9 +1196,29 @@ public static partial class CssValues
 	public const string Menu = "menu";
 
 	/// <summary>
+	/// Gets the name of the <c>menulist</c> property.
+	/// </summary>
+	public const string Menulist = "menulist";
+
+	/// <summary>
+	/// Gets the name of the <c>menulist-button</c> property.
+	/// </summary>
+	public const string MenulistButton = "menulist-button";
+
+	/// <summary>
+	/// Gets the name of the <c>merge</c> property.
+	/// </summary>
+	public const string Merge = "merge";
+
+	/// <summary>
 	/// Gets the name of the <c>message-box</c> property.
 	/// </summary>
 	public const string MessageBox = "message-box";
+
+	/// <summary>
+	/// Gets the name of the <c>meter</c> property.
+	/// </summary>
+	public const string Meter = "meter";
 
 	/// <summary>
 	/// Gets the name of the <c>middle</c> property.
@@ -276,9 +1226,44 @@ public static partial class CssValues
 	public const string Middle = "middle";
 
 	/// <summary>
+	/// Gets the name of the <c>min-content</c> property.
+	/// </summary>
+	public const string MinContent = "min-content";
+
+	/// <summary>
+	/// Gets the name of the <c>minimum</c> property.
+	/// </summary>
+	public const string Minimum = "minimum";
+
+	/// <summary>
+	/// Gets the name of the <c>miter</c> property.
+	/// </summary>
+	public const string Miter = "miter";
+
+	/// <summary>
+	/// Gets the name of the <c>mixed</c> property.
+	/// </summary>
+	public const string Mixed = "mixed";
+
+	/// <summary>
+	/// Gets the name of the <c>moderate</c> property.
+	/// </summary>
+	public const string Moderate = "moderate";
+
+	/// <summary>
 	/// Gets the name of the <c>move</c> property.
 	/// </summary>
 	public const string Move = "move";
+
+	/// <summary>
+	/// Gets the name of the <c>narrow</c> property.
+	/// </summary>
+	public const string Narrow = "narrow";
+
+	/// <summary>
+	/// Gets the name of the <c>nearest</c> property.
+	/// </summary>
+	public const string Nearest = "nearest";
 
 	/// <summary>
 	/// Gets the name of the <c>ne-resize</c> property.
@@ -286,9 +1271,64 @@ public static partial class CssValues
 	public const string NeResize = "ne-resize";
 
 	/// <summary>
+	/// Gets the name of the <c>nesw-resize</c> property.
+	/// </summary>
+	public const string NeswResize = "nesw-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>neutral</c> property.
+	/// </summary>
+	public const string Neutral = "neutral";
+
+	/// <summary>
+	/// Gets the name of the <c>never</c> property.
+	/// </summary>
+	public const string Never = "never";
+
+	/// <summary>
+	/// Gets the name of the <c>no-autospace</c> property.
+	/// </summary>
+	public const string NoAutospace = "no-autospace";
+
+	/// <summary>
+	/// Gets the name of the <c>no-clip</c> property.
+	/// </summary>
+	public const string NoClip = "no-clip";
+
+	/// <summary>
 	/// Gets the name of the <c>no-close-quote</c> property.
 	/// </summary>
 	public const string NoCloseQuote = "no-close-quote";
+
+	/// <summary>
+	/// Gets the name of the <c>no-common-ligatures</c> property.
+	/// </summary>
+	public const string NoCommonLigatures = "no-common-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>no-compress</c> property.
+	/// </summary>
+	public const string NoCompress = "no-compress";
+
+	/// <summary>
+	/// Gets the name of the <c>no-contextual</c> property.
+	/// </summary>
+	public const string NoContextual = "no-contextual";
+
+	/// <summary>
+	/// Gets the name of the <c>no-discretionary-ligatures</c> property.
+	/// </summary>
+	public const string NoDiscretionaryLigatures = "no-discretionary-ligatures";
+
+	/// <summary>
+	/// Gets the name of the <c>no-drop</c> property.
+	/// </summary>
+	public const string NoDrop = "no-drop";
+
+	/// <summary>
+	/// Gets the name of the <c>no-historical-ligatures</c> property.
+	/// </summary>
+	public const string NoHistoricalLigatures = "no-historical-ligatures";
 
 	/// <summary>
 	/// Gets the name of the <c>none</c> property.
@@ -296,14 +1336,39 @@ public static partial class CssValues
 	public const string None = "none";
 
 	/// <summary>
+	/// Gets the name of the <c>nonzero</c> property.
+	/// </summary>
+	public const string Nonzero = "nonzero";
+
+	/// <summary>
 	/// Gets the name of the <c>no-open-quote</c> property.
 	/// </summary>
 	public const string NoOpenQuote = "no-open-quote";
 
 	/// <summary>
+	/// Gets the name of the <c>no-punctuation</c> property.
+	/// </summary>
+	public const string NoPunctuation = "no-punctuation";
+
+	/// <summary>
+	/// Gets the name of the <c>no-repeat</c> property.
+	/// </summary>
+	public const string NoRepeat = "no-repeat";
+
+	/// <summary>
 	/// Gets the name of the <c>normal</c> property.
 	/// </summary>
 	public const string Normal = "normal";
+
+	/// <summary>
+	/// Gets the name of the <c>no-skip</c> property.
+	/// </summary>
+	public const string NoSkip = "no-skip";
+
+	/// <summary>
+	/// Gets the name of the <c>not-allowed</c> property.
+	/// </summary>
+	public const string NotAllowed = "not-allowed";
 
 	/// <summary>
 	/// Gets the name of the <c>nowrap</c> property.
@@ -316,9 +1381,19 @@ public static partial class CssValues
 	public const string NResize = "n-resize";
 
 	/// <summary>
+	/// Gets the name of the <c>ns-resize</c> property.
+	/// </summary>
+	public const string NsResize = "ns-resize";
+
+	/// <summary>
 	/// Gets the name of the <c>nw-resize</c> property.
 	/// </summary>
 	public const string NwResize = "nw-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>nwse-resize</c> property.
+	/// </summary>
+	public const string NwseResize = "nwse-resize";
 
 	/// <summary>
 	/// Gets the name of the <c>oblique</c> property.
@@ -326,9 +1401,44 @@ public static partial class CssValues
 	public const string Oblique = "oblique";
 
 	/// <summary>
+	/// Gets the name of the <c>old</c> property.
+	/// </summary>
+	public const string Old = "old";
+
+	/// <summary>
+	/// Gets the name of the <c>oldstyle-nums</c> property.
+	/// </summary>
+	public const string OldstyleNums = "oldstyle-nums";
+
+	/// <summary>
+	/// Gets the name of the <c>only</c> property.
+	/// </summary>
+	public const string Only = "only";
+
+	/// <summary>
+	/// Gets the name of the <c>open</c> property.
+	/// </summary>
+	public const string Open = "open";
+
+	/// <summary>
 	/// Gets the name of the <c>open-quote</c> property.
 	/// </summary>
 	public const string OpenQuote = "open-quote";
+
+	/// <summary>
+	/// Gets the name of the <c>ordinal</c> property.
+	/// </summary>
+	public const string Ordinal = "ordinal";
+
+	/// <summary>
+	/// Gets the name of the <c>outer box-shadow</c> property.
+	/// </summary>
+	public const string OuterBoxShadow = "outer box-shadow";
+
+	/// <summary>
+	/// Gets the name of the <c>outset</c> property.
+	/// </summary>
+	public const string Outset = "outset";
 
 	/// <summary>
 	/// Gets the name of the <c>outside</c> property.
@@ -336,9 +1446,74 @@ public static partial class CssValues
 	public const string Outside = "outside";
 
 	/// <summary>
+	/// Gets the name of the <c>outside-shape</c> property.
+	/// </summary>
+	public const string OutsideShape = "outside-shape";
+
+	/// <summary>
+	/// Gets the name of the <c>over</c> property.
+	/// </summary>
+	public const string Over = "over";
+
+	/// <summary>
+	/// Gets the name of the <c>overflow</c> property.
+	/// </summary>
+	public const string Overflow = "overflow";
+
+	/// <summary>
+	/// Gets the name of the <c>overlay</c> property.
+	/// </summary>
+	public const string Overlay = "overlay";
+
+	/// <summary>
 	/// Gets the name of the <c>overline</c> property.
 	/// </summary>
 	public const string Overline = "overline";
+
+	/// <summary>
+	/// Gets the name of the <c>padding</c> property.
+	/// </summary>
+	public const string Padding = "padding";
+
+	/// <summary>
+	/// Gets the name of the <c>padding-box</c> property.
+	/// </summary>
+	public const string PaddingBox = "padding-box";
+
+	/// <summary>
+	/// Gets the name of the <c>page</c> property.
+	/// </summary>
+	public const string Page = "page";
+
+	/// <summary>
+	/// Gets the name of the <c>paginate</c> property.
+	/// </summary>
+	public const string Paginate = "paginate";
+
+	/// <summary>
+	/// Gets the name of the <c>paint</c> property.
+	/// </summary>
+	public const string Paint = "paint";
+
+	/// <summary>
+	/// Gets the name of the <c>paused</c> property.
+	/// </summary>
+	public const string Paused = "paused";
+
+	/// <summary>
+	/// Gets the name of the <c>petite-caps</c> property.
+	/// </summary>
+	public const string PetiteCaps = "petite-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>pixelated</c> property.
+	/// </summary>
+	public const string Pixelated = "pixelated";
+
+	/// <summary>
+	/// Gets the name of the <c>plaintext</c> property.
+	/// </summary>
+	public const string Plaintext = "plaintext";
 
 	/// <summary>
 	/// Gets the name of the <c>pointer</c> property.
@@ -356,6 +1531,31 @@ public static partial class CssValues
 	public const string PreLine = "pre-line";
 
 	/// <summary>
+	/// Gets the name of the <c>preserve</c> property.
+	/// </summary>
+	public const string Preserve = "preserve";
+
+	/// <summary>
+	/// Gets the name of the <c>preserve-breaks</c> property.
+	/// </summary>
+	public const string PreserveBreaks = "preserve-breaks";
+
+	/// <summary>
+	/// Gets the name of the <c>preserve-parent-color</c> property.
+	/// </summary>
+	public const string PreserveParentColor = "preserve-parent-color";
+
+	/// <summary>
+	/// Gets the name of the <c>preserve-spaces</c> property.
+	/// </summary>
+	public const string PreserveSpaces = "preserve-spaces";
+
+	/// <summary>
+	/// Gets the name of the <c>pretty</c> property.
+	/// </summary>
+	public const string Pretty = "pretty";
+
+	/// <summary>
 	/// Gets the name of the <c>pre-wrap</c> property.
 	/// </summary>
 	public const string PreWrap = "pre-wrap";
@@ -366,9 +1566,99 @@ public static partial class CssValues
 	public const string Progress = "progress";
 
 	/// <summary>
+	/// Gets the name of the <c>progress-bar</c> property.
+	/// </summary>
+	public const string ProgressBar = "progress-bar";
+
+	/// <summary>
+	/// Gets the name of the <c>proportional-nums</c> property.
+	/// </summary>
+	public const string ProportionalNums = "proportional-nums";
+
+	/// <summary>
+	/// Gets the name of the <c>proportional-width</c> property.
+	/// </summary>
+	public const string ProportionalWidth = "proportional-width";
+
+	/// <summary>
+	/// Gets the name of the <c>proximity</c> property.
+	/// </summary>
+	public const string Proximity = "proximity";
+
+	/// <summary>
+	/// Gets the name of the <c>punctuation</c> property.
+	/// </summary>
+	public const string Punctuation = "punctuation";
+
+	/// <summary>
+	/// Gets the name of the <c>radio</c> property.
+	/// </summary>
+	public const string Radio = "radio";
+
+	/// <summary>
+	/// Gets the name of the <c>raise</c> property.
+	/// </summary>
+	public const string Raise = "raise";
+
+	/// <summary>
+	/// Gets the name of the <c>reading</c> property.
+	/// </summary>
+	public const string Reading = "reading";
+
+	/// <summary>
+	/// Gets the name of the <c>recto</c> property.
+	/// </summary>
+	public const string Recto = "recto";
+
+	/// <summary>
+	/// Gets the name of the <c>reduced</c> property.
+	/// </summary>
+	public const string Reduced = "reduced";
+
+	/// <summary>
+	/// Gets the name of the <c>region</c> property.
+	/// </summary>
+	public const string Region = "region";
+
+	/// <summary>
 	/// Gets the name of the <c>relative</c> property.
 	/// </summary>
 	public const string Relative = "relative";
+
+	/// <summary>
+	/// Gets the name of the <c>repeat</c> property.
+	/// </summary>
+	public const string Repeat = "repeat";
+
+	/// <summary>
+	/// Gets the name of the <c>repeat-x</c> property.
+	/// </summary>
+	public const string RepeatX = "repeat-x";
+
+	/// <summary>
+	/// Gets the name of the <c>repeat-y</c> property.
+	/// </summary>
+	public const string RepeatY = "repeat-y";
+
+	/// <summary>
+	/// Gets the name of the <c>replace</c> property.
+	/// </summary>
+	public const string Replace = "replace";
+
+	/// <summary>
+	/// Gets the name of the <c>reverse</c> property.
+	/// </summary>
+	public const string Reverse = "reverse";
+
+	/// <summary>
+	/// Gets the name of the <c>revert</c> property.
+	/// </summary>
+	public const string Revert = "revert";
+
+	/// <summary>
+	/// Gets the name of the <c>revert-layer</c> property.
+	/// </summary>
+	public const string RevertLayer = "revert-layer";
 
 	/// <summary>
 	/// Gets the name of the <c>right</c> property.
@@ -376,14 +1666,84 @@ public static partial class CssValues
 	public const string Right = "right";
 
 	/// <summary>
+	/// Gets the name of the <c>rightwards</c> property.
+	/// </summary>
+	public const string Rightwards = "rightwards";
+
+	/// <summary>
+	/// Gets the name of the <c>root</c> property.
+	/// </summary>
+	public const string Root = "root";
+
+	/// <summary>
+	/// Gets the name of the <c>round</c> property.
+	/// </summary>
+	public const string Round = "round";
+
+	/// <summary>
+	/// Gets the name of the <c>row</c> property.
+	/// </summary>
+	public const string Row = "row";
+
+	/// <summary>
+	/// Gets the name of the <c>row-resize</c> property.
+	/// </summary>
+	public const string RowResize = "row-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>row-reverse</c> property.
+	/// </summary>
+	public const string RowReverse = "row-reverse";
+
+	/// <summary>
 	/// Gets the name of the <c>rtl</c> property.
 	/// </summary>
 	public const string Rtl = "rtl";
 
 	/// <summary>
+	/// Gets the name of the <c>ruby</c> property.
+	/// </summary>
+	public const string Ruby = "ruby";
+
+	/// <summary>
+	/// Gets the name of the <c>running</c> property.
+	/// </summary>
+	public const string Running = "running";
+
+	/// <summary>
+	/// Gets the name of the <c>scale-down</c> property.
+	/// </summary>
+	public const string ScaleDown = "scale-down";
+
+	/// <summary>
 	/// Gets the name of the <c>scroll</c> property.
 	/// </summary>
 	public const string Scroll = "scroll";
+
+	/// <summary>
+	/// Gets the name of the <c>scroll-position</c> property.
+	/// </summary>
+	public const string ScrollPosition = "scroll-position";
+
+	/// <summary>
+	/// Gets the name of the <c>searchfield</c> property.
+	/// </summary>
+	public const string Searchfield = "searchfield";
+
+	/// <summary>
+	/// Gets the name of the <c>self</c> property.
+	/// </summary>
+	public const string Self = "self";
+
+	/// <summary>
+	/// Gets the name of the <c>semi-condensed</c> property.
+	/// </summary>
+	public const string SemiCondensed = "semi-condensed";
+
+	/// <summary>
+	/// Gets the name of the <c>semi-expanded</c> property.
+	/// </summary>
+	public const string SemiExpanded = "semi-expanded";
 
 	/// <summary>
 	/// Gets the name of the <c>separate</c> property.
@@ -396,9 +1756,89 @@ public static partial class CssValues
 	public const string SeResize = "se-resize";
 
 	/// <summary>
+	/// Gets the name of the <c>sesame</c> property.
+	/// </summary>
+	public const string Sesame = "sesame";
+
+	/// <summary>
 	/// Gets the name of the <c>show</c> property.
 	/// </summary>
 	public const string Show = "show";
+
+	/// <summary>
+	/// Gets the name of the <c>sides</c> property.
+	/// </summary>
+	public const string Sides = "sides";
+
+	/// <summary>
+	/// Gets the name of the <c>sideways</c> property.
+	/// </summary>
+	public const string Sideways = "sideways";
+
+	/// <summary>
+	/// Gets the name of the <c>sideways-lr</c> property.
+	/// </summary>
+	public const string SidewaysLr = "sideways-lr";
+
+	/// <summary>
+	/// Gets the name of the <c>sideways-right</c> property.
+	/// </summary>
+	public const string SidewaysRight = "sideways-right";
+
+	/// <summary>
+	/// Gets the name of the <c>sideways-rl</c> property.
+	/// </summary>
+	public const string SidewaysRl = "sideways-rl";
+
+	/// <summary>
+	/// Gets the name of the <c>silent</c> property.
+	/// </summary>
+	public const string Silent = "silent";
+
+	/// <summary>
+	/// Gets the name of the <c>simplified</c> property.
+	/// </summary>
+	public const string Simplified = "simplified";
+
+	/// <summary>
+	/// Gets the name of the <c>size</c> property.
+	/// </summary>
+	public const string Size = "size";
+
+	/// <summary>
+	/// Gets the name of the <c>skip-all</c> property.
+	/// </summary>
+	public const string SkipAll = "skip-all";
+
+	/// <summary>
+	/// Gets the name of the <c>skip-line-through</c> property.
+	/// </summary>
+	public const string SkipLineThrough = "skip-line-through";
+
+	/// <summary>
+	/// Gets the name of the <c>skip-overline</c> property.
+	/// </summary>
+	public const string SkipOverline = "skip-overline";
+
+	/// <summary>
+	/// Gets the name of the <c>skip-underline</c> property.
+	/// </summary>
+	public const string SkipUnderline = "skip-underline";
+
+	/// <summary>
+	/// Gets the name of the <c>slashed-zero</c> property.
+	/// </summary>
+	public const string SlashedZero = "slashed-zero";
+
+	/// <summary>
+	/// Gets the name of the <c>slice</c> property.
+	/// </summary>
+	public const string Slice = "slice";
+
+	/// <summary>
+	/// Gets the name of the <c>slow</c> property.
+	/// </summary>
+	public const string Slow = "slow";
 
 	/// <summary>
 	/// Gets the name of the <c>small</c> property.
@@ -416,6 +1856,76 @@ public static partial class CssValues
 	public const string SmallCaption = "small-caption";
 
 	/// <summary>
+	/// Gets the name of the <c>smooth</c> property.
+	/// </summary>
+	public const string Smooth = "smooth";
+
+	/// <summary>
+	/// Gets the name of the <c>snap</c> property.
+	/// </summary>
+	public const string Snap = "snap";
+
+	/// <summary>
+	/// Gets the name of the <c>snap-block</c> property.
+	/// </summary>
+	public const string SnapBlock = "snap-block";
+
+	/// <summary>
+	/// Gets the name of the <c>snap-inline</c> property.
+	/// </summary>
+	public const string SnapInline = "snap-inline";
+
+	/// <summary>
+	/// Gets the name of the <c>soft</c> property.
+	/// </summary>
+	public const string Soft = "soft";
+
+	/// <summary>
+	/// Gets the name of the <c>space</c> property.
+	/// </summary>
+	public const string Space = "space";
+
+	/// <summary>
+	/// Gets the name of the <c>space-all</c> property.
+	/// </summary>
+	public const string SpaceAll = "space-all";
+
+	/// <summary>
+	/// Gets the name of the <c>space-around</c> property.
+	/// </summary>
+	public const string SpaceAround = "space-around";
+
+	/// <summary>
+	/// Gets the name of the <c>space-between</c> property.
+	/// </summary>
+	public const string SpaceBetween = "space-between";
+
+	/// <summary>
+	/// Gets the name of the <c>space-first</c> property.
+	/// </summary>
+	public const string SpaceFirst = "space-first";
+
+	/// <summary>
+	/// Gets the name of the <c>spaces</c> property.
+	/// </summary>
+	public const string Spaces = "spaces";
+
+	/// <summary>
+	/// Gets the name of the <c>spelling-error</c> property.
+	/// </summary>
+	public const string SpellingError = "spelling-error";
+
+	/// <summary>
+	/// Gets the name of the <c>spell-out</c> property.
+	/// </summary>
+	public const string SpellOut = "spell-out";
+
+	/// <summary>
+	/// Gets the name of the <c>spread</c> property.
+	/// </summary>
+	public const string Spread = "spread";
+
+	/// <summary>
 	/// Gets the name of the <c>square</c> property.
 	/// </summary>
 	public const string Square = "square";
@@ -424,6 +1934,26 @@ public static partial class CssValues
 	/// Gets the name of the <c>s-resize</c> property.
 	/// </summary>
 	public const string SResize = "s-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>sRGB</c> property.
+	/// </summary>
+	public const string Srgb = "sRGB";
+
+	/// <summary>
+	/// Gets the name of the <c>stable</c> property.
+	/// </summary>
+	public const string Stable = "stable";
+
+	/// <summary>
+	/// Gets the name of the <c>stacked-fractions</c> property.
+	/// </summary>
+	public const string StackedFractions = "stacked-fractions";
+
+	/// <summary>
+	/// Gets the name of the <c>start</c> property.
+	/// </summary>
+	public const string Start = "start";
 
 	/// <summary>
 	/// Gets the name of the <c>static</c> property.
@@ -436,9 +1966,49 @@ public static partial class CssValues
 	public const string StatusBar = "status-bar";
 
 	/// <summary>
+	/// Gets the name of the <c>sticky</c> property.
+	/// </summary>
+	public const string Sticky = "sticky";
+
+	/// <summary>
+	/// Gets the name of the <c>stretch</c> property.
+	/// </summary>
+	public const string Stretch = "stretch";
+
+	/// <summary>
+	/// Gets the name of the <c>strict</c> property.
+	/// </summary>
+	public const string Strict = "strict";
+
+	/// <summary>
+	/// Gets the name of the <c>stroke-box</c> property.
+	/// </summary>
+	public const string StrokeBox = "stroke-box";
+
+	/// <summary>
+	/// Gets the name of the <c>strong</c> property.
+	/// </summary>
+	public const string Strong = "strong";
+
+	/// <summary>
+	/// Gets the name of the <c>style</c> property.
+	/// </summary>
+	public const string Style = "style";
+
+	/// <summary>
 	/// Gets the name of the <c>sub</c> property.
 	/// </summary>
 	public const string Sub = "sub";
+
+	/// <summary>
+	/// Gets the name of the <c>subgrid</c> property.
+	/// </summary>
+	public const string Subgrid = "subgrid";
+
+	/// <summary>
+	/// Gets the name of the <c>subtract</c> property.
+	/// </summary>
+	public const string Subtract = "subtract";
 
 	/// <summary>
 	/// Gets the name of the <c>super</c> property.
@@ -449,6 +2019,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>sw-resize</c> property.
 	/// </summary>
 	public const string SwResize = "sw-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>symbols</c> property.
+	/// </summary>
+	public const string Symbols = "symbols";
 
 	/// <summary>
 	/// Gets the name of the <c>table</c> property.
@@ -496,9 +2071,29 @@ public static partial class CssValues
 	public const string TableRowGroup = "table-row-group";
 
 	/// <summary>
+	/// Gets the name of the <c>tabular-nums</c> property.
+	/// </summary>
+	public const string TabularNums = "tabular-nums";
+
+	/// <summary>
 	/// Gets the name of the <c>text</c> property.
 	/// </summary>
 	public const string Text = "text";
+
+	/// <summary>
+	/// Gets the name of the <c>text-after-edge</c> property.
+	/// </summary>
+	public const string TextAfterEdge = "text-after-edge";
+
+	/// <summary>
+	/// Gets the name of the <c>textarea</c> property.
+	/// </summary>
+	public const string Textarea = "textarea";
+
+	/// <summary>
+	/// Gets the name of the <c>text-before-edge</c> property.
+	/// </summary>
+	public const string TextBeforeEdge = "text-before-edge";
 
 	/// <summary>
 	/// Gets the name of the <c>text-bottom</c> property.
@@ -506,9 +2101,24 @@ public static partial class CssValues
 	public const string TextBottom = "text-bottom";
 
 	/// <summary>
+	/// Gets the name of the <c>textfield</c> property.
+	/// </summary>
+	public const string Textfield = "textfield";
+
+	/// <summary>
 	/// Gets the name of the <c>text-top</c> property.
 	/// </summary>
 	public const string TextTop = "text-top";
+
+	/// <summary>
+	/// Gets the name of the <c>thin</c> property.
+	/// </summary>
+	public const string Thin = "thin";
+
+	/// <summary>
+	/// Gets the name of the <c>titling-caps</c> property.
+	/// </summary>
+	public const string TitlingCaps = "titling-caps";
 
 	/// <summary>
 	/// Gets the name of the <c>top</c> property.
@@ -516,14 +2126,69 @@ public static partial class CssValues
 	public const string Top = "top";
 
 	/// <summary>
+	/// Gets the name of the <c>traditional</c> property.
+	/// </summary>
+	public const string Traditional = "traditional";
+
+	/// <summary>
 	/// Gets the name of the <c>transparent</c> property.
 	/// </summary>
 	public const string Transparent = "transparent";
 
 	/// <summary>
+	/// Gets the name of the <c>triangle</c> property.
+	/// </summary>
+	public const string Triangle = "triangle";
+
+	/// <summary>
+	/// Gets the name of the <c>trim-auto</c> property.
+	/// </summary>
+	public const string TrimAuto = "trim-auto";
+
+	/// <summary>
+	/// Gets the name of the <c>ultra-condensed</c> property.
+	/// </summary>
+	public const string UltraCondensed = "ultra-condensed";
+
+	/// <summary>
+	/// Gets the name of the <c>ultra-expanded</c> property.
+	/// </summary>
+	public const string UltraExpanded = "ultra-expanded";
+
+	/// <summary>
+	/// Gets the name of the <c>under</c> property.
+	/// </summary>
+	public const string Under = "under";
+
+	/// <summary>
 	/// Gets the name of the <c>underline</c> property.
 	/// </summary>
 	public const string Underline = "underline";
+
+	/// <summary>
+	/// Gets the name of the <c>underscore</c> property.
+	/// </summary>
+	public const string Underscore = "underscore";
+
+	/// <summary>
+	/// Gets the name of the <c>unicase</c> property.
+	/// </summary>
+	public const string Unicase = "unicase";
+
+	/// <summary>
+	/// Gets the name of the <c>unicode</c> property.
+	/// </summary>
+	public const string Unicode = "unicode";
+
+	/// <summary>
+	/// Gets the name of the <c>unset</c> property.
+	/// </summary>
+	public const string Unset = "unset";
+
+	/// <summary>
+	/// Gets the name of the <c>up</c> property.
+	/// </summary>
+	public const string Up = "up";
 
 	/// <summary>
 	/// Gets the name of the <c>upper-alpha</c> property.
@@ -546,6 +2211,36 @@ public static partial class CssValues
 	public const string UpperRoman = "upper-roman";
 
 	/// <summary>
+	/// Gets the name of the <c>upright</c> property.
+	/// </summary>
+	public const string Upright = "upright";
+
+	/// <summary>
+	/// Gets the name of the <c>verso</c> property.
+	/// </summary>
+	public const string Verso = "verso";
+
+	/// <summary>
+	/// Gets the name of the <c>vertical-lr</c> property.
+	/// </summary>
+	public const string VerticalLr = "vertical-lr";
+
+	/// <summary>
+	/// Gets the name of the <c>vertical-rl</c> property.
+	/// </summary>
+	public const string VerticalRl = "vertical-rl";
+
+	/// <summary>
+	/// Gets the name of the <c>vertical-text</c> property.
+	/// </summary>
+	public const string VerticalText = "vertical-text";
+
+	/// <summary>
+	/// Gets the name of the <c>view-box</c> property.
+	/// </summary>
+	public const string ViewBox = "view-box";
+
+	/// <summary>
 	/// Gets the name of the <c>visible</c> property.
 	/// </summary>
 	public const string Visible = "visible";
@@ -556,9 +2251,49 @@ public static partial class CssValues
 	public const string Wait = "wait";
 
 	/// <summary>
+	/// Gets the name of the <c>wavy</c> property.
+	/// </summary>
+	public const string Wavy = "wavy";
+
+	/// <summary>
+	/// Gets the name of the <c>weak</c> property.
+	/// </summary>
+	public const string Weak = "weak";
+
+	/// <summary>
+	/// Gets the name of the <c>-webkit-discard</c> property.
+	/// </summary>
+	public const string WebkitDiscard = "-webkit-discard";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap</c> property.
+	/// </summary>
+	public const string Wrap = "wrap";
+
+	/// <summary>
+	/// Gets the name of the <c>wrap-reverse</c> property.
+	/// </summary>
+	public const string WrapReverse = "wrap-reverse";
+
+	/// <summary>
 	/// Gets the name of the <c>w-resize</c> property.
 	/// </summary>
 	public const string WResize = "w-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>x</c> property.
+	/// </summary>
+	public const string X = "x";
+
+	/// <summary>
+	/// Gets the name of the <c>x-fast</c> property.
+	/// </summary>
+	public const string XFast = "x-fast";
+
+	/// <summary>
+	/// Gets the name of the <c>x-high</c> property.
+	/// </summary>
+	public const string XHigh = "x-high";
 
 	/// <summary>
 	/// Gets the name of the <c>x-large</c> property.
@@ -566,9 +2301,39 @@ public static partial class CssValues
 	public const string XLarge = "x-large";
 
 	/// <summary>
+	/// Gets the name of the <c>x-loud</c> property.
+	/// </summary>
+	public const string XLoud = "x-loud";
+
+	/// <summary>
+	/// Gets the name of the <c>x-low</c> property.
+	/// </summary>
+	public const string XLow = "x-low";
+
+	/// <summary>
+	/// Gets the name of the <c>x-slow</c> property.
+	/// </summary>
+	public const string XSlow = "x-slow";
+
+	/// <summary>
 	/// Gets the name of the <c>x-small</c> property.
 	/// </summary>
 	public const string XSmall = "x-small";
+
+	/// <summary>
+	/// Gets the name of the <c>x-soft</c> property.
+	/// </summary>
+	public const string XSoft = "x-soft";
+
+	/// <summary>
+	/// Gets the name of the <c>x-strong</c> property.
+	/// </summary>
+	public const string XStrong = "x-strong";
+
+	/// <summary>
+	/// Gets the name of the <c>x-weak</c> property.
+	/// </summary>
+	public const string XWeak = "x-weak";
 
 	/// <summary>
 	/// Gets the name of the <c>xx-large</c> property.
@@ -581,79 +2346,609 @@ public static partial class CssValues
 	public const string XxSmall = "xx-small";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>margin-top</c> property.
+	/// Gets the name of the <c>y</c> property.
 	/// </summary>
-	public static MarginTopValues ForMarginTop = new();
+	public const string Y = "y";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>margin-bottom</c> property.
+	/// Gets the name of the <c>young</c> property.
 	/// </summary>
-	public static MarginBottomValues ForMarginBottom = new();
+	public const string Young = "young";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>margin-right</c> property.
+	/// Gets the name of the <c>z</c> property.
 	/// </summary>
-	public static MarginRightValues ForMarginRight = new();
+	public const string Z = "z";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>margin-left</c> property.
+	/// Gets the name of the <c>zero-if-extrinsic</c> property.
 	/// </summary>
-	public static MarginLeftValues ForMarginLeft = new();
+	public const string ZeroIfExtrinsic = "zero-if-extrinsic";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>margin</c> property.
+	/// Gets the name of the <c>zero-if-scroll</c> property.
 	/// </summary>
-	public static MarginValues ForMargin = new();
+	public const string ZeroIfScroll = "zero-if-scroll";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>padding-top</c> property.
+	/// Gets the name of the <c>zoom-in</c> property.
 	/// </summary>
-	public static PaddingTopValues ForPaddingTop = new();
+	public const string ZoomIn = "zoom-in";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>padding-right</c> property.
+	/// Gets the name of the <c>zoom-out</c> property.
 	/// </summary>
-	public static PaddingRightValues ForPaddingRight = new();
+	public const string ZoomOut = "zoom-out";
 
 	/// <summary>
-	/// Gets values which are valid for the <c>padding-bottom</c> property.
+	/// Gets values which are valid for the <c>-webkit-text-fill-color</c> property.
 	/// </summary>
-	public static PaddingBottomValues ForPaddingBottom = new();
+	public static WebkitTextFillColorValues ForWebkitTextFillColor = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>padding-left</c> property.
+	/// Gets values which are valid for the <c>-webkit-text-stroke-color</c> property.
 	/// </summary>
-	public static PaddingLeftValues ForPaddingLeft = new();
+	public static WebkitTextStrokeColorValues ForWebkitTextStrokeColor = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>padding</c> property.
+	/// Gets values which are valid for the <c>-webkit-text-stroke-width</c> property.
 	/// </summary>
-	public static PaddingValues ForPadding = new();
+	public static WebkitTextStrokeWidthValues ForWebkitTextStrokeWidth = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>border-top-width</c> property.
+	/// Gets values which are valid for the <c>-webkit-text-stroke</c> property.
 	/// </summary>
-	public static BorderTopWidthValues ForBorderTopWidth = new();
+	public static WebkitTextStrokeValues ForWebkitTextStroke = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>border-right-width</c> property.
+	/// Gets values which are valid for the <c>touch-action</c> property.
 	/// </summary>
-	public static BorderRightWidthValues ForBorderRightWidth = new();
+	public static TouchActionValues ForTouchAction = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>border-bottom-width</c> property.
+	/// Gets values which are valid for the <c>-webkit-align-items</c> property.
 	/// </summary>
-	public static BorderBottomWidthValues ForBorderBottomWidth = new();
+	public static WebkitAlignItemsValues ForWebkitAlignItems = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>border-left-width</c> property.
+	/// Gets values which are valid for the <c>-webkit-align-content</c> property.
 	/// </summary>
-	public static BorderLeftWidthValues ForBorderLeftWidth = new();
+	public static WebkitAlignContentValues ForWebkitAlignContent = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>border-width</c> property.
+	/// Gets values which are valid for the <c>-webkit-align-self</c> property.
 	/// </summary>
-	public static BorderWidthValues ForBorderWidth = new();
+	public static WebkitAlignSelfValues ForWebkitAlignSelf = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-name</c> property.
+	/// </summary>
+	public static WebkitAnimationNameValues ForWebkitAnimationName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-duration</c> property.
+	/// </summary>
+	public static WebkitAnimationDurationValues ForWebkitAnimationDuration = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-timing-function</c> property.
+	/// </summary>
+	public static WebkitAnimationTimingFunctionValues ForWebkitAnimationTimingFunction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-iteration-count</c> property.
+	/// </summary>
+	public static WebkitAnimationIterationCountValues ForWebkitAnimationIterationCount = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-direction</c> property.
+	/// </summary>
+	public static WebkitAnimationDirectionValues ForWebkitAnimationDirection = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-play-state</c> property.
+	/// </summary>
+	public static WebkitAnimationPlayStateValues ForWebkitAnimationPlayState = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-delay</c> property.
+	/// </summary>
+	public static WebkitAnimationDelayValues ForWebkitAnimationDelay = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation-fill-mode</c> property.
+	/// </summary>
+	public static WebkitAnimationFillModeValues ForWebkitAnimationFillMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-animation</c> property.
+	/// </summary>
+	public static WebkitAnimationValues ForWebkitAnimation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-backface-visibility</c> property.
+	/// </summary>
+	public static WebkitBackfaceVisibilityValues ForWebkitBackfaceVisibility = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-background-clip</c> property.
+	/// </summary>
+	public static WebkitBackgroundClipValues ForWebkitBackgroundClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-background-origin</c> property.
+	/// </summary>
+	public static WebkitBackgroundOriginValues ForWebkitBackgroundOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-background-size</c> property.
+	/// </summary>
+	public static WebkitBackgroundSizeValues ForWebkitBackgroundSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-border-bottom-left-radius</c> property.
+	/// </summary>
+	public static WebkitBorderBottomLeftRadiusValues ForWebkitBorderBottomLeftRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-border-bottom-right-radius</c> property.
+	/// </summary>
+	public static WebkitBorderBottomRightRadiusValues ForWebkitBorderBottomRightRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-border-top-left-radius</c> property.
+	/// </summary>
+	public static WebkitBorderTopLeftRadiusValues ForWebkitBorderTopLeftRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-border-top-right-radius</c> property.
+	/// </summary>
+	public static WebkitBorderTopRightRadiusValues ForWebkitBorderTopRightRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-border-radius</c> property.
+	/// </summary>
+	public static WebkitBorderRadiusValues ForWebkitBorderRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-shadow</c> property.
+	/// </summary>
+	public static WebkitBoxShadowValues ForWebkitBoxShadow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-sizing</c> property.
+	/// </summary>
+	public static WebkitBoxSizingValues ForWebkitBoxSizing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex</c> property.
+	/// </summary>
+	public static WebkitFlexValues ForWebkitFlex = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-basis</c> property.
+	/// </summary>
+	public static WebkitFlexBasisValues ForWebkitFlexBasis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-direction</c> property.
+	/// </summary>
+	public static WebkitFlexDirectionValues ForWebkitFlexDirection = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-flow</c> property.
+	/// </summary>
+	public static WebkitFlexFlowValues ForWebkitFlexFlow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-grow</c> property.
+	/// </summary>
+	public static WebkitFlexGrowValues ForWebkitFlexGrow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-shrink</c> property.
+	/// </summary>
+	public static WebkitFlexShrinkValues ForWebkitFlexShrink = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-flex-wrap</c> property.
+	/// </summary>
+	public static WebkitFlexWrapValues ForWebkitFlexWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-filter</c> property.
+	/// </summary>
+	public static WebkitFilterValues ForWebkitFilter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-justify-content</c> property.
+	/// </summary>
+	public static WebkitJustifyContentValues ForWebkitJustifyContent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask</c> property.
+	/// </summary>
+	public static WebkitMaskValues ForWebkitMask = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageValues ForWebkitMaskBoxImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image-outset</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageOutsetValues ForWebkitMaskBoxImageOutset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image-repeat</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageRepeatValues ForWebkitMaskBoxImageRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image-slice</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageSliceValues ForWebkitMaskBoxImageSlice = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image-source</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageSourceValues ForWebkitMaskBoxImageSource = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-box-image-width</c> property.
+	/// </summary>
+	public static WebkitMaskBoxImageWidthValues ForWebkitMaskBoxImageWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-clip</c> property.
+	/// </summary>
+	public static WebkitMaskClipValues ForWebkitMaskClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-composite</c> property.
+	/// </summary>
+	public static WebkitMaskCompositeValues ForWebkitMaskComposite = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-image</c> property.
+	/// </summary>
+	public static WebkitMaskImageValues ForWebkitMaskImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-origin</c> property.
+	/// </summary>
+	public static WebkitMaskOriginValues ForWebkitMaskOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-position</c> property.
+	/// </summary>
+	public static WebkitMaskPositionValues ForWebkitMaskPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-repeat</c> property.
+	/// </summary>
+	public static WebkitMaskRepeatValues ForWebkitMaskRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-mask-size</c> property.
+	/// </summary>
+	public static WebkitMaskSizeValues ForWebkitMaskSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-order</c> property.
+	/// </summary>
+	public static WebkitOrderValues ForWebkitOrder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-perspective</c> property.
+	/// </summary>
+	public static WebkitPerspectiveValues ForWebkitPerspective = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-perspective-origin</c> property.
+	/// </summary>
+	public static WebkitPerspectiveOriginValues ForWebkitPerspectiveOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transform-origin</c> property.
+	/// </summary>
+	public static WebkitTransformOriginValues ForWebkitTransformOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transform-style</c> property.
+	/// </summary>
+	public static WebkitTransformStyleValues ForWebkitTransformStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transform</c> property.
+	/// </summary>
+	public static WebkitTransformValues ForWebkitTransform = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transition-delay</c> property.
+	/// </summary>
+	public static WebkitTransitionDelayValues ForWebkitTransitionDelay = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transition-duration</c> property.
+	/// </summary>
+	public static WebkitTransitionDurationValues ForWebkitTransitionDuration = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transition-property</c> property.
+	/// </summary>
+	public static WebkitTransitionPropertyValues ForWebkitTransitionProperty = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transition-timing-function</c> property.
+	/// </summary>
+	public static WebkitTransitionTimingFunctionValues ForWebkitTransitionTimingFunction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-transition</c> property.
+	/// </summary>
+	public static WebkitTransitionValues ForWebkitTransition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-text-size-adjust</c> property.
+	/// </summary>
+	public static WebkitTextSizeAdjustValues ForWebkitTextSizeAdjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-align</c> property.
+	/// </summary>
+	public static WebkitBoxAlignValues ForWebkitBoxAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-flex</c> property.
+	/// </summary>
+	public static WebkitBoxFlexValues ForWebkitBoxFlex = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-ordinal-group</c> property.
+	/// </summary>
+	public static WebkitBoxOrdinalGroupValues ForWebkitBoxOrdinalGroup = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-orient</c> property.
+	/// </summary>
+	public static WebkitBoxOrientValues ForWebkitBoxOrient = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-box-pack</c> property.
+	/// </summary>
+	public static WebkitBoxPackValues ForWebkitBoxPack = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mix-blend-mode</c> property.
+	/// </summary>
+	public static MixBlendModeValues ForMixBlendMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>isolation</c> property.
+	/// </summary>
+	public static IsolationValues ForIsolation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-blend-mode</c> property.
+	/// </summary>
+	public static BackgroundBlendModeValues ForBackgroundBlendMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>align-content</c> property.
+	/// </summary>
+	public static AlignContentValues ForAlignContent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>justify-content</c> property.
+	/// </summary>
+	public static JustifyContentValues ForJustifyContent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>place-content</c> property.
+	/// </summary>
+	public static PlaceContentValues ForPlaceContent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>justify-self</c> property.
+	/// </summary>
+	public static JustifySelfValues ForJustifySelf = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>align-self</c> property.
+	/// </summary>
+	public static AlignSelfValues ForAlignSelf = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>place-self</c> property.
+	/// </summary>
+	public static PlaceSelfValues ForPlaceSelf = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>justify-items</c> property.
+	/// </summary>
+	public static JustifyItemsValues ForJustifyItems = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>align-items</c> property.
+	/// </summary>
+	public static AlignItemsValues ForAlignItems = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>place-items</c> property.
+	/// </summary>
+	public static PlaceItemsValues ForPlaceItems = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>row-gap</c> property.
+	/// </summary>
+	public static RowGapValues ForRowGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-gap</c> property.
+	/// </summary>
+	public static ColumnGapValues ForColumnGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>gap</c> property.
+	/// </summary>
+	public static GapValues ForGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-row-gap</c> property.
+	/// </summary>
+	public static GridRowGapValues ForGridRowGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-column-gap</c> property.
+	/// </summary>
+	public static GridColumnGapValues ForGridColumnGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-gap</c> property.
+	/// </summary>
+	public static GridGapValues ForGridGap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>anchor-name</c> property.
+	/// </summary>
+	public static AnchorNameValues ForAnchorName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>anchor-default</c> property.
+	/// </summary>
+	public static AnchorDefaultValues ForAnchorDefault = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>position-fallback</c> property.
+	/// </summary>
+	public static PositionFallbackValues ForPositionFallback = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>position-fallback-bounds</c> property.
+	/// </summary>
+	public static PositionFallbackBoundsValues ForPositionFallbackBounds = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-duration</c> property.
+	/// </summary>
+	public static AnimationDurationValues ForAnimationDuration = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-composition</c> property.
+	/// </summary>
+	public static AnimationCompositionValues ForAnimationComposition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-timeline</c> property.
+	/// </summary>
+	public static AnimationTimelineValues ForAnimationTimeline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-name</c> property.
+	/// </summary>
+	public static AnimationNameValues ForAnimationName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-timing-function</c> property.
+	/// </summary>
+	public static AnimationTimingFunctionValues ForAnimationTimingFunction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-iteration-count</c> property.
+	/// </summary>
+	public static AnimationIterationCountValues ForAnimationIterationCount = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-direction</c> property.
+	/// </summary>
+	public static AnimationDirectionValues ForAnimationDirection = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-play-state</c> property.
+	/// </summary>
+	public static AnimationPlayStateValues ForAnimationPlayState = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-delay</c> property.
+	/// </summary>
+	public static AnimationDelayValues ForAnimationDelay = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-fill-mode</c> property.
+	/// </summary>
+	public static AnimationFillModeValues ForAnimationFillMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation</c> property.
+	/// </summary>
+	public static AnimationValues ForAnimation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-position</c> property.
+	/// </summary>
+	public static BackgroundPositionValues ForBackgroundPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-position-x</c> property.
+	/// </summary>
+	public static BackgroundPositionXValues ForBackgroundPositionX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-position-y</c> property.
+	/// </summary>
+	public static BackgroundPositionYValues ForBackgroundPositionY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-position-inline</c> property.
+	/// </summary>
+	public static BackgroundPositionInlineValues ForBackgroundPositionInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-position-block</c> property.
+	/// </summary>
+	public static BackgroundPositionBlockValues ForBackgroundPositionBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-clip</c> property.
+	/// </summary>
+	public static BackgroundClipValues ForBackgroundClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-color</c> property.
+	/// </summary>
+	public static BackgroundColorValues ForBackgroundColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-image</c> property.
+	/// </summary>
+	public static BackgroundImageValues ForBackgroundImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-repeat</c> property.
+	/// </summary>
+	public static BackgroundRepeatValues ForBackgroundRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-attachment</c> property.
+	/// </summary>
+	public static BackgroundAttachmentValues ForBackgroundAttachment = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-origin</c> property.
+	/// </summary>
+	public static BackgroundOriginValues ForBackgroundOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background-size</c> property.
+	/// </summary>
+	public static BackgroundSizeValues ForBackgroundSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>background</c> property.
+	/// </summary>
+	public static BackgroundValues ForBackground = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>border-top-color</c> property.
@@ -706,6 +3001,31 @@ public static partial class CssValues
 	public static BorderStyleValues ForBorderStyle = new();
 
 	/// <summary>
+	/// Gets values which are valid for the <c>border-top-width</c> property.
+	/// </summary>
+	public static BorderTopWidthValues ForBorderTopWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-right-width</c> property.
+	/// </summary>
+	public static BorderRightWidthValues ForBorderRightWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-bottom-width</c> property.
+	/// </summary>
+	public static BorderBottomWidthValues ForBorderBottomWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-left-width</c> property.
+	/// </summary>
+	public static BorderLeftWidthValues ForBorderLeftWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-width</c> property.
+	/// </summary>
+	public static BorderWidthValues ForBorderWidth = new();
+
+	/// <summary>
 	/// Gets values which are valid for the <c>border-top</c> property.
 	/// </summary>
 	public static BorderTopValues ForBorderTop = new();
@@ -731,14 +3051,1424 @@ public static partial class CssValues
 	public static BorderValues ForBorder = new();
 
 	/// <summary>
+	/// Gets values which are valid for the <c>border-top-left-radius</c> property.
+	/// </summary>
+	public static BorderTopLeftRadiusValues ForBorderTopLeftRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-top-right-radius</c> property.
+	/// </summary>
+	public static BorderTopRightRadiusValues ForBorderTopRightRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-bottom-right-radius</c> property.
+	/// </summary>
+	public static BorderBottomRightRadiusValues ForBorderBottomRightRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-bottom-left-radius</c> property.
+	/// </summary>
+	public static BorderBottomLeftRadiusValues ForBorderBottomLeftRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-radius</c> property.
+	/// </summary>
+	public static BorderRadiusValues ForBorderRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image-source</c> property.
+	/// </summary>
+	public static BorderImageSourceValues ForBorderImageSource = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image-slice</c> property.
+	/// </summary>
+	public static BorderImageSliceValues ForBorderImageSlice = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image-width</c> property.
+	/// </summary>
+	public static BorderImageWidthValues ForBorderImageWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image-outset</c> property.
+	/// </summary>
+	public static BorderImageOutsetValues ForBorderImageOutset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image-repeat</c> property.
+	/// </summary>
+	public static BorderImageRepeatValues ForBorderImageRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-image</c> property.
+	/// </summary>
+	public static BorderImageValues ForBorderImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow</c> property.
+	/// </summary>
+	public static BoxShadowValues ForBoxShadow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-top-radius</c> property.
+	/// </summary>
+	public static BorderTopRadiusValues ForBorderTopRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-right-radius</c> property.
+	/// </summary>
+	public static BorderRightRadiusValues ForBorderRightRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-bottom-radius</c> property.
+	/// </summary>
+	public static BorderBottomRadiusValues ForBorderBottomRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-left-radius</c> property.
+	/// </summary>
+	public static BorderLeftRadiusValues ForBorderLeftRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-start-radius</c> property.
+	/// </summary>
+	public static BorderBlockStartRadiusValues ForBorderBlockStartRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-end-radius</c> property.
+	/// </summary>
+	public static BorderBlockEndRadiusValues ForBorderBlockEndRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-start-radius</c> property.
+	/// </summary>
+	public static BorderInlineStartRadiusValues ForBorderInlineStartRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-end-radius</c> property.
+	/// </summary>
+	public static BorderInlineEndRadiusValues ForBorderInlineEndRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>corner-shape</c> property.
+	/// </summary>
+	public static CornerShapeValues ForCornerShape = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>corners</c> property.
+	/// </summary>
+	public static CornersValues ForCorners = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-limit</c> property.
+	/// </summary>
+	public static BorderLimitValues ForBorderLimit = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-clip</c> property.
+	/// </summary>
+	public static BorderClipValues ForBorderClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-clip-top</c> property.
+	/// </summary>
+	public static BorderClipTopValues ForBorderClipTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-clip-right</c> property.
+	/// </summary>
+	public static BorderClipRightValues ForBorderClipRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-clip-bottom</c> property.
+	/// </summary>
+	public static BorderClipBottomValues ForBorderClipBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-clip-left</c> property.
+	/// </summary>
+	public static BorderClipLeftValues ForBorderClipLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow-color</c> property.
+	/// </summary>
+	public static BoxShadowColorValues ForBoxShadowColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow-offset</c> property.
+	/// </summary>
+	public static BoxShadowOffsetValues ForBoxShadowOffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow-blur</c> property.
+	/// </summary>
+	public static BoxShadowBlurValues ForBoxShadowBlur = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow-spread</c> property.
+	/// </summary>
+	public static BoxShadowSpreadValues ForBoxShadowSpread = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-shadow-position</c> property.
+	/// </summary>
+	public static BoxShadowPositionValues ForBoxShadowPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-top</c> property.
+	/// </summary>
+	public static MarginTopValues ForMarginTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-right</c> property.
+	/// </summary>
+	public static MarginRightValues ForMarginRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-bottom</c> property.
+	/// </summary>
+	public static MarginBottomValues ForMarginBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-left</c> property.
+	/// </summary>
+	public static MarginLeftValues ForMarginLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin</c> property.
+	/// </summary>
+	public static MarginValues ForMargin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-trim</c> property.
+	/// </summary>
+	public static MarginTrimValues ForMarginTrim = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-top</c> property.
+	/// </summary>
+	public static PaddingTopValues ForPaddingTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-right</c> property.
+	/// </summary>
+	public static PaddingRightValues ForPaddingRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-bottom</c> property.
+	/// </summary>
+	public static PaddingBottomValues ForPaddingBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-left</c> property.
+	/// </summary>
+	public static PaddingLeftValues ForPaddingLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding</c> property.
+	/// </summary>
+	public static PaddingValues ForPadding = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>break-before</c> property.
+	/// </summary>
+	public static BreakBeforeValues ForBreakBefore = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>break-after</c> property.
+	/// </summary>
+	public static BreakAfterValues ForBreakAfter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>break-inside</c> property.
+	/// </summary>
+	public static BreakInsideValues ForBreakInside = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>orphans</c> property.
+	/// </summary>
+	public static OrphansValues ForOrphans = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>widows</c> property.
+	/// </summary>
+	public static WidowsValues ForWidows = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-break</c> property.
+	/// </summary>
+	public static MarginBreakValues ForMarginBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-decoration-break</c> property.
+	/// </summary>
+	public static BoxDecorationBreakValues ForBoxDecorationBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>all</c> property.
+	/// </summary>
+	public static AllValues ForAll = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>color-scheme</c> property.
+	/// </summary>
+	public static ColorSchemeValues ForColorScheme = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>forced-color-adjust</c> property.
+	/// </summary>
+	public static ForcedColorAdjustValues ForForcedColorAdjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>print-color-adjust</c> property.
+	/// </summary>
+	public static PrintColorAdjustValues ForPrintColorAdjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>color-adjust</c> property.
+	/// </summary>
+	public static ColorAdjustValues ForColorAdjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>color</c> property.
+	/// </summary>
+	public static ColorValues ForColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>opacity</c> property.
+	/// </summary>
+	public static OpacityValues ForOpacity = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>contain</c> property.
+	/// </summary>
+	public static ContainValues ForContain = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>container-type</c> property.
+	/// </summary>
+	public static ContainerTypeValues ForContainerType = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>container-name</c> property.
+	/// </summary>
+	public static ContainerNameValues ForContainerName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>container</c> property.
+	/// </summary>
+	public static ContainerValues ForContainer = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>content-visibility</c> property.
+	/// </summary>
+	public static ContentVisibilityValues ForContentVisibility = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>content</c> property.
+	/// </summary>
+	public static ContentValues ForContent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>quotes</c> property.
+	/// </summary>
+	public static QuotesValues ForQuotes = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>string-set</c> property.
+	/// </summary>
+	public static StringSetValues ForStringSet = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>bookmark-level</c> property.
+	/// </summary>
+	public static BookmarkLevelValues ForBookmarkLevel = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>bookmark-label</c> property.
+	/// </summary>
+	public static BookmarkLabelValues ForBookmarkLabel = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>bookmark-state</c> property.
+	/// </summary>
+	public static BookmarkStateValues ForBookmarkState = new();
+
+	/// <summary>
 	/// Gets values which are valid for the <c>display</c> property.
 	/// </summary>
 	public static DisplayValues ForDisplay = new();
 
 	/// <summary>
+	/// Gets values which are valid for the <c>order</c> property.
+	/// </summary>
+	public static OrderValues ForOrder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>reading-order</c> property.
+	/// </summary>
+	public static ReadingOrderValues ForReadingOrder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>layout-order</c> property.
+	/// </summary>
+	public static LayoutOrderValues ForLayoutOrder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>visibility</c> property.
+	/// </summary>
+	public static VisibilityValues ForVisibility = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>wrap-flow</c> property.
+	/// </summary>
+	public static WrapFlowValues ForWrapFlow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>wrap-through</c> property.
+	/// </summary>
+	public static WrapThroughValues ForWrapThrough = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-direction</c> property.
+	/// </summary>
+	public static FlexDirectionValues ForFlexDirection = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-wrap</c> property.
+	/// </summary>
+	public static FlexWrapValues ForFlexWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-flow</c> property.
+	/// </summary>
+	public static FlexFlowValues ForFlexFlow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex</c> property.
+	/// </summary>
+	public static FlexValues ForFlex = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-grow</c> property.
+	/// </summary>
+	public static FlexGrowValues ForFlexGrow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-shrink</c> property.
+	/// </summary>
+	public static FlexShrinkValues ForFlexShrink = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flex-basis</c> property.
+	/// </summary>
+	public static FlexBasisValues ForFlexBasis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-size-adjust</c> property.
+	/// </summary>
+	public static FontSizeAdjustValues ForFontSizeAdjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-family</c> property.
+	/// </summary>
+	public static FontFamilyValues ForFontFamily = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-weight</c> property.
+	/// </summary>
+	public static FontWeightValues ForFontWeight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-stretch</c> property.
+	/// </summary>
+	public static FontStretchValues ForFontStretch = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-style</c> property.
+	/// </summary>
+	public static FontStyleValues ForFontStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-size</c> property.
+	/// </summary>
+	public static FontSizeValues ForFontSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font</c> property.
+	/// </summary>
+	public static FontValues ForFont = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-synthesis-weight</c> property.
+	/// </summary>
+	public static FontSynthesisWeightValues ForFontSynthesisWeight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-synthesis-style</c> property.
+	/// </summary>
+	public static FontSynthesisStyleValues ForFontSynthesisStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-synthesis-small-caps</c> property.
+	/// </summary>
+	public static FontSynthesisSmallCapsValues ForFontSynthesisSmallCaps = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-synthesis-position</c> property.
+	/// </summary>
+	public static FontSynthesisPositionValues ForFontSynthesisPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-synthesis</c> property.
+	/// </summary>
+	public static FontSynthesisValues ForFontSynthesis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-kerning</c> property.
+	/// </summary>
+	public static FontKerningValues ForFontKerning = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-ligatures</c> property.
+	/// </summary>
+	public static FontVariantLigaturesValues ForFontVariantLigatures = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-position</c> property.
+	/// </summary>
+	public static FontVariantPositionValues ForFontVariantPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-caps</c> property.
+	/// </summary>
+	public static FontVariantCapsValues ForFontVariantCaps = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-numeric</c> property.
+	/// </summary>
+	public static FontVariantNumericValues ForFontVariantNumeric = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-alternates</c> property.
+	/// </summary>
+	public static FontVariantAlternatesValues ForFontVariantAlternates = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-east-asian</c> property.
+	/// </summary>
+	public static FontVariantEastAsianValues ForFontVariantEastAsian = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant</c> property.
+	/// </summary>
+	public static FontVariantValues ForFontVariant = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-feature-settings</c> property.
+	/// </summary>
+	public static FontFeatureSettingsValues ForFontFeatureSettings = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-language-override</c> property.
+	/// </summary>
+	public static FontLanguageOverrideValues ForFontLanguageOverride = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-optical-sizing</c> property.
+	/// </summary>
+	public static FontOpticalSizingValues ForFontOpticalSizing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variation-settings</c> property.
+	/// </summary>
+	public static FontVariationSettingsValues ForFontVariationSettings = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-palette</c> property.
+	/// </summary>
+	public static FontPaletteValues ForFontPalette = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>font-variant-emoji</c> property.
+	/// </summary>
+	public static FontVariantEmojiValues ForFontVariantEmoji = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>copy-into</c> property.
+	/// </summary>
+	public static CopyIntoValues ForCopyInto = new();
+
+	/// <summary>
 	/// Gets values which are valid for the <c>position</c> property.
 	/// </summary>
 	public static PositionValues ForPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>float</c> property.
+	/// </summary>
+	public static FloatValues ForFloat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>footnote-display</c> property.
+	/// </summary>
+	public static FootnoteDisplayValues ForFootnoteDisplay = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>footnote-policy</c> property.
+	/// </summary>
+	public static FootnotePolicyValues ForFootnotePolicy = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-template-columns</c> property.
+	/// </summary>
+	public static GridTemplateColumnsValues ForGridTemplateColumns = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-template-rows</c> property.
+	/// </summary>
+	public static GridTemplateRowsValues ForGridTemplateRows = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>masonry-auto-flow</c> property.
+	/// </summary>
+	public static MasonryAutoFlowValues ForMasonryAutoFlow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>align-tracks</c> property.
+	/// </summary>
+	public static AlignTracksValues ForAlignTracks = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>justify-tracks</c> property.
+	/// </summary>
+	public static JustifyTracksValues ForJustifyTracks = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-template-areas</c> property.
+	/// </summary>
+	public static GridTemplateAreasValues ForGridTemplateAreas = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-template</c> property.
+	/// </summary>
+	public static GridTemplateValues ForGridTemplate = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-auto-columns</c> property.
+	/// </summary>
+	public static GridAutoColumnsValues ForGridAutoColumns = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-auto-rows</c> property.
+	/// </summary>
+	public static GridAutoRowsValues ForGridAutoRows = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-auto-flow</c> property.
+	/// </summary>
+	public static GridAutoFlowValues ForGridAutoFlow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid</c> property.
+	/// </summary>
+	public static GridValues ForGrid = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-row-start</c> property.
+	/// </summary>
+	public static GridRowStartValues ForGridRowStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-column-start</c> property.
+	/// </summary>
+	public static GridColumnStartValues ForGridColumnStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-row-end</c> property.
+	/// </summary>
+	public static GridRowEndValues ForGridRowEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-column-end</c> property.
+	/// </summary>
+	public static GridColumnEndValues ForGridColumnEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-row</c> property.
+	/// </summary>
+	public static GridRowValues ForGridRow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-column</c> property.
+	/// </summary>
+	public static GridColumnValues ForGridColumn = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>grid-area</c> property.
+	/// </summary>
+	public static GridAreaValues ForGridArea = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>object-fit</c> property.
+	/// </summary>
+	public static ObjectFitValues ForObjectFit = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>image-resolution</c> property.
+	/// </summary>
+	public static ImageResolutionValues ForImageResolution = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>object-view-box</c> property.
+	/// </summary>
+	public static ObjectViewBoxValues ForObjectViewBox = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>object-position</c> property.
+	/// </summary>
+	public static ObjectPositionValues ForObjectPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>image-orientation</c> property.
+	/// </summary>
+	public static ImageOrientationValues ForImageOrientation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>image-rendering</c> property.
+	/// </summary>
+	public static ImageRenderingValues ForImageRendering = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>dominant-baseline</c> property.
+	/// </summary>
+	public static DominantBaselineValues ForDominantBaseline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>vertical-align</c> property.
+	/// </summary>
+	public static VerticalAlignValues ForVerticalAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>baseline-source</c> property.
+	/// </summary>
+	public static BaselineSourceValues ForBaselineSource = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>alignment-baseline</c> property.
+	/// </summary>
+	public static AlignmentBaselineValues ForAlignmentBaseline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>baseline-shift</c> property.
+	/// </summary>
+	public static BaselineShiftValues ForBaselineShift = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-height</c> property.
+	/// </summary>
+	public static LineHeightValues ForLineHeight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-box-edge</c> property.
+	/// </summary>
+	public static TextBoxEdgeValues ForTextBoxEdge = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-box-trim</c> property.
+	/// </summary>
+	public static TextBoxTrimValues ForTextBoxTrim = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inline-sizing</c> property.
+	/// </summary>
+	public static InlineSizingValues ForInlineSizing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>initial-letter</c> property.
+	/// </summary>
+	public static InitialLetterValues ForInitialLetter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>initial-letter-align</c> property.
+	/// </summary>
+	public static InitialLetterAlignValues ForInitialLetterAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>initial-letter-wrap</c> property.
+	/// </summary>
+	public static InitialLetterWrapValues ForInitialLetterWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-grid</c> property.
+	/// </summary>
+	public static LineGridValues ForLineGrid = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-snap</c> property.
+	/// </summary>
+	public static LineSnapValues ForLineSnap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>box-snap</c> property.
+	/// </summary>
+	public static BoxSnapValues ForBoxSnap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>link-parameters</c> property.
+	/// </summary>
+	public static LinkParametersValues ForLinkParameters = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>list-style-image</c> property.
+	/// </summary>
+	public static ListStyleImageValues ForListStyleImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>list-style-type</c> property.
+	/// </summary>
+	public static ListStyleTypeValues ForListStyleType = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>list-style-position</c> property.
+	/// </summary>
+	public static ListStylePositionValues ForListStylePosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>list-style</c> property.
+	/// </summary>
+	public static ListStyleValues ForListStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>marker-side</c> property.
+	/// </summary>
+	public static MarkerSideValues ForMarkerSide = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>counter-reset</c> property.
+	/// </summary>
+	public static CounterResetValues ForCounterReset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>counter-increment</c> property.
+	/// </summary>
+	public static CounterIncrementValues ForCounterIncrement = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>counter-set</c> property.
+	/// </summary>
+	public static CounterSetValues ForCounterSet = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>caption-side</c> property.
+	/// </summary>
+	public static CaptionSideValues ForCaptionSide = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>clear</c> property.
+	/// </summary>
+	public static ClearValues ForClear = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-align</c> property.
+	/// </summary>
+	public static TextAlignValues ForTextAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>block-size</c> property.
+	/// </summary>
+	public static BlockSizeValues ForBlockSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inline-size</c> property.
+	/// </summary>
+	public static InlineSizeValues ForInlineSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>min-block-size</c> property.
+	/// </summary>
+	public static MinBlockSizeValues ForMinBlockSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>min-inline-size</c> property.
+	/// </summary>
+	public static MinInlineSizeValues ForMinInlineSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>max-block-size</c> property.
+	/// </summary>
+	public static MaxBlockSizeValues ForMaxBlockSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>max-inline-size</c> property.
+	/// </summary>
+	public static MaxInlineSizeValues ForMaxInlineSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-block-start</c> property.
+	/// </summary>
+	public static MarginBlockStartValues ForMarginBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-block-end</c> property.
+	/// </summary>
+	public static MarginBlockEndValues ForMarginBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-inline-start</c> property.
+	/// </summary>
+	public static MarginInlineStartValues ForMarginInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-inline-end</c> property.
+	/// </summary>
+	public static MarginInlineEndValues ForMarginInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-block</c> property.
+	/// </summary>
+	public static MarginBlockValues ForMarginBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>margin-inline</c> property.
+	/// </summary>
+	public static MarginInlineValues ForMarginInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-block-start</c> property.
+	/// </summary>
+	public static InsetBlockStartValues ForInsetBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-block-end</c> property.
+	/// </summary>
+	public static InsetBlockEndValues ForInsetBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-inline-start</c> property.
+	/// </summary>
+	public static InsetInlineStartValues ForInsetInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-inline-end</c> property.
+	/// </summary>
+	public static InsetInlineEndValues ForInsetInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-block</c> property.
+	/// </summary>
+	public static InsetBlockValues ForInsetBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset-inline</c> property.
+	/// </summary>
+	public static InsetInlineValues ForInsetInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>inset</c> property.
+	/// </summary>
+	public static InsetValues ForInset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-block-start</c> property.
+	/// </summary>
+	public static PaddingBlockStartValues ForPaddingBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-block-end</c> property.
+	/// </summary>
+	public static PaddingBlockEndValues ForPaddingBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-inline-start</c> property.
+	/// </summary>
+	public static PaddingInlineStartValues ForPaddingInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-inline-end</c> property.
+	/// </summary>
+	public static PaddingInlineEndValues ForPaddingInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-block</c> property.
+	/// </summary>
+	public static PaddingBlockValues ForPaddingBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>padding-inline</c> property.
+	/// </summary>
+	public static PaddingInlineValues ForPaddingInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-start-width</c> property.
+	/// </summary>
+	public static BorderBlockStartWidthValues ForBorderBlockStartWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-end-width</c> property.
+	/// </summary>
+	public static BorderBlockEndWidthValues ForBorderBlockEndWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-start-width</c> property.
+	/// </summary>
+	public static BorderInlineStartWidthValues ForBorderInlineStartWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-end-width</c> property.
+	/// </summary>
+	public static BorderInlineEndWidthValues ForBorderInlineEndWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-width</c> property.
+	/// </summary>
+	public static BorderBlockWidthValues ForBorderBlockWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-width</c> property.
+	/// </summary>
+	public static BorderInlineWidthValues ForBorderInlineWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-start-style</c> property.
+	/// </summary>
+	public static BorderBlockStartStyleValues ForBorderBlockStartStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-end-style</c> property.
+	/// </summary>
+	public static BorderBlockEndStyleValues ForBorderBlockEndStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-start-style</c> property.
+	/// </summary>
+	public static BorderInlineStartStyleValues ForBorderInlineStartStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-end-style</c> property.
+	/// </summary>
+	public static BorderInlineEndStyleValues ForBorderInlineEndStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-style</c> property.
+	/// </summary>
+	public static BorderBlockStyleValues ForBorderBlockStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-style</c> property.
+	/// </summary>
+	public static BorderInlineStyleValues ForBorderInlineStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-start-color</c> property.
+	/// </summary>
+	public static BorderBlockStartColorValues ForBorderBlockStartColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-end-color</c> property.
+	/// </summary>
+	public static BorderBlockEndColorValues ForBorderBlockEndColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-start-color</c> property.
+	/// </summary>
+	public static BorderInlineStartColorValues ForBorderInlineStartColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-end-color</c> property.
+	/// </summary>
+	public static BorderInlineEndColorValues ForBorderInlineEndColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-color</c> property.
+	/// </summary>
+	public static BorderBlockColorValues ForBorderBlockColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-color</c> property.
+	/// </summary>
+	public static BorderInlineColorValues ForBorderInlineColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-start</c> property.
+	/// </summary>
+	public static BorderBlockStartValues ForBorderBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block-end</c> property.
+	/// </summary>
+	public static BorderBlockEndValues ForBorderBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-start</c> property.
+	/// </summary>
+	public static BorderInlineStartValues ForBorderInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline-end</c> property.
+	/// </summary>
+	public static BorderInlineEndValues ForBorderInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-block</c> property.
+	/// </summary>
+	public static BorderBlockValues ForBorderBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-inline</c> property.
+	/// </summary>
+	public static BorderInlineValues ForBorderInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-start-start-radius</c> property.
+	/// </summary>
+	public static BorderStartStartRadiusValues ForBorderStartStartRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-start-end-radius</c> property.
+	/// </summary>
+	public static BorderStartEndRadiusValues ForBorderStartEndRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-end-start-radius</c> property.
+	/// </summary>
+	public static BorderEndStartRadiusValues ForBorderEndStartRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-end-end-radius</c> property.
+	/// </summary>
+	public static BorderEndEndRadiusValues ForBorderEndEndRadius = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>clip-path</c> property.
+	/// </summary>
+	public static ClipPathValues ForClipPath = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>clip-rule</c> property.
+	/// </summary>
+	public static ClipRuleValues ForClipRule = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-image</c> property.
+	/// </summary>
+	public static MaskImageValues ForMaskImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-mode</c> property.
+	/// </summary>
+	public static MaskModeValues ForMaskMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-repeat</c> property.
+	/// </summary>
+	public static MaskRepeatValues ForMaskRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-position</c> property.
+	/// </summary>
+	public static MaskPositionValues ForMaskPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-clip</c> property.
+	/// </summary>
+	public static MaskClipValues ForMaskClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-origin</c> property.
+	/// </summary>
+	public static MaskOriginValues ForMaskOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-size</c> property.
+	/// </summary>
+	public static MaskSizeValues ForMaskSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-composite</c> property.
+	/// </summary>
+	public static MaskCompositeValues ForMaskComposite = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask</c> property.
+	/// </summary>
+	public static MaskValues ForMask = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-source</c> property.
+	/// </summary>
+	public static MaskBorderSourceValues ForMaskBorderSource = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-mode</c> property.
+	/// </summary>
+	public static MaskBorderModeValues ForMaskBorderMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-slice</c> property.
+	/// </summary>
+	public static MaskBorderSliceValues ForMaskBorderSlice = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-width</c> property.
+	/// </summary>
+	public static MaskBorderWidthValues ForMaskBorderWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-outset</c> property.
+	/// </summary>
+	public static MaskBorderOutsetValues ForMaskBorderOutset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border-repeat</c> property.
+	/// </summary>
+	public static MaskBorderRepeatValues ForMaskBorderRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-border</c> property.
+	/// </summary>
+	public static MaskBorderValues ForMaskBorder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>mask-type</c> property.
+	/// </summary>
+	public static MaskTypeValues ForMaskType = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>clip</c> property.
+	/// </summary>
+	public static ClipValues ForClip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-span</c> property.
+	/// </summary>
+	public static ColumnSpanValues ForColumnSpan = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-width</c> property.
+	/// </summary>
+	public static ColumnWidthValues ForColumnWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-count</c> property.
+	/// </summary>
+	public static ColumnCountValues ForColumnCount = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>columns</c> property.
+	/// </summary>
+	public static ColumnsValues ForColumns = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-rule-color</c> property.
+	/// </summary>
+	public static ColumnRuleColorValues ForColumnRuleColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-rule-style</c> property.
+	/// </summary>
+	public static ColumnRuleStyleValues ForColumnRuleStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-rule-width</c> property.
+	/// </summary>
+	public static ColumnRuleWidthValues ForColumnRuleWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-rule</c> property.
+	/// </summary>
+	public static ColumnRuleValues ForColumnRule = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>column-fill</c> property.
+	/// </summary>
+	public static ColumnFillValues ForColumnFill = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>spatial-navigation-contain</c> property.
+	/// </summary>
+	public static SpatialNavigationContainValues ForSpatialNavigationContain = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>spatial-navigation-action</c> property.
+	/// </summary>
+	public static SpatialNavigationActionValues ForSpatialNavigationAction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>spatial-navigation-function</c> property.
+	/// </summary>
+	public static SpatialNavigationFunctionValues ForSpatialNavigationFunction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-top</c> property.
+	/// </summary>
+	public static OverflowClipMarginTopValues ForOverflowClipMarginTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-right</c> property.
+	/// </summary>
+	public static OverflowClipMarginRightValues ForOverflowClipMarginRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-bottom</c> property.
+	/// </summary>
+	public static OverflowClipMarginBottomValues ForOverflowClipMarginBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-left</c> property.
+	/// </summary>
+	public static OverflowClipMarginLeftValues ForOverflowClipMarginLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-block-start</c> property.
+	/// </summary>
+	public static OverflowClipMarginBlockStartValues ForOverflowClipMarginBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-inline-start</c> property.
+	/// </summary>
+	public static OverflowClipMarginInlineStartValues ForOverflowClipMarginInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-block-end</c> property.
+	/// </summary>
+	public static OverflowClipMarginBlockEndValues ForOverflowClipMarginBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-inline-end</c> property.
+	/// </summary>
+	public static OverflowClipMarginInlineEndValues ForOverflowClipMarginInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin</c> property.
+	/// </summary>
+	public static OverflowClipMarginValues ForOverflowClipMargin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-inline</c> property.
+	/// </summary>
+	public static OverflowClipMarginInlineValues ForOverflowClipMarginInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-clip-margin-block</c> property.
+	/// </summary>
+	public static OverflowClipMarginBlockValues ForOverflowClipMarginBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-overflow</c> property.
+	/// </summary>
+	public static TextOverflowValues ForTextOverflow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>block-ellipsis</c> property.
+	/// </summary>
+	public static BlockEllipsisValues ForBlockEllipsis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-clamp</c> property.
+	/// </summary>
+	public static LineClampValues ForLineClamp = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-line-clamp</c> property.
+	/// </summary>
+	public static WebkitLineClampValues ForWebkitLineClamp = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>continue</c> property.
+	/// </summary>
+	public static ContinueValues ForContinue = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>max-lines</c> property.
+	/// </summary>
+	public static MaxLinesValues ForMaxLines = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-x</c> property.
+	/// </summary>
+	public static OverflowXValues ForOverflowX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-y</c> property.
+	/// </summary>
+	public static OverflowYValues ForOverflowY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-block</c> property.
+	/// </summary>
+	public static OverflowBlockValues ForOverflowBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-inline</c> property.
+	/// </summary>
+	public static OverflowInlineValues ForOverflowInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow</c> property.
+	/// </summary>
+	public static OverflowValues ForOverflow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-behavior</c> property.
+	/// </summary>
+	public static ScrollBehaviorValues ForScrollBehavior = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scrollbar-gutter</c> property.
+	/// </summary>
+	public static ScrollbarGutterValues ForScrollbarGutter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overscroll-behavior</c> property.
+	/// </summary>
+	public static OverscrollBehaviorValues ForOverscrollBehavior = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overscroll-behavior-x</c> property.
+	/// </summary>
+	public static OverscrollBehaviorXValues ForOverscrollBehaviorX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overscroll-behavior-y</c> property.
+	/// </summary>
+	public static OverscrollBehaviorYValues ForOverscrollBehaviorY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overscroll-behavior-inline</c> property.
+	/// </summary>
+	public static OverscrollBehaviorInlineValues ForOverscrollBehaviorInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overscroll-behavior-block</c> property.
+	/// </summary>
+	public static OverscrollBehaviorBlockValues ForOverscrollBehaviorBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>float-reference</c> property.
+	/// </summary>
+	public static FloatReferenceValues ForFloatReference = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>float-defer</c> property.
+	/// </summary>
+	public static FloatDeferValues ForFloatDefer = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>float-offset</c> property.
+	/// </summary>
+	public static FloatOffsetValues ForFloatOffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>page</c> property.
+	/// </summary>
+	public static PageValues ForPage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overlay</c> property.
+	/// </summary>
+	public static OverlayValues ForOverlay = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>top</c> property.
@@ -761,29 +4491,294 @@ public static partial class CssValues
 	public static LeftValues ForLeft = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>float</c> property.
+	/// Gets values which are valid for the <c>flow-into</c> property.
 	/// </summary>
-	public static FloatValues ForFloat = new();
+	public static FlowIntoValues ForFlowInto = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>clear</c> property.
+	/// Gets values which are valid for the <c>flow-from</c> property.
 	/// </summary>
-	public static ClearValues ForClear = new();
+	public static FlowFromValues ForFlowFrom = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>z-index</c> property.
+	/// Gets values which are valid for the <c>region-fragment</c> property.
 	/// </summary>
-	public static ZIndexValues ForZIndex = new();
+	public static RegionFragmentValues ForRegionFragment = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>direction</c> property.
+	/// Gets values which are valid for the <c>block-step-size</c> property.
 	/// </summary>
-	public static DirectionValues ForDirection = new();
+	public static BlockStepSizeValues ForBlockStepSize = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>unicode-bidi</c> property.
+	/// Gets values which are valid for the <c>block-step-insert</c> property.
 	/// </summary>
-	public static UnicodeBidiValues ForUnicodeBidi = new();
+	public static BlockStepInsertValues ForBlockStepInsert = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>block-step-align</c> property.
+	/// </summary>
+	public static BlockStepAlignValues ForBlockStepAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>block-step-round</c> property.
+	/// </summary>
+	public static BlockStepRoundValues ForBlockStepRound = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>block-step</c> property.
+	/// </summary>
+	public static BlockStepValues ForBlockStep = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-height-step</c> property.
+	/// </summary>
+	public static LineHeightStepValues ForLineHeightStep = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-inside</c> property.
+	/// </summary>
+	public static ShapeInsideValues ForShapeInside = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>border-boundary</c> property.
+	/// </summary>
+	public static BorderBoundaryValues ForBorderBoundary = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>ruby-position</c> property.
+	/// </summary>
+	public static RubyPositionValues ForRubyPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>ruby-merge</c> property.
+	/// </summary>
+	public static RubyMergeValues ForRubyMerge = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>ruby-align</c> property.
+	/// </summary>
+	public static RubyAlignValues ForRubyAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>ruby-overhang</c> property.
+	/// </summary>
+	public static RubyOverhangValues ForRubyOverhang = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-anchor</c> property.
+	/// </summary>
+	public static OverflowAnchorValues ForOverflowAnchor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start</c> property.
+	/// </summary>
+	public static ScrollStartValues ForScrollStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-target</c> property.
+	/// </summary>
+	public static ScrollStartTargetValues ForScrollStartTarget = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-x</c> property.
+	/// </summary>
+	public static ScrollStartXValues ForScrollStartX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-y</c> property.
+	/// </summary>
+	public static ScrollStartYValues ForScrollStartY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-inline</c> property.
+	/// </summary>
+	public static ScrollStartInlineValues ForScrollStartInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-block</c> property.
+	/// </summary>
+	public static ScrollStartBlockValues ForScrollStartBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-target-block</c> property.
+	/// </summary>
+	public static ScrollStartTargetBlockValues ForScrollStartTargetBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-target-inline</c> property.
+	/// </summary>
+	public static ScrollStartTargetInlineValues ForScrollStartTargetInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-target-x</c> property.
+	/// </summary>
+	public static ScrollStartTargetXValues ForScrollStartTargetX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-start-target-y</c> property.
+	/// </summary>
+	public static ScrollStartTargetYValues ForScrollStartTargetY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-snap-type</c> property.
+	/// </summary>
+	public static ScrollSnapTypeValues ForScrollSnapType = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding</c> property.
+	/// </summary>
+	public static ScrollPaddingValues ForScrollPadding = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin</c> property.
+	/// </summary>
+	public static ScrollMarginValues ForScrollMargin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-snap-align</c> property.
+	/// </summary>
+	public static ScrollSnapAlignValues ForScrollSnapAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-snap-stop</c> property.
+	/// </summary>
+	public static ScrollSnapStopValues ForScrollSnapStop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-top</c> property.
+	/// </summary>
+	public static ScrollPaddingTopValues ForScrollPaddingTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-right</c> property.
+	/// </summary>
+	public static ScrollPaddingRightValues ForScrollPaddingRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-bottom</c> property.
+	/// </summary>
+	public static ScrollPaddingBottomValues ForScrollPaddingBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-left</c> property.
+	/// </summary>
+	public static ScrollPaddingLeftValues ForScrollPaddingLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-inline-start</c> property.
+	/// </summary>
+	public static ScrollPaddingInlineStartValues ForScrollPaddingInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-block-start</c> property.
+	/// </summary>
+	public static ScrollPaddingBlockStartValues ForScrollPaddingBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-inline-end</c> property.
+	/// </summary>
+	public static ScrollPaddingInlineEndValues ForScrollPaddingInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-block-end</c> property.
+	/// </summary>
+	public static ScrollPaddingBlockEndValues ForScrollPaddingBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-block</c> property.
+	/// </summary>
+	public static ScrollPaddingBlockValues ForScrollPaddingBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-padding-inline</c> property.
+	/// </summary>
+	public static ScrollPaddingInlineValues ForScrollPaddingInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-top</c> property.
+	/// </summary>
+	public static ScrollMarginTopValues ForScrollMarginTop = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-right</c> property.
+	/// </summary>
+	public static ScrollMarginRightValues ForScrollMarginRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-bottom</c> property.
+	/// </summary>
+	public static ScrollMarginBottomValues ForScrollMarginBottom = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-left</c> property.
+	/// </summary>
+	public static ScrollMarginLeftValues ForScrollMarginLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-block-start</c> property.
+	/// </summary>
+	public static ScrollMarginBlockStartValues ForScrollMarginBlockStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-inline-start</c> property.
+	/// </summary>
+	public static ScrollMarginInlineStartValues ForScrollMarginInlineStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-block-end</c> property.
+	/// </summary>
+	public static ScrollMarginBlockEndValues ForScrollMarginBlockEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-inline-end</c> property.
+	/// </summary>
+	public static ScrollMarginInlineEndValues ForScrollMarginInlineEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-block</c> property.
+	/// </summary>
+	public static ScrollMarginBlockValues ForScrollMarginBlock = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-margin-inline</c> property.
+	/// </summary>
+	public static ScrollMarginInlineValues ForScrollMarginInline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scrollbar-color</c> property.
+	/// </summary>
+	public static ScrollbarColorValues ForScrollbarColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scrollbar-width</c> property.
+	/// </summary>
+	public static ScrollbarWidthValues ForScrollbarWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-padding</c> property.
+	/// </summary>
+	public static ShapePaddingValues ForShapePadding = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-outside</c> property.
+	/// </summary>
+	public static ShapeOutsideValues ForShapeOutside = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-image-threshold</c> property.
+	/// </summary>
+	public static ShapeImageThresholdValues ForShapeImageThreshold = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-margin</c> property.
+	/// </summary>
+	public static ShapeMarginValues ForShapeMargin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-size-adjust</c> property.
+	/// </summary>
+	public static TextSizeAdjustValues ForTextSizeAdjust = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>width</c> property.
@@ -791,19 +4786,14 @@ public static partial class CssValues
 	public static WidthValues ForWidth = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>min-width</c> property.
-	/// </summary>
-	public static MinWidthValues ForMinWidth = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>max-width</c> property.
-	/// </summary>
-	public static MaxWidthValues ForMaxWidth = new();
-
-	/// <summary>
 	/// Gets values which are valid for the <c>height</c> property.
 	/// </summary>
 	public static HeightValues ForHeight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>min-width</c> property.
+	/// </summary>
+	public static MinWidthValues ForMinWidth = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>min-height</c> property.
@@ -811,204 +4801,149 @@ public static partial class CssValues
 	public static MinHeightValues ForMinHeight = new();
 
 	/// <summary>
+	/// Gets values which are valid for the <c>max-width</c> property.
+	/// </summary>
+	public static MaxWidthValues ForMaxWidth = new();
+
+	/// <summary>
 	/// Gets values which are valid for the <c>max-height</c> property.
 	/// </summary>
 	public static MaxHeightValues ForMaxHeight = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>line-height</c> property.
+	/// Gets values which are valid for the <c>aspect-ratio</c> property.
 	/// </summary>
-	public static LineHeightValues ForLineHeight = new();
+	public static AspectRatioValues ForAspectRatio = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>vertical-align</c> property.
+	/// Gets values which are valid for the <c>contain-intrinsic-width</c> property.
 	/// </summary>
-	public static VerticalAlignValues ForVerticalAlign = new();
+	public static ContainIntrinsicWidthValues ForContainIntrinsicWidth = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>overflow</c> property.
+	/// Gets values which are valid for the <c>contain-intrinsic-height</c> property.
 	/// </summary>
-	public static OverflowValues ForOverflow = new();
+	public static ContainIntrinsicHeightValues ForContainIntrinsicHeight = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>clip</c> property.
+	/// Gets values which are valid for the <c>contain-intrinsic-block-size</c> property.
 	/// </summary>
-	public static ClipValues ForClip = new();
+	public static ContainIntrinsicBlockSizeValues ForContainIntrinsicBlockSize = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>visibility</c> property.
+	/// Gets values which are valid for the <c>contain-intrinsic-inline-size</c> property.
 	/// </summary>
-	public static VisibilityValues ForVisibility = new();
+	public static ContainIntrinsicInlineSizeValues ForContainIntrinsicInlineSize = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>content</c> property.
+	/// Gets values which are valid for the <c>contain-intrinsic-size</c> property.
 	/// </summary>
-	public static ContentValues ForContent = new();
+	public static ContainIntrinsicSizeValues ForContainIntrinsicSize = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>quotes</c> property.
+	/// Gets values which are valid for the <c>min-intrinsic-sizing</c> property.
 	/// </summary>
-	public static QuotesValues ForQuotes = new();
+	public static MinIntrinsicSizingValues ForMinIntrinsicSizing = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>counter-reset</c> property.
+	/// Gets values which are valid for the <c>box-sizing</c> property.
 	/// </summary>
-	public static CounterResetValues ForCounterReset = new();
+	public static BoxSizingValues ForBoxSizing = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>counter-increment</c> property.
+	/// Gets values which are valid for the <c>voice-volume</c> property.
 	/// </summary>
-	public static CounterIncrementValues ForCounterIncrement = new();
+	public static VoiceVolumeValues ForVoiceVolume = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>list-style-type</c> property.
+	/// Gets values which are valid for the <c>voice-balance</c> property.
 	/// </summary>
-	public static ListStyleTypeValues ForListStyleType = new();
+	public static VoiceBalanceValues ForVoiceBalance = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>list-style-image</c> property.
+	/// Gets values which are valid for the <c>speak</c> property.
 	/// </summary>
-	public static ListStyleImageValues ForListStyleImage = new();
+	public static SpeakValues ForSpeak = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>list-style-position</c> property.
+	/// Gets values which are valid for the <c>speak-as</c> property.
 	/// </summary>
-	public static ListStylePositionValues ForListStylePosition = new();
+	public static SpeakAsValues ForSpeakAs = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>list-style</c> property.
+	/// Gets values which are valid for the <c>pause-before</c> property.
 	/// </summary>
-	public static ListStyleValues ForListStyle = new();
+	public static PauseBeforeValues ForPauseBefore = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>page-break-before</c> property.
+	/// Gets values which are valid for the <c>pause-after</c> property.
 	/// </summary>
-	public static PageBreakBeforeValues ForPageBreakBefore = new();
+	public static PauseAfterValues ForPauseAfter = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>page-break-after</c> property.
+	/// Gets values which are valid for the <c>pause</c> property.
 	/// </summary>
-	public static PageBreakAfterValues ForPageBreakAfter = new();
+	public static PauseValues ForPause = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>page-break-inside</c> property.
+	/// Gets values which are valid for the <c>rest-before</c> property.
 	/// </summary>
-	public static PageBreakInsideValues ForPageBreakInside = new();
+	public static RestBeforeValues ForRestBefore = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>orphans</c> property.
+	/// Gets values which are valid for the <c>rest-after</c> property.
 	/// </summary>
-	public static OrphansValues ForOrphans = new();
+	public static RestAfterValues ForRestAfter = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>widows</c> property.
+	/// Gets values which are valid for the <c>rest</c> property.
 	/// </summary>
-	public static WidowsValues ForWidows = new();
+	public static RestValues ForRest = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>color</c> property.
+	/// Gets values which are valid for the <c>cue-before</c> property.
 	/// </summary>
-	public static ColorValues ForColor = new();
+	public static CueBeforeValues ForCueBefore = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background-color</c> property.
+	/// Gets values which are valid for the <c>cue-after</c> property.
 	/// </summary>
-	public static BackgroundColorValues ForBackgroundColor = new();
+	public static CueAfterValues ForCueAfter = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background-image</c> property.
+	/// Gets values which are valid for the <c>cue</c> property.
 	/// </summary>
-	public static BackgroundImageValues ForBackgroundImage = new();
+	public static CueValues ForCue = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background-repeat</c> property.
+	/// Gets values which are valid for the <c>voice-family</c> property.
 	/// </summary>
-	public static BackgroundRepeatValues ForBackgroundRepeat = new();
+	public static VoiceFamilyValues ForVoiceFamily = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background-attachment</c> property.
+	/// Gets values which are valid for the <c>voice-rate</c> property.
 	/// </summary>
-	public static BackgroundAttachmentValues ForBackgroundAttachment = new();
+	public static VoiceRateValues ForVoiceRate = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background-position</c> property.
+	/// Gets values which are valid for the <c>voice-pitch</c> property.
 	/// </summary>
-	public static BackgroundPositionValues ForBackgroundPosition = new();
+	public static VoicePitchValues ForVoicePitch = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>background</c> property.
+	/// Gets values which are valid for the <c>voice-range</c> property.
 	/// </summary>
-	public static BackgroundValues ForBackground = new();
+	public static VoiceRangeValues ForVoiceRange = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>font-family</c> property.
+	/// Gets values which are valid for the <c>voice-stress</c> property.
 	/// </summary>
-	public static FontFamilyValues ForFontFamily = new();
+	public static VoiceStressValues ForVoiceStress = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>font-style</c> property.
+	/// Gets values which are valid for the <c>voice-duration</c> property.
 	/// </summary>
-	public static FontStyleValues ForFontStyle = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>font-variant</c> property.
-	/// </summary>
-	public static FontVariantValues ForFontVariant = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>font-weight</c> property.
-	/// </summary>
-	public static FontWeightValues ForFontWeight = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>font-size</c> property.
-	/// </summary>
-	public static FontSizeValues ForFontSize = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>font</c> property.
-	/// </summary>
-	public static FontValues ForFont = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>text-indent</c> property.
-	/// </summary>
-	public static TextIndentValues ForTextIndent = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>text-align</c> property.
-	/// </summary>
-	public static TextAlignValues ForTextAlign = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>text-decoration</c> property.
-	/// </summary>
-	public static TextDecorationValues ForTextDecoration = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>letter-spacing</c> property.
-	/// </summary>
-	public static LetterSpacingValues ForLetterSpacing = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>word-spacing</c> property.
-	/// </summary>
-	public static WordSpacingValues ForWordSpacing = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>text-transform</c> property.
-	/// </summary>
-	public static TextTransformValues ForTextTransform = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>white-space</c> property.
-	/// </summary>
-	public static WhiteSpaceValues ForWhiteSpace = new();
-
-	/// <summary>
-	/// Gets values which are valid for the <c>caption-side</c> property.
-	/// </summary>
-	public static CaptionSideValues ForCaptionSide = new();
+	public static VoiceDurationValues ForVoiceDuration = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>table-layout</c> property.
@@ -1031,9 +4966,349 @@ public static partial class CssValues
 	public static EmptyCellsValues ForEmptyCells = new();
 
 	/// <summary>
-	/// Gets values which are valid for the <c>cursor</c> property.
+	/// Gets values which are valid for the <c>text-transform</c> property.
 	/// </summary>
-	public static CursorValues ForCursor = new();
+	public static TextTransformValues ForTextTransform = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>word-space-transform</c> property.
+	/// </summary>
+	public static WordSpaceTransformValues ForWordSpaceTransform = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>white-space</c> property.
+	/// </summary>
+	public static WhiteSpaceValues ForWhiteSpace = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>white-space-collapse</c> property.
+	/// </summary>
+	public static WhiteSpaceCollapseValues ForWhiteSpaceCollapse = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>white-space-trim</c> property.
+	/// </summary>
+	public static WhiteSpaceTrimValues ForWhiteSpaceTrim = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>tab-size</c> property.
+	/// </summary>
+	public static TabSizeValues ForTabSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-wrap-mode</c> property.
+	/// </summary>
+	public static TextWrapModeValues ForTextWrapMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>wrap-inside</c> property.
+	/// </summary>
+	public static WrapInsideValues ForWrapInside = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>wrap-before</c> property.
+	/// </summary>
+	public static WrapBeforeValues ForWrapBefore = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>wrap-after</c> property.
+	/// </summary>
+	public static WrapAfterValues ForWrapAfter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-wrap-style</c> property.
+	/// </summary>
+	public static TextWrapStyleValues ForTextWrapStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-wrap</c> property.
+	/// </summary>
+	public static TextWrapValues ForTextWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>word-break</c> property.
+	/// </summary>
+	public static WordBreakValues ForWordBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-break</c> property.
+	/// </summary>
+	public static LineBreakValues ForLineBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphens</c> property.
+	/// </summary>
+	public static HyphensValues ForHyphens = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphenate-character</c> property.
+	/// </summary>
+	public static HyphenateCharacterValues ForHyphenateCharacter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphenate-limit-zone</c> property.
+	/// </summary>
+	public static HyphenateLimitZoneValues ForHyphenateLimitZone = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphenate-limit-chars</c> property.
+	/// </summary>
+	public static HyphenateLimitCharsValues ForHyphenateLimitChars = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphenate-limit-lines</c> property.
+	/// </summary>
+	public static HyphenateLimitLinesValues ForHyphenateLimitLines = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hyphenate-limit-last</c> property.
+	/// </summary>
+	public static HyphenateLimitLastValues ForHyphenateLimitLast = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>overflow-wrap</c> property.
+	/// </summary>
+	public static OverflowWrapValues ForOverflowWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>word-wrap</c> property.
+	/// </summary>
+	public static WordWrapValues ForWordWrap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-align-all</c> property.
+	/// </summary>
+	public static TextAlignAllValues ForTextAlignAll = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-align-last</c> property.
+	/// </summary>
+	public static TextAlignLastValues ForTextAlignLast = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-justify</c> property.
+	/// </summary>
+	public static TextJustifyValues ForTextJustify = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-group-align</c> property.
+	/// </summary>
+	public static TextGroupAlignValues ForTextGroupAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>word-spacing</c> property.
+	/// </summary>
+	public static WordSpacingValues ForWordSpacing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>letter-spacing</c> property.
+	/// </summary>
+	public static LetterSpacingValues ForLetterSpacing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>line-padding</c> property.
+	/// </summary>
+	public static LinePaddingValues ForLinePadding = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-autospace</c> property.
+	/// </summary>
+	public static TextAutospaceValues ForTextAutospace = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-spacing-trim</c> property.
+	/// </summary>
+	public static TextSpacingTrimValues ForTextSpacingTrim = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-spacing</c> property.
+	/// </summary>
+	public static TextSpacingValues ForTextSpacing = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-indent</c> property.
+	/// </summary>
+	public static TextIndentValues ForTextIndent = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>hanging-punctuation</c> property.
+	/// </summary>
+	public static HangingPunctuationValues ForHangingPunctuation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-line</c> property.
+	/// </summary>
+	public static TextDecorationLineValues ForTextDecorationLine = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-style</c> property.
+	/// </summary>
+	public static TextDecorationStyleValues ForTextDecorationStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-color</c> property.
+	/// </summary>
+	public static TextDecorationColorValues ForTextDecorationColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-thickness</c> property.
+	/// </summary>
+	public static TextDecorationThicknessValues ForTextDecorationThickness = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration</c> property.
+	/// </summary>
+	public static TextDecorationValues ForTextDecoration = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-underline-position</c> property.
+	/// </summary>
+	public static TextUnderlinePositionValues ForTextUnderlinePosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-underline-offset</c> property.
+	/// </summary>
+	public static TextUnderlineOffsetValues ForTextUnderlineOffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-trim</c> property.
+	/// </summary>
+	public static TextDecorationTrimValues ForTextDecorationTrim = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-skip</c> property.
+	/// </summary>
+	public static TextDecorationSkipValues ForTextDecorationSkip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-skip-self</c> property.
+	/// </summary>
+	public static TextDecorationSkipSelfValues ForTextDecorationSkipSelf = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-skip-box</c> property.
+	/// </summary>
+	public static TextDecorationSkipBoxValues ForTextDecorationSkipBox = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-skip-spaces</c> property.
+	/// </summary>
+	public static TextDecorationSkipSpacesValues ForTextDecorationSkipSpaces = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-decoration-skip-ink</c> property.
+	/// </summary>
+	public static TextDecorationSkipInkValues ForTextDecorationSkipInk = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-emphasis-style</c> property.
+	/// </summary>
+	public static TextEmphasisStyleValues ForTextEmphasisStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-emphasis-color</c> property.
+	/// </summary>
+	public static TextEmphasisColorValues ForTextEmphasisColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-emphasis</c> property.
+	/// </summary>
+	public static TextEmphasisValues ForTextEmphasis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-emphasis-position</c> property.
+	/// </summary>
+	public static TextEmphasisPositionValues ForTextEmphasisPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-emphasis-skip</c> property.
+	/// </summary>
+	public static TextEmphasisSkipValues ForTextEmphasisSkip = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-shadow</c> property.
+	/// </summary>
+	public static TextShadowValues ForTextShadow = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>translate</c> property.
+	/// </summary>
+	public static TranslateValues ForTranslate = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>rotate</c> property.
+	/// </summary>
+	public static RotateValues ForRotate = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scale</c> property.
+	/// </summary>
+	public static ScaleValues ForScale = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transform-style</c> property.
+	/// </summary>
+	public static TransformStyleValues ForTransformStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>perspective</c> property.
+	/// </summary>
+	public static PerspectiveValues ForPerspective = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>perspective-origin</c> property.
+	/// </summary>
+	public static PerspectiveOriginValues ForPerspectiveOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>backface-visibility</c> property.
+	/// </summary>
+	public static BackfaceVisibilityValues ForBackfaceVisibility = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transform</c> property.
+	/// </summary>
+	public static TransformValues ForTransform = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transform-origin</c> property.
+	/// </summary>
+	public static TransformOriginValues ForTransformOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transform-box</c> property.
+	/// </summary>
+	public static TransformBoxValues ForTransformBox = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition-behavior</c> property.
+	/// </summary>
+	public static TransitionBehaviorValues ForTransitionBehavior = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition-property</c> property.
+	/// </summary>
+	public static TransitionPropertyValues ForTransitionProperty = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition-duration</c> property.
+	/// </summary>
+	public static TransitionDurationValues ForTransitionDuration = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition-timing-function</c> property.
+	/// </summary>
+	public static TransitionTimingFunctionValues ForTransitionTimingFunction = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition-delay</c> property.
+	/// </summary>
+	public static TransitionDelayValues ForTransitionDelay = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>transition</c> property.
+	/// </summary>
+	public static TransitionValues ForTransition = new();
 
 	/// <summary>
 	/// Gets values which are valid for the <c>outline</c> property.
@@ -1054,5 +5329,540 @@ public static partial class CssValues
 	/// Gets values which are valid for the <c>outline-color</c> property.
 	/// </summary>
 	public static OutlineColorValues ForOutlineColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>outline-offset</c> property.
+	/// </summary>
+	public static OutlineOffsetValues ForOutlineOffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>resize</c> property.
+	/// </summary>
+	public static ResizeValues ForResize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>cursor</c> property.
+	/// </summary>
+	public static CursorValues ForCursor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>caret-color</c> property.
+	/// </summary>
+	public static CaretColorValues ForCaretColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>caret-shape</c> property.
+	/// </summary>
+	public static CaretShapeValues ForCaretShape = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>caret</c> property.
+	/// </summary>
+	public static CaretValues ForCaret = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>nav-up</c> property.
+	/// </summary>
+	public static NavUpValues ForNavUp = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>nav-right</c> property.
+	/// </summary>
+	public static NavRightValues ForNavRight = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>nav-down</c> property.
+	/// </summary>
+	public static NavDownValues ForNavDown = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>nav-left</c> property.
+	/// </summary>
+	public static NavLeftValues ForNavLeft = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>user-select</c> property.
+	/// </summary>
+	public static UserSelectValues ForUserSelect = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>pointer-events</c> property.
+	/// </summary>
+	public static PointerEventsValues ForPointerEvents = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>accent-color</c> property.
+	/// </summary>
+	public static AccentColorValues ForAccentColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>appearance</c> property.
+	/// </summary>
+	public static AppearanceValues ForAppearance = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>input-security</c> property.
+	/// </summary>
+	public static InputSecurityValues ForInputSecurity = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-user-select</c> property.
+	/// </summary>
+	public static WebkitUserSelectValues ForWebkitUserSelect = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>-webkit-appearance</c> property.
+	/// </summary>
+	public static WebkitAppearanceValues ForWebkitAppearance = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>view-transition-name</c> property.
+	/// </summary>
+	public static ViewTransitionNameValues ForViewTransitionName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>will-change</c> property.
+	/// </summary>
+	public static WillChangeValues ForWillChange = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>direction</c> property.
+	/// </summary>
+	public static DirectionValues ForDirection = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>unicode-bidi</c> property.
+	/// </summary>
+	public static UnicodeBidiValues ForUnicodeBidi = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>writing-mode</c> property.
+	/// </summary>
+	public static WritingModeValues ForWritingMode = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-orientation</c> property.
+	/// </summary>
+	public static TextOrientationValues ForTextOrientation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>glyph-orientation-vertical</c> property.
+	/// </summary>
+	public static GlyphOrientationVerticalValues ForGlyphOrientationVertical = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-combine-upright</c> property.
+	/// </summary>
+	public static TextCombineUprightValues ForTextCombineUpright = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>z-index</c> property.
+	/// </summary>
+	public static ZIndexValues ForZIndex = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>page-break-before</c> property.
+	/// </summary>
+	public static PageBreakBeforeValues ForPageBreakBefore = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>page-break-after</c> property.
+	/// </summary>
+	public static PageBreakAfterValues ForPageBreakAfter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>page-break-inside</c> property.
+	/// </summary>
+	public static PageBreakInsideValues ForPageBreakInside = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-rule</c> property.
+	/// </summary>
+	public static FillRuleValues ForFillRule = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-break</c> property.
+	/// </summary>
+	public static FillBreakValues ForFillBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-color</c> property.
+	/// </summary>
+	public static FillColorValues ForFillColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-image</c> property.
+	/// </summary>
+	public static FillImageValues ForFillImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-origin</c> property.
+	/// </summary>
+	public static FillOriginValues ForFillOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-position</c> property.
+	/// </summary>
+	public static FillPositionValues ForFillPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-size</c> property.
+	/// </summary>
+	public static FillSizeValues ForFillSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-repeat</c> property.
+	/// </summary>
+	public static FillRepeatValues ForFillRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill</c> property.
+	/// </summary>
+	public static FillValues ForFill = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>fill-opacity</c> property.
+	/// </summary>
+	public static FillOpacityValues ForFillOpacity = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-width</c> property.
+	/// </summary>
+	public static StrokeWidthValues ForStrokeWidth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-align</c> property.
+	/// </summary>
+	public static StrokeAlignValues ForStrokeAlign = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-linecap</c> property.
+	/// </summary>
+	public static StrokeLinecapValues ForStrokeLinecap = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-linejoin</c> property.
+	/// </summary>
+	public static StrokeLinejoinValues ForStrokeLinejoin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-miterlimit</c> property.
+	/// </summary>
+	public static StrokeMiterlimitValues ForStrokeMiterlimit = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-break</c> property.
+	/// </summary>
+	public static StrokeBreakValues ForStrokeBreak = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dasharray</c> property.
+	/// </summary>
+	public static StrokeDasharrayValues ForStrokeDasharray = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dashoffset</c> property.
+	/// </summary>
+	public static StrokeDashoffsetValues ForStrokeDashoffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dash-corner</c> property.
+	/// </summary>
+	public static StrokeDashCornerValues ForStrokeDashCorner = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dash-justify</c> property.
+	/// </summary>
+	public static StrokeDashJustifyValues ForStrokeDashJustify = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-color</c> property.
+	/// </summary>
+	public static StrokeColorValues ForStrokeColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-image</c> property.
+	/// </summary>
+	public static StrokeImageValues ForStrokeImage = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-origin</c> property.
+	/// </summary>
+	public static StrokeOriginValues ForStrokeOrigin = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-position</c> property.
+	/// </summary>
+	public static StrokePositionValues ForStrokePosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-size</c> property.
+	/// </summary>
+	public static StrokeSizeValues ForStrokeSize = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-repeat</c> property.
+	/// </summary>
+	public static StrokeRepeatValues ForStrokeRepeat = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke</c> property.
+	/// </summary>
+	public static StrokeValues ForStroke = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-opacity</c> property.
+	/// </summary>
+	public static StrokeOpacityValues ForStrokeOpacity = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>backdrop-filter</c> property.
+	/// </summary>
+	public static BackdropFilterValues ForBackdropFilter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>filter</c> property.
+	/// </summary>
+	public static FilterValues ForFilter = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flood-color</c> property.
+	/// </summary>
+	public static FloodColorValues ForFloodColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>flood-opacity</c> property.
+	/// </summary>
+	public static FloodOpacityValues ForFloodOpacity = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>color-interpolation-filters</c> property.
+	/// </summary>
+	public static ColorInterpolationFiltersValues ForColorInterpolationFilters = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>lighting-color</c> property.
+	/// </summary>
+	public static LightingColorValues ForLightingColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>math-style</c> property.
+	/// </summary>
+	public static MathStyleValues ForMathStyle = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>math-shift</c> property.
+	/// </summary>
+	public static MathShiftValues ForMathShift = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>math-depth</c> property.
+	/// </summary>
+	public static MathDepthValues ForMathDepth = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset-path</c> property.
+	/// </summary>
+	public static OffsetPathValues ForOffsetPath = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset-distance</c> property.
+	/// </summary>
+	public static OffsetDistanceValues ForOffsetDistance = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset-position</c> property.
+	/// </summary>
+	public static OffsetPositionValues ForOffsetPosition = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset-anchor</c> property.
+	/// </summary>
+	public static OffsetAnchorValues ForOffsetAnchor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset-rotate</c> property.
+	/// </summary>
+	public static OffsetRotateValues ForOffsetRotate = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>offset</c> property.
+	/// </summary>
+	public static OffsetValues ForOffset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-timeline-name</c> property.
+	/// </summary>
+	public static ScrollTimelineNameValues ForScrollTimelineName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-timeline-axis</c> property.
+	/// </summary>
+	public static ScrollTimelineAxisValues ForScrollTimelineAxis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>scroll-timeline</c> property.
+	/// </summary>
+	public static ScrollTimelineValues ForScrollTimeline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>view-timeline-name</c> property.
+	/// </summary>
+	public static ViewTimelineNameValues ForViewTimelineName = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>view-timeline-axis</c> property.
+	/// </summary>
+	public static ViewTimelineAxisValues ForViewTimelineAxis = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>view-timeline-inset</c> property.
+	/// </summary>
+	public static ViewTimelineInsetValues ForViewTimelineInset = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>view-timeline</c> property.
+	/// </summary>
+	public static ViewTimelineValues ForViewTimeline = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-range</c> property.
+	/// </summary>
+	public static AnimationRangeValues ForAnimationRange = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-range-start</c> property.
+	/// </summary>
+	public static AnimationRangeStartValues ForAnimationRangeStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>animation-range-end</c> property.
+	/// </summary>
+	public static AnimationRangeEndValues ForAnimationRangeEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>timeline-scope</c> property.
+	/// </summary>
+	public static TimelineScopeValues ForTimelineScope = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-alignment</c> property.
+	/// </summary>
+	public static StrokeAlignmentValues ForStrokeAlignment = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dashcorner</c> property.
+	/// </summary>
+	public static StrokeDashcornerValues ForStrokeDashcorner = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stroke-dashadjust</c> property.
+	/// </summary>
+	public static StrokeDashadjustValues ForStrokeDashadjust = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>cx</c> property.
+	/// </summary>
+	public static CxValues ForCx = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>cy</c> property.
+	/// </summary>
+	public static CyValues ForCy = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>r</c> property.
+	/// </summary>
+	public static RValues ForR = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>rx</c> property.
+	/// </summary>
+	public static RxValues ForRx = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>ry</c> property.
+	/// </summary>
+	public static RyValues ForRy = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>x</c> property.
+	/// </summary>
+	public static XValues ForX = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>y</c> property.
+	/// </summary>
+	public static YValues ForY = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>vector-effect</c> property.
+	/// </summary>
+	public static VectorEffectValues ForVectorEffect = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>d</c> property.
+	/// </summary>
+	public static DValues ForD = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-subtract</c> property.
+	/// </summary>
+	public static ShapeSubtractValues ForShapeSubtract = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-anchor</c> property.
+	/// </summary>
+	public static TextAnchorValues ForTextAnchor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>marker-start</c> property.
+	/// </summary>
+	public static MarkerStartValues ForMarkerStart = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>marker-mid</c> property.
+	/// </summary>
+	public static MarkerMidValues ForMarkerMid = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>marker-end</c> property.
+	/// </summary>
+	public static MarkerEndValues ForMarkerEnd = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>marker</c> property.
+	/// </summary>
+	public static MarkerValues ForMarker = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>paint-order</c> property.
+	/// </summary>
+	public static PaintOrderValues ForPaintOrder = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>color-interpolation</c> property.
+	/// </summary>
+	public static ColorInterpolationValues ForColorInterpolation = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>shape-rendering</c> property.
+	/// </summary>
+	public static ShapeRenderingValues ForShapeRendering = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>text-rendering</c> property.
+	/// </summary>
+	public static TextRenderingValues ForTextRendering = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stop-color</c> property.
+	/// </summary>
+	public static StopColorValues ForStopColor = new();
+
+	/// <summary>
+	/// Gets values which are valid for the <c>stop-opacity</c> property.
+	/// </summary>
+	public static StopOpacityValues ForStopOpacity = new();
 
 }

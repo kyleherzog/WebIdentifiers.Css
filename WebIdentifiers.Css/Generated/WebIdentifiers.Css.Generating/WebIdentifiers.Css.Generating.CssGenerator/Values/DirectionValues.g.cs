@@ -4,12 +4,12 @@ namespace WebIdentifiers.Css.Values;
 public partial class DirectionValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>ltr</c> property. Left-to-right direction.
+	/// Gets the name of the <c>ltr</c> property. This value sets inline base direction (bidi directionality) to line-left-to-line-right.
 	/// </summary>
 	public string Ltr => CssValues.Ltr;
 
 	/// <summary>
-	/// Gets the name of the <c>rtl</c> property. Right-to-left direction.
+	/// Gets the name of the <c>rtl</c> property. This value sets inline base direction (bidi directionality) to line-right-to-line-left.
 	/// </summary>
 	public string Rtl => CssValues.Rtl;
 

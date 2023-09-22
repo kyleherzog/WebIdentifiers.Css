@@ -4,23 +4,28 @@ namespace WebIdentifiers.Css.Values;
 public partial class PositionValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>static</c> property. The box is a normal box, laid out according to the normal flow. The top, right, bottom, and left properties do not apply.
-	/// </summary>
-	public string Static => CssValues.Static;
-
-	/// <summary>
-	/// Gets the name of the <c>relative</c> property. The box’s position is calculated according to the normal flow (this is called the position in normal flow). Then the box is offset relative to its normal position. When a box B is relatively positioned, the position of the following box is calculated as though B were not offset. The effect of position:relative on table-row-group, table-header-group, table-footer-group, table-row, table-column-group, table-column, table-cell, and table-caption elements is undefined.
-	/// </summary>
-	public string Relative => CssValues.Relative;
-
-	/// <summary>
-	/// Gets the name of the <c>absolute</c> property. The box’s position (and possibly size) is specified with the top, right, bottom, and left properties. These properties specify offsets with respect to the box’s containing block. Absolutely positioned boxes are taken out of the normal flow. This means they have no impact on the layout of later siblings. Also, though absolutely positioned boxes have margins, they do not collapse with any other margins.
+	/// Gets the name of the <c>absolute</c> property. The box is taken out of flow such that it has no impact on the size or position of its siblings and ancestors, and does not participate in its parent’s formatting context. Instead, the box is positioned and sized solely in reference to its absolute positioning containing block, as modified by the box’s inset properties, see § 4 Absolute Positioning Layout Model. It can overlap in-flow content or other absolutely positioned elements, and is included in the scrollable overflow area of the box that generates is containing block. This positioning scheme is called absolute positioning.
 	/// </summary>
 	public string Absolute => CssValues.Absolute;
 
 	/// <summary>
-	/// Gets the name of the <c>fixed</c> property. The box’s position is calculated according to the absolute model, but in addition, the box is fixed with respect to some reference. As with the absolute model, the box’s margins do not collapse with any other margins. In the case of handheld, projection, screen, tty, and tv media types, the box is fixed with respect to the viewport and does not move when scrolled. In the case of the print media type, the box is rendered on every page, and is fixed with respect to the page box, even if the page is seen through a viewport (in the case of a print-preview, for example). For other media types, the presentation is undefined. Authors may wish to specify fixed in a media-dependent way. For instance, an author may want a box to remain at the top of the viewport on the screen, but not at the top of each printed page. The two specifications may be separated by using an @media rule, as in: @media screen { h1#first { position: fixed } } @media print { h1#first { position: static } } UAs must not paginate the content of fixed boxes. Note that UAs may print invisible content in other ways. See "Content outside the page box" in chapter 13.
+	/// Gets the name of the <c>fixed</c> property. Same as absolute, except the box is positioned and sized relative to a fixed positioning containing block (usually the viewport in continuous media, or the page area in paged media). The box’s position is fixed with respect to this reference rectangle: when attached to the viewport it does not move when the document is scrolled, and when attached to the page area is replicated on every page when the document is paginated. This positioning scheme is called fixed positioning and is considered a subset of absolute positioning. Authors may wish to specify fixed in a media-dependent way. For instance, an author may want a box to remain at the top of the viewport on the screen, but not at the top of each printed page. The two specifications may be separated by using an '@media' rule, as in: @media screen { h1#first { position: fixed } } @media print { h1#first { position: static } }
 	/// </summary>
 	public string Fixed => CssValues.Fixed;
+
+	/// <summary>
+	/// Gets the name of the <c>relative</c> property. The box is laid out as for static, then offset from the resulting position. This offsetting is a purely visual effect, and does not affect the size or position of any other box, except insofar as it increases the scrollable overflow area of its ancestors. This positioning scheme is called relative positioning.
+	/// </summary>
+	public string Relative => CssValues.Relative;
+
+	/// <summary>
+	/// Gets the name of the <c>static</c> property. The box is not a positioned box, and is laid out according to the rules of its parent formatting context. The inset properties do not apply.
+	/// </summary>
+	public string Static => CssValues.Static;
+
+	/// <summary>
+	/// Gets the name of the <c>sticky</c> property. Identical to relative, except that its offsets are automatically adjusted in reference to the nearest ancestor scroll container’s scrollport (as modified by the inset properties) in whichever axes the inset properties are not both auto, to try to keep the box in view within its containing block as the user scrolls. This positioning scheme is called sticky positioning.
+	/// </summary>
+	public string Sticky => CssValues.Sticky;
 
 }

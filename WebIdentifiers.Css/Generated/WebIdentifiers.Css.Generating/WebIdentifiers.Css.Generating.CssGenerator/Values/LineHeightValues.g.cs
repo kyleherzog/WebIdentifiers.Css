@@ -4,7 +4,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class LineHeightValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. Tells user agents to set the used value to a "reasonable" value based on the font of the element. The value has the same meaning as <number>. We recommend a used value for normal between 1.0 to 1.2. The computed value is normal.
+	/// Gets the name of the <c>normal</c> property. Determine the preferred line height automatically based on font metrics.
 	/// </summary>
 	public string Normal => CssValues.Normal;
 
