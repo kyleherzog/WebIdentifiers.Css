@@ -17,7 +17,8 @@ namespace WebIdentifiers.Css.Generating
             LogInfo(context, "Starting CSS source code generation...");
             var references = LoadResources();
 
-            WritePropertiesClass(context, references);
+            WritePropertiesNamesClass(context, references);
+            WriteEntriesClass(context, references);
 
             var valuesWriter = new ClassWriter();
             valuesWriter.AddUsings("WebIdentifiers.Css.Values");
@@ -25,6 +26,7 @@ namespace WebIdentifiers.Css.Generating
             valuesWriter.AddLine("namespace WebIdentifiers.Css;");
             valuesWriter.AddLine();
 
+            valuesWriter.AddXmlDocSummary("Provides predefined CSS values.");
             valuesWriter.OpenClass("CssValues", isStatic: true);
 
             var valuedProperties = references.Where(x => x.Properties is not null).SelectMany(x => x.Properties)
@@ -38,7 +40,7 @@ namespace WebIdentifiers.Css.Generating
 
             foreach (var valueName in valueNames)
             {
-                valuesWriter.AddXmlDocSummary($"Gets the name of the <c>{valueName}</c> property.");
+                valuesWriter.AddXmlDocSummary($"Gets the name of the <c>{valueName}</c> property value.");
                 valuesWriter.AddLine($"public const string {valueName.ToPascalCase()} = \"{valueName}\";");
                 valuesWriter.AddLine();
             }
@@ -54,6 +56,7 @@ namespace WebIdentifiers.Css.Generating
             context.AddSource("CssValues.g.cs", valuesWriter.ToString());
 
             WritePropertySpecificValueClasses(context, references);
+            WritePropertySpecificEntryClasses(context, references);
         }
 
         private void LogInfo(GeneratorExecutionContext context, string message)
@@ -89,13 +92,15 @@ namespace WebIdentifiers.Css.Generating
             return results;
         }
 
-        private void WritePropertiesClass(GeneratorExecutionContext context, IEnumerable<CssReference> references)
+        private void WritePropertiesNamesClass(GeneratorExecutionContext context, IEnumerable<CssReference> references)
         {
             var propertiesWriter = new ClassWriter();
+
             propertiesWriter.AddLine("namespace WebIdentifiers.Css;");
             propertiesWriter.AddLine();
 
-            propertiesWriter.OpenClass("CssProperties", isStatic: true);
+            propertiesWriter.AddXmlDocSummary("Provides the names of CSS properties.");
+            propertiesWriter.OpenClass("CssPropertyNames", isStatic: true);
 
             var lastProperty = string.Empty;
             foreach (var property in references.Where(x => x.Properties is not null).SelectMany(x => x.Properties).OrderBy(x => x.Name))
@@ -111,8 +116,121 @@ namespace WebIdentifiers.Css.Generating
 
             propertiesWriter.CloseClass();
 
-            context.AddSource("CssProperties.g.cs", propertiesWriter.ToString());
+            context.AddSource("CssPropertyNames.g.cs", propertiesWriter.ToString());
         }
+
+        private void WriteEntriesClass(GeneratorExecutionContext context, IEnumerable<CssReference> references)
+        {
+            var entriesWriter = new ClassWriter();
+
+            entriesWriter.AddUsings("WebIdentifiers.Css.Properties");
+            entriesWriter.AddLine("namespace WebIdentifiers.Css;");
+            entriesWriter.AddLine();
+
+            entriesWriter.AddXmlDocSummary("Provides access to specific CSS property entry objects.");
+            entriesWriter.OpenClass("CssProperties", isStatic: true);
+
+            var lastProperty = string.Empty;
+            foreach (var property in references.Where(x => x.Properties is not null).SelectMany(x => x.Properties).OrderBy(x => x.Name))
+            {
+                if (!lastProperty.Equals(property.Name, StringComparison.Ordinal))
+                {
+                    lastProperty = property.Name;
+                    entriesWriter.AddXmlDocSummary($"Gets a new <see cref=\"CssEntity\"> instance initialized with a property name of <c>{property.Name}</c>.");
+                    entriesWriter.AddLine($"public static {property.Name.ToPascalCase()}Property {property.Name.ToPascalCase()} => new();");
+                    entriesWriter.AddLine();
+                }
+            }
+
+            entriesWriter.CloseClass();
+
+            context.AddSource("CssProperties.g.cs", entriesWriter.ToString());
+        }
+
+        private void WritePropertySpecificEntryClasses(GeneratorExecutionContext context, IEnumerable<CssReference> references)
+        {
+
+            var files = new Dictionary<string, int>();
+            var propertyGroups = references.Where(x => x.Properties is not null).SelectMany(x => x.Properties).GroupBy(x => x.Name);
+
+            foreach (var property in propertyGroups)
+            {
+                var values = property.Where(x => x.Values is not null).SelectMany(x => x.Values)
+                    ?.Where(x => !x.Name.Contains('<') && !x.Name.Contains('|') && !x.Name.StartsWith("[") && !x.Name.EndsWith(")") && !x.Name.StartsWith("/") && !x.Name.Contains('&'))
+                    .OrderBy(x => x.Name)
+                    ?? Enumerable.Empty<CssPropertyValue>();
+
+                var writer = new ClassWriter();
+
+                writer.AddLine("namespace WebIdentifiers.Css.Properties;");
+                writer.AddLine();
+
+                var propertyName = $"{property.Key.ToPascalCase()}";
+                var entryClassName = $"{propertyName}Property";
+
+                writer.AddXmlDocSummary($"Provides a CSS entry for the {propertyName} property.");
+                writer.OpenClass(entryClassName, "CssPropertyEntry");
+
+                writer.AddXmlDocSummary($"Represents a {property.Key} CSS property entry.");
+                writer.AddLine("/// <param name=\"value\">An optional value with which to initialize the CSS property entry.</param>");
+                writer.AddLine($"public {entryClassName}(string? value = null)");
+                writer.AddChildLine($": base(CssPropertyNames.{propertyName}, value)");
+                writer.OpenBlock();
+                writer.CloseBlock();
+
+                if (values.Any())
+                {
+                    var lastValue = string.Empty;
+                    foreach (var value in values)
+                    {
+                        if (!lastValue.Equals(value.Name, StringComparison.OrdinalIgnoreCase))
+                        {
+                            lastValue = value.Name;
+                            writer.AddXmlDocSummary($"Sets the value of the property entry to <c>{value.Name}</c>. {value.Prose}");
+                            writer.AddLine($"public {entryClassName} SetTo{value.Name.ToPascalCase()}()");
+                            writer.OpenBlock();
+                            writer.AddLine($"Value = CssValues.{value.Name.ToPascalCase()};");
+                            writer.AddLine("return this;");
+                            writer.CloseBlock();
+                            writer.AddLine();
+                        }
+
+                    }
+                }
+
+                writer.CloseClass();
+
+                var fileSuffix = string.Empty;
+                var coreFileName = property.Key.ToPascalCase().Trim();
+                var fileKey = coreFileName.ToUpper();
+                if (files.ContainsKey(fileKey))
+                {
+                    files[fileKey] = files[fileKey] + 1;
+                }
+                else
+                {
+                    files[fileKey] = 1;
+                }
+
+                if (files[fileKey] > 1)
+                {
+                    fileSuffix = files[fileKey].ToString();
+                }
+
+                try
+                {
+                    var fileName = $"Properties/{coreFileName}Property{fileSuffix}.g.cs";
+                    context.AddSource(fileName, writer.ToString());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                    throw;
+                }
+
+            }
+        }
+
 
         private void WritePropertySpecificValueClasses(GeneratorExecutionContext context, IEnumerable<CssReference> references)
         {
@@ -131,6 +249,7 @@ namespace WebIdentifiers.Css.Generating
 
                 writer.AddLine("namespace WebIdentifiers.Css.Values;");
                 writer.AddLine();
+
 
                 writer.OpenClass($"{property.Key.ToPascalCase()}Values", "PropertyValuesBase");
 

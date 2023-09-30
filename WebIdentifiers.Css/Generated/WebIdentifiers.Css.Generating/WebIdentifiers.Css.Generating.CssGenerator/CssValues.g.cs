@@ -3,2380 +3,2383 @@ using WebIdentifiers.Css.Values;
 
 namespace WebIdentifiers.Css;
 
+/// <summary>
+/// Provides predefined CSS values.
+/// </summary>
 public static partial class CssValues
 {
 	/// <summary>
-	/// Gets the name of the <c>absolute</c> property.
+	/// Gets the name of the <c>absolute</c> property value.
 	/// </summary>
 	public const string Absolute = "absolute";
 
 	/// <summary>
-	/// Gets the name of the <c>add</c> property.
+	/// Gets the name of the <c>add</c> property value.
 	/// </summary>
 	public const string Add = "add";
 
 	/// <summary>
-	/// Gets the name of the <c>alias</c> property.
+	/// Gets the name of the <c>alias</c> property value.
 	/// </summary>
 	public const string Alias = "alias";
 
 	/// <summary>
-	/// Gets the name of the <c>alignment character</c> property.
+	/// Gets the name of the <c>alignment character</c> property value.
 	/// </summary>
 	public const string AlignmentCharacter = "alignment character";
 
 	/// <summary>
-	/// Gets the name of the <c>all</c> property.
+	/// Gets the name of the <c>all</c> property value.
 	/// </summary>
 	public const string All = "all";
 
 	/// <summary>
-	/// Gets the name of the <c>allow-end</c> property.
+	/// Gets the name of the <c>allow-end</c> property value.
 	/// </summary>
 	public const string AllowEnd = "allow-end";
 
 	/// <summary>
-	/// Gets the name of the <c>all-petite-caps</c> property.
+	/// Gets the name of the <c>all-petite-caps</c> property value.
 	/// </summary>
 	public const string AllPetiteCaps = "all-petite-caps";
 
 	/// <summary>
-	/// Gets the name of the <c>all-scroll</c> property.
+	/// Gets the name of the <c>all-scroll</c> property value.
 	/// </summary>
 	public const string AllScroll = "all-scroll";
 
 	/// <summary>
-	/// Gets the name of the <c>all-small-caps</c> property.
+	/// Gets the name of the <c>all-small-caps</c> property value.
 	/// </summary>
 	public const string AllSmallCaps = "all-small-caps";
 
 	/// <summary>
-	/// Gets the name of the <c>alpha</c> property.
+	/// Gets the name of the <c>alpha</c> property value.
 	/// </summary>
 	public const string Alpha = "alpha";
 
 	/// <summary>
-	/// Gets the name of the <c>alphabetic</c> property.
+	/// Gets the name of the <c>alphabetic</c> property value.
 	/// </summary>
 	public const string Alphabetic = "alphabetic";
 
 	/// <summary>
-	/// Gets the name of the <c>alternate</c> property.
+	/// Gets the name of the <c>alternate</c> property value.
 	/// </summary>
 	public const string Alternate = "alternate";
 
 	/// <summary>
-	/// Gets the name of the <c>alternate-reverse</c> property.
+	/// Gets the name of the <c>alternate-reverse</c> property value.
 	/// </summary>
 	public const string AlternateReverse = "alternate-reverse";
 
 	/// <summary>
-	/// Gets the name of the <c>always</c> property.
+	/// Gets the name of the <c>always</c> property value.
 	/// </summary>
 	public const string Always = "always";
 
 	/// <summary>
-	/// Gets the name of the <c>anchor-center</c> property.
+	/// Gets the name of the <c>anchor-center</c> property value.
 	/// </summary>
 	public const string AnchorCenter = "anchor-center";
 
 	/// <summary>
-	/// Gets the name of the <c>angle</c> property.
+	/// Gets the name of the <c>angle</c> property value.
 	/// </summary>
 	public const string Angle = "angle";
 
 	/// <summary>
-	/// Gets the name of the <c>anywhere</c> property.
+	/// Gets the name of the <c>anywhere</c> property value.
 	/// </summary>
 	public const string Anywhere = "anywhere";
 
 	/// <summary>
-	/// Gets the name of the <c>arcs</c> property.
+	/// Gets the name of the <c>arcs</c> property value.
 	/// </summary>
 	public const string Arcs = "arcs";
 
 	/// <summary>
-	/// Gets the name of the <c>armenian</c> property.
+	/// Gets the name of the <c>armenian</c> property value.
 	/// </summary>
 	public const string Armenian = "armenian";
 
 	/// <summary>
-	/// Gets the name of the <c>auto</c> property.
+	/// Gets the name of the <c>auto</c> property value.
 	/// </summary>
 	public const string Auto = "auto";
 
 	/// <summary>
-	/// Gets the name of the <c>auto-phrase</c> property.
+	/// Gets the name of the <c>auto-phrase</c> property value.
 	/// </summary>
 	public const string AutoPhrase = "auto-phrase";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid</c> property.
+	/// Gets the name of the <c>avoid</c> property value.
 	/// </summary>
 	public const string Avoid = "avoid";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid-column</c> property.
+	/// Gets the name of the <c>avoid-column</c> property value.
 	/// </summary>
 	public const string AvoidColumn = "avoid-column";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid-flex</c> property.
+	/// Gets the name of the <c>avoid-flex</c> property value.
 	/// </summary>
 	public const string AvoidFlex = "avoid-flex";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid-line</c> property.
+	/// Gets the name of the <c>avoid-line</c> property value.
 	/// </summary>
 	public const string AvoidLine = "avoid-line";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid-page</c> property.
+	/// Gets the name of the <c>avoid-page</c> property value.
 	/// </summary>
 	public const string AvoidPage = "avoid-page";
 
 	/// <summary>
-	/// Gets the name of the <c>avoid-region</c> property.
+	/// Gets the name of the <c>avoid-region</c> property value.
 	/// </summary>
 	public const string AvoidRegion = "avoid-region";
 
 	/// <summary>
-	/// Gets the name of the <c>backwards</c> property.
+	/// Gets the name of the <c>backwards</c> property value.
 	/// </summary>
 	public const string Backwards = "backwards";
 
 	/// <summary>
-	/// Gets the name of the <c>balance</c> property.
+	/// Gets the name of the <c>balance</c> property value.
 	/// </summary>
 	public const string Balance = "balance";
 
 	/// <summary>
-	/// Gets the name of the <c>balance-all</c> property.
+	/// Gets the name of the <c>balance-all</c> property value.
 	/// </summary>
 	public const string BalanceAll = "balance-all";
 
 	/// <summary>
-	/// Gets the name of the <c>bar</c> property.
+	/// Gets the name of the <c>bar</c> property value.
 	/// </summary>
 	public const string Bar = "bar";
 
 	/// <summary>
-	/// Gets the name of the <c>baseline</c> property.
+	/// Gets the name of the <c>baseline</c> property value.
 	/// </summary>
 	public const string Baseline = "baseline";
 
 	/// <summary>
-	/// Gets the name of the <c>bevel</c> property.
+	/// Gets the name of the <c>bevel</c> property value.
 	/// </summary>
 	public const string Bevel = "bevel";
 
 	/// <summary>
-	/// Gets the name of the <c>bidi-override</c> property.
+	/// Gets the name of the <c>bidi-override</c> property value.
 	/// </summary>
 	public const string BidiOverride = "bidi-override";
 
 	/// <summary>
-	/// Gets the name of the <c>blink</c> property.
+	/// Gets the name of the <c>blink</c> property value.
 	/// </summary>
 	public const string Blink = "blink";
 
 	/// <summary>
-	/// Gets the name of the <c>block</c> property.
+	/// Gets the name of the <c>block</c> property value.
 	/// </summary>
 	public const string Block = "block";
 
 	/// <summary>
-	/// Gets the name of the <c>block-end</c> property.
+	/// Gets the name of the <c>block-end</c> property value.
 	/// </summary>
 	public const string BlockEnd = "block-end";
 
 	/// <summary>
-	/// Gets the name of the <c>block-start</c> property.
+	/// Gets the name of the <c>block-start</c> property value.
 	/// </summary>
 	public const string BlockStart = "block-start";
 
 	/// <summary>
-	/// Gets the name of the <c>bold</c> property.
+	/// Gets the name of the <c>bold</c> property value.
 	/// </summary>
 	public const string Bold = "bold";
 
 	/// <summary>
-	/// Gets the name of the <c>bolder</c> property.
+	/// Gets the name of the <c>bolder</c> property value.
 	/// </summary>
 	public const string Bolder = "bolder";
 
 	/// <summary>
-	/// Gets the name of the <c>border-box</c> property.
+	/// Gets the name of the <c>border-box</c> property value.
 	/// </summary>
 	public const string BorderBox = "border-box";
 
 	/// <summary>
-	/// Gets the name of the <c>both</c> property.
+	/// Gets the name of the <c>both</c> property value.
 	/// </summary>
 	public const string Both = "both";
 
 	/// <summary>
-	/// Gets the name of the <c>both-block</c> property.
+	/// Gets the name of the <c>both-block</c> property value.
 	/// </summary>
 	public const string BothBlock = "both-block";
 
 	/// <summary>
-	/// Gets the name of the <c>both-edges</c> property.
+	/// Gets the name of the <c>both-edges</c> property value.
 	/// </summary>
 	public const string BothEdges = "both-edges";
 
 	/// <summary>
-	/// Gets the name of the <c>both-inline</c> property.
+	/// Gets the name of the <c>both-inline</c> property value.
 	/// </summary>
 	public const string BothInline = "both-inline";
 
 	/// <summary>
-	/// Gets the name of the <c>bottom</c> property.
+	/// Gets the name of the <c>bottom</c> property value.
 	/// </summary>
 	public const string Bottom = "bottom";
 
 	/// <summary>
-	/// Gets the name of the <c>break-all</c> property.
+	/// Gets the name of the <c>break-all</c> property value.
 	/// </summary>
 	public const string BreakAll = "break-all";
 
 	/// <summary>
-	/// Gets the name of the <c>break-spaces</c> property.
+	/// Gets the name of the <c>break-spaces</c> property value.
 	/// </summary>
 	public const string BreakSpaces = "break-spaces";
 
 	/// <summary>
-	/// Gets the name of the <c>break-word</c> property.
+	/// Gets the name of the <c>break-word</c> property value.
 	/// </summary>
 	public const string BreakWord = "break-word";
 
 	/// <summary>
-	/// Gets the name of the <c>butt</c> property.
+	/// Gets the name of the <c>butt</c> property value.
 	/// </summary>
 	public const string Butt = "butt";
 
 	/// <summary>
-	/// Gets the name of the <c>button</c> property.
+	/// Gets the name of the <c>button</c> property value.
 	/// </summary>
 	public const string Button = "button";
 
 	/// <summary>
-	/// Gets the name of the <c>cap</c> property.
+	/// Gets the name of the <c>cap</c> property value.
 	/// </summary>
 	public const string Cap = "cap";
 
 	/// <summary>
-	/// Gets the name of the <c>cap-height</c> property.
+	/// Gets the name of the <c>cap-height</c> property value.
 	/// </summary>
 	public const string CapHeight = "cap-height";
 
 	/// <summary>
-	/// Gets the name of the <c>capitalize</c> property.
+	/// Gets the name of the <c>capitalize</c> property value.
 	/// </summary>
 	public const string Capitalize = "capitalize";
 
 	/// <summary>
-	/// Gets the name of the <c>caption</c> property.
+	/// Gets the name of the <c>caption</c> property value.
 	/// </summary>
 	public const string Caption = "caption";
 
 	/// <summary>
-	/// Gets the name of the <c>cell</c> property.
+	/// Gets the name of the <c>cell</c> property value.
 	/// </summary>
 	public const string Cell = "cell";
 
 	/// <summary>
-	/// Gets the name of the <c>center</c> property.
+	/// Gets the name of the <c>center</c> property value.
 	/// </summary>
 	public const string Center = "center";
 
 	/// <summary>
-	/// Gets the name of the <c>central</c> property.
+	/// Gets the name of the <c>central</c> property value.
 	/// </summary>
 	public const string Central = "central";
 
 	/// <summary>
-	/// Gets the name of the <c>checkbox</c> property.
+	/// Gets the name of the <c>checkbox</c> property value.
 	/// </summary>
 	public const string Checkbox = "checkbox";
 
 	/// <summary>
-	/// Gets the name of the <c>child</c> property.
+	/// Gets the name of the <c>child</c> property value.
 	/// </summary>
 	public const string Child = "child";
 
 	/// <summary>
-	/// Gets the name of the <c>ch-width</c> property.
+	/// Gets the name of the <c>ch-width</c> property value.
 	/// </summary>
 	public const string ChWidth = "ch-width";
 
 	/// <summary>
-	/// Gets the name of the <c>circle</c> property.
+	/// Gets the name of the <c>circle</c> property value.
 	/// </summary>
 	public const string Circle = "circle";
 
 	/// <summary>
-	/// Gets the name of the <c>clear</c> property.
+	/// Gets the name of the <c>clear</c> property value.
 	/// </summary>
 	public const string Clear = "clear";
 
 	/// <summary>
-	/// Gets the name of the <c>clip</c> property.
+	/// Gets the name of the <c>clip</c> property value.
 	/// </summary>
 	public const string Clip = "clip";
 
 	/// <summary>
-	/// Gets the name of the <c>clone</c> property.
+	/// Gets the name of the <c>clone</c> property value.
 	/// </summary>
 	public const string Clone = "clone";
 
 	/// <summary>
-	/// Gets the name of the <c>closed</c> property.
+	/// Gets the name of the <c>closed</c> property value.
 	/// </summary>
 	public const string Closed = "closed";
 
 	/// <summary>
-	/// Gets the name of the <c>close-quote</c> property.
+	/// Gets the name of the <c>close-quote</c> property value.
 	/// </summary>
 	public const string CloseQuote = "close-quote";
 
 	/// <summary>
-	/// Gets the name of the <c>collapse</c> property.
+	/// Gets the name of the <c>collapse</c> property value.
 	/// </summary>
 	public const string Collapse = "collapse";
 
 	/// <summary>
-	/// Gets the name of the <c>col-resize</c> property.
+	/// Gets the name of the <c>col-resize</c> property value.
 	/// </summary>
 	public const string ColResize = "col-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>column</c> property.
+	/// Gets the name of the <c>column</c> property value.
 	/// </summary>
 	public const string Column = "column";
 
 	/// <summary>
-	/// Gets the name of the <c>column-reverse</c> property.
+	/// Gets the name of the <c>column-reverse</c> property value.
 	/// </summary>
 	public const string ColumnReverse = "column-reverse";
 
 	/// <summary>
-	/// Gets the name of the <c>common-ligatures</c> property.
+	/// Gets the name of the <c>common-ligatures</c> property value.
 	/// </summary>
 	public const string CommonLigatures = "common-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>compact</c> property.
+	/// Gets the name of the <c>compact</c> property value.
 	/// </summary>
 	public const string Compact = "compact";
 
 	/// <summary>
-	/// Gets the name of the <c>compress</c> property.
+	/// Gets the name of the <c>compress</c> property value.
 	/// </summary>
 	public const string Compress = "compress";
 
 	/// <summary>
-	/// Gets the name of the <c>condensed</c> property.
+	/// Gets the name of the <c>condensed</c> property value.
 	/// </summary>
 	public const string Condensed = "condensed";
 
 	/// <summary>
-	/// Gets the name of the <c>contain</c> property.
+	/// Gets the name of the <c>contain</c> property value.
 	/// </summary>
 	public const string Contain = "contain";
 
 	/// <summary>
-	/// Gets the name of the <c>content</c> property.
+	/// Gets the name of the <c>content</c> property value.
 	/// </summary>
 	public const string Content = "content";
 
 	/// <summary>
-	/// Gets the name of the <c>content-box</c> property.
+	/// Gets the name of the <c>content-box</c> property value.
 	/// </summary>
 	public const string ContentBox = "content-box";
 
 	/// <summary>
-	/// Gets the name of the <c>contents</c> property.
+	/// Gets the name of the <c>contents</c> property value.
 	/// </summary>
 	public const string Contents = "contents";
 
 	/// <summary>
-	/// Gets the name of the <c>context-menu</c> property.
+	/// Gets the name of the <c>context-menu</c> property value.
 	/// </summary>
 	public const string ContextMenu = "context-menu";
 
 	/// <summary>
-	/// Gets the name of the <c>contextual</c> property.
+	/// Gets the name of the <c>contextual</c> property value.
 	/// </summary>
 	public const string Contextual = "contextual";
 
 	/// <summary>
-	/// Gets the name of the <c>copy</c> property.
+	/// Gets the name of the <c>copy</c> property value.
 	/// </summary>
 	public const string Copy = "copy";
 
 	/// <summary>
-	/// Gets the name of the <c>corners</c> property.
+	/// Gets the name of the <c>corners</c> property value.
 	/// </summary>
 	public const string Corners = "corners";
 
 	/// <summary>
-	/// Gets the name of the <c>cover</c> property.
+	/// Gets the name of the <c>cover</c> property value.
 	/// </summary>
 	public const string Cover = "cover";
 
 	/// <summary>
-	/// Gets the name of the <c>create</c> property.
+	/// Gets the name of the <c>create</c> property value.
 	/// </summary>
 	public const string Create = "create";
 
 	/// <summary>
-	/// Gets the name of the <c>crisp-edges</c> property.
+	/// Gets the name of the <c>crisp-edges</c> property value.
 	/// </summary>
 	public const string CrispEdges = "crisp-edges";
 
 	/// <summary>
-	/// Gets the name of the <c>crop</c> property.
+	/// Gets the name of the <c>crop</c> property value.
 	/// </summary>
 	public const string Crop = "crop";
 
 	/// <summary>
-	/// Gets the name of the <c>crosshair</c> property.
+	/// Gets the name of the <c>crosshair</c> property value.
 	/// </summary>
 	public const string Crosshair = "crosshair";
 
 	/// <summary>
-	/// Gets the name of the <c>dark</c> property.
+	/// Gets the name of the <c>dark</c> property value.
 	/// </summary>
 	public const string Dark = "dark";
 
 	/// <summary>
-	/// Gets the name of the <c>dashes</c> property.
+	/// Gets the name of the <c>dashes</c> property value.
 	/// </summary>
 	public const string Dashes = "dashes";
 
 	/// <summary>
-	/// Gets the name of the <c>decimal</c> property.
+	/// Gets the name of the <c>decimal</c> property value.
 	/// </summary>
 	public const string Decimal = "decimal";
 
 	/// <summary>
-	/// Gets the name of the <c>decimal-leading-zero</c> property.
+	/// Gets the name of the <c>decimal-leading-zero</c> property value.
 	/// </summary>
 	public const string DecimalLeadingZero = "decimal-leading-zero";
 
 	/// <summary>
-	/// Gets the name of the <c>default</c> property.
+	/// Gets the name of the <c>default</c> property value.
 	/// </summary>
 	public const string Default = "default";
 
 	/// <summary>
-	/// Gets the name of the <c>dense</c> property.
+	/// Gets the name of the <c>dense</c> property value.
 	/// </summary>
 	public const string Dense = "dense";
 
 	/// <summary>
-	/// Gets the name of the <c>diagonal-fractions</c> property.
+	/// Gets the name of the <c>diagonal-fractions</c> property value.
 	/// </summary>
 	public const string DiagonalFractions = "diagonal-fractions";
 
 	/// <summary>
-	/// Gets the name of the <c>digits</c> property.
+	/// Gets the name of the <c>digits</c> property value.
 	/// </summary>
 	public const string Digits = "digits";
 
 	/// <summary>
-	/// Gets the name of the <c>disc</c> property.
+	/// Gets the name of the <c>disc</c> property value.
 	/// </summary>
 	public const string Disc = "disc";
 
 	/// <summary>
-	/// Gets the name of the <c>discard</c> property.
+	/// Gets the name of the <c>discard</c> property value.
 	/// </summary>
 	public const string Discard = "discard";
 
 	/// <summary>
-	/// Gets the name of the <c>discard-after</c> property.
+	/// Gets the name of the <c>discard-after</c> property value.
 	/// </summary>
 	public const string DiscardAfter = "discard-after";
 
 	/// <summary>
-	/// Gets the name of the <c>discard-before</c> property.
+	/// Gets the name of the <c>discard-before</c> property value.
 	/// </summary>
 	public const string DiscardBefore = "discard-before";
 
 	/// <summary>
-	/// Gets the name of the <c>discard-inner</c> property.
+	/// Gets the name of the <c>discard-inner</c> property value.
 	/// </summary>
 	public const string DiscardInner = "discard-inner";
 
 	/// <summary>
-	/// Gets the name of the <c>discretionary-ligatures</c> property.
+	/// Gets the name of the <c>discretionary-ligatures</c> property value.
 	/// </summary>
 	public const string DiscretionaryLigatures = "discretionary-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>display</c> property.
+	/// Gets the name of the <c>display</c> property value.
 	/// </summary>
 	public const string Display = "display";
 
 	/// <summary>
-	/// Gets the name of the <c>distribute</c> property.
+	/// Gets the name of the <c>distribute</c> property value.
 	/// </summary>
 	public const string Distribute = "distribute";
 
 	/// <summary>
-	/// Gets the name of the <c>dot</c> property.
+	/// Gets the name of the <c>dot</c> property value.
 	/// </summary>
 	public const string Dot = "dot";
 
 	/// <summary>
-	/// Gets the name of the <c>double-circle</c> property.
+	/// Gets the name of the <c>double-circle</c> property value.
 	/// </summary>
 	public const string DoubleCircle = "double-circle";
 
 	/// <summary>
-	/// Gets the name of the <c>down</c> property.
+	/// Gets the name of the <c>down</c> property value.
 	/// </summary>
 	public const string Down = "down";
 
 	/// <summary>
-	/// Gets the name of the <c>drop</c> property.
+	/// Gets the name of the <c>drop</c> property value.
 	/// </summary>
 	public const string Drop = "drop";
 
 	/// <summary>
-	/// Gets the name of the <c>each-line</c> property.
+	/// Gets the name of the <c>each-line</c> property value.
 	/// </summary>
 	public const string EachLine = "each-line";
 
 	/// <summary>
-	/// Gets the name of the <c>economy</c> property.
+	/// Gets the name of the <c>economy</c> property value.
 	/// </summary>
 	public const string Economy = "economy";
 
 	/// <summary>
-	/// Gets the name of the <c>ellipsis</c> property.
+	/// Gets the name of the <c>ellipsis</c> property value.
 	/// </summary>
 	public const string Ellipsis = "ellipsis";
 
 	/// <summary>
-	/// Gets the name of the <c>embed</c> property.
+	/// Gets the name of the <c>embed</c> property value.
 	/// </summary>
 	public const string Embed = "embed";
 
 	/// <summary>
-	/// Gets the name of the <c>emoji</c> property.
+	/// Gets the name of the <c>emoji</c> property value.
 	/// </summary>
 	public const string Emoji = "emoji";
 
 	/// <summary>
-	/// Gets the name of the <c>end</c> property.
+	/// Gets the name of the <c>end</c> property value.
 	/// </summary>
 	public const string End = "end";
 
 	/// <summary>
-	/// Gets the name of the <c>e-resize</c> property.
+	/// Gets the name of the <c>e-resize</c> property value.
 	/// </summary>
 	public const string EResize = "e-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>evenodd</c> property.
+	/// Gets the name of the <c>evenodd</c> property value.
 	/// </summary>
 	public const string Evenodd = "evenodd";
 
 	/// <summary>
-	/// Gets the name of the <c>ew-resize</c> property.
+	/// Gets the name of the <c>ew-resize</c> property value.
 	/// </summary>
 	public const string EwResize = "ew-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>ex</c> property.
+	/// Gets the name of the <c>ex</c> property value.
 	/// </summary>
 	public const string Ex = "ex";
 
 	/// <summary>
-	/// Gets the name of the <c>exact</c> property.
+	/// Gets the name of the <c>exact</c> property value.
 	/// </summary>
 	public const string Exact = "exact";
 
 	/// <summary>
-	/// Gets the name of the <c>exclude</c> property.
+	/// Gets the name of the <c>exclude</c> property value.
 	/// </summary>
 	public const string Exclude = "exclude";
 
 	/// <summary>
-	/// Gets the name of the <c>ex-height</c> property.
+	/// Gets the name of the <c>ex-height</c> property value.
 	/// </summary>
 	public const string ExHeight = "ex-height";
 
 	/// <summary>
-	/// Gets the name of the <c>expanded</c> property.
+	/// Gets the name of the <c>expanded</c> property value.
 	/// </summary>
 	public const string Expanded = "expanded";
 
 	/// <summary>
-	/// Gets the name of the <c>extra-condensed</c> property.
+	/// Gets the name of the <c>extra-condensed</c> property value.
 	/// </summary>
 	public const string ExtraCondensed = "extra-condensed";
 
 	/// <summary>
-	/// Gets the name of the <c>extra-expanded</c> property.
+	/// Gets the name of the <c>extra-expanded</c> property value.
 	/// </summary>
 	public const string ExtraExpanded = "extra-expanded";
 
 	/// <summary>
-	/// Gets the name of the <c>fade</c> property.
+	/// Gets the name of the <c>fade</c> property value.
 	/// </summary>
 	public const string Fade = "fade";
 
 	/// <summary>
-	/// Gets the name of the <c>fallback</c> property.
+	/// Gets the name of the <c>fallback</c> property value.
 	/// </summary>
 	public const string Fallback = "fallback";
 
 	/// <summary>
-	/// Gets the name of the <c>fast</c> property.
+	/// Gets the name of the <c>fast</c> property value.
 	/// </summary>
 	public const string Fast = "fast";
 
 	/// <summary>
-	/// Gets the name of the <c>female</c> property.
+	/// Gets the name of the <c>female</c> property value.
 	/// </summary>
 	public const string Female = "female";
 
 	/// <summary>
-	/// Gets the name of the <c>fill</c> property.
+	/// Gets the name of the <c>fill</c> property value.
 	/// </summary>
 	public const string Fill = "fill";
 
 	/// <summary>
-	/// Gets the name of the <c>fill-box</c> property.
+	/// Gets the name of the <c>fill-box</c> property value.
 	/// </summary>
 	public const string FillBox = "fill-box";
 
 	/// <summary>
-	/// Gets the name of the <c>filled</c> property.
+	/// Gets the name of the <c>filled</c> property value.
 	/// </summary>
 	public const string Filled = "filled";
 
 	/// <summary>
-	/// Gets the name of the <c>first</c> property.
+	/// Gets the name of the <c>first</c> property value.
 	/// </summary>
 	public const string First = "first";
 
 	/// <summary>
-	/// Gets the name of the <c>fit-content</c> property.
+	/// Gets the name of the <c>fit-content</c> property value.
 	/// </summary>
 	public const string FitContent = "fit-content";
 
 	/// <summary>
-	/// Gets the name of the <c>fixed</c> property.
+	/// Gets the name of the <c>fixed</c> property value.
 	/// </summary>
 	public const string Fixed = "fixed";
 
 	/// <summary>
-	/// Gets the name of the <c>flex</c> property.
+	/// Gets the name of the <c>flex</c> property value.
 	/// </summary>
 	public const string Flex = "flex";
 
 	/// <summary>
-	/// Gets the name of the <c>flex-end</c> property.
+	/// Gets the name of the <c>flex-end</c> property value.
 	/// </summary>
 	public const string FlexEnd = "flex-end";
 
 	/// <summary>
-	/// Gets the name of the <c>flex-start</c> property.
+	/// Gets the name of the <c>flex-start</c> property value.
 	/// </summary>
 	public const string FlexStart = "flex-start";
 
 	/// <summary>
-	/// Gets the name of the <c>focus</c> property.
+	/// Gets the name of the <c>focus</c> property value.
 	/// </summary>
 	public const string Focus = "focus";
 
 	/// <summary>
-	/// Gets the name of the <c>footnote</c> property.
+	/// Gets the name of the <c>footnote</c> property value.
 	/// </summary>
 	public const string Footnote = "footnote";
 
 	/// <summary>
-	/// Gets the name of the <c>force-end</c> property.
+	/// Gets the name of the <c>force-end</c> property value.
 	/// </summary>
 	public const string ForceEnd = "force-end";
 
 	/// <summary>
-	/// Gets the name of the <c>forwards</c> property.
+	/// Gets the name of the <c>forwards</c> property value.
 	/// </summary>
 	public const string Forwards = "forwards";
 
 	/// <summary>
-	/// Gets the name of the <c>fragments</c> property.
+	/// Gets the name of the <c>fragments</c> property value.
 	/// </summary>
 	public const string Fragments = "fragments";
 
 	/// <summary>
-	/// Gets the name of the <c>from-font</c> property.
+	/// Gets the name of the <c>from-font</c> property value.
 	/// </summary>
 	public const string FromFont = "from-font";
 
 	/// <summary>
-	/// Gets the name of the <c>from-image</c> property.
+	/// Gets the name of the <c>from-image</c> property value.
 	/// </summary>
 	public const string FromImage = "from-image";
 
 	/// <summary>
-	/// Gets the name of the <c>full-size-kana</c> property.
+	/// Gets the name of the <c>full-size-kana</c> property value.
 	/// </summary>
 	public const string FullSizeKana = "full-size-kana";
 
 	/// <summary>
-	/// Gets the name of the <c>full-width</c> property.
+	/// Gets the name of the <c>full-width</c> property value.
 	/// </summary>
 	public const string FullWidth = "full-width";
 
 	/// <summary>
-	/// Gets the name of the <c>gaps</c> property.
+	/// Gets the name of the <c>gaps</c> property value.
 	/// </summary>
 	public const string Gaps = "gaps";
 
 	/// <summary>
-	/// Gets the name of the <c>georgian</c> property.
+	/// Gets the name of the <c>georgian</c> property value.
 	/// </summary>
 	public const string Georgian = "georgian";
 
 	/// <summary>
-	/// Gets the name of the <c>grab</c> property.
+	/// Gets the name of the <c>grab</c> property value.
 	/// </summary>
 	public const string Grab = "grab";
 
 	/// <summary>
-	/// Gets the name of the <c>grabbing</c> property.
+	/// Gets the name of the <c>grabbing</c> property value.
 	/// </summary>
 	public const string Grabbing = "grabbing";
 
 	/// <summary>
-	/// Gets the name of the <c>grammar-error</c> property.
+	/// Gets the name of the <c>grammar-error</c> property value.
 	/// </summary>
 	public const string GrammarError = "grammar-error";
 
 	/// <summary>
-	/// Gets the name of the <c>grid</c> property.
+	/// Gets the name of the <c>grid</c> property value.
 	/// </summary>
 	public const string Grid = "grid";
 
 	/// <summary>
-	/// Gets the name of the <c>hanging</c> property.
+	/// Gets the name of the <c>hanging</c> property value.
 	/// </summary>
 	public const string Hanging = "hanging";
 
 	/// <summary>
-	/// Gets the name of the <c>help</c> property.
+	/// Gets the name of the <c>help</c> property value.
 	/// </summary>
 	public const string Help = "help";
 
 	/// <summary>
-	/// Gets the name of the <c>hidden</c> property.
+	/// Gets the name of the <c>hidden</c> property value.
 	/// </summary>
 	public const string Hidden = "hidden";
 
 	/// <summary>
-	/// Gets the name of the <c>hide</c> property.
+	/// Gets the name of the <c>hide</c> property value.
 	/// </summary>
 	public const string Hide = "hide";
 
 	/// <summary>
-	/// Gets the name of the <c>high</c> property.
+	/// Gets the name of the <c>high</c> property value.
 	/// </summary>
 	public const string High = "high";
 
 	/// <summary>
-	/// Gets the name of the <c>high-quality</c> property.
+	/// Gets the name of the <c>high-quality</c> property value.
 	/// </summary>
 	public const string HighQuality = "high-quality";
 
 	/// <summary>
-	/// Gets the name of the <c>historical-forms</c> property.
+	/// Gets the name of the <c>historical-forms</c> property value.
 	/// </summary>
 	public const string HistoricalForms = "historical-forms";
 
 	/// <summary>
-	/// Gets the name of the <c>historical-ligatures</c> property.
+	/// Gets the name of the <c>historical-ligatures</c> property value.
 	/// </summary>
 	public const string HistoricalLigatures = "historical-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>horizontal-tb</c> property.
+	/// Gets the name of the <c>horizontal-tb</c> property value.
 	/// </summary>
 	public const string HorizontalTb = "horizontal-tb";
 
 	/// <summary>
-	/// Gets the name of the <c>ic-height</c> property.
+	/// Gets the name of the <c>ic-height</c> property value.
 	/// </summary>
 	public const string IcHeight = "ic-height";
 
 	/// <summary>
-	/// Gets the name of the <c>icon</c> property.
+	/// Gets the name of the <c>icon</c> property value.
 	/// </summary>
 	public const string Icon = "icon";
 
 	/// <summary>
-	/// Gets the name of the <c>ic-width</c> property.
+	/// Gets the name of the <c>ic-width</c> property value.
 	/// </summary>
 	public const string IcWidth = "ic-width";
 
 	/// <summary>
-	/// Gets the name of the <c>ideograph-alpha</c> property.
+	/// Gets the name of the <c>ideograph-alpha</c> property value.
 	/// </summary>
 	public const string IdeographAlpha = "ideograph-alpha";
 
 	/// <summary>
-	/// Gets the name of the <c>ideographic</c> property.
+	/// Gets the name of the <c>ideographic</c> property value.
 	/// </summary>
 	public const string Ideographic = "ideographic";
 
 	/// <summary>
-	/// Gets the name of the <c>ideographic-ink</c> property.
+	/// Gets the name of the <c>ideographic-ink</c> property value.
 	/// </summary>
 	public const string IdeographicInk = "ideographic-ink";
 
 	/// <summary>
-	/// Gets the name of the <c>ideographic-space</c> property.
+	/// Gets the name of the <c>ideographic-space</c> property value.
 	/// </summary>
 	public const string IdeographicSpace = "ideographic-space";
 
 	/// <summary>
-	/// Gets the name of the <c>ideograph-numeric</c> property.
+	/// Gets the name of the <c>ideograph-numeric</c> property value.
 	/// </summary>
 	public const string IdeographNumeric = "ideograph-numeric";
 
 	/// <summary>
-	/// Gets the name of the <c>infinite</c> property.
+	/// Gets the name of the <c>infinite</c> property value.
 	/// </summary>
 	public const string Infinite = "infinite";
 
 	/// <summary>
-	/// Gets the name of the <c>inherit</c> property.
+	/// Gets the name of the <c>inherit</c> property value.
 	/// </summary>
 	public const string Inherit = "inherit";
 
 	/// <summary>
-	/// Gets the name of the <c>initial</c> property.
+	/// Gets the name of the <c>initial</c> property value.
 	/// </summary>
 	public const string Initial = "initial";
 
 	/// <summary>
-	/// Gets the name of the <c>inline</c> property.
+	/// Gets the name of the <c>inline</c> property value.
 	/// </summary>
 	public const string Inline = "inline";
 
 	/// <summary>
-	/// Gets the name of the <c>inline-block</c> property.
+	/// Gets the name of the <c>inline-block</c> property value.
 	/// </summary>
 	public const string InlineBlock = "inline-block";
 
 	/// <summary>
-	/// Gets the name of the <c>inline-end</c> property.
+	/// Gets the name of the <c>inline-end</c> property value.
 	/// </summary>
 	public const string InlineEnd = "inline-end";
 
 	/// <summary>
-	/// Gets the name of the <c>inline-size</c> property.
+	/// Gets the name of the <c>inline-size</c> property value.
 	/// </summary>
 	public const string InlineSize = "inline-size";
 
 	/// <summary>
-	/// Gets the name of the <c>inline-start</c> property.
+	/// Gets the name of the <c>inline-start</c> property value.
 	/// </summary>
 	public const string InlineStart = "inline-start";
 
 	/// <summary>
-	/// Gets the name of the <c>inline-table</c> property.
+	/// Gets the name of the <c>inline-table</c> property value.
 	/// </summary>
 	public const string InlineTable = "inline-table";
 
 	/// <summary>
-	/// Gets the name of the <c>inner box-shadow</c> property.
+	/// Gets the name of the <c>inner box-shadow</c> property value.
 	/// </summary>
 	public const string InnerBoxShadow = "inner box-shadow";
 
 	/// <summary>
-	/// Gets the name of the <c>insert</c> property.
+	/// Gets the name of the <c>insert</c> property value.
 	/// </summary>
 	public const string Insert = "insert";
 
 	/// <summary>
-	/// Gets the name of the <c>inset</c> property.
+	/// Gets the name of the <c>inset</c> property value.
 	/// </summary>
 	public const string Inset = "inset";
 
 	/// <summary>
-	/// Gets the name of the <c>inside</c> property.
+	/// Gets the name of the <c>inside</c> property value.
 	/// </summary>
 	public const string Inside = "inside";
 
 	/// <summary>
-	/// Gets the name of the <c>inter-character</c> property.
+	/// Gets the name of the <c>inter-character</c> property value.
 	/// </summary>
 	public const string InterCharacter = "inter-character";
 
 	/// <summary>
-	/// Gets the name of the <c>intersect</c> property.
+	/// Gets the name of the <c>intersect</c> property value.
 	/// </summary>
 	public const string Intersect = "intersect";
 
 	/// <summary>
-	/// Gets the name of the <c>inter-word</c> property.
+	/// Gets the name of the <c>inter-word</c> property value.
 	/// </summary>
 	public const string InterWord = "inter-word";
 
 	/// <summary>
-	/// Gets the name of the <c>invert</c> property.
+	/// Gets the name of the <c>invert</c> property value.
 	/// </summary>
 	public const string Invert = "invert";
 
 	/// <summary>
-	/// Gets the name of the <c>isolate</c> property.
+	/// Gets the name of the <c>isolate</c> property value.
 	/// </summary>
 	public const string Isolate = "isolate";
 
 	/// <summary>
-	/// Gets the name of the <c>isolate-override</c> property.
+	/// Gets the name of the <c>isolate-override</c> property value.
 	/// </summary>
 	public const string IsolateOverride = "isolate-override";
 
 	/// <summary>
-	/// Gets the name of the <c>italic</c> property.
+	/// Gets the name of the <c>italic</c> property value.
 	/// </summary>
 	public const string Italic = "italic";
 
 	/// <summary>
-	/// Gets the name of the <c>jis04</c> property.
+	/// Gets the name of the <c>jis04</c> property value.
 	/// </summary>
 	public const string Jis04 = "jis04";
 
 	/// <summary>
-	/// Gets the name of the <c>jis78</c> property.
+	/// Gets the name of the <c>jis78</c> property value.
 	/// </summary>
 	public const string Jis78 = "jis78";
 
 	/// <summary>
-	/// Gets the name of the <c>jis83</c> property.
+	/// Gets the name of the <c>jis83</c> property value.
 	/// </summary>
 	public const string Jis83 = "jis83";
 
 	/// <summary>
-	/// Gets the name of the <c>jis90</c> property.
+	/// Gets the name of the <c>jis90</c> property value.
 	/// </summary>
 	public const string Jis90 = "jis90";
 
 	/// <summary>
-	/// Gets the name of the <c>justify</c> property.
+	/// Gets the name of the <c>justify</c> property value.
 	/// </summary>
 	public const string Justify = "justify";
 
 	/// <summary>
-	/// Gets the name of the <c>justify-all</c> property.
+	/// Gets the name of the <c>justify-all</c> property value.
 	/// </summary>
 	public const string JustifyAll = "justify-all";
 
 	/// <summary>
-	/// Gets the name of the <c>keep</c> property.
+	/// Gets the name of the <c>keep</c> property value.
 	/// </summary>
 	public const string Keep = "keep";
 
 	/// <summary>
-	/// Gets the name of the <c>keep-all</c> property.
+	/// Gets the name of the <c>keep-all</c> property value.
 	/// </summary>
 	public const string KeepAll = "keep-all";
 
 	/// <summary>
-	/// Gets the name of the <c>large</c> property.
+	/// Gets the name of the <c>large</c> property value.
 	/// </summary>
 	public const string Large = "large";
 
 	/// <summary>
-	/// Gets the name of the <c>last</c> property.
+	/// Gets the name of the <c>last</c> property value.
 	/// </summary>
 	public const string Last = "last";
 
 	/// <summary>
-	/// Gets the name of the <c>last-baseline</c> property.
+	/// Gets the name of the <c>last-baseline</c> property value.
 	/// </summary>
 	public const string LastBaseline = "last-baseline";
 
 	/// <summary>
-	/// Gets the name of the <c>layout</c> property.
+	/// Gets the name of the <c>layout</c> property value.
 	/// </summary>
 	public const string Layout = "layout";
 
 	/// <summary>
-	/// Gets the name of the <c>leading</c> property.
+	/// Gets the name of the <c>leading</c> property value.
 	/// </summary>
 	public const string Leading = "leading";
 
 	/// <summary>
-	/// Gets the name of the <c>left</c> property.
+	/// Gets the name of the <c>left</c> property value.
 	/// </summary>
 	public const string Left = "left";
 
 	/// <summary>
-	/// Gets the name of the <c>leftwards</c> property.
+	/// Gets the name of the <c>leftwards</c> property value.
 	/// </summary>
 	public const string Leftwards = "leftwards";
 
 	/// <summary>
-	/// Gets the name of the <c>legacy</c> property.
+	/// Gets the name of the <c>legacy</c> property value.
 	/// </summary>
 	public const string Legacy = "legacy";
 
 	/// <summary>
-	/// Gets the name of the <c>light</c> property.
+	/// Gets the name of the <c>light</c> property value.
 	/// </summary>
 	public const string Light = "light";
 
 	/// <summary>
-	/// Gets the name of the <c>lighter</c> property.
+	/// Gets the name of the <c>lighter</c> property value.
 	/// </summary>
 	public const string Lighter = "lighter";
 
 	/// <summary>
-	/// Gets the name of the <c>line</c> property.
+	/// Gets the name of the <c>line</c> property value.
 	/// </summary>
 	public const string Line = "line";
 
 	/// <summary>
-	/// Gets the name of the <c>linearRGB</c> property.
+	/// Gets the name of the <c>linearRGB</c> property value.
 	/// </summary>
 	public const string Linearrgb = "linearRGB";
 
 	/// <summary>
-	/// Gets the name of the <c>line-through</c> property.
+	/// Gets the name of the <c>line-through</c> property value.
 	/// </summary>
 	public const string LineThrough = "line-through";
 
 	/// <summary>
-	/// Gets the name of the <c>lining-nums</c> property.
+	/// Gets the name of the <c>lining-nums</c> property value.
 	/// </summary>
 	public const string LiningNums = "lining-nums";
 
 	/// <summary>
-	/// Gets the name of the <c>listbox</c> property.
+	/// Gets the name of the <c>listbox</c> property value.
 	/// </summary>
 	public const string Listbox = "listbox";
 
 	/// <summary>
-	/// Gets the name of the <c>list-item</c> property.
+	/// Gets the name of the <c>list-item</c> property value.
 	/// </summary>
 	public const string ListItem = "list-item";
 
 	/// <summary>
-	/// Gets the name of the <c>literal-punctuation</c> property.
+	/// Gets the name of the <c>literal-punctuation</c> property value.
 	/// </summary>
 	public const string LiteralPunctuation = "literal-punctuation";
 
 	/// <summary>
-	/// Gets the name of the <c>local</c> property.
+	/// Gets the name of the <c>local</c> property value.
 	/// </summary>
 	public const string Local = "local";
 
 	/// <summary>
-	/// Gets the name of the <c>loose</c> property.
+	/// Gets the name of the <c>loose</c> property value.
 	/// </summary>
 	public const string Loose = "loose";
 
 	/// <summary>
-	/// Gets the name of the <c>loud</c> property.
+	/// Gets the name of the <c>loud</c> property value.
 	/// </summary>
 	public const string Loud = "loud";
 
 	/// <summary>
-	/// Gets the name of the <c>low</c> property.
+	/// Gets the name of the <c>low</c> property value.
 	/// </summary>
 	public const string Low = "low";
 
 	/// <summary>
-	/// Gets the name of the <c>lower-alpha</c> property.
+	/// Gets the name of the <c>lower-alpha</c> property value.
 	/// </summary>
 	public const string LowerAlpha = "lower-alpha";
 
 	/// <summary>
-	/// Gets the name of the <c>lowercase</c> property.
+	/// Gets the name of the <c>lowercase</c> property value.
 	/// </summary>
 	public const string Lowercase = "lowercase";
 
 	/// <summary>
-	/// Gets the name of the <c>lower-greek</c> property.
+	/// Gets the name of the <c>lower-greek</c> property value.
 	/// </summary>
 	public const string LowerGreek = "lower-greek";
 
 	/// <summary>
-	/// Gets the name of the <c>lower-latin</c> property.
+	/// Gets the name of the <c>lower-latin</c> property value.
 	/// </summary>
 	public const string LowerLatin = "lower-latin";
 
 	/// <summary>
-	/// Gets the name of the <c>lower-roman</c> property.
+	/// Gets the name of the <c>lower-roman</c> property value.
 	/// </summary>
 	public const string LowerRoman = "lower-roman";
 
 	/// <summary>
-	/// Gets the name of the <c>ltr</c> property.
+	/// Gets the name of the <c>ltr</c> property value.
 	/// </summary>
 	public const string Ltr = "ltr";
 
 	/// <summary>
-	/// Gets the name of the <c>luminance</c> property.
+	/// Gets the name of the <c>luminance</c> property value.
 	/// </summary>
 	public const string Luminance = "luminance";
 
 	/// <summary>
-	/// Gets the name of the <c>male</c> property.
+	/// Gets the name of the <c>male</c> property value.
 	/// </summary>
 	public const string Male = "male";
 
 	/// <summary>
-	/// Gets the name of the <c>mandatory</c> property.
+	/// Gets the name of the <c>mandatory</c> property value.
 	/// </summary>
 	public const string Mandatory = "mandatory";
 
 	/// <summary>
-	/// Gets the name of the <c>manual</c> property.
+	/// Gets the name of the <c>manual</c> property value.
 	/// </summary>
 	public const string Manual = "manual";
 
 	/// <summary>
-	/// Gets the name of the <c>margin</c> property.
+	/// Gets the name of the <c>margin</c> property value.
 	/// </summary>
 	public const string Margin = "margin";
 
 	/// <summary>
-	/// Gets the name of the <c>match-parent</c> property.
+	/// Gets the name of the <c>match-parent</c> property value.
 	/// </summary>
 	public const string MatchParent = "match-parent";
 
 	/// <summary>
-	/// Gets the name of the <c>match-self</c> property.
+	/// Gets the name of the <c>match-self</c> property value.
 	/// </summary>
 	public const string MatchSelf = "match-self";
 
 	/// <summary>
-	/// Gets the name of the <c>match-source</c> property.
+	/// Gets the name of the <c>match-source</c> property value.
 	/// </summary>
 	public const string MatchSource = "match-source";
 
 	/// <summary>
-	/// Gets the name of the <c>math</c> property.
+	/// Gets the name of the <c>math</c> property value.
 	/// </summary>
 	public const string Math = "math";
 
 	/// <summary>
-	/// Gets the name of the <c>mathematical</c> property.
+	/// Gets the name of the <c>mathematical</c> property value.
 	/// </summary>
 	public const string Mathematical = "mathematical";
 
 	/// <summary>
-	/// Gets the name of the <c>max-content</c> property.
+	/// Gets the name of the <c>max-content</c> property value.
 	/// </summary>
 	public const string MaxContent = "max-content";
 
 	/// <summary>
-	/// Gets the name of the <c>maximum</c> property.
+	/// Gets the name of the <c>maximum</c> property value.
 	/// </summary>
 	public const string Maximum = "maximum";
 
 	/// <summary>
-	/// Gets the name of the <c>medium</c> property.
+	/// Gets the name of the <c>medium</c> property value.
 	/// </summary>
 	public const string Medium = "medium";
 
 	/// <summary>
-	/// Gets the name of the <c>menu</c> property.
+	/// Gets the name of the <c>menu</c> property value.
 	/// </summary>
 	public const string Menu = "menu";
 
 	/// <summary>
-	/// Gets the name of the <c>menulist</c> property.
+	/// Gets the name of the <c>menulist</c> property value.
 	/// </summary>
 	public const string Menulist = "menulist";
 
 	/// <summary>
-	/// Gets the name of the <c>menulist-button</c> property.
+	/// Gets the name of the <c>menulist-button</c> property value.
 	/// </summary>
 	public const string MenulistButton = "menulist-button";
 
 	/// <summary>
-	/// Gets the name of the <c>merge</c> property.
+	/// Gets the name of the <c>merge</c> property value.
 	/// </summary>
 	public const string Merge = "merge";
 
 	/// <summary>
-	/// Gets the name of the <c>message-box</c> property.
+	/// Gets the name of the <c>message-box</c> property value.
 	/// </summary>
 	public const string MessageBox = "message-box";
 
 	/// <summary>
-	/// Gets the name of the <c>meter</c> property.
+	/// Gets the name of the <c>meter</c> property value.
 	/// </summary>
 	public const string Meter = "meter";
 
 	/// <summary>
-	/// Gets the name of the <c>middle</c> property.
+	/// Gets the name of the <c>middle</c> property value.
 	/// </summary>
 	public const string Middle = "middle";
 
 	/// <summary>
-	/// Gets the name of the <c>min-content</c> property.
+	/// Gets the name of the <c>min-content</c> property value.
 	/// </summary>
 	public const string MinContent = "min-content";
 
 	/// <summary>
-	/// Gets the name of the <c>minimum</c> property.
+	/// Gets the name of the <c>minimum</c> property value.
 	/// </summary>
 	public const string Minimum = "minimum";
 
 	/// <summary>
-	/// Gets the name of the <c>miter</c> property.
+	/// Gets the name of the <c>miter</c> property value.
 	/// </summary>
 	public const string Miter = "miter";
 
 	/// <summary>
-	/// Gets the name of the <c>mixed</c> property.
+	/// Gets the name of the <c>mixed</c> property value.
 	/// </summary>
 	public const string Mixed = "mixed";
 
 	/// <summary>
-	/// Gets the name of the <c>moderate</c> property.
+	/// Gets the name of the <c>moderate</c> property value.
 	/// </summary>
 	public const string Moderate = "moderate";
 
 	/// <summary>
-	/// Gets the name of the <c>move</c> property.
+	/// Gets the name of the <c>move</c> property value.
 	/// </summary>
 	public const string Move = "move";
 
 	/// <summary>
-	/// Gets the name of the <c>narrow</c> property.
+	/// Gets the name of the <c>narrow</c> property value.
 	/// </summary>
 	public const string Narrow = "narrow";
 
 	/// <summary>
-	/// Gets the name of the <c>nearest</c> property.
+	/// Gets the name of the <c>nearest</c> property value.
 	/// </summary>
 	public const string Nearest = "nearest";
 
 	/// <summary>
-	/// Gets the name of the <c>ne-resize</c> property.
+	/// Gets the name of the <c>ne-resize</c> property value.
 	/// </summary>
 	public const string NeResize = "ne-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>nesw-resize</c> property.
+	/// Gets the name of the <c>nesw-resize</c> property value.
 	/// </summary>
 	public const string NeswResize = "nesw-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>neutral</c> property.
+	/// Gets the name of the <c>neutral</c> property value.
 	/// </summary>
 	public const string Neutral = "neutral";
 
 	/// <summary>
-	/// Gets the name of the <c>never</c> property.
+	/// Gets the name of the <c>never</c> property value.
 	/// </summary>
 	public const string Never = "never";
 
 	/// <summary>
-	/// Gets the name of the <c>no-autospace</c> property.
+	/// Gets the name of the <c>no-autospace</c> property value.
 	/// </summary>
 	public const string NoAutospace = "no-autospace";
 
 	/// <summary>
-	/// Gets the name of the <c>no-clip</c> property.
+	/// Gets the name of the <c>no-clip</c> property value.
 	/// </summary>
 	public const string NoClip = "no-clip";
 
 	/// <summary>
-	/// Gets the name of the <c>no-close-quote</c> property.
+	/// Gets the name of the <c>no-close-quote</c> property value.
 	/// </summary>
 	public const string NoCloseQuote = "no-close-quote";
 
 	/// <summary>
-	/// Gets the name of the <c>no-common-ligatures</c> property.
+	/// Gets the name of the <c>no-common-ligatures</c> property value.
 	/// </summary>
 	public const string NoCommonLigatures = "no-common-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>no-compress</c> property.
+	/// Gets the name of the <c>no-compress</c> property value.
 	/// </summary>
 	public const string NoCompress = "no-compress";
 
 	/// <summary>
-	/// Gets the name of the <c>no-contextual</c> property.
+	/// Gets the name of the <c>no-contextual</c> property value.
 	/// </summary>
 	public const string NoContextual = "no-contextual";
 
 	/// <summary>
-	/// Gets the name of the <c>no-discretionary-ligatures</c> property.
+	/// Gets the name of the <c>no-discretionary-ligatures</c> property value.
 	/// </summary>
 	public const string NoDiscretionaryLigatures = "no-discretionary-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>no-drop</c> property.
+	/// Gets the name of the <c>no-drop</c> property value.
 	/// </summary>
 	public const string NoDrop = "no-drop";
 
 	/// <summary>
-	/// Gets the name of the <c>no-historical-ligatures</c> property.
+	/// Gets the name of the <c>no-historical-ligatures</c> property value.
 	/// </summary>
 	public const string NoHistoricalLigatures = "no-historical-ligatures";
 
 	/// <summary>
-	/// Gets the name of the <c>none</c> property.
+	/// Gets the name of the <c>none</c> property value.
 	/// </summary>
 	public const string None = "none";
 
 	/// <summary>
-	/// Gets the name of the <c>nonzero</c> property.
+	/// Gets the name of the <c>nonzero</c> property value.
 	/// </summary>
 	public const string Nonzero = "nonzero";
 
 	/// <summary>
-	/// Gets the name of the <c>no-open-quote</c> property.
+	/// Gets the name of the <c>no-open-quote</c> property value.
 	/// </summary>
 	public const string NoOpenQuote = "no-open-quote";
 
 	/// <summary>
-	/// Gets the name of the <c>no-punctuation</c> property.
+	/// Gets the name of the <c>no-punctuation</c> property value.
 	/// </summary>
 	public const string NoPunctuation = "no-punctuation";
 
 	/// <summary>
-	/// Gets the name of the <c>no-repeat</c> property.
+	/// Gets the name of the <c>no-repeat</c> property value.
 	/// </summary>
 	public const string NoRepeat = "no-repeat";
 
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property.
+	/// Gets the name of the <c>normal</c> property value.
 	/// </summary>
 	public const string Normal = "normal";
 
 	/// <summary>
-	/// Gets the name of the <c>no-skip</c> property.
+	/// Gets the name of the <c>no-skip</c> property value.
 	/// </summary>
 	public const string NoSkip = "no-skip";
 
 	/// <summary>
-	/// Gets the name of the <c>not-allowed</c> property.
+	/// Gets the name of the <c>not-allowed</c> property value.
 	/// </summary>
 	public const string NotAllowed = "not-allowed";
 
 	/// <summary>
-	/// Gets the name of the <c>nowrap</c> property.
+	/// Gets the name of the <c>nowrap</c> property value.
 	/// </summary>
 	public const string Nowrap = "nowrap";
 
 	/// <summary>
-	/// Gets the name of the <c>n-resize</c> property.
+	/// Gets the name of the <c>n-resize</c> property value.
 	/// </summary>
 	public const string NResize = "n-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>ns-resize</c> property.
+	/// Gets the name of the <c>ns-resize</c> property value.
 	/// </summary>
 	public const string NsResize = "ns-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>nw-resize</c> property.
+	/// Gets the name of the <c>nw-resize</c> property value.
 	/// </summary>
 	public const string NwResize = "nw-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>nwse-resize</c> property.
+	/// Gets the name of the <c>nwse-resize</c> property value.
 	/// </summary>
 	public const string NwseResize = "nwse-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>oblique</c> property.
+	/// Gets the name of the <c>oblique</c> property value.
 	/// </summary>
 	public const string Oblique = "oblique";
 
 	/// <summary>
-	/// Gets the name of the <c>old</c> property.
+	/// Gets the name of the <c>old</c> property value.
 	/// </summary>
 	public const string Old = "old";
 
 	/// <summary>
-	/// Gets the name of the <c>oldstyle-nums</c> property.
+	/// Gets the name of the <c>oldstyle-nums</c> property value.
 	/// </summary>
 	public const string OldstyleNums = "oldstyle-nums";
 
 	/// <summary>
-	/// Gets the name of the <c>only</c> property.
+	/// Gets the name of the <c>only</c> property value.
 	/// </summary>
 	public const string Only = "only";
 
 	/// <summary>
-	/// Gets the name of the <c>open</c> property.
+	/// Gets the name of the <c>open</c> property value.
 	/// </summary>
 	public const string Open = "open";
 
 	/// <summary>
-	/// Gets the name of the <c>open-quote</c> property.
+	/// Gets the name of the <c>open-quote</c> property value.
 	/// </summary>
 	public const string OpenQuote = "open-quote";
 
 	/// <summary>
-	/// Gets the name of the <c>ordinal</c> property.
+	/// Gets the name of the <c>ordinal</c> property value.
 	/// </summary>
 	public const string Ordinal = "ordinal";
 
 	/// <summary>
-	/// Gets the name of the <c>outer box-shadow</c> property.
+	/// Gets the name of the <c>outer box-shadow</c> property value.
 	/// </summary>
 	public const string OuterBoxShadow = "outer box-shadow";
 
 	/// <summary>
-	/// Gets the name of the <c>outset</c> property.
+	/// Gets the name of the <c>outset</c> property value.
 	/// </summary>
 	public const string Outset = "outset";
 
 	/// <summary>
-	/// Gets the name of the <c>outside</c> property.
+	/// Gets the name of the <c>outside</c> property value.
 	/// </summary>
 	public const string Outside = "outside";
 
 	/// <summary>
-	/// Gets the name of the <c>outside-shape</c> property.
+	/// Gets the name of the <c>outside-shape</c> property value.
 	/// </summary>
 	public const string OutsideShape = "outside-shape";
 
 	/// <summary>
-	/// Gets the name of the <c>over</c> property.
+	/// Gets the name of the <c>over</c> property value.
 	/// </summary>
 	public const string Over = "over";
 
 	/// <summary>
-	/// Gets the name of the <c>overflow</c> property.
+	/// Gets the name of the <c>overflow</c> property value.
 	/// </summary>
 	public const string Overflow = "overflow";
 
 	/// <summary>
-	/// Gets the name of the <c>overlay</c> property.
+	/// Gets the name of the <c>overlay</c> property value.
 	/// </summary>
 	public const string Overlay = "overlay";
 
 	/// <summary>
-	/// Gets the name of the <c>overline</c> property.
+	/// Gets the name of the <c>overline</c> property value.
 	/// </summary>
 	public const string Overline = "overline";
 
 	/// <summary>
-	/// Gets the name of the <c>padding</c> property.
+	/// Gets the name of the <c>padding</c> property value.
 	/// </summary>
 	public const string Padding = "padding";
 
 	/// <summary>
-	/// Gets the name of the <c>padding-box</c> property.
+	/// Gets the name of the <c>padding-box</c> property value.
 	/// </summary>
 	public const string PaddingBox = "padding-box";
 
 	/// <summary>
-	/// Gets the name of the <c>page</c> property.
+	/// Gets the name of the <c>page</c> property value.
 	/// </summary>
 	public const string Page = "page";
 
 	/// <summary>
-	/// Gets the name of the <c>paginate</c> property.
+	/// Gets the name of the <c>paginate</c> property value.
 	/// </summary>
 	public const string Paginate = "paginate";
 
 	/// <summary>
-	/// Gets the name of the <c>paint</c> property.
+	/// Gets the name of the <c>paint</c> property value.
 	/// </summary>
 	public const string Paint = "paint";
 
 	/// <summary>
-	/// Gets the name of the <c>paused</c> property.
+	/// Gets the name of the <c>paused</c> property value.
 	/// </summary>
 	public const string Paused = "paused";
 
 	/// <summary>
-	/// Gets the name of the <c>petite-caps</c> property.
+	/// Gets the name of the <c>petite-caps</c> property value.
 	/// </summary>
 	public const string PetiteCaps = "petite-caps";
 
 	/// <summary>
-	/// Gets the name of the <c>pixelated</c> property.
+	/// Gets the name of the <c>pixelated</c> property value.
 	/// </summary>
 	public const string Pixelated = "pixelated";
 
 	/// <summary>
-	/// Gets the name of the <c>plaintext</c> property.
+	/// Gets the name of the <c>plaintext</c> property value.
 	/// </summary>
 	public const string Plaintext = "plaintext";
 
 	/// <summary>
-	/// Gets the name of the <c>pointer</c> property.
+	/// Gets the name of the <c>pointer</c> property value.
 	/// </summary>
 	public const string Pointer = "pointer";
 
 	/// <summary>
-	/// Gets the name of the <c>pre</c> property.
+	/// Gets the name of the <c>pre</c> property value.
 	/// </summary>
 	public const string Pre = "pre";
 
 	/// <summary>
-	/// Gets the name of the <c>pre-line</c> property.
+	/// Gets the name of the <c>pre-line</c> property value.
 	/// </summary>
 	public const string PreLine = "pre-line";
 
 	/// <summary>
-	/// Gets the name of the <c>preserve</c> property.
+	/// Gets the name of the <c>preserve</c> property value.
 	/// </summary>
 	public const string Preserve = "preserve";
 
 	/// <summary>
-	/// Gets the name of the <c>preserve-breaks</c> property.
+	/// Gets the name of the <c>preserve-breaks</c> property value.
 	/// </summary>
 	public const string PreserveBreaks = "preserve-breaks";
 
 	/// <summary>
-	/// Gets the name of the <c>preserve-parent-color</c> property.
+	/// Gets the name of the <c>preserve-parent-color</c> property value.
 	/// </summary>
 	public const string PreserveParentColor = "preserve-parent-color";
 
 	/// <summary>
-	/// Gets the name of the <c>preserve-spaces</c> property.
+	/// Gets the name of the <c>preserve-spaces</c> property value.
 	/// </summary>
 	public const string PreserveSpaces = "preserve-spaces";
 
 	/// <summary>
-	/// Gets the name of the <c>pretty</c> property.
+	/// Gets the name of the <c>pretty</c> property value.
 	/// </summary>
 	public const string Pretty = "pretty";
 
 	/// <summary>
-	/// Gets the name of the <c>pre-wrap</c> property.
+	/// Gets the name of the <c>pre-wrap</c> property value.
 	/// </summary>
 	public const string PreWrap = "pre-wrap";
 
 	/// <summary>
-	/// Gets the name of the <c>progress</c> property.
+	/// Gets the name of the <c>progress</c> property value.
 	/// </summary>
 	public const string Progress = "progress";
 
 	/// <summary>
-	/// Gets the name of the <c>progress-bar</c> property.
+	/// Gets the name of the <c>progress-bar</c> property value.
 	/// </summary>
 	public const string ProgressBar = "progress-bar";
 
 	/// <summary>
-	/// Gets the name of the <c>proportional-nums</c> property.
+	/// Gets the name of the <c>proportional-nums</c> property value.
 	/// </summary>
 	public const string ProportionalNums = "proportional-nums";
 
 	/// <summary>
-	/// Gets the name of the <c>proportional-width</c> property.
+	/// Gets the name of the <c>proportional-width</c> property value.
 	/// </summary>
 	public const string ProportionalWidth = "proportional-width";
 
 	/// <summary>
-	/// Gets the name of the <c>proximity</c> property.
+	/// Gets the name of the <c>proximity</c> property value.
 	/// </summary>
 	public const string Proximity = "proximity";
 
 	/// <summary>
-	/// Gets the name of the <c>punctuation</c> property.
+	/// Gets the name of the <c>punctuation</c> property value.
 	/// </summary>
 	public const string Punctuation = "punctuation";
 
 	/// <summary>
-	/// Gets the name of the <c>radio</c> property.
+	/// Gets the name of the <c>radio</c> property value.
 	/// </summary>
 	public const string Radio = "radio";
 
 	/// <summary>
-	/// Gets the name of the <c>raise</c> property.
+	/// Gets the name of the <c>raise</c> property value.
 	/// </summary>
 	public const string Raise = "raise";
 
 	/// <summary>
-	/// Gets the name of the <c>reading</c> property.
+	/// Gets the name of the <c>reading</c> property value.
 	/// </summary>
 	public const string Reading = "reading";
 
 	/// <summary>
-	/// Gets the name of the <c>recto</c> property.
+	/// Gets the name of the <c>recto</c> property value.
 	/// </summary>
 	public const string Recto = "recto";
 
 	/// <summary>
-	/// Gets the name of the <c>reduced</c> property.
+	/// Gets the name of the <c>reduced</c> property value.
 	/// </summary>
 	public const string Reduced = "reduced";
 
 	/// <summary>
-	/// Gets the name of the <c>region</c> property.
+	/// Gets the name of the <c>region</c> property value.
 	/// </summary>
 	public const string Region = "region";
 
 	/// <summary>
-	/// Gets the name of the <c>relative</c> property.
+	/// Gets the name of the <c>relative</c> property value.
 	/// </summary>
 	public const string Relative = "relative";
 
 	/// <summary>
-	/// Gets the name of the <c>repeat</c> property.
+	/// Gets the name of the <c>repeat</c> property value.
 	/// </summary>
 	public const string Repeat = "repeat";
 
 	/// <summary>
-	/// Gets the name of the <c>repeat-x</c> property.
+	/// Gets the name of the <c>repeat-x</c> property value.
 	/// </summary>
 	public const string RepeatX = "repeat-x";
 
 	/// <summary>
-	/// Gets the name of the <c>repeat-y</c> property.
+	/// Gets the name of the <c>repeat-y</c> property value.
 	/// </summary>
 	public const string RepeatY = "repeat-y";
 
 	/// <summary>
-	/// Gets the name of the <c>replace</c> property.
+	/// Gets the name of the <c>replace</c> property value.
 	/// </summary>
 	public const string Replace = "replace";
 
 	/// <summary>
-	/// Gets the name of the <c>reverse</c> property.
+	/// Gets the name of the <c>reverse</c> property value.
 	/// </summary>
 	public const string Reverse = "reverse";
 
 	/// <summary>
-	/// Gets the name of the <c>revert</c> property.
+	/// Gets the name of the <c>revert</c> property value.
 	/// </summary>
 	public const string Revert = "revert";
 
 	/// <summary>
-	/// Gets the name of the <c>revert-layer</c> property.
+	/// Gets the name of the <c>revert-layer</c> property value.
 	/// </summary>
 	public const string RevertLayer = "revert-layer";
 
 	/// <summary>
-	/// Gets the name of the <c>right</c> property.
+	/// Gets the name of the <c>right</c> property value.
 	/// </summary>
 	public const string Right = "right";
 
 	/// <summary>
-	/// Gets the name of the <c>rightwards</c> property.
+	/// Gets the name of the <c>rightwards</c> property value.
 	/// </summary>
 	public const string Rightwards = "rightwards";
 
 	/// <summary>
-	/// Gets the name of the <c>root</c> property.
+	/// Gets the name of the <c>root</c> property value.
 	/// </summary>
 	public const string Root = "root";
 
 	/// <summary>
-	/// Gets the name of the <c>round</c> property.
+	/// Gets the name of the <c>round</c> property value.
 	/// </summary>
 	public const string Round = "round";
 
 	/// <summary>
-	/// Gets the name of the <c>row</c> property.
+	/// Gets the name of the <c>row</c> property value.
 	/// </summary>
 	public const string Row = "row";
 
 	/// <summary>
-	/// Gets the name of the <c>row-resize</c> property.
+	/// Gets the name of the <c>row-resize</c> property value.
 	/// </summary>
 	public const string RowResize = "row-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>row-reverse</c> property.
+	/// Gets the name of the <c>row-reverse</c> property value.
 	/// </summary>
 	public const string RowReverse = "row-reverse";
 
 	/// <summary>
-	/// Gets the name of the <c>rtl</c> property.
+	/// Gets the name of the <c>rtl</c> property value.
 	/// </summary>
 	public const string Rtl = "rtl";
 
 	/// <summary>
-	/// Gets the name of the <c>ruby</c> property.
+	/// Gets the name of the <c>ruby</c> property value.
 	/// </summary>
 	public const string Ruby = "ruby";
 
 	/// <summary>
-	/// Gets the name of the <c>running</c> property.
+	/// Gets the name of the <c>running</c> property value.
 	/// </summary>
 	public const string Running = "running";
 
 	/// <summary>
-	/// Gets the name of the <c>scale-down</c> property.
+	/// Gets the name of the <c>scale-down</c> property value.
 	/// </summary>
 	public const string ScaleDown = "scale-down";
 
 	/// <summary>
-	/// Gets the name of the <c>scroll</c> property.
+	/// Gets the name of the <c>scroll</c> property value.
 	/// </summary>
 	public const string Scroll = "scroll";
 
 	/// <summary>
-	/// Gets the name of the <c>scroll-position</c> property.
+	/// Gets the name of the <c>scroll-position</c> property value.
 	/// </summary>
 	public const string ScrollPosition = "scroll-position";
 
 	/// <summary>
-	/// Gets the name of the <c>searchfield</c> property.
+	/// Gets the name of the <c>searchfield</c> property value.
 	/// </summary>
 	public const string Searchfield = "searchfield";
 
 	/// <summary>
-	/// Gets the name of the <c>self</c> property.
+	/// Gets the name of the <c>self</c> property value.
 	/// </summary>
 	public const string Self = "self";
 
 	/// <summary>
-	/// Gets the name of the <c>semi-condensed</c> property.
+	/// Gets the name of the <c>semi-condensed</c> property value.
 	/// </summary>
 	public const string SemiCondensed = "semi-condensed";
 
 	/// <summary>
-	/// Gets the name of the <c>semi-expanded</c> property.
+	/// Gets the name of the <c>semi-expanded</c> property value.
 	/// </summary>
 	public const string SemiExpanded = "semi-expanded";
 
 	/// <summary>
-	/// Gets the name of the <c>separate</c> property.
+	/// Gets the name of the <c>separate</c> property value.
 	/// </summary>
 	public const string Separate = "separate";
 
 	/// <summary>
-	/// Gets the name of the <c>se-resize</c> property.
+	/// Gets the name of the <c>se-resize</c> property value.
 	/// </summary>
 	public const string SeResize = "se-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>sesame</c> property.
+	/// Gets the name of the <c>sesame</c> property value.
 	/// </summary>
 	public const string Sesame = "sesame";
 
 	/// <summary>
-	/// Gets the name of the <c>show</c> property.
+	/// Gets the name of the <c>show</c> property value.
 	/// </summary>
 	public const string Show = "show";
 
 	/// <summary>
-	/// Gets the name of the <c>sides</c> property.
+	/// Gets the name of the <c>sides</c> property value.
 	/// </summary>
 	public const string Sides = "sides";
 
 	/// <summary>
-	/// Gets the name of the <c>sideways</c> property.
+	/// Gets the name of the <c>sideways</c> property value.
 	/// </summary>
 	public const string Sideways = "sideways";
 
 	/// <summary>
-	/// Gets the name of the <c>sideways-lr</c> property.
+	/// Gets the name of the <c>sideways-lr</c> property value.
 	/// </summary>
 	public const string SidewaysLr = "sideways-lr";
 
 	/// <summary>
-	/// Gets the name of the <c>sideways-right</c> property.
+	/// Gets the name of the <c>sideways-right</c> property value.
 	/// </summary>
 	public const string SidewaysRight = "sideways-right";
 
 	/// <summary>
-	/// Gets the name of the <c>sideways-rl</c> property.
+	/// Gets the name of the <c>sideways-rl</c> property value.
 	/// </summary>
 	public const string SidewaysRl = "sideways-rl";
 
 	/// <summary>
-	/// Gets the name of the <c>silent</c> property.
+	/// Gets the name of the <c>silent</c> property value.
 	/// </summary>
 	public const string Silent = "silent";
 
 	/// <summary>
-	/// Gets the name of the <c>simplified</c> property.
+	/// Gets the name of the <c>simplified</c> property value.
 	/// </summary>
 	public const string Simplified = "simplified";
 
 	/// <summary>
-	/// Gets the name of the <c>size</c> property.
+	/// Gets the name of the <c>size</c> property value.
 	/// </summary>
 	public const string Size = "size";
 
 	/// <summary>
-	/// Gets the name of the <c>skip-all</c> property.
+	/// Gets the name of the <c>skip-all</c> property value.
 	/// </summary>
 	public const string SkipAll = "skip-all";
 
 	/// <summary>
-	/// Gets the name of the <c>skip-line-through</c> property.
+	/// Gets the name of the <c>skip-line-through</c> property value.
 	/// </summary>
 	public const string SkipLineThrough = "skip-line-through";
 
 	/// <summary>
-	/// Gets the name of the <c>skip-overline</c> property.
+	/// Gets the name of the <c>skip-overline</c> property value.
 	/// </summary>
 	public const string SkipOverline = "skip-overline";
 
 	/// <summary>
-	/// Gets the name of the <c>skip-underline</c> property.
+	/// Gets the name of the <c>skip-underline</c> property value.
 	/// </summary>
 	public const string SkipUnderline = "skip-underline";
 
 	/// <summary>
-	/// Gets the name of the <c>slashed-zero</c> property.
+	/// Gets the name of the <c>slashed-zero</c> property value.
 	/// </summary>
 	public const string SlashedZero = "slashed-zero";
 
 	/// <summary>
-	/// Gets the name of the <c>slice</c> property.
+	/// Gets the name of the <c>slice</c> property value.
 	/// </summary>
 	public const string Slice = "slice";
 
 	/// <summary>
-	/// Gets the name of the <c>slow</c> property.
+	/// Gets the name of the <c>slow</c> property value.
 	/// </summary>
 	public const string Slow = "slow";
 
 	/// <summary>
-	/// Gets the name of the <c>small</c> property.
+	/// Gets the name of the <c>small</c> property value.
 	/// </summary>
 	public const string Small = "small";
 
 	/// <summary>
-	/// Gets the name of the <c>small-caps</c> property.
+	/// Gets the name of the <c>small-caps</c> property value.
 	/// </summary>
 	public const string SmallCaps = "small-caps";
 
 	/// <summary>
-	/// Gets the name of the <c>small-caption</c> property.
+	/// Gets the name of the <c>small-caption</c> property value.
 	/// </summary>
 	public const string SmallCaption = "small-caption";
 
 	/// <summary>
-	/// Gets the name of the <c>smooth</c> property.
+	/// Gets the name of the <c>smooth</c> property value.
 	/// </summary>
 	public const string Smooth = "smooth";
 
 	/// <summary>
-	/// Gets the name of the <c>snap</c> property.
+	/// Gets the name of the <c>snap</c> property value.
 	/// </summary>
 	public const string Snap = "snap";
 
 	/// <summary>
-	/// Gets the name of the <c>snap-block</c> property.
+	/// Gets the name of the <c>snap-block</c> property value.
 	/// </summary>
 	public const string SnapBlock = "snap-block";
 
 	/// <summary>
-	/// Gets the name of the <c>snap-inline</c> property.
+	/// Gets the name of the <c>snap-inline</c> property value.
 	/// </summary>
 	public const string SnapInline = "snap-inline";
 
 	/// <summary>
-	/// Gets the name of the <c>soft</c> property.
+	/// Gets the name of the <c>soft</c> property value.
 	/// </summary>
 	public const string Soft = "soft";
 
 	/// <summary>
-	/// Gets the name of the <c>space</c> property.
+	/// Gets the name of the <c>space</c> property value.
 	/// </summary>
 	public const string Space = "space";
 
 	/// <summary>
-	/// Gets the name of the <c>space-all</c> property.
+	/// Gets the name of the <c>space-all</c> property value.
 	/// </summary>
 	public const string SpaceAll = "space-all";
 
 	/// <summary>
-	/// Gets the name of the <c>space-around</c> property.
+	/// Gets the name of the <c>space-around</c> property value.
 	/// </summary>
 	public const string SpaceAround = "space-around";
 
 	/// <summary>
-	/// Gets the name of the <c>space-between</c> property.
+	/// Gets the name of the <c>space-between</c> property value.
 	/// </summary>
 	public const string SpaceBetween = "space-between";
 
 	/// <summary>
-	/// Gets the name of the <c>space-first</c> property.
+	/// Gets the name of the <c>space-first</c> property value.
 	/// </summary>
 	public const string SpaceFirst = "space-first";
 
 	/// <summary>
-	/// Gets the name of the <c>spaces</c> property.
+	/// Gets the name of the <c>spaces</c> property value.
 	/// </summary>
 	public const string Spaces = "spaces";
 
 	/// <summary>
-	/// Gets the name of the <c>spelling-error</c> property.
+	/// Gets the name of the <c>spelling-error</c> property value.
 	/// </summary>
 	public const string SpellingError = "spelling-error";
 
 	/// <summary>
-	/// Gets the name of the <c>spell-out</c> property.
+	/// Gets the name of the <c>spell-out</c> property value.
 	/// </summary>
 	public const string SpellOut = "spell-out";
 
 	/// <summary>
-	/// Gets the name of the <c>spread</c> property.
+	/// Gets the name of the <c>spread</c> property value.
 	/// </summary>
 	public const string Spread = "spread";
 
 	/// <summary>
-	/// Gets the name of the <c>square</c> property.
+	/// Gets the name of the <c>square</c> property value.
 	/// </summary>
 	public const string Square = "square";
 
 	/// <summary>
-	/// Gets the name of the <c>s-resize</c> property.
+	/// Gets the name of the <c>s-resize</c> property value.
 	/// </summary>
 	public const string SResize = "s-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>sRGB</c> property.
+	/// Gets the name of the <c>sRGB</c> property value.
 	/// </summary>
 	public const string Srgb = "sRGB";
 
 	/// <summary>
-	/// Gets the name of the <c>stable</c> property.
+	/// Gets the name of the <c>stable</c> property value.
 	/// </summary>
 	public const string Stable = "stable";
 
 	/// <summary>
-	/// Gets the name of the <c>stacked-fractions</c> property.
+	/// Gets the name of the <c>stacked-fractions</c> property value.
 	/// </summary>
 	public const string StackedFractions = "stacked-fractions";
 
 	/// <summary>
-	/// Gets the name of the <c>start</c> property.
+	/// Gets the name of the <c>start</c> property value.
 	/// </summary>
 	public const string Start = "start";
 
 	/// <summary>
-	/// Gets the name of the <c>static</c> property.
+	/// Gets the name of the <c>static</c> property value.
 	/// </summary>
 	public const string Static = "static";
 
 	/// <summary>
-	/// Gets the name of the <c>status-bar</c> property.
+	/// Gets the name of the <c>status-bar</c> property value.
 	/// </summary>
 	public const string StatusBar = "status-bar";
 
 	/// <summary>
-	/// Gets the name of the <c>sticky</c> property.
+	/// Gets the name of the <c>sticky</c> property value.
 	/// </summary>
 	public const string Sticky = "sticky";
 
 	/// <summary>
-	/// Gets the name of the <c>stretch</c> property.
+	/// Gets the name of the <c>stretch</c> property value.
 	/// </summary>
 	public const string Stretch = "stretch";
 
 	/// <summary>
-	/// Gets the name of the <c>strict</c> property.
+	/// Gets the name of the <c>strict</c> property value.
 	/// </summary>
 	public const string Strict = "strict";
 
 	/// <summary>
-	/// Gets the name of the <c>stroke-box</c> property.
+	/// Gets the name of the <c>stroke-box</c> property value.
 	/// </summary>
 	public const string StrokeBox = "stroke-box";
 
 	/// <summary>
-	/// Gets the name of the <c>strong</c> property.
+	/// Gets the name of the <c>strong</c> property value.
 	/// </summary>
 	public const string Strong = "strong";
 
 	/// <summary>
-	/// Gets the name of the <c>style</c> property.
+	/// Gets the name of the <c>style</c> property value.
 	/// </summary>
 	public const string Style = "style";
 
 	/// <summary>
-	/// Gets the name of the <c>sub</c> property.
+	/// Gets the name of the <c>sub</c> property value.
 	/// </summary>
 	public const string Sub = "sub";
 
 	/// <summary>
-	/// Gets the name of the <c>subgrid</c> property.
+	/// Gets the name of the <c>subgrid</c> property value.
 	/// </summary>
 	public const string Subgrid = "subgrid";
 
 	/// <summary>
-	/// Gets the name of the <c>subtract</c> property.
+	/// Gets the name of the <c>subtract</c> property value.
 	/// </summary>
 	public const string Subtract = "subtract";
 
 	/// <summary>
-	/// Gets the name of the <c>super</c> property.
+	/// Gets the name of the <c>super</c> property value.
 	/// </summary>
 	public const string Super = "super";
 
 	/// <summary>
-	/// Gets the name of the <c>sw-resize</c> property.
+	/// Gets the name of the <c>sw-resize</c> property value.
 	/// </summary>
 	public const string SwResize = "sw-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>symbols</c> property.
+	/// Gets the name of the <c>symbols</c> property value.
 	/// </summary>
 	public const string Symbols = "symbols";
 
 	/// <summary>
-	/// Gets the name of the <c>table</c> property.
+	/// Gets the name of the <c>table</c> property value.
 	/// </summary>
 	public const string Table = "table";
 
 	/// <summary>
-	/// Gets the name of the <c>table-caption</c> property.
+	/// Gets the name of the <c>table-caption</c> property value.
 	/// </summary>
 	public const string TableCaption = "table-caption";
 
 	/// <summary>
-	/// Gets the name of the <c>table-cell</c> property.
+	/// Gets the name of the <c>table-cell</c> property value.
 	/// </summary>
 	public const string TableCell = "table-cell";
 
 	/// <summary>
-	/// Gets the name of the <c>table-column</c> property.
+	/// Gets the name of the <c>table-column</c> property value.
 	/// </summary>
 	public const string TableColumn = "table-column";
 
 	/// <summary>
-	/// Gets the name of the <c>table-column-group</c> property.
+	/// Gets the name of the <c>table-column-group</c> property value.
 	/// </summary>
 	public const string TableColumnGroup = "table-column-group";
 
 	/// <summary>
-	/// Gets the name of the <c>table-footer-group</c> property.
+	/// Gets the name of the <c>table-footer-group</c> property value.
 	/// </summary>
 	public const string TableFooterGroup = "table-footer-group";
 
 	/// <summary>
-	/// Gets the name of the <c>table-header-group</c> property.
+	/// Gets the name of the <c>table-header-group</c> property value.
 	/// </summary>
 	public const string TableHeaderGroup = "table-header-group";
 
 	/// <summary>
-	/// Gets the name of the <c>table-row</c> property.
+	/// Gets the name of the <c>table-row</c> property value.
 	/// </summary>
 	public const string TableRow = "table-row";
 
 	/// <summary>
-	/// Gets the name of the <c>table-row-group</c> property.
+	/// Gets the name of the <c>table-row-group</c> property value.
 	/// </summary>
 	public const string TableRowGroup = "table-row-group";
 
 	/// <summary>
-	/// Gets the name of the <c>tabular-nums</c> property.
+	/// Gets the name of the <c>tabular-nums</c> property value.
 	/// </summary>
 	public const string TabularNums = "tabular-nums";
 
 	/// <summary>
-	/// Gets the name of the <c>text</c> property.
+	/// Gets the name of the <c>text</c> property value.
 	/// </summary>
 	public const string Text = "text";
 
 	/// <summary>
-	/// Gets the name of the <c>text-after-edge</c> property.
+	/// Gets the name of the <c>text-after-edge</c> property value.
 	/// </summary>
 	public const string TextAfterEdge = "text-after-edge";
 
 	/// <summary>
-	/// Gets the name of the <c>textarea</c> property.
+	/// Gets the name of the <c>textarea</c> property value.
 	/// </summary>
 	public const string Textarea = "textarea";
 
 	/// <summary>
-	/// Gets the name of the <c>text-before-edge</c> property.
+	/// Gets the name of the <c>text-before-edge</c> property value.
 	/// </summary>
 	public const string TextBeforeEdge = "text-before-edge";
 
 	/// <summary>
-	/// Gets the name of the <c>text-bottom</c> property.
+	/// Gets the name of the <c>text-bottom</c> property value.
 	/// </summary>
 	public const string TextBottom = "text-bottom";
 
 	/// <summary>
-	/// Gets the name of the <c>textfield</c> property.
+	/// Gets the name of the <c>textfield</c> property value.
 	/// </summary>
 	public const string Textfield = "textfield";
 
 	/// <summary>
-	/// Gets the name of the <c>text-top</c> property.
+	/// Gets the name of the <c>text-top</c> property value.
 	/// </summary>
 	public const string TextTop = "text-top";
 
 	/// <summary>
-	/// Gets the name of the <c>thin</c> property.
+	/// Gets the name of the <c>thin</c> property value.
 	/// </summary>
 	public const string Thin = "thin";
 
 	/// <summary>
-	/// Gets the name of the <c>titling-caps</c> property.
+	/// Gets the name of the <c>titling-caps</c> property value.
 	/// </summary>
 	public const string TitlingCaps = "titling-caps";
 
 	/// <summary>
-	/// Gets the name of the <c>top</c> property.
+	/// Gets the name of the <c>top</c> property value.
 	/// </summary>
 	public const string Top = "top";
 
 	/// <summary>
-	/// Gets the name of the <c>traditional</c> property.
+	/// Gets the name of the <c>traditional</c> property value.
 	/// </summary>
 	public const string Traditional = "traditional";
 
 	/// <summary>
-	/// Gets the name of the <c>transparent</c> property.
+	/// Gets the name of the <c>transparent</c> property value.
 	/// </summary>
 	public const string Transparent = "transparent";
 
 	/// <summary>
-	/// Gets the name of the <c>triangle</c> property.
+	/// Gets the name of the <c>triangle</c> property value.
 	/// </summary>
 	public const string Triangle = "triangle";
 
 	/// <summary>
-	/// Gets the name of the <c>trim-auto</c> property.
+	/// Gets the name of the <c>trim-auto</c> property value.
 	/// </summary>
 	public const string TrimAuto = "trim-auto";
 
 	/// <summary>
-	/// Gets the name of the <c>ultra-condensed</c> property.
+	/// Gets the name of the <c>ultra-condensed</c> property value.
 	/// </summary>
 	public const string UltraCondensed = "ultra-condensed";
 
 	/// <summary>
-	/// Gets the name of the <c>ultra-expanded</c> property.
+	/// Gets the name of the <c>ultra-expanded</c> property value.
 	/// </summary>
 	public const string UltraExpanded = "ultra-expanded";
 
 	/// <summary>
-	/// Gets the name of the <c>under</c> property.
+	/// Gets the name of the <c>under</c> property value.
 	/// </summary>
 	public const string Under = "under";
 
 	/// <summary>
-	/// Gets the name of the <c>underline</c> property.
+	/// Gets the name of the <c>underline</c> property value.
 	/// </summary>
 	public const string Underline = "underline";
 
 	/// <summary>
-	/// Gets the name of the <c>underscore</c> property.
+	/// Gets the name of the <c>underscore</c> property value.
 	/// </summary>
 	public const string Underscore = "underscore";
 
 	/// <summary>
-	/// Gets the name of the <c>unicase</c> property.
+	/// Gets the name of the <c>unicase</c> property value.
 	/// </summary>
 	public const string Unicase = "unicase";
 
 	/// <summary>
-	/// Gets the name of the <c>unicode</c> property.
+	/// Gets the name of the <c>unicode</c> property value.
 	/// </summary>
 	public const string Unicode = "unicode";
 
 	/// <summary>
-	/// Gets the name of the <c>unset</c> property.
+	/// Gets the name of the <c>unset</c> property value.
 	/// </summary>
 	public const string Unset = "unset";
 
 	/// <summary>
-	/// Gets the name of the <c>up</c> property.
+	/// Gets the name of the <c>up</c> property value.
 	/// </summary>
 	public const string Up = "up";
 
 	/// <summary>
-	/// Gets the name of the <c>upper-alpha</c> property.
+	/// Gets the name of the <c>upper-alpha</c> property value.
 	/// </summary>
 	public const string UpperAlpha = "upper-alpha";
 
 	/// <summary>
-	/// Gets the name of the <c>uppercase</c> property.
+	/// Gets the name of the <c>uppercase</c> property value.
 	/// </summary>
 	public const string Uppercase = "uppercase";
 
 	/// <summary>
-	/// Gets the name of the <c>upper-latin</c> property.
+	/// Gets the name of the <c>upper-latin</c> property value.
 	/// </summary>
 	public const string UpperLatin = "upper-latin";
 
 	/// <summary>
-	/// Gets the name of the <c>upper-roman</c> property.
+	/// Gets the name of the <c>upper-roman</c> property value.
 	/// </summary>
 	public const string UpperRoman = "upper-roman";
 
 	/// <summary>
-	/// Gets the name of the <c>upright</c> property.
+	/// Gets the name of the <c>upright</c> property value.
 	/// </summary>
 	public const string Upright = "upright";
 
 	/// <summary>
-	/// Gets the name of the <c>verso</c> property.
+	/// Gets the name of the <c>verso</c> property value.
 	/// </summary>
 	public const string Verso = "verso";
 
 	/// <summary>
-	/// Gets the name of the <c>vertical-lr</c> property.
+	/// Gets the name of the <c>vertical-lr</c> property value.
 	/// </summary>
 	public const string VerticalLr = "vertical-lr";
 
 	/// <summary>
-	/// Gets the name of the <c>vertical-rl</c> property.
+	/// Gets the name of the <c>vertical-rl</c> property value.
 	/// </summary>
 	public const string VerticalRl = "vertical-rl";
 
 	/// <summary>
-	/// Gets the name of the <c>vertical-text</c> property.
+	/// Gets the name of the <c>vertical-text</c> property value.
 	/// </summary>
 	public const string VerticalText = "vertical-text";
 
 	/// <summary>
-	/// Gets the name of the <c>view-box</c> property.
+	/// Gets the name of the <c>view-box</c> property value.
 	/// </summary>
 	public const string ViewBox = "view-box";
 
 	/// <summary>
-	/// Gets the name of the <c>visible</c> property.
+	/// Gets the name of the <c>visible</c> property value.
 	/// </summary>
 	public const string Visible = "visible";
 
 	/// <summary>
-	/// Gets the name of the <c>wait</c> property.
+	/// Gets the name of the <c>wait</c> property value.
 	/// </summary>
 	public const string Wait = "wait";
 
 	/// <summary>
-	/// Gets the name of the <c>wavy</c> property.
+	/// Gets the name of the <c>wavy</c> property value.
 	/// </summary>
 	public const string Wavy = "wavy";
 
 	/// <summary>
-	/// Gets the name of the <c>weak</c> property.
+	/// Gets the name of the <c>weak</c> property value.
 	/// </summary>
 	public const string Weak = "weak";
 
 	/// <summary>
-	/// Gets the name of the <c>-webkit-discard</c> property.
+	/// Gets the name of the <c>-webkit-discard</c> property value.
 	/// </summary>
 	public const string WebkitDiscard = "-webkit-discard";
 
 	/// <summary>
-	/// Gets the name of the <c>wrap</c> property.
+	/// Gets the name of the <c>wrap</c> property value.
 	/// </summary>
 	public const string Wrap = "wrap";
 
 	/// <summary>
-	/// Gets the name of the <c>wrap-reverse</c> property.
+	/// Gets the name of the <c>wrap-reverse</c> property value.
 	/// </summary>
 	public const string WrapReverse = "wrap-reverse";
 
 	/// <summary>
-	/// Gets the name of the <c>w-resize</c> property.
+	/// Gets the name of the <c>w-resize</c> property value.
 	/// </summary>
 	public const string WResize = "w-resize";
 
 	/// <summary>
-	/// Gets the name of the <c>x</c> property.
+	/// Gets the name of the <c>x</c> property value.
 	/// </summary>
 	public const string X = "x";
 
 	/// <summary>
-	/// Gets the name of the <c>x-fast</c> property.
+	/// Gets the name of the <c>x-fast</c> property value.
 	/// </summary>
 	public const string XFast = "x-fast";
 
 	/// <summary>
-	/// Gets the name of the <c>x-high</c> property.
+	/// Gets the name of the <c>x-high</c> property value.
 	/// </summary>
 	public const string XHigh = "x-high";
 
 	/// <summary>
-	/// Gets the name of the <c>x-large</c> property.
+	/// Gets the name of the <c>x-large</c> property value.
 	/// </summary>
 	public const string XLarge = "x-large";
 
 	/// <summary>
-	/// Gets the name of the <c>x-loud</c> property.
+	/// Gets the name of the <c>x-loud</c> property value.
 	/// </summary>
 	public const string XLoud = "x-loud";
 
 	/// <summary>
-	/// Gets the name of the <c>x-low</c> property.
+	/// Gets the name of the <c>x-low</c> property value.
 	/// </summary>
 	public const string XLow = "x-low";
 
 	/// <summary>
-	/// Gets the name of the <c>x-slow</c> property.
+	/// Gets the name of the <c>x-slow</c> property value.
 	/// </summary>
 	public const string XSlow = "x-slow";
 
 	/// <summary>
-	/// Gets the name of the <c>x-small</c> property.
+	/// Gets the name of the <c>x-small</c> property value.
 	/// </summary>
 	public const string XSmall = "x-small";
 
 	/// <summary>
-	/// Gets the name of the <c>x-soft</c> property.
+	/// Gets the name of the <c>x-soft</c> property value.
 	/// </summary>
 	public const string XSoft = "x-soft";
 
 	/// <summary>
-	/// Gets the name of the <c>x-strong</c> property.
+	/// Gets the name of the <c>x-strong</c> property value.
 	/// </summary>
 	public const string XStrong = "x-strong";
 
 	/// <summary>
-	/// Gets the name of the <c>x-weak</c> property.
+	/// Gets the name of the <c>x-weak</c> property value.
 	/// </summary>
 	public const string XWeak = "x-weak";
 
 	/// <summary>
-	/// Gets the name of the <c>xx-large</c> property.
+	/// Gets the name of the <c>xx-large</c> property value.
 	/// </summary>
 	public const string XxLarge = "xx-large";
 
 	/// <summary>
-	/// Gets the name of the <c>xx-small</c> property.
+	/// Gets the name of the <c>xx-small</c> property value.
 	/// </summary>
 	public const string XxSmall = "xx-small";
 
 	/// <summary>
-	/// Gets the name of the <c>y</c> property.
+	/// Gets the name of the <c>y</c> property value.
 	/// </summary>
 	public const string Y = "y";
 
 	/// <summary>
-	/// Gets the name of the <c>young</c> property.
+	/// Gets the name of the <c>young</c> property value.
 	/// </summary>
 	public const string Young = "young";
 
 	/// <summary>
-	/// Gets the name of the <c>z</c> property.
+	/// Gets the name of the <c>z</c> property value.
 	/// </summary>
 	public const string Z = "z";
 
 	/// <summary>
-	/// Gets the name of the <c>zero-if-extrinsic</c> property.
+	/// Gets the name of the <c>zero-if-extrinsic</c> property value.
 	/// </summary>
 	public const string ZeroIfExtrinsic = "zero-if-extrinsic";
 
 	/// <summary>
-	/// Gets the name of the <c>zero-if-scroll</c> property.
+	/// Gets the name of the <c>zero-if-scroll</c> property value.
 	/// </summary>
 	public const string ZeroIfScroll = "zero-if-scroll";
 
 	/// <summary>
-	/// Gets the name of the <c>zoom-in</c> property.
+	/// Gets the name of the <c>zoom-in</c> property value.
 	/// </summary>
 	public const string ZoomIn = "zoom-in";
 
 	/// <summary>
-	/// Gets the name of the <c>zoom-out</c> property.
+	/// Gets the name of the <c>zoom-out</c> property value.
 	/// </summary>
 	public const string ZoomOut = "zoom-out";
 
