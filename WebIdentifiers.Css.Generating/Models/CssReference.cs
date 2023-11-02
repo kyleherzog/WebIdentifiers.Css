@@ -10,4 +10,7 @@ public class CssReference
 {
     [DataMember(Name = "properties")]
     public IList<CssProperty> Properties { get; set; }
+
+    [DataMember(Name = "values")]
+    public IList<CssPropertyValue> Values { get; set; }
 }
