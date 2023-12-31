@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using System.Text;
+﻿using System.Runtime.Serialization;
 
 namespace WebIdentifiers.Css.Generating.Models;
 
@@ -9,8 +6,8 @@ namespace WebIdentifiers.Css.Generating.Models;
 public class CssReference
 {
     [DataMember(Name = "properties")]
-    public IList<CssProperty> Properties { get; set; }
+    public IList<CssProperty> Properties { get; } = new List<CssProperty>();
 
     [DataMember(Name = "values")]
-    public IList<CssPropertyValue> Values { get; set; }
+    public IList<CssPropertyValue> Values { get; } = new List<CssPropertyValue>();
 }

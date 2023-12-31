@@ -33,7 +33,7 @@ public class CssProperty
     public string? Media { get; set; }
 
     [DataMember(Name = "values")]
-    public List<CssPropertyValue> Values { get; set; }
+    public IList<CssPropertyValue> Values { get; } = new List<CssPropertyValue>();
 
     [DataMember(Name = "styleDeclaration")]
     public List<string>? StyleDeclaration { get; set; }

@@ -80,7 +80,7 @@ internal static class CssPropertyValuesGenerator
         valueNames.AddRange(fullValues.Select(x => x.Name));
         var ignoredValues = new[]
         {
-            "last-baseline" //conflicts with "last baseline"
+            "last-baseline", //conflicts with "last baseline"
         };
         valueNames = valueNames.Where(x => !ignoredValues.Contains(x)).Distinct().OrderBy(x => x).ToList();
 
@@ -126,9 +126,15 @@ internal static class CssPropertyValuesGenerator
 
             var addedNames = new List<string>();
 
+            var ignoredValues = new[]
+            {
+                "inherit", // inherited from base class
+                "initial", // inherited from base class
+            };
+
             if (singleValues.Any())
             {
-                foreach (var value in singleValues)
+                foreach (var value in singleValues.Where(x => !ignoredValues.Contains(x.Name)))
                 {
                     if (!addedNames.Any(x => x.Equals(value.Name, StringComparison.OrdinalIgnoreCase)))
                     {
