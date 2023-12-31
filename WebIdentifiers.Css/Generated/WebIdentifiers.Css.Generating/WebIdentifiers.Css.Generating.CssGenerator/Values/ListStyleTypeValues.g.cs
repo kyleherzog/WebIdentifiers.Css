@@ -82,4 +82,39 @@ public partial class ListStyleTypeValues : PropertyValuesBase
 	/// </summary>
 	public string UpperRoman => CssValues.UpperRoman;
 
+	/// <summary>
+	/// Gets the name of the <c>cjk-ideographic</c> property. This counter style is identical to trad-chinese-informal. (It exists for legacy reasons.)
+	/// </summary>
+	public string CjkIdeographic => CssValues.CjkIdeographic;
+
+	/// <summary>
+	/// Gets the name of the <c>japanese-formal</c> property. Formal Japanese Kanji numbering (e.g. 壱阡壱百壱拾壱)
+	/// </summary>
+	public string JapaneseFormal => CssValues.JapaneseFormal;
+
+	/// <summary>
+	/// Gets the name of the <c>japanese-informal</c> property. Informal Japanese Kanji numbering (e.g., 千百十一)
+	/// </summary>
+	public string JapaneseInformal => CssValues.JapaneseInformal;
+
+	/// <summary>
+	/// Gets the name of the <c>simp-chinese-formal</c> property. Simplified Chinese formal numbering (e.g. 壹仟壹佰壹拾壹)
+	/// </summary>
+	public string SimpChineseFormal => CssValues.SimpChineseFormal;
+
+	/// <summary>
+	/// Gets the name of the <c>simp-chinese-informal</c> property. Simplified Chinese informal numbering (e.g., 一千一百一十一)
+	/// </summary>
+	public string SimpChineseInformal => CssValues.SimpChineseInformal;
+
+	/// <summary>
+	/// Gets the name of the <c>trad-chinese-formal</c> property. Traditional Chinese formal numbering (e.g., 壹仟壹佰壹拾壹)
+	/// </summary>
+	public string TradChineseFormal => CssValues.TradChineseFormal;
+
+	/// <summary>
+	/// Gets the name of the <c>trad-chinese-informal</c> property. Traditional Chinese informal numbering (e.g., 一千一百一十一)
+	/// </summary>
+	public string TradChineseInformal => CssValues.TradChineseInformal;
+
 }

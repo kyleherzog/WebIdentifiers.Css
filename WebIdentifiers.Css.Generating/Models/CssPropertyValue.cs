@@ -19,4 +19,6 @@ public record CssPropertyValue
 
     [DataMember(Name = "values")]
     public IList<CssPropertyValue> Values { get; set; }
+
+    public bool IsUnitOfMeasure { get; set; }
 }

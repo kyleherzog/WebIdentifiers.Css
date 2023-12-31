@@ -28,7 +28,7 @@ public partial class GridTemplateColumnsValues : PropertyValuesBase
 	public string None => CssValues.None;
 
 	/// <summary>
-	/// Gets the name of the <c>subgrid</c> property. 
+	/// Gets the name of the <c>subgrid</c> property.
 	/// </summary>
 	public string Subgrid => CssValues.Subgrid;
 

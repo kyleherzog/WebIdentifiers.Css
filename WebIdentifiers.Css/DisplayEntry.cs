@@ -5,7 +5,7 @@
 //namespace WebIdentifiers.Css;
 //public class DisplayEntry : CssEntry
 //{
-//    public DisplayEntry(string property, string? value = null) 
+//    public DisplayEntry(string property, string? value = null)
 //        : base(property, value)
 //    {
 //    }

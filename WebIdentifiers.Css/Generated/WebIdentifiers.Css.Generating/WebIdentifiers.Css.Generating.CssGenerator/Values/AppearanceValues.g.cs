@@ -13,32 +13,32 @@ public partial class AppearanceValues : PropertyValuesBase
 	public string Auto => CssValues.Auto;
 
 	/// <summary>
-	/// Gets the name of the <c>button</c> property. 
+	/// Gets the name of the <c>button</c> property.
 	/// </summary>
 	public string Button => CssValues.Button;
 
 	/// <summary>
-	/// Gets the name of the <c>checkbox</c> property. 
+	/// Gets the name of the <c>checkbox</c> property.
 	/// </summary>
 	public string Checkbox => CssValues.Checkbox;
 
 	/// <summary>
-	/// Gets the name of the <c>listbox</c> property. 
+	/// Gets the name of the <c>listbox</c> property.
 	/// </summary>
 	public string Listbox => CssValues.Listbox;
 
 	/// <summary>
-	/// Gets the name of the <c>menulist</c> property. 
+	/// Gets the name of the <c>menulist</c> property.
 	/// </summary>
 	public string Menulist => CssValues.Menulist;
 
 	/// <summary>
-	/// Gets the name of the <c>menulist-button</c> property. 
+	/// Gets the name of the <c>menulist-button</c> property.
 	/// </summary>
 	public string MenulistButton => CssValues.MenulistButton;
 
 	/// <summary>
-	/// Gets the name of the <c>meter</c> property. 
+	/// Gets the name of the <c>meter</c> property.
 	/// </summary>
 	public string Meter => CssValues.Meter;
 
@@ -48,27 +48,27 @@ public partial class AppearanceValues : PropertyValuesBase
 	public string None => CssValues.None;
 
 	/// <summary>
-	/// Gets the name of the <c>progress-bar</c> property. 
+	/// Gets the name of the <c>progress-bar</c> property.
 	/// </summary>
 	public string ProgressBar => CssValues.ProgressBar;
 
 	/// <summary>
-	/// Gets the name of the <c>radio</c> property. 
+	/// Gets the name of the <c>radio</c> property.
 	/// </summary>
 	public string Radio => CssValues.Radio;
 
 	/// <summary>
-	/// Gets the name of the <c>searchfield</c> property. 
+	/// Gets the name of the <c>searchfield</c> property.
 	/// </summary>
 	public string Searchfield => CssValues.Searchfield;
 
 	/// <summary>
-	/// Gets the name of the <c>textarea</c> property. 
+	/// Gets the name of the <c>textarea</c> property.
 	/// </summary>
 	public string Textarea => CssValues.Textarea;
 
 	/// <summary>
-	/// Gets the name of the <c>textfield</c> property. 
+	/// Gets the name of the <c>textfield</c> property.
 	/// </summary>
 	public string Textfield => CssValues.Textfield;
 

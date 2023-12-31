@@ -8,27 +8,27 @@ namespace WebIdentifiers.Css.Values;
 public partial class VoiceFamilyValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>child</c> property. 
+	/// Gets the name of the <c>child</c> property.
 	/// </summary>
 	public string Child => CssValues.Child;
 
 	/// <summary>
-	/// Gets the name of the <c>female</c> property. 
+	/// Gets the name of the <c>female</c> property.
 	/// </summary>
 	public string Female => CssValues.Female;
 
 	/// <summary>
-	/// Gets the name of the <c>male</c> property. 
+	/// Gets the name of the <c>male</c> property.
 	/// </summary>
 	public string Male => CssValues.Male;
 
 	/// <summary>
-	/// Gets the name of the <c>neutral</c> property. 
+	/// Gets the name of the <c>neutral</c> property.
 	/// </summary>
 	public string Neutral => CssValues.Neutral;
 
 	/// <summary>
-	/// Gets the name of the <c>old</c> property. 
+	/// Gets the name of the <c>old</c> property.
 	/// </summary>
 	public string Old => CssValues.Old;
 
@@ -38,7 +38,7 @@ public partial class VoiceFamilyValues : PropertyValuesBase
 	public string Preserve => CssValues.Preserve;
 
 	/// <summary>
-	/// Gets the name of the <c>young</c> property. 
+	/// Gets the name of the <c>young</c> property.
 	/// </summary>
 	public string Young => CssValues.Young;
 

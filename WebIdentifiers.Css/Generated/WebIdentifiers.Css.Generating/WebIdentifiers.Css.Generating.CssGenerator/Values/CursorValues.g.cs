@@ -53,12 +53,12 @@ public partial class CursorValues : PropertyValuesBase
 	public string Default => CssValues.Default;
 
 	/// <summary>
-	/// Gets the name of the <c>e-resize</c> property. 
+	/// Gets the name of the <c>e-resize</c> property.
 	/// </summary>
 	public string EResize => CssValues.EResize;
 
 	/// <summary>
-	/// Gets the name of the <c>ew-resize</c> property. 
+	/// Gets the name of the <c>ew-resize</c> property.
 	/// </summary>
 	public string EwResize => CssValues.EwResize;
 
@@ -83,12 +83,12 @@ public partial class CursorValues : PropertyValuesBase
 	public string Move => CssValues.Move;
 
 	/// <summary>
-	/// Gets the name of the <c>ne-resize</c> property. 
+	/// Gets the name of the <c>ne-resize</c> property.
 	/// </summary>
 	public string NeResize => CssValues.NeResize;
 
 	/// <summary>
-	/// Gets the name of the <c>nesw-resize</c> property. 
+	/// Gets the name of the <c>nesw-resize</c> property.
 	/// </summary>
 	public string NeswResize => CssValues.NeswResize;
 
@@ -108,22 +108,22 @@ public partial class CursorValues : PropertyValuesBase
 	public string NotAllowed => CssValues.NotAllowed;
 
 	/// <summary>
-	/// Gets the name of the <c>n-resize</c> property. 
+	/// Gets the name of the <c>n-resize</c> property.
 	/// </summary>
 	public string NResize => CssValues.NResize;
 
 	/// <summary>
-	/// Gets the name of the <c>ns-resize</c> property. 
+	/// Gets the name of the <c>ns-resize</c> property.
 	/// </summary>
 	public string NsResize => CssValues.NsResize;
 
 	/// <summary>
-	/// Gets the name of the <c>nw-resize</c> property. 
+	/// Gets the name of the <c>nw-resize</c> property.
 	/// </summary>
 	public string NwResize => CssValues.NwResize;
 
 	/// <summary>
-	/// Gets the name of the <c>nwse-resize</c> property. 
+	/// Gets the name of the <c>nwse-resize</c> property.
 	/// </summary>
 	public string NwseResize => CssValues.NwseResize;
 
@@ -143,17 +143,17 @@ public partial class CursorValues : PropertyValuesBase
 	public string RowResize => CssValues.RowResize;
 
 	/// <summary>
-	/// Gets the name of the <c>se-resize</c> property. 
+	/// Gets the name of the <c>se-resize</c> property.
 	/// </summary>
 	public string SeResize => CssValues.SeResize;
 
 	/// <summary>
-	/// Gets the name of the <c>s-resize</c> property. 
+	/// Gets the name of the <c>s-resize</c> property.
 	/// </summary>
 	public string SResize => CssValues.SResize;
 
 	/// <summary>
-	/// Gets the name of the <c>sw-resize</c> property. 
+	/// Gets the name of the <c>sw-resize</c> property.
 	/// </summary>
 	public string SwResize => CssValues.SwResize;
 
@@ -173,17 +173,17 @@ public partial class CursorValues : PropertyValuesBase
 	public string Wait => CssValues.Wait;
 
 	/// <summary>
-	/// Gets the name of the <c>w-resize</c> property. 
+	/// Gets the name of the <c>w-resize</c> property.
 	/// </summary>
 	public string WResize => CssValues.WResize;
 
 	/// <summary>
-	/// Gets the name of the <c>zoom-in</c> property. 
+	/// Gets the name of the <c>zoom-in</c> property.
 	/// </summary>
 	public string ZoomIn => CssValues.ZoomIn;
 
 	/// <summary>
-	/// Gets the name of the <c>zoom-out</c> property. 
+	/// Gets the name of the <c>zoom-out</c> property.
 	/// </summary>
 	public string ZoomOut => CssValues.ZoomOut;
 

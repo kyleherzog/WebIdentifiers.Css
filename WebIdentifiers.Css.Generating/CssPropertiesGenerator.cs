@@ -1,5 +1,6 @@
 ﻿using CodeCasing;
 using Microsoft.CodeAnalysis;
+using WebIdentifiers.Css.Generating.CodeWriting;
 using WebIdentifiers.Css.Generating.Models;
 
 namespace WebIdentifiers.Css.Generating;
@@ -14,7 +15,7 @@ internal static class CssPropertiesGenerator
         entriesWriter.AddLine("namespace WebIdentifiers.Css;");
         entriesWriter.AddLine();
 
-        entriesWriter.AddXmlDocSummary("Provides access to specific CSS property entry objects.");
+        entriesWriter.XmlDocs.AddSummary("Provides access to specific CSS property entry objects.");
         entriesWriter.OpenClass("CssProperties", isStatic: true);
 
         var lastProperty = string.Empty;
@@ -23,7 +24,7 @@ internal static class CssPropertiesGenerator
             if (!lastProperty.Equals(property.Name, StringComparison.Ordinal))
             {
                 lastProperty = property.Name;
-                entriesWriter.AddXmlDocSummary($"Gets a new <see cref=\"{property.Name.ToPascalCase()}Property\" /> instance, which represents a CSS property entry with a property name of <c>{property.Name}</c>.");
+                entriesWriter.XmlDocs.AddSummary($"Gets a new <see cref=\"{property.Name.ToPascalCase()}Property\" /> instance, which represents a CSS property entry with a property name of <c>{property.Name}</c>.");
                 entriesWriter.AddLine($"public static {property.Name.ToPascalCase()}Property {property.Name.ToPascalCase()} => new();");
                 entriesWriter.AddLine();
             }
@@ -55,10 +56,10 @@ internal static class CssPropertiesGenerator
             var propertyName = $"{property.Key.ToPascalCase()}";
             var entryClassName = $"{propertyName}Property";
 
-            writer.AddXmlDocSummary($"Provides a CSS entry for the {propertyName} property.");
+            writer.XmlDocs.AddSummary($"Provides a CSS entry for the {propertyName} property.");
             writer.OpenClass(entryClassName, "CssPropertyEntry");
 
-            writer.AddXmlDocSummary($"Represents a {property.Key} CSS property entry.");
+            writer.XmlDocs.AddSummary($"Represents a {property.Key} CSS property entry.");
             writer.AddLine("/// <param name=\"value\">An optional value with which to initialize the CSS property entry.</param>");
             writer.AddLine($"public {entryClassName}(string? value = null)");
             writer.AddChildLine($": base(CssPropertyNames.{propertyName}, value)");
@@ -73,7 +74,7 @@ internal static class CssPropertiesGenerator
                     if (!lastValue.Equals(value.Name, StringComparison.OrdinalIgnoreCase))
                     {
                         lastValue = value.Name;
-                        writer.AddXmlDocSummary($"Sets the value of the property entry to <c>{value.Name}</c>. {value.Prose.EscapeXml()}");
+                        writer.XmlDocs.AddSummary($"Sets the value of the property entry to <c>{value.Name}</c>. {value.Prose.EscapeXml()}");
                         writer.AddLine($"public {entryClassName} SetTo{value.Name.ToPascalCase()}()");
                         writer.OpenBlock();
                         writer.AddLine($"Value = CssValues.{value.Name.ToPascalCase()};");

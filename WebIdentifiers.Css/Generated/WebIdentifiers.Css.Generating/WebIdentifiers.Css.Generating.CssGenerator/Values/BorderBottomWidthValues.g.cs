@@ -7,4 +7,19 @@ namespace WebIdentifiers.Css.Values;
 /// </summary>
 public partial class BorderBottomWidthValues : PropertyValuesBase
 {
+	/// <summary>
+	/// Gets the name of the <c>medium</c> property. Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.
+	/// </summary>
+	public string Medium => CssValues.Medium;
+
+	/// <summary>
+	/// Gets the name of the <c>thick</c> property. Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.
+	/// </summary>
+	public string Thick => CssValues.Thick;
+
+	/// <summary>
+	/// Gets the name of the <c>thin</c> property. Negative values are invalid. The thin, medium, and thick keywords are equivalent to 1px, 3px, and 5px, respectively.
+	/// </summary>
+	public string Thin => CssValues.Thin;
+
 }

@@ -13,7 +13,7 @@ public partial class WhiteSpaceValues : PropertyValuesBase
 	public string BreakSpaces => CssValues.BreakSpaces;
 
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. 
+	/// Gets the name of the <c>normal</c> property.
 	/// </summary>
 	public string Normal => CssValues.Normal;
 
@@ -23,17 +23,17 @@ public partial class WhiteSpaceValues : PropertyValuesBase
 	public string Nowrap => CssValues.Nowrap;
 
 	/// <summary>
-	/// Gets the name of the <c>pre</c> property. 
+	/// Gets the name of the <c>pre</c> property.
 	/// </summary>
 	public string Pre => CssValues.Pre;
 
 	/// <summary>
-	/// Gets the name of the <c>pre-line</c> property. 
+	/// Gets the name of the <c>pre-line</c> property.
 	/// </summary>
 	public string PreLine => CssValues.PreLine;
 
 	/// <summary>
-	/// Gets the name of the <c>pre-wrap</c> property. 
+	/// Gets the name of the <c>pre-wrap</c> property.
 	/// </summary>
 	public string PreWrap => CssValues.PreWrap;
 

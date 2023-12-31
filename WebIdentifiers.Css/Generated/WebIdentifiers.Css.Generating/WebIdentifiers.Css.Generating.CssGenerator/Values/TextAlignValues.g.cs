@@ -8,7 +8,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class TextAlignValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>alignment character</c> property. 
+	/// Gets the name of the <c>alignment character</c> property.
 	/// </summary>
 	public string AlignmentCharacter => CssValues.AlignmentCharacter;
 

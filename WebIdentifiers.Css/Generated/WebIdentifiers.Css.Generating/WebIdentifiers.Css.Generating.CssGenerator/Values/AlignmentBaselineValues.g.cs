@@ -38,12 +38,12 @@ public partial class AlignmentBaselineValues : PropertyValuesBase
 	public string Middle => CssValues.Middle;
 
 	/// <summary>
-	/// Gets the name of the <c>text-after-edge</c> property. 
+	/// Gets the name of the <c>text-after-edge</c> property.
 	/// </summary>
 	public string TextAfterEdge => CssValues.TextAfterEdge;
 
 	/// <summary>
-	/// Gets the name of the <c>text-before-edge</c> property. 
+	/// Gets the name of the <c>text-before-edge</c> property.
 	/// </summary>
 	public string TextBeforeEdge => CssValues.TextBeforeEdge;
 

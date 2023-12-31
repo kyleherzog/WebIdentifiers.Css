@@ -8,47 +8,47 @@ namespace WebIdentifiers.Css.Values;
 public partial class FontStretchValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>condensed</c> property. 
+	/// Gets the name of the <c>condensed</c> property.
 	/// </summary>
 	public string Condensed => CssValues.Condensed;
 
 	/// <summary>
-	/// Gets the name of the <c>expanded</c> property. 
+	/// Gets the name of the <c>expanded</c> property.
 	/// </summary>
 	public string Expanded => CssValues.Expanded;
 
 	/// <summary>
-	/// Gets the name of the <c>extra-condensed</c> property. 
+	/// Gets the name of the <c>extra-condensed</c> property.
 	/// </summary>
 	public string ExtraCondensed => CssValues.ExtraCondensed;
 
 	/// <summary>
-	/// Gets the name of the <c>extra-expanded</c> property. 
+	/// Gets the name of the <c>extra-expanded</c> property.
 	/// </summary>
 	public string ExtraExpanded => CssValues.ExtraExpanded;
 
 	/// <summary>
-	/// Gets the name of the <c>normal</c> property. 
+	/// Gets the name of the <c>normal</c> property.
 	/// </summary>
 	public string Normal => CssValues.Normal;
 
 	/// <summary>
-	/// Gets the name of the <c>semi-condensed</c> property. 
+	/// Gets the name of the <c>semi-condensed</c> property.
 	/// </summary>
 	public string SemiCondensed => CssValues.SemiCondensed;
 
 	/// <summary>
-	/// Gets the name of the <c>semi-expanded</c> property. 
+	/// Gets the name of the <c>semi-expanded</c> property.
 	/// </summary>
 	public string SemiExpanded => CssValues.SemiExpanded;
 
 	/// <summary>
-	/// Gets the name of the <c>ultra-condensed</c> property. 
+	/// Gets the name of the <c>ultra-condensed</c> property.
 	/// </summary>
 	public string UltraCondensed => CssValues.UltraCondensed;
 
 	/// <summary>
-	/// Gets the name of the <c>ultra-expanded</c> property. 
+	/// Gets the name of the <c>ultra-expanded</c> property.
 	/// </summary>
 	public string UltraExpanded => CssValues.UltraExpanded;
 

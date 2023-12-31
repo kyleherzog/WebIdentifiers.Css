@@ -1,5 +1,6 @@
 ﻿using CodeCasing;
 using Microsoft.CodeAnalysis;
+using WebIdentifiers.Css.Generating.CodeWriting;
 using WebIdentifiers.Css.Generating.Models;
 
 namespace WebIdentifiers.Css.Generating;
@@ -12,7 +13,7 @@ internal static class CssPropertyNamesGenerator
         propertiesWriter.AddLine("namespace WebIdentifiers.Css;");
         propertiesWriter.AddLine();
 
-        propertiesWriter.AddXmlDocSummary("Provides the names of CSS properties.");
+        propertiesWriter.XmlDocs.AddSummary("Provides the names of CSS properties.");
         propertiesWriter.OpenClass("CssPropertyNames", isStatic: true);
 
         var lastProperty = string.Empty;
@@ -21,7 +22,7 @@ internal static class CssPropertyNamesGenerator
             if (!lastProperty.Equals(property.Name, StringComparison.Ordinal))
             {
                 lastProperty = property.Name;
-                propertiesWriter.AddXmlDocSummary($"Gets the name of the <c>{property.Name}</c> property.");
+                propertiesWriter.XmlDocs.AddSummary($"Gets the name of the <c>{property.Name}</c> property.");
                 propertiesWriter.AddLine($"public const string {property.Name.ToPascalCase()} = \"{property.Name}\";");
                 propertiesWriter.AddLine();
             }

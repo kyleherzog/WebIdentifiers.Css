@@ -7,4 +7,9 @@ namespace WebIdentifiers.Css.Values;
 /// </summary>
 public partial class FillValues : PropertyValuesBase
 {
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. Indicates no paint is applied.
+	/// </summary>
+	public string None => CssValues.None;
+
 }

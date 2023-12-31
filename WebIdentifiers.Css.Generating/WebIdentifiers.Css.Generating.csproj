@@ -8,16 +8,16 @@
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <LangVersion>11.0</LangVersion>
+        <LangVersion>12.0</LangVersion>
         <IncludeBuildOutput>false</IncludeBuildOutput>
       <IsRoslynComponent>true</IsRoslynComponent>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CodeCasing" Version="2.0.6" GeneratePathProperty="true" />
-      <PackageReference Include="Microsoft.VisualStudio.Threading" Version="17.7.30" PrivateAssets="all" GeneratePathProperty="true" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.6.0" />
-      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0" PrivateAssets="all" />
+      <PackageReference Include="Microsoft.VisualStudio.Threading" Version="17.8.14" PrivateAssets="all" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.8.0" />
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" PrivateAssets="all" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" GeneratePathProperty="true" />
   </ItemGroup>
     <PropertyGroup>

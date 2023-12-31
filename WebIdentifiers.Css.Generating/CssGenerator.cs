@@ -1,13 +1,7 @@
-﻿using System;
-using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.InteropServices.ComTypes;
-using System.Text;
-using CodeCasing;
-using Microsoft.CodeAnalysis;
+﻿using Microsoft.CodeAnalysis;
 using Newtonsoft.Json;
+using System.Reflection;
 using WebIdentifiers.Css.Generating.Models;
-using static Microsoft.VisualStudio.Threading.AsyncReaderWriterLock;
 
 namespace WebIdentifiers.Css.Generating
 {
@@ -18,13 +12,14 @@ namespace WebIdentifiers.Css.Generating
         {
             var references = LoadResources();
 
-            context.AddSource("TypeValues.g.cs", GenerateTypeValues(references));
-
             context.AddSource("CssPropertyNames.g.cs", CssPropertyNamesGenerator.Generate(references));
-            context.AddSource("CssValues.g.cs", CssPropertyValuesGenerator.Generate(references));
+
+            var typeValues = GetTypesValues(references);
+            context.AddSource("CssValues.g.cs", CssPropertyValuesGenerator.Generate(references, typeValues));
+            context.AddSource("CssUnits.g.cs", CssPropertyValuesGenerator.GenerateUnits(references, typeValues));
             context.AddSource("CssProperties.g.cs", CssPropertiesGenerator.Generate(references));
 
-            var valuesPerProperty = CssPropertyValuesGenerator.GeneratePerProperty(references);
+            var valuesPerProperty = CssPropertyValuesGenerator.GeneratePerProperty(references, typeValues);
             foreach (var file in valuesPerProperty)
             {
                 var fileName = $"Values/{file.Key}.g.cs";
@@ -37,14 +32,18 @@ namespace WebIdentifiers.Css.Generating
                 var fileName = $"Properties/{property.Key}.g.cs";
                 context.AddSource(fileName, property.Value);
             }
+
+            //var typeValues = GenerateTypeValues(references);
+            //foreach (var typeValue in typeValues)
+            //{
+            //    var fileName = $"TypeValues/{typeValue.Key}.g.cs";
+            //    context.AddSource(fileName, typeValue.Value);
+            //}
         }
 
-        internal static string GenerateTypeValues(IEnumerable<CssReference> references)
+        internal static Dictionary<string, IEnumerable<CssPropertyValue>> GetTypesValues(IEnumerable<CssReference> references)
         {
-            var propertiesWriter = new ClassWriter();
-
-            propertiesWriter.AddLine("namespace WebIdentifiers.Css;");
-            propertiesWriter.AddLine();
+            var results = new Dictionary<string, IEnumerable<CssPropertyValue>>();
 
             var outerValues = references.Where(x => x.Values is not null)
                 .SelectMany(x => x.Values)
@@ -52,31 +51,79 @@ namespace WebIdentifiers.Css.Generating
                 .GroupBy(x => x.Name)
                 .OrderBy(x => x.Key);
 
+            var suffixTypes = new string[]
+            {
+                "<length>",
+                "<angle>",
+                "<time>",
+                "<frequency>",
+                "<resolution>",
+            };
+
+
             foreach (var outerValue in outerValues)
             {
+                var isSuffix = suffixTypes.Contains(outerValue.Key);
                 var values = outerValue.SelectMany(x => x.Values).Where(x => x.Type == "value" && !x.Name.Contains("<") && !x.Name.Contains("(")).OrderBy(x => x.Name);
                 if (values.Any())
                 {
-                    propertiesWriter.OpenClass($"{outerValue.Key.ToPascalCase().Replace("<", string.Empty).Replace(">", string.Empty)}TypeValue");
-                    var lastName = string.Empty;
-                    foreach (var entry in values)
+                    var propertyVars = values.GroupBy(x => x.Name).Select(x => x.First());
+                    if (isSuffix)
                     {
-                        if (lastName != entry.Name)
+                        foreach (var propertyVar in propertyVars)
                         {
-                            lastName = entry.Name;
-                            //propertiesWriter.AddXmlDocSummary($"Gets the name of the <c>{property.Name}</c> property.");
-                            propertiesWriter.AddLine($"public const string {entry.Name.ToPascalCase()} = \"{entry.Value}\";");
-                            propertiesWriter.AddLine();
+                            propertyVar.IsUnitOfMeasure = true;
                         }
-
                     }
-                    propertiesWriter.CloseClass();
+                    results.Add(outerValue.Key, propertyVars);
                 }
-
             }
 
-            return propertiesWriter.ToString();
+            return results;
         }
+
+        //internal static Dictionary<string, string> GenerateTypeValues(IEnumerable<CssReference> references)
+        //{
+        //    var results = new Dictionary<string, string>();
+
+        //    var outerValues = references.Where(x => x.Values is not null)
+        //        .SelectMany(x => x.Values)
+        //        .Where(x => x.Type == "type" && x.Values is not null)
+        //        .GroupBy(x => x.Name)
+        //        .OrderBy(x => x.Key);
+
+        //    foreach (var outerValue in outerValues)
+        //    {
+        //        var values = outerValue.SelectMany(x => x.Values).Where(x => x.Type == "value" && !x.Name.Contains("<") && !x.Name.Contains("(")).OrderBy(x => x.Name);
+        //        if (values.Any())
+        //        {
+        //            var propertiesWriter = new ClassWriter();
+
+        //            propertiesWriter.AddLine("namespace WebIdentifiers.Css;");
+        //            propertiesWriter.AddLine();
+
+        //            var className = $"{outerValue.Key.ToPascalCase().Replace("<", string.Empty).Replace(">", string.Empty)}TypeValues";
+        //            propertiesWriter.OpenClass(className);
+        //            var lastName = string.Empty;
+        //            foreach (var entry in values)
+        //            {
+        //                if (lastName != entry.Name)
+        //                {
+        //                    lastName = entry.Name;
+        //                    //propertiesWriter.XmlDocs.AddSummary($"Gets the name of the <c>{property.Name}</c> property.");
+        //                    propertiesWriter.AddLine($"public const string {entry.Name.ToPascalCase()} = \"{entry.Value}\";");
+        //                    propertiesWriter.AddLine();
+        //                }
+
+        //            }
+        //            propertiesWriter.CloseClass();
+
+        //            results[className] = propertiesWriter.ToString();
+        //        }
+        //    }
+
+        //    return results;
+        //}
 
         private IEnumerable<CssReference> LoadResources()
         {

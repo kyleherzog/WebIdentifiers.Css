@@ -15,6 +15,21 @@ public static partial class CssValues
 	public const string Absolute = "absolute";
 
 	/// <summary>
+	/// Gets the name of the <c>AccentColor</c> property value.
+	/// </summary>
+	public const string AccentColor = "AccentColor";
+
+	/// <summary>
+	/// Gets the name of the <c>AccentColorText</c> property value.
+	/// </summary>
+	public const string AccentColorText = "AccentColorText";
+
+	/// <summary>
+	/// Gets the name of the <c>ActiveText</c> property value.
+	/// </summary>
+	public const string ActiveText = "ActiveText";
+
+	/// <summary>
 	/// Gets the name of the <c>add</c> property value.
 	/// </summary>
 	public const string Add = "add";
@@ -23,6 +38,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>alias</c> property value.
 	/// </summary>
 	public const string Alias = "alias";
+
+	/// <summary>
+	/// Gets the name of the <c>aliceblue</c> property value.
+	/// </summary>
+	public const string Aliceblue = "aliceblue";
 
 	/// <summary>
 	/// Gets the name of the <c>alignment character</c> property value.
@@ -90,9 +110,34 @@ public static partial class CssValues
 	public const string Angle = "angle";
 
 	/// <summary>
+	/// Gets the name of the <c>anonymous</c> property value.
+	/// </summary>
+	public const string Anonymous = "anonymous";
+
+	/// <summary>
+	/// Gets the name of the <c>antiquewhite</c> property value.
+	/// </summary>
+	public const string Antiquewhite = "antiquewhite";
+
+	/// <summary>
 	/// Gets the name of the <c>anywhere</c> property value.
 	/// </summary>
 	public const string Anywhere = "anywhere";
+
+	/// <summary>
+	/// Gets the name of the <c>aqua</c> property value.
+	/// </summary>
+	public const string Aqua = "aqua";
+
+	/// <summary>
+	/// Gets the name of the <c>aquamarine</c> property value.
+	/// </summary>
+	public const string Aquamarine = "aquamarine";
+
+	/// <summary>
+	/// Gets the name of the <c>arabic-indic</c> property value.
+	/// </summary>
+	public const string ArabicIndic = "arabic-indic";
 
 	/// <summary>
 	/// Gets the name of the <c>arcs</c> property value.
@@ -145,6 +190,11 @@ public static partial class CssValues
 	public const string AvoidRegion = "avoid-region";
 
 	/// <summary>
+	/// Gets the name of the <c>azure</c> property value.
+	/// </summary>
+	public const string Azure = "azure";
+
+	/// <summary>
 	/// Gets the name of the <c>backwards</c> property value.
 	/// </summary>
 	public const string Backwards = "backwards";
@@ -170,6 +220,16 @@ public static partial class CssValues
 	public const string Baseline = "baseline";
 
 	/// <summary>
+	/// Gets the name of the <c>beige</c> property value.
+	/// </summary>
+	public const string Beige = "beige";
+
+	/// <summary>
+	/// Gets the name of the <c>bengali</c> property value.
+	/// </summary>
+	public const string Bengali = "bengali";
+
+	/// <summary>
 	/// Gets the name of the <c>bevel</c> property value.
 	/// </summary>
 	public const string Bevel = "bevel";
@@ -178,6 +238,21 @@ public static partial class CssValues
 	/// Gets the name of the <c>bidi-override</c> property value.
 	/// </summary>
 	public const string BidiOverride = "bidi-override";
+
+	/// <summary>
+	/// Gets the name of the <c>bisque</c> property value.
+	/// </summary>
+	public const string Bisque = "bisque";
+
+	/// <summary>
+	/// Gets the name of the <c>black</c> property value.
+	/// </summary>
+	public const string Black = "black";
+
+	/// <summary>
+	/// Gets the name of the <c>blanchedalmond</c> property value.
+	/// </summary>
+	public const string Blanchedalmond = "blanchedalmond";
 
 	/// <summary>
 	/// Gets the name of the <c>blink</c> property value.
@@ -200,6 +275,16 @@ public static partial class CssValues
 	public const string BlockStart = "block-start";
 
 	/// <summary>
+	/// Gets the name of the <c>blue</c> property value.
+	/// </summary>
+	public const string Blue = "blue";
+
+	/// <summary>
+	/// Gets the name of the <c>blueviolet</c> property value.
+	/// </summary>
+	public const string Blueviolet = "blueviolet";
+
+	/// <summary>
 	/// Gets the name of the <c>bold</c> property value.
 	/// </summary>
 	public const string Bold = "bold";
@@ -208,6 +293,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>bolder</c> property value.
 	/// </summary>
 	public const string Bolder = "bolder";
+
+	/// <summary>
+	/// Gets the name of the <c>border</c> property value.
+	/// </summary>
+	public const string Border = "border";
 
 	/// <summary>
 	/// Gets the name of the <c>border-box</c> property value.
@@ -255,6 +345,16 @@ public static partial class CssValues
 	public const string BreakWord = "break-word";
 
 	/// <summary>
+	/// Gets the name of the <c>brown</c> property value.
+	/// </summary>
+	public const string Brown = "brown";
+
+	/// <summary>
+	/// Gets the name of the <c>burlywood</c> property value.
+	/// </summary>
+	public const string Burlywood = "burlywood";
+
+	/// <summary>
 	/// Gets the name of the <c>butt</c> property value.
 	/// </summary>
 	public const string Butt = "butt";
@@ -263,6 +363,41 @@ public static partial class CssValues
 	/// Gets the name of the <c>button</c> property value.
 	/// </summary>
 	public const string Button = "button";
+
+	/// <summary>
+	/// Gets the name of the <c>ButtonBorder</c> property value.
+	/// </summary>
+	public const string ButtonBorder = "ButtonBorder";
+
+	/// <summary>
+	/// Gets the name of the <c>ButtonFace</c> property value.
+	/// </summary>
+	public const string ButtonFace = "ButtonFace";
+
+	/// <summary>
+	/// Gets the name of the <c>ButtonText</c> property value.
+	/// </summary>
+	public const string ButtonText = "ButtonText";
+
+	/// <summary>
+	/// Gets the name of the <c>cadetblue</c> property value.
+	/// </summary>
+	public const string Cadetblue = "cadetblue";
+
+	/// <summary>
+	/// Gets the name of the <c>cambodian</c> property value.
+	/// </summary>
+	public const string Cambodian = "cambodian";
+
+	/// <summary>
+	/// Gets the name of the <c>Canvas</c> property value.
+	/// </summary>
+	public const string Canvas = "Canvas";
+
+	/// <summary>
+	/// Gets the name of the <c>CanvasText</c> property value.
+	/// </summary>
+	public const string CanvasText = "CanvasText";
 
 	/// <summary>
 	/// Gets the name of the <c>cap</c> property value.
@@ -300,6 +435,11 @@ public static partial class CssValues
 	public const string Central = "central";
 
 	/// <summary>
+	/// Gets the name of the <c>chartreuse</c> property value.
+	/// </summary>
+	public const string Chartreuse = "chartreuse";
+
+	/// <summary>
 	/// Gets the name of the <c>checkbox</c> property value.
 	/// </summary>
 	public const string Checkbox = "checkbox";
@@ -310,6 +450,11 @@ public static partial class CssValues
 	public const string Child = "child";
 
 	/// <summary>
+	/// Gets the name of the <c>chocolate</c> property value.
+	/// </summary>
+	public const string Chocolate = "chocolate";
+
+	/// <summary>
 	/// Gets the name of the <c>ch-width</c> property value.
 	/// </summary>
 	public const string ChWidth = "ch-width";
@@ -318,6 +463,26 @@ public static partial class CssValues
 	/// Gets the name of the <c>circle</c> property value.
 	/// </summary>
 	public const string Circle = "circle";
+
+	/// <summary>
+	/// Gets the name of the <c>cjk-decimal</c> property value.
+	/// </summary>
+	public const string CjkDecimal = "cjk-decimal";
+
+	/// <summary>
+	/// Gets the name of the <c>cjk-earthly-branch</c> property value.
+	/// </summary>
+	public const string CjkEarthlyBranch = "cjk-earthly-branch";
+
+	/// <summary>
+	/// Gets the name of the <c>cjk-heavenly-stem</c> property value.
+	/// </summary>
+	public const string CjkHeavenlyStem = "cjk-heavenly-stem";
+
+	/// <summary>
+	/// Gets the name of the <c>cjk-ideographic</c> property value.
+	/// </summary>
+	public const string CjkIdeographic = "cjk-ideographic";
 
 	/// <summary>
 	/// Gets the name of the <c>clear</c> property value.
@@ -345,9 +510,34 @@ public static partial class CssValues
 	public const string CloseQuote = "close-quote";
 
 	/// <summary>
+	/// Gets the name of the <c>closest-corner</c> property value.
+	/// </summary>
+	public const string ClosestCorner = "closest-corner";
+
+	/// <summary>
+	/// Gets the name of the <c>closest-side</c> property value.
+	/// </summary>
+	public const string ClosestSide = "closest-side";
+
+	/// <summary>
 	/// Gets the name of the <c>collapse</c> property value.
 	/// </summary>
 	public const string Collapse = "collapse";
+
+	/// <summary>
+	/// Gets the name of the <c>color</c> property value.
+	/// </summary>
+	public const string Color = "color";
+
+	/// <summary>
+	/// Gets the name of the <c>color-burn</c> property value.
+	/// </summary>
+	public const string ColorBurn = "color-burn";
+
+	/// <summary>
+	/// Gets the name of the <c>color-dodge</c> property value.
+	/// </summary>
+	public const string ColorDodge = "color-dodge";
 
 	/// <summary>
 	/// Gets the name of the <c>col-resize</c> property value.
@@ -420,9 +610,24 @@ public static partial class CssValues
 	public const string Copy = "copy";
 
 	/// <summary>
+	/// Gets the name of the <c>coral</c> property value.
+	/// </summary>
+	public const string Coral = "coral";
+
+	/// <summary>
 	/// Gets the name of the <c>corners</c> property value.
 	/// </summary>
 	public const string Corners = "corners";
+
+	/// <summary>
+	/// Gets the name of the <c>cornflowerblue</c> property value.
+	/// </summary>
+	public const string Cornflowerblue = "cornflowerblue";
+
+	/// <summary>
+	/// Gets the name of the <c>cornsilk</c> property value.
+	/// </summary>
+	public const string Cornsilk = "cornsilk";
 
 	/// <summary>
 	/// Gets the name of the <c>cover</c> property value.
@@ -433,6 +638,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>create</c> property value.
 	/// </summary>
 	public const string Create = "create";
+
+	/// <summary>
+	/// Gets the name of the <c>crimson</c> property value.
+	/// </summary>
+	public const string Crimson = "crimson";
 
 	/// <summary>
 	/// Gets the name of the <c>crisp-edges</c> property value.
@@ -450,9 +660,129 @@ public static partial class CssValues
 	public const string Crosshair = "crosshair";
 
 	/// <summary>
+	/// Gets the name of the <c>currentcolor</c> property value.
+	/// </summary>
+	public const string Currentcolor = "currentcolor";
+
+	/// <summary>
+	/// Gets the name of the <c>cursive</c> property value.
+	/// </summary>
+	public const string Cursive = "cursive";
+
+	/// <summary>
+	/// Gets the name of the <c>cyan</c> property value.
+	/// </summary>
+	public const string Cyan = "cyan";
+
+	/// <summary>
 	/// Gets the name of the <c>dark</c> property value.
 	/// </summary>
 	public const string Dark = "dark";
+
+	/// <summary>
+	/// Gets the name of the <c>darkblue</c> property value.
+	/// </summary>
+	public const string Darkblue = "darkblue";
+
+	/// <summary>
+	/// Gets the name of the <c>darkcyan</c> property value.
+	/// </summary>
+	public const string Darkcyan = "darkcyan";
+
+	/// <summary>
+	/// Gets the name of the <c>darken</c> property value.
+	/// </summary>
+	public const string Darken = "darken";
+
+	/// <summary>
+	/// Gets the name of the <c>darkgoldenrod</c> property value.
+	/// </summary>
+	public const string Darkgoldenrod = "darkgoldenrod";
+
+	/// <summary>
+	/// Gets the name of the <c>darkgray</c> property value.
+	/// </summary>
+	public const string Darkgray = "darkgray";
+
+	/// <summary>
+	/// Gets the name of the <c>darkgreen</c> property value.
+	/// </summary>
+	public const string Darkgreen = "darkgreen";
+
+	/// <summary>
+	/// Gets the name of the <c>darkgrey</c> property value.
+	/// </summary>
+	public const string Darkgrey = "darkgrey";
+
+	/// <summary>
+	/// Gets the name of the <c>darkkhaki</c> property value.
+	/// </summary>
+	public const string Darkkhaki = "darkkhaki";
+
+	/// <summary>
+	/// Gets the name of the <c>darkmagenta</c> property value.
+	/// </summary>
+	public const string Darkmagenta = "darkmagenta";
+
+	/// <summary>
+	/// Gets the name of the <c>darkolivegreen</c> property value.
+	/// </summary>
+	public const string Darkolivegreen = "darkolivegreen";
+
+	/// <summary>
+	/// Gets the name of the <c>darkorange</c> property value.
+	/// </summary>
+	public const string Darkorange = "darkorange";
+
+	/// <summary>
+	/// Gets the name of the <c>darkorchid</c> property value.
+	/// </summary>
+	public const string Darkorchid = "darkorchid";
+
+	/// <summary>
+	/// Gets the name of the <c>darkred</c> property value.
+	/// </summary>
+	public const string Darkred = "darkred";
+
+	/// <summary>
+	/// Gets the name of the <c>darksalmon</c> property value.
+	/// </summary>
+	public const string Darksalmon = "darksalmon";
+
+	/// <summary>
+	/// Gets the name of the <c>darkseagreen</c> property value.
+	/// </summary>
+	public const string Darkseagreen = "darkseagreen";
+
+	/// <summary>
+	/// Gets the name of the <c>darkslateblue</c> property value.
+	/// </summary>
+	public const string Darkslateblue = "darkslateblue";
+
+	/// <summary>
+	/// Gets the name of the <c>darkslategray</c> property value.
+	/// </summary>
+	public const string Darkslategray = "darkslategray";
+
+	/// <summary>
+	/// Gets the name of the <c>darkslategrey</c> property value.
+	/// </summary>
+	public const string Darkslategrey = "darkslategrey";
+
+	/// <summary>
+	/// Gets the name of the <c>darkturquoise</c> property value.
+	/// </summary>
+	public const string Darkturquoise = "darkturquoise";
+
+	/// <summary>
+	/// Gets the name of the <c>darkviolet</c> property value.
+	/// </summary>
+	public const string Darkviolet = "darkviolet";
+
+	/// <summary>
+	/// Gets the name of the <c>dashed</c> property value.
+	/// </summary>
+	public const string Dashed = "dashed";
 
 	/// <summary>
 	/// Gets the name of the <c>dashes</c> property value.
@@ -470,6 +800,16 @@ public static partial class CssValues
 	public const string DecimalLeadingZero = "decimal-leading-zero";
 
 	/// <summary>
+	/// Gets the name of the <c>deeppink</c> property value.
+	/// </summary>
+	public const string Deeppink = "deeppink";
+
+	/// <summary>
+	/// Gets the name of the <c>deepskyblue</c> property value.
+	/// </summary>
+	public const string Deepskyblue = "deepskyblue";
+
+	/// <summary>
 	/// Gets the name of the <c>default</c> property value.
 	/// </summary>
 	public const string Default = "default";
@@ -480,14 +820,34 @@ public static partial class CssValues
 	public const string Dense = "dense";
 
 	/// <summary>
+	/// Gets the name of the <c>devanagari</c> property value.
+	/// </summary>
+	public const string Devanagari = "devanagari";
+
+	/// <summary>
 	/// Gets the name of the <c>diagonal-fractions</c> property value.
 	/// </summary>
 	public const string DiagonalFractions = "diagonal-fractions";
 
 	/// <summary>
+	/// Gets the name of the <c>difference</c> property value.
+	/// </summary>
+	public const string Difference = "difference";
+
+	/// <summary>
 	/// Gets the name of the <c>digits</c> property value.
 	/// </summary>
 	public const string Digits = "digits";
+
+	/// <summary>
+	/// Gets the name of the <c>dimgray</c> property value.
+	/// </summary>
+	public const string Dimgray = "dimgray";
+
+	/// <summary>
+	/// Gets the name of the <c>dimgrey</c> property value.
+	/// </summary>
+	public const string Dimgrey = "dimgrey";
 
 	/// <summary>
 	/// Gets the name of the <c>disc</c> property value.
@@ -515,6 +875,16 @@ public static partial class CssValues
 	public const string DiscardInner = "discard-inner";
 
 	/// <summary>
+	/// Gets the name of the <c>disclosure-closed</c> property value.
+	/// </summary>
+	public const string DisclosureClosed = "disclosure-closed";
+
+	/// <summary>
+	/// Gets the name of the <c>disclosure-open</c> property value.
+	/// </summary>
+	public const string DisclosureOpen = "disclosure-open";
+
+	/// <summary>
 	/// Gets the name of the <c>discretionary-ligatures</c> property value.
 	/// </summary>
 	public const string DiscretionaryLigatures = "discretionary-ligatures";
@@ -530,9 +900,24 @@ public static partial class CssValues
 	public const string Distribute = "distribute";
 
 	/// <summary>
+	/// Gets the name of the <c>dodgerblue</c> property value.
+	/// </summary>
+	public const string Dodgerblue = "dodgerblue";
+
+	/// <summary>
 	/// Gets the name of the <c>dot</c> property value.
 	/// </summary>
 	public const string Dot = "dot";
+
+	/// <summary>
+	/// Gets the name of the <c>dotted</c> property value.
+	/// </summary>
+	public const string Dotted = "dotted";
+
+	/// <summary>
+	/// Gets the name of the <c>double</c> property value.
+	/// </summary>
+	public const string Double = "double";
 
 	/// <summary>
 	/// Gets the name of the <c>double-circle</c> property value.
@@ -555,9 +940,34 @@ public static partial class CssValues
 	public const string EachLine = "each-line";
 
 	/// <summary>
+	/// Gets the name of the <c>ease</c> property value.
+	/// </summary>
+	public const string Ease = "ease";
+
+	/// <summary>
+	/// Gets the name of the <c>ease-in</c> property value.
+	/// </summary>
+	public const string EaseIn = "ease-in";
+
+	/// <summary>
+	/// Gets the name of the <c>ease-in-out</c> property value.
+	/// </summary>
+	public const string EaseInOut = "ease-in-out";
+
+	/// <summary>
+	/// Gets the name of the <c>ease-out</c> property value.
+	/// </summary>
+	public const string EaseOut = "ease-out";
+
+	/// <summary>
 	/// Gets the name of the <c>economy</c> property value.
 	/// </summary>
 	public const string Economy = "economy";
+
+	/// <summary>
+	/// Gets the name of the <c>ellipse</c> property value.
+	/// </summary>
+	public const string Ellipse = "ellipse";
 
 	/// <summary>
 	/// Gets the name of the <c>ellipsis</c> property value.
@@ -585,6 +995,11 @@ public static partial class CssValues
 	public const string EResize = "e-resize";
 
 	/// <summary>
+	/// Gets the name of the <c>ethiopic-numeric</c> property value.
+	/// </summary>
+	public const string EthiopicNumeric = "ethiopic-numeric";
+
+	/// <summary>
 	/// Gets the name of the <c>evenodd</c> property value.
 	/// </summary>
 	public const string Evenodd = "evenodd";
@@ -608,6 +1023,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>exclude</c> property value.
 	/// </summary>
 	public const string Exclude = "exclude";
+
+	/// <summary>
+	/// Gets the name of the <c>exclusion</c> property value.
+	/// </summary>
+	public const string Exclusion = "exclusion";
 
 	/// <summary>
 	/// Gets the name of the <c>ex-height</c> property value.
@@ -640,6 +1060,26 @@ public static partial class CssValues
 	public const string Fallback = "fallback";
 
 	/// <summary>
+	/// Gets the name of the <c>fangsong</c> property value.
+	/// </summary>
+	public const string Fangsong = "fangsong";
+
+	/// <summary>
+	/// Gets the name of the <c>fantasy</c> property value.
+	/// </summary>
+	public const string Fantasy = "fantasy";
+
+	/// <summary>
+	/// Gets the name of the <c>farthest-corner</c> property value.
+	/// </summary>
+	public const string FarthestCorner = "farthest-corner";
+
+	/// <summary>
+	/// Gets the name of the <c>farthest-side</c> property value.
+	/// </summary>
+	public const string FarthestSide = "farthest-side";
+
+	/// <summary>
 	/// Gets the name of the <c>fast</c> property value.
 	/// </summary>
 	public const string Fast = "fast";
@@ -648,6 +1088,16 @@ public static partial class CssValues
 	/// Gets the name of the <c>female</c> property value.
 	/// </summary>
 	public const string Female = "female";
+
+	/// <summary>
+	/// Gets the name of the <c>Field</c> property value.
+	/// </summary>
+	public const string Field = "Field";
+
+	/// <summary>
+	/// Gets the name of the <c>FieldText</c> property value.
+	/// </summary>
+	public const string FieldText = "FieldText";
 
 	/// <summary>
 	/// Gets the name of the <c>fill</c> property value.
@@ -665,9 +1115,19 @@ public static partial class CssValues
 	public const string Filled = "filled";
 
 	/// <summary>
+	/// Gets the name of the <c>firebrick</c> property value.
+	/// </summary>
+	public const string Firebrick = "firebrick";
+
+	/// <summary>
 	/// Gets the name of the <c>first</c> property value.
 	/// </summary>
 	public const string First = "first";
+
+	/// <summary>
+	/// Gets the name of the <c>first baseline</c> property value.
+	/// </summary>
+	public const string FirstBaseline = "first baseline";
 
 	/// <summary>
 	/// Gets the name of the <c>fit-content</c> property value.
@@ -695,6 +1155,21 @@ public static partial class CssValues
 	public const string FlexStart = "flex-start";
 
 	/// <summary>
+	/// Gets the name of the <c>floralwhite</c> property value.
+	/// </summary>
+	public const string Floralwhite = "floralwhite";
+
+	/// <summary>
+	/// Gets the name of the <c>flow</c> property value.
+	/// </summary>
+	public const string Flow = "flow";
+
+	/// <summary>
+	/// Gets the name of the <c>flow-root</c> property value.
+	/// </summary>
+	public const string FlowRoot = "flow-root";
+
+	/// <summary>
 	/// Gets the name of the <c>focus</c> property value.
 	/// </summary>
 	public const string Focus = "focus";
@@ -710,9 +1185,19 @@ public static partial class CssValues
 	public const string ForceEnd = "force-end";
 
 	/// <summary>
+	/// Gets the name of the <c>forestgreen</c> property value.
+	/// </summary>
+	public const string Forestgreen = "forestgreen";
+
+	/// <summary>
 	/// Gets the name of the <c>forwards</c> property value.
 	/// </summary>
 	public const string Forwards = "forwards";
+
+	/// <summary>
+	/// Gets the name of the <c>fr</c> property value.
+	/// </summary>
+	public const string Fr = "fr";
 
 	/// <summary>
 	/// Gets the name of the <c>fragments</c> property value.
@@ -730,6 +1215,11 @@ public static partial class CssValues
 	public const string FromImage = "from-image";
 
 	/// <summary>
+	/// Gets the name of the <c>fuchsia</c> property value.
+	/// </summary>
+	public const string Fuchsia = "fuchsia";
+
+	/// <summary>
 	/// Gets the name of the <c>full-size-kana</c> property value.
 	/// </summary>
 	public const string FullSizeKana = "full-size-kana";
@@ -740,6 +1230,11 @@ public static partial class CssValues
 	public const string FullWidth = "full-width";
 
 	/// <summary>
+	/// Gets the name of the <c>gainsboro</c> property value.
+	/// </summary>
+	public const string Gainsboro = "gainsboro";
+
+	/// <summary>
 	/// Gets the name of the <c>gaps</c> property value.
 	/// </summary>
 	public const string Gaps = "gaps";
@@ -748,6 +1243,21 @@ public static partial class CssValues
 	/// Gets the name of the <c>georgian</c> property value.
 	/// </summary>
 	public const string Georgian = "georgian";
+
+	/// <summary>
+	/// Gets the name of the <c>ghostwhite</c> property value.
+	/// </summary>
+	public const string Ghostwhite = "ghostwhite";
+
+	/// <summary>
+	/// Gets the name of the <c>gold</c> property value.
+	/// </summary>
+	public const string Gold = "gold";
+
+	/// <summary>
+	/// Gets the name of the <c>goldenrod</c> property value.
+	/// </summary>
+	public const string Goldenrod = "goldenrod";
 
 	/// <summary>
 	/// Gets the name of the <c>grab</c> property value.
@@ -765,14 +1275,64 @@ public static partial class CssValues
 	public const string GrammarError = "grammar-error";
 
 	/// <summary>
+	/// Gets the name of the <c>gray</c> property value.
+	/// </summary>
+	public const string Gray = "gray";
+
+	/// <summary>
+	/// Gets the name of the <c>GrayText</c> property value.
+	/// </summary>
+	public const string GrayText = "GrayText";
+
+	/// <summary>
+	/// Gets the name of the <c>green</c> property value.
+	/// </summary>
+	public const string Green = "green";
+
+	/// <summary>
+	/// Gets the name of the <c>greenyellow</c> property value.
+	/// </summary>
+	public const string Greenyellow = "greenyellow";
+
+	/// <summary>
+	/// Gets the name of the <c>grey</c> property value.
+	/// </summary>
+	public const string Grey = "grey";
+
+	/// <summary>
 	/// Gets the name of the <c>grid</c> property value.
 	/// </summary>
 	public const string Grid = "grid";
 
 	/// <summary>
+	/// Gets the name of the <c>groove</c> property value.
+	/// </summary>
+	public const string Groove = "groove";
+
+	/// <summary>
+	/// Gets the name of the <c>gujarati</c> property value.
+	/// </summary>
+	public const string Gujarati = "gujarati";
+
+	/// <summary>
+	/// Gets the name of the <c>gurmukhi</c> property value.
+	/// </summary>
+	public const string Gurmukhi = "gurmukhi";
+
+	/// <summary>
 	/// Gets the name of the <c>hanging</c> property value.
 	/// </summary>
 	public const string Hanging = "hanging";
+
+	/// <summary>
+	/// Gets the name of the <c>hard-light</c> property value.
+	/// </summary>
+	public const string HardLight = "hard-light";
+
+	/// <summary>
+	/// Gets the name of the <c>hebrew</c> property value.
+	/// </summary>
+	public const string Hebrew = "hebrew";
 
 	/// <summary>
 	/// Gets the name of the <c>help</c> property value.
@@ -795,9 +1355,29 @@ public static partial class CssValues
 	public const string High = "high";
 
 	/// <summary>
+	/// Gets the name of the <c>Highlight</c> property value.
+	/// </summary>
+	public const string Highlight = "Highlight";
+
+	/// <summary>
+	/// Gets the name of the <c>HighlightText</c> property value.
+	/// </summary>
+	public const string HighlightText = "HighlightText";
+
+	/// <summary>
 	/// Gets the name of the <c>high-quality</c> property value.
 	/// </summary>
 	public const string HighQuality = "high-quality";
+
+	/// <summary>
+	/// Gets the name of the <c>hiragana</c> property value.
+	/// </summary>
+	public const string Hiragana = "hiragana";
+
+	/// <summary>
+	/// Gets the name of the <c>hiragana-iroha</c> property value.
+	/// </summary>
+	public const string HiraganaIroha = "hiragana-iroha";
 
 	/// <summary>
 	/// Gets the name of the <c>historical-forms</c> property value.
@@ -810,9 +1390,24 @@ public static partial class CssValues
 	public const string HistoricalLigatures = "historical-ligatures";
 
 	/// <summary>
+	/// Gets the name of the <c>honeydew</c> property value.
+	/// </summary>
+	public const string Honeydew = "honeydew";
+
+	/// <summary>
 	/// Gets the name of the <c>horizontal-tb</c> property value.
 	/// </summary>
 	public const string HorizontalTb = "horizontal-tb";
+
+	/// <summary>
+	/// Gets the name of the <c>hotpink</c> property value.
+	/// </summary>
+	public const string Hotpink = "hotpink";
+
+	/// <summary>
+	/// Gets the name of the <c>hue</c> property value.
+	/// </summary>
+	public const string Hue = "hue";
 
 	/// <summary>
 	/// Gets the name of the <c>ic-height</c> property value.
@@ -855,6 +1450,16 @@ public static partial class CssValues
 	public const string IdeographNumeric = "ideograph-numeric";
 
 	/// <summary>
+	/// Gets the name of the <c>indianred</c> property value.
+	/// </summary>
+	public const string Indianred = "indianred";
+
+	/// <summary>
+	/// Gets the name of the <c>indigo</c> property value.
+	/// </summary>
+	public const string Indigo = "indigo";
+
+	/// <summary>
 	/// Gets the name of the <c>infinite</c> property value.
 	/// </summary>
 	public const string Infinite = "infinite";
@@ -883,6 +1488,16 @@ public static partial class CssValues
 	/// Gets the name of the <c>inline-end</c> property value.
 	/// </summary>
 	public const string InlineEnd = "inline-end";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-flex</c> property value.
+	/// </summary>
+	public const string InlineFlex = "inline-flex";
+
+	/// <summary>
+	/// Gets the name of the <c>inline-grid</c> property value.
+	/// </summary>
+	public const string InlineGrid = "inline-grid";
 
 	/// <summary>
 	/// Gets the name of the <c>inline-size</c> property value.
@@ -955,6 +1570,21 @@ public static partial class CssValues
 	public const string Italic = "italic";
 
 	/// <summary>
+	/// Gets the name of the <c>ivory</c> property value.
+	/// </summary>
+	public const string Ivory = "ivory";
+
+	/// <summary>
+	/// Gets the name of the <c>japanese-formal</c> property value.
+	/// </summary>
+	public const string JapaneseFormal = "japanese-formal";
+
+	/// <summary>
+	/// Gets the name of the <c>japanese-informal</c> property value.
+	/// </summary>
+	public const string JapaneseInformal = "japanese-informal";
+
+	/// <summary>
 	/// Gets the name of the <c>jis04</c> property value.
 	/// </summary>
 	public const string Jis04 = "jis04";
@@ -985,6 +1615,21 @@ public static partial class CssValues
 	public const string JustifyAll = "justify-all";
 
 	/// <summary>
+	/// Gets the name of the <c>kannada</c> property value.
+	/// </summary>
+	public const string Kannada = "kannada";
+
+	/// <summary>
+	/// Gets the name of the <c>katakana</c> property value.
+	/// </summary>
+	public const string Katakana = "katakana";
+
+	/// <summary>
+	/// Gets the name of the <c>katakana-iroha</c> property value.
+	/// </summary>
+	public const string KatakanaIroha = "katakana-iroha";
+
+	/// <summary>
 	/// Gets the name of the <c>keep</c> property value.
 	/// </summary>
 	public const string Keep = "keep";
@@ -993,6 +1638,36 @@ public static partial class CssValues
 	/// Gets the name of the <c>keep-all</c> property value.
 	/// </summary>
 	public const string KeepAll = "keep-all";
+
+	/// <summary>
+	/// Gets the name of the <c>khaki</c> property value.
+	/// </summary>
+	public const string Khaki = "khaki";
+
+	/// <summary>
+	/// Gets the name of the <c>khmer</c> property value.
+	/// </summary>
+	public const string Khmer = "khmer";
+
+	/// <summary>
+	/// Gets the name of the <c>korean-hangul-formal</c> property value.
+	/// </summary>
+	public const string KoreanHangulFormal = "korean-hangul-formal";
+
+	/// <summary>
+	/// Gets the name of the <c>korean-hanja-formal</c> property value.
+	/// </summary>
+	public const string KoreanHanjaFormal = "korean-hanja-formal";
+
+	/// <summary>
+	/// Gets the name of the <c>korean-hanja-informal</c> property value.
+	/// </summary>
+	public const string KoreanHanjaInformal = "korean-hanja-informal";
+
+	/// <summary>
+	/// Gets the name of the <c>lao</c> property value.
+	/// </summary>
+	public const string Lao = "lao";
 
 	/// <summary>
 	/// Gets the name of the <c>large</c> property value.
@@ -1005,9 +1680,24 @@ public static partial class CssValues
 	public const string Last = "last";
 
 	/// <summary>
-	/// Gets the name of the <c>last-baseline</c> property value.
+	/// Gets the name of the <c>last baseline</c> property value.
 	/// </summary>
-	public const string LastBaseline = "last-baseline";
+	public const string LastBaseline = "last baseline";
+
+	/// <summary>
+	/// Gets the name of the <c>lavender</c> property value.
+	/// </summary>
+	public const string Lavender = "lavender";
+
+	/// <summary>
+	/// Gets the name of the <c>lavenderblush</c> property value.
+	/// </summary>
+	public const string Lavenderblush = "lavenderblush";
+
+	/// <summary>
+	/// Gets the name of the <c>lawngreen</c> property value.
+	/// </summary>
+	public const string Lawngreen = "lawngreen";
 
 	/// <summary>
 	/// Gets the name of the <c>layout</c> property value.
@@ -1035,9 +1725,34 @@ public static partial class CssValues
 	public const string Legacy = "legacy";
 
 	/// <summary>
+	/// Gets the name of the <c>lemonchiffon</c> property value.
+	/// </summary>
+	public const string Lemonchiffon = "lemonchiffon";
+
+	/// <summary>
 	/// Gets the name of the <c>light</c> property value.
 	/// </summary>
 	public const string Light = "light";
+
+	/// <summary>
+	/// Gets the name of the <c>lightblue</c> property value.
+	/// </summary>
+	public const string Lightblue = "lightblue";
+
+	/// <summary>
+	/// Gets the name of the <c>lightcoral</c> property value.
+	/// </summary>
+	public const string Lightcoral = "lightcoral";
+
+	/// <summary>
+	/// Gets the name of the <c>lightcyan</c> property value.
+	/// </summary>
+	public const string Lightcyan = "lightcyan";
+
+	/// <summary>
+	/// Gets the name of the <c>lighten</c> property value.
+	/// </summary>
+	public const string Lighten = "lighten";
 
 	/// <summary>
 	/// Gets the name of the <c>lighter</c> property value.
@@ -1045,14 +1760,94 @@ public static partial class CssValues
 	public const string Lighter = "lighter";
 
 	/// <summary>
+	/// Gets the name of the <c>lightgoldenrodyellow</c> property value.
+	/// </summary>
+	public const string Lightgoldenrodyellow = "lightgoldenrodyellow";
+
+	/// <summary>
+	/// Gets the name of the <c>lightgray</c> property value.
+	/// </summary>
+	public const string Lightgray = "lightgray";
+
+	/// <summary>
+	/// Gets the name of the <c>lightgreen</c> property value.
+	/// </summary>
+	public const string Lightgreen = "lightgreen";
+
+	/// <summary>
+	/// Gets the name of the <c>lightgrey</c> property value.
+	/// </summary>
+	public const string Lightgrey = "lightgrey";
+
+	/// <summary>
+	/// Gets the name of the <c>lightpink</c> property value.
+	/// </summary>
+	public const string Lightpink = "lightpink";
+
+	/// <summary>
+	/// Gets the name of the <c>lightsalmon</c> property value.
+	/// </summary>
+	public const string Lightsalmon = "lightsalmon";
+
+	/// <summary>
+	/// Gets the name of the <c>lightseagreen</c> property value.
+	/// </summary>
+	public const string Lightseagreen = "lightseagreen";
+
+	/// <summary>
+	/// Gets the name of the <c>lightskyblue</c> property value.
+	/// </summary>
+	public const string Lightskyblue = "lightskyblue";
+
+	/// <summary>
+	/// Gets the name of the <c>lightslategray</c> property value.
+	/// </summary>
+	public const string Lightslategray = "lightslategray";
+
+	/// <summary>
+	/// Gets the name of the <c>lightslategrey</c> property value.
+	/// </summary>
+	public const string Lightslategrey = "lightslategrey";
+
+	/// <summary>
+	/// Gets the name of the <c>lightsteelblue</c> property value.
+	/// </summary>
+	public const string Lightsteelblue = "lightsteelblue";
+
+	/// <summary>
+	/// Gets the name of the <c>lightyellow</c> property value.
+	/// </summary>
+	public const string Lightyellow = "lightyellow";
+
+	/// <summary>
+	/// Gets the name of the <c>lime</c> property value.
+	/// </summary>
+	public const string Lime = "lime";
+
+	/// <summary>
+	/// Gets the name of the <c>limegreen</c> property value.
+	/// </summary>
+	public const string Limegreen = "limegreen";
+
+	/// <summary>
 	/// Gets the name of the <c>line</c> property value.
 	/// </summary>
 	public const string Line = "line";
 
 	/// <summary>
+	/// Gets the name of the <c>linear</c> property value.
+	/// </summary>
+	public const string Linear = "linear";
+
+	/// <summary>
 	/// Gets the name of the <c>linearRGB</c> property value.
 	/// </summary>
 	public const string Linearrgb = "linearRGB";
+
+	/// <summary>
+	/// Gets the name of the <c>linen</c> property value.
+	/// </summary>
+	public const string Linen = "linen";
 
 	/// <summary>
 	/// Gets the name of the <c>line-through</c> property value.
@@ -1063,6 +1858,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>lining-nums</c> property value.
 	/// </summary>
 	public const string LiningNums = "lining-nums";
+
+	/// <summary>
+	/// Gets the name of the <c>LinkText</c> property value.
+	/// </summary>
+	public const string LinkText = "LinkText";
 
 	/// <summary>
 	/// Gets the name of the <c>listbox</c> property value.
@@ -1105,6 +1905,11 @@ public static partial class CssValues
 	public const string LowerAlpha = "lower-alpha";
 
 	/// <summary>
+	/// Gets the name of the <c>lower-armenian</c> property value.
+	/// </summary>
+	public const string LowerArmenian = "lower-armenian";
+
+	/// <summary>
 	/// Gets the name of the <c>lowercase</c> property value.
 	/// </summary>
 	public const string Lowercase = "lowercase";
@@ -1135,6 +1940,21 @@ public static partial class CssValues
 	public const string Luminance = "luminance";
 
 	/// <summary>
+	/// Gets the name of the <c>luminosity</c> property value.
+	/// </summary>
+	public const string Luminosity = "luminosity";
+
+	/// <summary>
+	/// Gets the name of the <c>magenta</c> property value.
+	/// </summary>
+	public const string Magenta = "magenta";
+
+	/// <summary>
+	/// Gets the name of the <c>malayalam</c> property value.
+	/// </summary>
+	public const string Malayalam = "malayalam";
+
+	/// <summary>
 	/// Gets the name of the <c>male</c> property value.
 	/// </summary>
 	public const string Male = "male";
@@ -1153,6 +1973,26 @@ public static partial class CssValues
 	/// Gets the name of the <c>margin</c> property value.
 	/// </summary>
 	public const string Margin = "margin";
+
+	/// <summary>
+	/// Gets the name of the <c>margin-box</c> property value.
+	/// </summary>
+	public const string MarginBox = "margin-box";
+
+	/// <summary>
+	/// Gets the name of the <c>Mark</c> property value.
+	/// </summary>
+	public const string Mark = "Mark";
+
+	/// <summary>
+	/// Gets the name of the <c>MarkText</c> property value.
+	/// </summary>
+	public const string MarkText = "MarkText";
+
+	/// <summary>
+	/// Gets the name of the <c>maroon</c> property value.
+	/// </summary>
+	public const string Maroon = "maroon";
 
 	/// <summary>
 	/// Gets the name of the <c>match-parent</c> property value.
@@ -1195,6 +2035,51 @@ public static partial class CssValues
 	public const string Medium = "medium";
 
 	/// <summary>
+	/// Gets the name of the <c>mediumaquamarine</c> property value.
+	/// </summary>
+	public const string Mediumaquamarine = "mediumaquamarine";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumblue</c> property value.
+	/// </summary>
+	public const string Mediumblue = "mediumblue";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumorchid</c> property value.
+	/// </summary>
+	public const string Mediumorchid = "mediumorchid";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumpurple</c> property value.
+	/// </summary>
+	public const string Mediumpurple = "mediumpurple";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumseagreen</c> property value.
+	/// </summary>
+	public const string Mediumseagreen = "mediumseagreen";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumslateblue</c> property value.
+	/// </summary>
+	public const string Mediumslateblue = "mediumslateblue";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumspringgreen</c> property value.
+	/// </summary>
+	public const string Mediumspringgreen = "mediumspringgreen";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumturquoise</c> property value.
+	/// </summary>
+	public const string Mediumturquoise = "mediumturquoise";
+
+	/// <summary>
+	/// Gets the name of the <c>mediumvioletred</c> property value.
+	/// </summary>
+	public const string Mediumvioletred = "mediumvioletred";
+
+	/// <summary>
 	/// Gets the name of the <c>menu</c> property value.
 	/// </summary>
 	public const string Menu = "menu";
@@ -1230,6 +2115,11 @@ public static partial class CssValues
 	public const string Middle = "middle";
 
 	/// <summary>
+	/// Gets the name of the <c>midnightblue</c> property value.
+	/// </summary>
+	public const string Midnightblue = "midnightblue";
+
+	/// <summary>
 	/// Gets the name of the <c>min-content</c> property value.
 	/// </summary>
 	public const string MinContent = "min-content";
@@ -1238,6 +2128,16 @@ public static partial class CssValues
 	/// Gets the name of the <c>minimum</c> property value.
 	/// </summary>
 	public const string Minimum = "minimum";
+
+	/// <summary>
+	/// Gets the name of the <c>mintcream</c> property value.
+	/// </summary>
+	public const string Mintcream = "mintcream";
+
+	/// <summary>
+	/// Gets the name of the <c>mistyrose</c> property value.
+	/// </summary>
+	public const string Mistyrose = "mistyrose";
 
 	/// <summary>
 	/// Gets the name of the <c>miter</c> property value.
@@ -1250,9 +2150,24 @@ public static partial class CssValues
 	public const string Mixed = "mixed";
 
 	/// <summary>
+	/// Gets the name of the <c>moccasin</c> property value.
+	/// </summary>
+	public const string Moccasin = "moccasin";
+
+	/// <summary>
 	/// Gets the name of the <c>moderate</c> property value.
 	/// </summary>
 	public const string Moderate = "moderate";
+
+	/// <summary>
+	/// Gets the name of the <c>mongolian</c> property value.
+	/// </summary>
+	public const string Mongolian = "mongolian";
+
+	/// <summary>
+	/// Gets the name of the <c>monospace</c> property value.
+	/// </summary>
+	public const string Monospace = "monospace";
 
 	/// <summary>
 	/// Gets the name of the <c>move</c> property value.
@@ -1260,9 +2175,29 @@ public static partial class CssValues
 	public const string Move = "move";
 
 	/// <summary>
+	/// Gets the name of the <c>multiply</c> property value.
+	/// </summary>
+	public const string Multiply = "multiply";
+
+	/// <summary>
+	/// Gets the name of the <c>myanmar</c> property value.
+	/// </summary>
+	public const string Myanmar = "myanmar";
+
+	/// <summary>
 	/// Gets the name of the <c>narrow</c> property value.
 	/// </summary>
 	public const string Narrow = "narrow";
+
+	/// <summary>
+	/// Gets the name of the <c>navajowhite</c> property value.
+	/// </summary>
+	public const string Navajowhite = "navajowhite";
+
+	/// <summary>
+	/// Gets the name of the <c>navy</c> property value.
+	/// </summary>
+	public const string Navy = "navy";
 
 	/// <summary>
 	/// Gets the name of the <c>nearest</c> property value.
@@ -1355,6 +2290,16 @@ public static partial class CssValues
 	public const string NoPunctuation = "no-punctuation";
 
 	/// <summary>
+	/// Gets the name of the <c>no-referrer</c> property value.
+	/// </summary>
+	public const string NoReferrer = "no-referrer";
+
+	/// <summary>
+	/// Gets the name of the <c>no-referrer-when-downgrade</c> property value.
+	/// </summary>
+	public const string NoReferrerWhenDowngrade = "no-referrer-when-downgrade";
+
+	/// <summary>
 	/// Gets the name of the <c>no-repeat</c> property value.
 	/// </summary>
 	public const string NoRepeat = "no-repeat";
@@ -1410,9 +2355,24 @@ public static partial class CssValues
 	public const string Old = "old";
 
 	/// <summary>
+	/// Gets the name of the <c>oldlace</c> property value.
+	/// </summary>
+	public const string Oldlace = "oldlace";
+
+	/// <summary>
 	/// Gets the name of the <c>oldstyle-nums</c> property value.
 	/// </summary>
 	public const string OldstyleNums = "oldstyle-nums";
+
+	/// <summary>
+	/// Gets the name of the <c>olive</c> property value.
+	/// </summary>
+	public const string Olive = "olive";
+
+	/// <summary>
+	/// Gets the name of the <c>olivedrab</c> property value.
+	/// </summary>
+	public const string Olivedrab = "olivedrab";
 
 	/// <summary>
 	/// Gets the name of the <c>only</c> property value.
@@ -1430,9 +2390,39 @@ public static partial class CssValues
 	public const string OpenQuote = "open-quote";
 
 	/// <summary>
+	/// Gets the name of the <c>orange</c> property value.
+	/// </summary>
+	public const string Orange = "orange";
+
+	/// <summary>
+	/// Gets the name of the <c>orangered</c> property value.
+	/// </summary>
+	public const string Orangered = "orangered";
+
+	/// <summary>
+	/// Gets the name of the <c>orchid</c> property value.
+	/// </summary>
+	public const string Orchid = "orchid";
+
+	/// <summary>
 	/// Gets the name of the <c>ordinal</c> property value.
 	/// </summary>
 	public const string Ordinal = "ordinal";
+
+	/// <summary>
+	/// Gets the name of the <c>origin</c> property value.
+	/// </summary>
+	public const string Origin = "origin";
+
+	/// <summary>
+	/// Gets the name of the <c>origin-when-cross-origin</c> property value.
+	/// </summary>
+	public const string OriginWhenCrossOrigin = "origin-when-cross-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>oriya</c> property value.
+	/// </summary>
+	public const string Oriya = "oriya";
 
 	/// <summary>
 	/// Gets the name of the <c>outer box-shadow</c> property value.
@@ -1500,14 +2490,59 @@ public static partial class CssValues
 	public const string Paint = "paint";
 
 	/// <summary>
+	/// Gets the name of the <c>palegoldenrod</c> property value.
+	/// </summary>
+	public const string Palegoldenrod = "palegoldenrod";
+
+	/// <summary>
+	/// Gets the name of the <c>palegreen</c> property value.
+	/// </summary>
+	public const string Palegreen = "palegreen";
+
+	/// <summary>
+	/// Gets the name of the <c>paleturquoise</c> property value.
+	/// </summary>
+	public const string Paleturquoise = "paleturquoise";
+
+	/// <summary>
+	/// Gets the name of the <c>palevioletred</c> property value.
+	/// </summary>
+	public const string Palevioletred = "palevioletred";
+
+	/// <summary>
+	/// Gets the name of the <c>papayawhip</c> property value.
+	/// </summary>
+	public const string Papayawhip = "papayawhip";
+
+	/// <summary>
 	/// Gets the name of the <c>paused</c> property value.
 	/// </summary>
 	public const string Paused = "paused";
 
 	/// <summary>
+	/// Gets the name of the <c>peachpuff</c> property value.
+	/// </summary>
+	public const string Peachpuff = "peachpuff";
+
+	/// <summary>
+	/// Gets the name of the <c>persian</c> property value.
+	/// </summary>
+	public const string Persian = "persian";
+
+	/// <summary>
+	/// Gets the name of the <c>peru</c> property value.
+	/// </summary>
+	public const string Peru = "peru";
+
+	/// <summary>
 	/// Gets the name of the <c>petite-caps</c> property value.
 	/// </summary>
 	public const string PetiteCaps = "petite-caps";
+
+	/// <summary>
+	/// Gets the name of the <c>pink</c> property value.
+	/// </summary>
+	public const string Pink = "pink";
 
 	/// <summary>
 	/// Gets the name of the <c>pixelated</c> property value.
@@ -1520,9 +2555,19 @@ public static partial class CssValues
 	public const string Plaintext = "plaintext";
 
 	/// <summary>
+	/// Gets the name of the <c>plum</c> property value.
+	/// </summary>
+	public const string Plum = "plum";
+
+	/// <summary>
 	/// Gets the name of the <c>pointer</c> property value.
 	/// </summary>
 	public const string Pointer = "pointer";
+
+	/// <summary>
+	/// Gets the name of the <c>powderblue</c> property value.
+	/// </summary>
+	public const string Powderblue = "powderblue";
 
 	/// <summary>
 	/// Gets the name of the <c>pre</c> property value.
@@ -1595,6 +2640,11 @@ public static partial class CssValues
 	public const string Punctuation = "punctuation";
 
 	/// <summary>
+	/// Gets the name of the <c>purple</c> property value.
+	/// </summary>
+	public const string Purple = "purple";
+
+	/// <summary>
 	/// Gets the name of the <c>radio</c> property value.
 	/// </summary>
 	public const string Radio = "radio";
@@ -1610,9 +2660,19 @@ public static partial class CssValues
 	public const string Reading = "reading";
 
 	/// <summary>
+	/// Gets the name of the <c>rebeccapurple</c> property value.
+	/// </summary>
+	public const string Rebeccapurple = "rebeccapurple";
+
+	/// <summary>
 	/// Gets the name of the <c>recto</c> property value.
 	/// </summary>
 	public const string Recto = "recto";
+
+	/// <summary>
+	/// Gets the name of the <c>red</c> property value.
+	/// </summary>
+	public const string Red = "red";
 
 	/// <summary>
 	/// Gets the name of the <c>reduced</c> property value.
@@ -1665,6 +2725,11 @@ public static partial class CssValues
 	public const string RevertLayer = "revert-layer";
 
 	/// <summary>
+	/// Gets the name of the <c>ridge</c> property value.
+	/// </summary>
+	public const string Ridge = "ridge";
+
+	/// <summary>
 	/// Gets the name of the <c>right</c> property value.
 	/// </summary>
 	public const string Right = "right";
@@ -1678,6 +2743,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>root</c> property value.
 	/// </summary>
 	public const string Root = "root";
+
+	/// <summary>
+	/// Gets the name of the <c>rosybrown</c> property value.
+	/// </summary>
+	public const string Rosybrown = "rosybrown";
 
 	/// <summary>
 	/// Gets the name of the <c>round</c> property value.
@@ -1700,6 +2770,11 @@ public static partial class CssValues
 	public const string RowReverse = "row-reverse";
 
 	/// <summary>
+	/// Gets the name of the <c>royalblue</c> property value.
+	/// </summary>
+	public const string Royalblue = "royalblue";
+
+	/// <summary>
 	/// Gets the name of the <c>rtl</c> property value.
 	/// </summary>
 	public const string Rtl = "rtl";
@@ -1710,14 +2785,79 @@ public static partial class CssValues
 	public const string Ruby = "ruby";
 
 	/// <summary>
+	/// Gets the name of the <c>ruby-base</c> property value.
+	/// </summary>
+	public const string RubyBase = "ruby-base";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-base-container</c> property value.
+	/// </summary>
+	public const string RubyBaseContainer = "ruby-base-container";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-text</c> property value.
+	/// </summary>
+	public const string RubyText = "ruby-text";
+
+	/// <summary>
+	/// Gets the name of the <c>ruby-text-container</c> property value.
+	/// </summary>
+	public const string RubyTextContainer = "ruby-text-container";
+
+	/// <summary>
+	/// Gets the name of the <c>run-in</c> property value.
+	/// </summary>
+	public const string RunIn = "run-in";
+
+	/// <summary>
 	/// Gets the name of the <c>running</c> property value.
 	/// </summary>
 	public const string Running = "running";
 
 	/// <summary>
+	/// Gets the name of the <c>saddlebrown</c> property value.
+	/// </summary>
+	public const string Saddlebrown = "saddlebrown";
+
+	/// <summary>
+	/// Gets the name of the <c>safe</c> property value.
+	/// </summary>
+	public const string Safe = "safe";
+
+	/// <summary>
+	/// Gets the name of the <c>salmon</c> property value.
+	/// </summary>
+	public const string Salmon = "salmon";
+
+	/// <summary>
+	/// Gets the name of the <c>same-origin</c> property value.
+	/// </summary>
+	public const string SameOrigin = "same-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>sandybrown</c> property value.
+	/// </summary>
+	public const string Sandybrown = "sandybrown";
+
+	/// <summary>
+	/// Gets the name of the <c>sans-serif</c> property value.
+	/// </summary>
+	public const string SansSerif = "sans-serif";
+
+	/// <summary>
+	/// Gets the name of the <c>saturation</c> property value.
+	/// </summary>
+	public const string Saturation = "saturation";
+
+	/// <summary>
 	/// Gets the name of the <c>scale-down</c> property value.
 	/// </summary>
 	public const string ScaleDown = "scale-down";
+
+	/// <summary>
+	/// Gets the name of the <c>screen</c> property value.
+	/// </summary>
+	public const string Screen = "screen";
 
 	/// <summary>
 	/// Gets the name of the <c>scroll</c> property value.
@@ -1730,14 +2870,44 @@ public static partial class CssValues
 	public const string ScrollPosition = "scroll-position";
 
 	/// <summary>
+	/// Gets the name of the <c>seagreen</c> property value.
+	/// </summary>
+	public const string Seagreen = "seagreen";
+
+	/// <summary>
 	/// Gets the name of the <c>searchfield</c> property value.
 	/// </summary>
 	public const string Searchfield = "searchfield";
 
 	/// <summary>
+	/// Gets the name of the <c>seashell</c> property value.
+	/// </summary>
+	public const string Seashell = "seashell";
+
+	/// <summary>
+	/// Gets the name of the <c>SelectedItem</c> property value.
+	/// </summary>
+	public const string SelectedItem = "SelectedItem";
+
+	/// <summary>
+	/// Gets the name of the <c>SelectedItemText</c> property value.
+	/// </summary>
+	public const string SelectedItemText = "SelectedItemText";
+
+	/// <summary>
 	/// Gets the name of the <c>self</c> property value.
 	/// </summary>
 	public const string Self = "self";
+
+	/// <summary>
+	/// Gets the name of the <c>self-end</c> property value.
+	/// </summary>
+	public const string SelfEnd = "self-end";
+
+	/// <summary>
+	/// Gets the name of the <c>self-start</c> property value.
+	/// </summary>
+	public const string SelfStart = "self-start";
 
 	/// <summary>
 	/// Gets the name of the <c>semi-condensed</c> property value.
@@ -1758,6 +2928,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>se-resize</c> property value.
 	/// </summary>
 	public const string SeResize = "se-resize";
+
+	/// <summary>
+	/// Gets the name of the <c>serif</c> property value.
+	/// </summary>
+	public const string Serif = "serif";
 
 	/// <summary>
 	/// Gets the name of the <c>sesame</c> property value.
@@ -1795,9 +2970,29 @@ public static partial class CssValues
 	public const string SidewaysRl = "sideways-rl";
 
 	/// <summary>
+	/// Gets the name of the <c>sienna</c> property value.
+	/// </summary>
+	public const string Sienna = "sienna";
+
+	/// <summary>
 	/// Gets the name of the <c>silent</c> property value.
 	/// </summary>
 	public const string Silent = "silent";
+
+	/// <summary>
+	/// Gets the name of the <c>silver</c> property value.
+	/// </summary>
+	public const string Silver = "silver";
+
+	/// <summary>
+	/// Gets the name of the <c>simp-chinese-formal</c> property value.
+	/// </summary>
+	public const string SimpChineseFormal = "simp-chinese-formal";
+
+	/// <summary>
+	/// Gets the name of the <c>simp-chinese-informal</c> property value.
+	/// </summary>
+	public const string SimpChineseInformal = "simp-chinese-informal";
 
 	/// <summary>
 	/// Gets the name of the <c>simplified</c> property value.
@@ -1830,9 +3025,29 @@ public static partial class CssValues
 	public const string SkipUnderline = "skip-underline";
 
 	/// <summary>
+	/// Gets the name of the <c>skyblue</c> property value.
+	/// </summary>
+	public const string Skyblue = "skyblue";
+
+	/// <summary>
 	/// Gets the name of the <c>slashed-zero</c> property value.
 	/// </summary>
 	public const string SlashedZero = "slashed-zero";
+
+	/// <summary>
+	/// Gets the name of the <c>slateblue</c> property value.
+	/// </summary>
+	public const string Slateblue = "slateblue";
+
+	/// <summary>
+	/// Gets the name of the <c>slategray</c> property value.
+	/// </summary>
+	public const string Slategray = "slategray";
+
+	/// <summary>
+	/// Gets the name of the <c>slategrey</c> property value.
+	/// </summary>
+	public const string Slategrey = "slategrey";
 
 	/// <summary>
 	/// Gets the name of the <c>slice</c> property value.
@@ -1880,9 +3095,24 @@ public static partial class CssValues
 	public const string SnapInline = "snap-inline";
 
 	/// <summary>
+	/// Gets the name of the <c>snow</c> property value.
+	/// </summary>
+	public const string Snow = "snow";
+
+	/// <summary>
 	/// Gets the name of the <c>soft</c> property value.
 	/// </summary>
 	public const string Soft = "soft";
+
+	/// <summary>
+	/// Gets the name of the <c>soft-light</c> property value.
+	/// </summary>
+	public const string SoftLight = "soft-light";
+
+	/// <summary>
+	/// Gets the name of the <c>solid</c> property value.
+	/// </summary>
+	public const string Solid = "solid";
 
 	/// <summary>
 	/// Gets the name of the <c>space</c> property value.
@@ -1903,6 +3133,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>space-between</c> property value.
 	/// </summary>
 	public const string SpaceBetween = "space-between";
+
+	/// <summary>
+	/// Gets the name of the <c>space-evenly</c> property value.
+	/// </summary>
+	public const string SpaceEvenly = "space-evenly";
 
 	/// <summary>
 	/// Gets the name of the <c>space-first</c> property value.
@@ -1928,6 +3163,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>spread</c> property value.
 	/// </summary>
 	public const string Spread = "spread";
+
+	/// <summary>
+	/// Gets the name of the <c>springgreen</c> property value.
+	/// </summary>
+	public const string Springgreen = "springgreen";
 
 	/// <summary>
 	/// Gets the name of the <c>square</c> property value.
@@ -1970,6 +3210,21 @@ public static partial class CssValues
 	public const string StatusBar = "status-bar";
 
 	/// <summary>
+	/// Gets the name of the <c>steelblue</c> property value.
+	/// </summary>
+	public const string Steelblue = "steelblue";
+
+	/// <summary>
+	/// Gets the name of the <c>step-end</c> property value.
+	/// </summary>
+	public const string StepEnd = "step-end";
+
+	/// <summary>
+	/// Gets the name of the <c>step-start</c> property value.
+	/// </summary>
+	public const string StepStart = "step-start";
+
+	/// <summary>
 	/// Gets the name of the <c>sticky</c> property value.
 	/// </summary>
 	public const string Sticky = "sticky";
@@ -1983,6 +3238,16 @@ public static partial class CssValues
 	/// Gets the name of the <c>strict</c> property value.
 	/// </summary>
 	public const string Strict = "strict";
+
+	/// <summary>
+	/// Gets the name of the <c>strict-origin</c> property value.
+	/// </summary>
+	public const string StrictOrigin = "strict-origin";
+
+	/// <summary>
+	/// Gets the name of the <c>strict-origin-when-cross-origin</c> property value.
+	/// </summary>
+	public const string StrictOriginWhenCrossOrigin = "strict-origin-when-cross-origin";
 
 	/// <summary>
 	/// Gets the name of the <c>stroke-box</c> property value.
@@ -2028,6 +3293,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>symbols</c> property value.
 	/// </summary>
 	public const string Symbols = "symbols";
+
+	/// <summary>
+	/// Gets the name of the <c>system-ui</c> property value.
+	/// </summary>
+	public const string SystemUi = "system-ui";
 
 	/// <summary>
 	/// Gets the name of the <c>table</c> property value.
@@ -2080,6 +3350,26 @@ public static partial class CssValues
 	public const string TabularNums = "tabular-nums";
 
 	/// <summary>
+	/// Gets the name of the <c>tamil</c> property value.
+	/// </summary>
+	public const string Tamil = "tamil";
+
+	/// <summary>
+	/// Gets the name of the <c>tan</c> property value.
+	/// </summary>
+	public const string Tan = "tan";
+
+	/// <summary>
+	/// Gets the name of the <c>teal</c> property value.
+	/// </summary>
+	public const string Teal = "teal";
+
+	/// <summary>
+	/// Gets the name of the <c>telugu</c> property value.
+	/// </summary>
+	public const string Telugu = "telugu";
+
+	/// <summary>
 	/// Gets the name of the <c>text</c> property value.
 	/// </summary>
 	public const string Text = "text";
@@ -2115,9 +3405,29 @@ public static partial class CssValues
 	public const string TextTop = "text-top";
 
 	/// <summary>
+	/// Gets the name of the <c>thai</c> property value.
+	/// </summary>
+	public const string Thai = "thai";
+
+	/// <summary>
+	/// Gets the name of the <c>thick</c> property value.
+	/// </summary>
+	public const string Thick = "thick";
+
+	/// <summary>
 	/// Gets the name of the <c>thin</c> property value.
 	/// </summary>
 	public const string Thin = "thin";
+
+	/// <summary>
+	/// Gets the name of the <c>thistle</c> property value.
+	/// </summary>
+	public const string Thistle = "thistle";
+
+	/// <summary>
+	/// Gets the name of the <c>tibetan</c> property value.
+	/// </summary>
+	public const string Tibetan = "tibetan";
 
 	/// <summary>
 	/// Gets the name of the <c>titling-caps</c> property value.
@@ -2125,9 +3435,29 @@ public static partial class CssValues
 	public const string TitlingCaps = "titling-caps";
 
 	/// <summary>
+	/// Gets the name of the <c>tomato</c> property value.
+	/// </summary>
+	public const string Tomato = "tomato";
+
+	/// <summary>
 	/// Gets the name of the <c>top</c> property value.
 	/// </summary>
 	public const string Top = "top";
+
+	/// <summary>
+	/// Gets the name of the <c>to-zero</c> property value.
+	/// </summary>
+	public const string ToZero = "to-zero";
+
+	/// <summary>
+	/// Gets the name of the <c>trad-chinese-formal</c> property value.
+	/// </summary>
+	public const string TradChineseFormal = "trad-chinese-formal";
+
+	/// <summary>
+	/// Gets the name of the <c>trad-chinese-informal</c> property value.
+	/// </summary>
+	public const string TradChineseInformal = "trad-chinese-informal";
 
 	/// <summary>
 	/// Gets the name of the <c>traditional</c> property value.
@@ -2148,6 +3478,31 @@ public static partial class CssValues
 	/// Gets the name of the <c>trim-auto</c> property value.
 	/// </summary>
 	public const string TrimAuto = "trim-auto";
+
+	/// <summary>
+	/// Gets the name of the <c>turquoise</c> property value.
+	/// </summary>
+	public const string Turquoise = "turquoise";
+
+	/// <summary>
+	/// Gets the name of the <c>ui-monospace</c> property value.
+	/// </summary>
+	public const string UiMonospace = "ui-monospace";
+
+	/// <summary>
+	/// Gets the name of the <c>ui-rounded</c> property value.
+	/// </summary>
+	public const string UiRounded = "ui-rounded";
+
+	/// <summary>
+	/// Gets the name of the <c>ui-sans-serif</c> property value.
+	/// </summary>
+	public const string UiSansSerif = "ui-sans-serif";
+
+	/// <summary>
+	/// Gets the name of the <c>ui-serif</c> property value.
+	/// </summary>
+	public const string UiSerif = "ui-serif";
 
 	/// <summary>
 	/// Gets the name of the <c>ultra-condensed</c> property value.
@@ -2185,6 +3540,16 @@ public static partial class CssValues
 	public const string Unicode = "unicode";
 
 	/// <summary>
+	/// Gets the name of the <c>unsafe</c> property value.
+	/// </summary>
+	public const string Unsafe = "unsafe";
+
+	/// <summary>
+	/// Gets the name of the <c>unsafe-url</c> property value.
+	/// </summary>
+	public const string UnsafeUrl = "unsafe-url";
+
+	/// <summary>
 	/// Gets the name of the <c>unset</c> property value.
 	/// </summary>
 	public const string Unset = "unset";
@@ -2198,6 +3563,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>upper-alpha</c> property value.
 	/// </summary>
 	public const string UpperAlpha = "upper-alpha";
+
+	/// <summary>
+	/// Gets the name of the <c>upper-armenian</c> property value.
+	/// </summary>
+	public const string UpperArmenian = "upper-armenian";
 
 	/// <summary>
 	/// Gets the name of the <c>uppercase</c> property value.
@@ -2218,6 +3588,11 @@ public static partial class CssValues
 	/// Gets the name of the <c>upright</c> property value.
 	/// </summary>
 	public const string Upright = "upright";
+
+	/// <summary>
+	/// Gets the name of the <c>use-credentials</c> property value.
+	/// </summary>
+	public const string UseCredentials = "use-credentials";
 
 	/// <summary>
 	/// Gets the name of the <c>verso</c> property value.
@@ -2245,9 +3620,19 @@ public static partial class CssValues
 	public const string ViewBox = "view-box";
 
 	/// <summary>
+	/// Gets the name of the <c>violet</c> property value.
+	/// </summary>
+	public const string Violet = "violet";
+
+	/// <summary>
 	/// Gets the name of the <c>visible</c> property value.
 	/// </summary>
 	public const string Visible = "visible";
+
+	/// <summary>
+	/// Gets the name of the <c>VisitedText</c> property value.
+	/// </summary>
+	public const string VisitedText = "VisitedText";
 
 	/// <summary>
 	/// Gets the name of the <c>wait</c> property value.
@@ -2268,6 +3653,21 @@ public static partial class CssValues
 	/// Gets the name of the <c>-webkit-discard</c> property value.
 	/// </summary>
 	public const string WebkitDiscard = "-webkit-discard";
+
+	/// <summary>
+	/// Gets the name of the <c>wheat</c> property value.
+	/// </summary>
+	public const string Wheat = "wheat";
+
+	/// <summary>
+	/// Gets the name of the <c>white</c> property value.
+	/// </summary>
+	public const string White = "white";
+
+	/// <summary>
+	/// Gets the name of the <c>whitesmoke</c> property value.
+	/// </summary>
+	public const string Whitesmoke = "whitesmoke";
 
 	/// <summary>
 	/// Gets the name of the <c>wrap</c> property value.
@@ -2353,6 +3753,16 @@ public static partial class CssValues
 	/// Gets the name of the <c>y</c> property value.
 	/// </summary>
 	public const string Y = "y";
+
+	/// <summary>
+	/// Gets the name of the <c>yellow</c> property value.
+	/// </summary>
+	public const string Yellow = "yellow";
+
+	/// <summary>
+	/// Gets the name of the <c>yellowgreen</c> property value.
+	/// </summary>
+	public const string Yellowgreen = "yellowgreen";
 
 	/// <summary>
 	/// Gets the name of the <c>young</c> property value.

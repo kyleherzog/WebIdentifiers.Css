@@ -7,4 +7,54 @@ namespace WebIdentifiers.Css.Values;
 /// </summary>
 public partial class BorderBottomStyleValues : PropertyValuesBase
 {
+	/// <summary>
+	/// Gets the name of the <c>dashed</c> property. A series of square-ended dashes.
+	/// </summary>
+	public string Dashed => CssValues.Dashed;
+
+	/// <summary>
+	/// Gets the name of the <c>dotted</c> property. A series of round dots.
+	/// </summary>
+	public string Dotted => CssValues.Dotted;
+
+	/// <summary>
+	/// Gets the name of the <c>double</c> property. Two parallel solid lines with some space between them. (The thickness of the lines is not specified, but the sum of the lines and the space must equal border-width.)
+	/// </summary>
+	public string Double => CssValues.Double;
+
+	/// <summary>
+	/// Gets the name of the <c>groove</c> property. Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the border-color.)
+	/// </summary>
+	public string Groove => CssValues.Groove;
+
+	/// <summary>
+	/// Gets the name of the <c>hidden</c> property. Same as none, but has different behavior in the border conflict resolution rules for border-collapsed tables [CSS2].
+	/// </summary>
+	public string Hidden => CssValues.Hidden;
+
+	/// <summary>
+	/// Gets the name of the <c>inset</c> property. Looks as if the content on the inside of the border is sunken into the canvas. Treated as ridge in the collapsing border model. [CSS2]
+	/// </summary>
+	public string Inset => CssValues.Inset;
+
+	/// <summary>
+	/// Gets the name of the <c>none</c> property. No border. Color and width are ignored (i.e., the border has width 0). Note this means that the initial value of border-image-width will also resolve to zero.
+	/// </summary>
+	public string None => CssValues.None;
+
+	/// <summary>
+	/// Gets the name of the <c>outset</c> property. Looks as if the content on the inside of the border is coming out of the canvas. Treated as groove in the collapsing border model. [CSS2]
+	/// </summary>
+	public string Outset => CssValues.Outset;
+
+	/// <summary>
+	/// Gets the name of the <c>ridge</c> property. Looks as if it were coming out of the canvas.
+	/// </summary>
+	public string Ridge => CssValues.Ridge;
+
+	/// <summary>
+	/// Gets the name of the <c>solid</c> property. A single line segment.
+	/// </summary>
+	public string Solid => CssValues.Solid;
+
 }

@@ -8,7 +8,7 @@ namespace WebIdentifiers.Css.Values;
 public partial class BoxShadowPositionValues : PropertyValuesBase
 {
 	/// <summary>
-	/// Gets the name of the <c>inner box-shadow</c> property. 
+	/// Gets the name of the <c>inner box-shadow</c> property.
 	/// </summary>
 	public string InnerBoxShadow => CssValues.InnerBoxShadow;
 
@@ -18,7 +18,7 @@ public partial class BoxShadowPositionValues : PropertyValuesBase
 	public string Inset => CssValues.Inset;
 
 	/// <summary>
-	/// Gets the name of the <c>outer box-shadow</c> property. 
+	/// Gets the name of the <c>outer box-shadow</c> property.
 	/// </summary>
 	public string OuterBoxShadow => CssValues.OuterBoxShadow;
 
