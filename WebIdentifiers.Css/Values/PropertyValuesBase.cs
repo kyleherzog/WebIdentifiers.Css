@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WebIdentifiers.Css.Values;
+﻿namespace WebIdentifiers.Css.Values;
 
 /// <summary>
 /// A base class for CSS property values.

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C087969-88ED-453C-AEB2-2FFC6C6E0DDD}"
 	ProjectSection(SolutionItems) = preProject
-		..\Blazicons.Bootstrap\.editorconfig = ..\Blazicons.Bootstrap\.editorconfig
+		.editorconfig = .editorconfig
 		CHANGELOG.md = CHANGELOG.md
 		README.md = README.md
 	EndProjectSection
@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebIdentifiers.Css", "WebId
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebIdentifiers.Css.UnitTests", "WebIdentifiers.Css.UnitTests\WebIdentifiers.Css.UnitTests.csproj", "{2EA4F1AE-D362-4A0F-8E51-0A3BB1D20064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebIdentifiers.Css.Generating", "WebIdentifiers.Css.Generating\WebIdentifiers.Css.Generating.csproj", "{1EBD3AA7-7077-499B-8A02-AB64C33CA1F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebIdentifiers.Css.Generating", "WebIdentifiers.Css.Generating\WebIdentifiers.Css.Generating.csproj", "{1EBD3AA7-7077-499B-8A02-AB64C33CA1F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

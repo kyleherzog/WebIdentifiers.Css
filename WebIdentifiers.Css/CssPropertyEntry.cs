@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml.Linq;
-
-namespace WebIdentifiers.Css;
+﻿namespace WebIdentifiers.Css;
 
 /// <summary>
 /// Represents a CSS property/value entry.

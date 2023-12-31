@@ -143,7 +143,7 @@ internal static class CssPropertyValuesGenerator
 
             var valueVars = values?.Where(x => x.Name.Contains('<')).Select(x => x.Name.Split('|')).SelectMany(x => x).Where(x => x.Contains('<')).ToList()
                 ?? new List<string>();
-            valueVars.AddRange(propertyGroup.Select(x => x.Value).Where(x => x is not null).Select(x => x.Split('|')).SelectMany(x => x).Where(x => x.Contains('<')));
+            valueVars.AddRange(propertyGroup.Select(x => x.Value ?? string.Empty).Where(x => x is not null).Select(x => x.Split('|')).SelectMany(x => x).Where(x => x.Contains('<')));
 
             foreach (var valueVar in valueVars)
             {

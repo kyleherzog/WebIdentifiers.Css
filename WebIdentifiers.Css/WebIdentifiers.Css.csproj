@@ -2,13 +2,13 @@
 
 	<PropertyGroup>
 		<LangVersion>12.0</LangVersion>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<ApplicationVersion>1.0</ApplicationVersion>
 		<ApplicationRevision>0</ApplicationRevision>
 		<Version>1.0</Version>
-		<IsTrimmable>true</IsTrimmable>
+		<IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)','net6.0'))">true</IsTrimmable>
 		<Authors>Kyle Herzog</Authors>
 		<PackageTags>CSS Properties Values Constants Identifiers</PackageTags>
 		<Description>Provides constant definitions for identifiers used in CSS including properties and values.</Description>

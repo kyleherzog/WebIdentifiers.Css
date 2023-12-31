@@ -74,7 +74,7 @@ internal static class CssPropertiesGenerator
                     if (!lastValue.Equals(value.Name, StringComparison.OrdinalIgnoreCase))
                     {
                         lastValue = value.Name;
-                        writer.XmlDocs.AddSummary($"Sets the value of the property entry to <c>{value.Name}</c>. {value.Prose.EscapeXml()}");
+                        writer.XmlDocs.AddSummary($"Sets the value of the property entry to <c>{value.Name}</c>. {value.Prose?.EscapeXml()}");
                         writer.AddLine($"public {entryClassName} SetTo{value.Name.ToPascalCase()}()");
                         writer.OpenBlock();
                         writer.AddLine($"Value = CssValues.{value.Name.ToPascalCase()};");
